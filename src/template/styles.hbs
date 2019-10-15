@@ -1,0 +1,28 @@
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+@font-face {
+	font-family: "{{ fontName }}";
+	src: {{{ src }}};
+}
+
+.codicon[class*='codicon-'] {
+	font: normal normal normal 16px/1 {{ fontName }};
+	display: inline-block;
+	text-decoration: none;
+	text-rendering: auto;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+{{# each codepoints }}
+.{{ ../classPrefix }}{{ @key }}:before { content: "\\{{ this }}" }
+{{/ each }}

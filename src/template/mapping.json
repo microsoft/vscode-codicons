@@ -1,0 +1,137 @@
+{
+  "add": "60000",
+  "plus": "60000",
+  "gist-new": "60000",
+  "repo-create": "60000",
+
+  "lightbulb": "60001",
+  "light-bulb": "60001",
+
+  "repo": "60002",
+  "repo-delete": "60002",
+
+  "gist-fork": "60003",
+  "repo-forked": "60003",
+  
+  "git-pull-request": "60004",
+  "git-pull-request-abandoned": "60004",
+  
+  "record-keys": "60005",
+  "keyboard": "60005",
+
+  "tag": "60006",
+  "tag-add": "60006",
+  "tag-remove": "60006",
+  
+  "person": "60007",
+  "person-add": "60007",
+  "person-follow": "60007",
+  "person-outline": "60007",
+  "person-filled": "60007",
+
+  "git-branch": "60008",
+  "git-branch-create": "60008",
+  "git-branch-delete": "60008",
+  "source-control": "60008",
+
+  "mirror": "60009",
+  "mirror-public": "60009",
+
+  "star": "60010",
+  "star-add": "60010",
+  "star-delete": "60010",
+  "star-empty": "60010",
+
+  "comment": "60011",
+  "comment-add": "60011",
+
+  "alert": "60012",
+  "warning": "60012",
+
+  "search": "60013",
+  "search-save": "60013",
+
+  "log-out": "60014",
+  "sign-out": "60014",
+
+  "log-in": "60015",
+  "sign-in": "60015",
+
+  "eye": "60016",
+  "eye-unwatch": "60016",
+  "eye-watch": "60016",
+
+  "circle-filled": "60017",
+  "primitive-dot": "60017",
+
+  "primitive-square": "60018",
+
+  "edit": "60019",
+  "pencil": "60019",
+
+  "info": "60020",
+  "issue-opened": "60020",
+
+  "gist-private": "60021",
+  "git-fork-private": "60021",
+  "lock": "60021",
+  "mirror-private": "60021",
+
+  "close": "60022",
+  "remove-close": "60022",
+  "x": "60022",
+
+  "repo-sync": "60023",
+  "sync": "60023",
+  
+  "clone": "60024",
+  "desktop-download": "60024",
+  
+  "beaker": "60025",
+  "microscope": "60025",
+  
+  "vm": "60026",
+  "device-desktop": "60026",
+
+  "file": "60027",
+  "file-text": "60027",
+
+  "more": "60028",
+  "kebab-horizontal": "60028",
+
+  "mail-reply": "60029",
+  "reply": "60029",
+
+  "organization": "60030",
+  "organization-filled": "60030",
+  "organization-outline": "60030",
+
+  "new-file": "60031",
+  "file-add": "60031",
+
+  "new-folder": "60032",
+  "file-directory-create": "60032",
+
+  "trash": "60033",
+  "trashcan": "60033",
+
+  "history": "60034",
+  "clock": "60034",
+
+  "folder": "60035",
+  "file-directory": "60035",
+
+  "logo-github": "60036",
+  "mark-github": "60036",
+  "github": "60036",
+
+  "terminal": "60037",
+  "console": "60037",
+  
+  "zap": "60038",
+  "event": "60038",
+  
+  "error": "60039",
+  "stop": "60039"
+
+}

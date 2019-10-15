@@ -1,0 +1,22 @@
+{
+  "name": "vscode-codicons",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist && mkdir dist",
+    "move": "sh util.sh",
+    "fonts": "icon-font-generator src/icons/*.svg -o dist -n codicon -p codicon --csstp src/template/styles.hbs --height 1000 --center --codepoints src/template/mapping.json --descent 180 --json false --types 'ttf'",
+    "dev": "npm run clean && npm run move && npm run fonts -- --html true --htmltp src/template/preview.hbs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microsoft/vscode-codicons.git"
+  },
+  "author": {
+    "name": "Microsoft Corporation"
+  },
+  "devDependencies": {
+    "icon-font-generator": "^2.1.10"
+  }
+}
