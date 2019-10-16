@@ -129,9 +129,49 @@
   "console": "60037",
   
   "zap": "60038",
-  "event": "60038",
+  "symbol-event": "60038",
   
   "error": "60039",
-  "stop": "60039"
+  "stop": "60039",
+
+  "variable": "60040",
+  "symbol-variable": "60040",
+  
+  "array": "60042",
+  "symbol-array": "60042",
+
+  "symbol-module": "60043",
+  "symbol-package": "60043",
+  "symbol-namespace": "60043",
+  "symbol-object": "60043",
+
+  "symbol-method": "60044",
+  "symbol-function": "60044",
+  "symbol-constructor": "60044",
+
+  "symbol-boolean": "60047",
+  "symbol-null": "60047",
+
+  "symbol-numeric": "60048",
+  "symbol-number": "60048",
+
+  "symbol-structure": "60049",
+  "symbol-struct": "60049",
+
+  "symbol-parameter": "60050",
+  "symbol-type-parameter": "60050",
+
+  "symbol-key": "60051",
+  "symbol-string": "60051",
+  "symbol-text": "60051",
+
+  "symbol-reference": "60052",
+  "go-to-file": "60052",
+
+  "symbol-enum": "60053",
+  "symbol-value": "60053",
+
+  "symbol-ruler": "60054",
+  "symbol-unit": "60054"
 
 }
