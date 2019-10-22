@@ -25,9 +25,8 @@
             width: 100%;
             text-align: center;
             background-color: white;
-            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.04);
+            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
             border-radius: 4px;
-            transition: all 0.2s ease-in-out;
         }
 
         .preview .inner {{ baseTag }} {
@@ -37,10 +36,7 @@
             color: #333;
             overflow: hidden;
             
-        }
-
-        .preview .inner:hover {
-            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+        } 0px 12px rgba(0, 0, 0, 0.16);
         }
 
         .preview .inner::before {
@@ -74,7 +70,7 @@
                 <{{ ../baseTag }} class="codicon {{ ../classPrefix }}{{ this }}"></{{ ../baseTag }}>
             </span>
             <br>
-            <span class='label'>{{ this }}</span>
+            <span class='label' title="{{ this }}">{{ this }}</span>
         </div>
 
     {{/ each }}
