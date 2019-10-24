@@ -1,7 +1,42 @@
-# How to use
-When needing to reference an icon, simply create a container that contains `codicon` and the [icon name](https://microsoft.github.io/vscode-codicons/dist/codicon.html) like:
+# Visual Studio Code - Codicons
+
+### Intro
+This tool takes the Visual Studio Code icons and converts them into an font using the [icon-font-generator](https://github.com/Workshape/icon-font-generator). All icons are stored under `src > icons`. The mappings of the class names and unicode characters are stored in `src/template/mapping.json` as well as the default styles under `src/template/styles.hbs`.
+
+### Install
+
+```
+npm install
+```
+
+### Build
+
+```
+npm run build
+```
+
+Output will be exported to a `dist` folder. We track this folder so that we can see the updated changes to the unicode characters.
+
+### Update Packages
+
+You can run `npm outdated` to see if there are any package updates. To update packages, run:
+
+```
+npm update
+```
+
+### Add Icons
+
+Simply export your icons (svg) to the `src > icons` folder and run the the build command. The build command will also remove any subfolders in the `icons` folder to keep the folder structure consistent.
+
+
+## How to use
+
+When needing to reference an icon in the [Visual Studio Code source code](https://github.com/microsoft/vscode), simply create a dom element/container that contains `codicon` and the [icon name](https://microsoft.github.io/vscode-codicons/dist/codicon.html) like:
 
 `<div class='codicon codicon-add'></div>`
+
+It's recommended to use a single dom element for each icon and not to add children elements to it.
 
 # Contributing
 
