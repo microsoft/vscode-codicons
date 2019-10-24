@@ -1,3 +1,7 @@
+# How to use
+When needing to reference an icon, simply create a container that contains `codicon` and the [icon name](https://microsoft.github.io/vscode-codicons/dist/codicon.html) like:
+
+`<div class='codicon codicon-add'></div>`
 
 # Contributing
 
