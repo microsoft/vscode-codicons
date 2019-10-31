@@ -14,8 +14,8 @@
 	text-decoration: none;
 	text-rendering: auto;
 	text-align: center;
-	transform: rotateZ(0);
-	-webkit-transform: rotateZ(0);
+	transform: rotate(0);
+	-webkit-transform: rotate(0.1deg);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	user-select: none;
