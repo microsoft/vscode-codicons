@@ -14,13 +14,16 @@
 	text-decoration: none;
 	text-rendering: auto;
 	text-align: center;
-	transform: rotate(0);
-	-webkit-transform: rotate(0.1deg);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	user-select: none;
 	-webkit-user-select: none;
 	-ms-user-select: none;
+
+	/* Hack to get web rendering to align to pixel grid */
+	transform: rotate(0);
+	-webkit-transform: rotate(0.1deg);
+	-moz-transform: rotate(0);
 }
 
 
