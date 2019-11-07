@@ -360,7 +360,7 @@
   "screen-full": "60236",
   "screen-normal": "60237",
   "search-stop": "60238",
-  "selection": "60239",
+  
   "server": "60240",
   "settings-gear": "60241",
   "settings": "60242",
@@ -411,6 +411,10 @@
   "window": "60287",
   "word-wrap": "60288",
   "zoom-in": "60289",
-  "zoom-out": ""
+  "zoom-out": "60290",
 
+  "list-filter": "60291",
+  "list-flat": "60292",
+  "list-selection": "60293",
+  "list-tree": "60293"
 }
