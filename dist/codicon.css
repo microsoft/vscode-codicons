@@ -5,11 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-<<<<<<< HEAD
-	src: url("./codicon.ttf?ffbbbd998c09cc4af5af9e181bb08a70") format("truetype");
-=======
-	src: url("./codicon.ttf?72bd9e6bbf1e48287bcb9a9e4babeb28") format("truetype");
->>>>>>> origin/master
+	src: url("./codicon.ttf?b035097bd976825411d2c57142be0530") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
