@@ -167,7 +167,6 @@
   "symbol-type-parameter": "60050",
 
   "symbol-key": "60051",
-  "symbol-string": "60051",
   "symbol-text": "60051",
 
   "symbol-reference": "60052",
@@ -431,5 +430,7 @@
   "debug-breakpoint-stackframe-dot": "60298",
   "debug-breakpoint-stackframe": "60299",
   "debug-breakpoint-stackframe-focused": "60299",
-  "debug-breakpoint-unsupported": "60300"
+  "debug-breakpoint-unsupported": "60300",
+
+  "symbol-string": "60301"
 }
