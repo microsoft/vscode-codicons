@@ -63,6 +63,7 @@
 
   "circle-filled": "60017",
   "primitive-dot": "60017",
+  "close-dirty": "60017",
   "debug-breakpoint": "60017",
   "debug-breakpoint-disabled": "60017",
   "debug-hint": "60017",
