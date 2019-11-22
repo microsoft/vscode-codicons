@@ -433,5 +433,10 @@
   "debug-breakpoint-stackframe-focused": "60299",
   "debug-breakpoint-unsupported": "60300",
 
-  "symbol-string": "60301"
+  "symbol-string": "60301",
+
+  "debug-reverse-continue": "60302",
+  "debug-step-back": "60303",
+  "debug-restart-frame": "60304",
+  "debug-alternate": "60305"
 }
