@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?c4e66586cd3ad4acc55fc456c0760dec") format("truetype");
+	src: url("./codicon.ttf?40af11c031d13fa26de292bc13357b59") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -405,4 +405,6 @@
 .codicon-debug-step-back:before { content: "\eb8f" }
 .codicon-debug-restart-frame:before { content: "\eb90" }
 .codicon-debug-alternate:before { content: "\eb91" }
+.codicon-call-incoming:before { content: "\eb92" }
+.codicon-call-outgoing:before { content: "\eb93" }
 .codicon-debug-alt:before { content: "\f101" }
