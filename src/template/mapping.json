@@ -441,5 +441,7 @@
   "debug-alternate": "60305",
 
   "call-incoming": "60306",
-  "call-outgoing": "60307"
+  "call-outgoing": "60307",
+
+  "menu": "60308"
 }
