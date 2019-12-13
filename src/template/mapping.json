@@ -443,5 +443,6 @@
   "call-incoming": "60306",
   "call-outgoing": "60307",
 
-  "menu": "60308"
+  "menu": "60308",
+  "expand-all": "60309"
 }
