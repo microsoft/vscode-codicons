@@ -103,7 +103,7 @@ extensions,,EAE6
 eye-closed,,EAE7
 eye,,EA70
 file-binary,,EAE8
-file-code,,EAE9, EAFB
+file-code,,EAE9
 file-media,,EAEA
 file-pdf,,EAEB
 file-submodule,,EAEC
@@ -147,7 +147,7 @@ issue-reopened,,EB0B
 issues,,EB0C
 italic,,EB0D
 jersey,,EB0E
-json,,EA8B, EB0F
+json,,EA8B
 kebab-vertical,,EB10
 key,,EB11
 law,,EB12

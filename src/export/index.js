@@ -27,10 +27,13 @@ opentype.load(opts.f, function(err, font) {
     var glyph = glyphs[glyphIndex];
     var name = glyph.name;
     var unicode = glyph.unicodes.map(formatUnicode).join(", ");
-    var character = String.fromCharCode(glyph.unicode);
+    unicode = unicode.split(",")[0];
+    // var character = String.fromCharCode(glyph.unicode);
+    var character = String.fromCharCode(parseInt(glyph.unicodes.map(formatUnicode)[0], 16));
     if (unicode) {
       table += "\n" + name + "," + character + "," + unicode;
     }
+    
   }
 
   console.log(table);
