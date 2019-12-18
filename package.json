@@ -8,7 +8,7 @@
     "temp": "rm -rf temp && mkdir temp && cp -R src/icons/ temp",
     "svgo": "svgo -f temp/ --config config.yml",
     "move": "sh util.sh",
-    "fonts": "icon-font-generator temp/*.svg -o dist -n codicon -p codicon --csstp src/template/styles.hbs --height 112 --center --codepoints src/template/mapping.json --json false --types 'ttf'",
+    "fonts": "icon-font-generator temp/*.svg -o dist -n codicon -p codicon --csstp src/template/styles.hbs --height=1000 --center --codepoints src/template/mapping.json --json false --types 'ttf'",
     "dev": "npm run clean && npm run move && npm run temp && npm run svgo && npm run fonts -- --html true --htmltp src/template/preview.hbs"
   },
   "repository": {
