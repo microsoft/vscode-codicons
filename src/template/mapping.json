@@ -444,5 +444,7 @@
   "call-outgoing": "60307",
 
   "menu": "60308",
-  "expand-all": "60309"
+  "expand-all": "60309",
+
+  "feedback": "60310"
 }
