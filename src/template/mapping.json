@@ -133,6 +133,7 @@
 
   "terminal": "60037",
   "console": "60037",
+  "repl": "60037",
   
   "zap": "60038",
   "symbol-event": "60038",
@@ -446,5 +447,8 @@
   "menu": "60308",
   "expand-all": "60309",
 
-  "feedback": "60310"
+  "feedback": "60310",
+
+  "group-by-ref-type": "60311",
+  "ungroup-by-ref-type": "60312"
 }

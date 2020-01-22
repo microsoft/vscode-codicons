@@ -136,6 +136,7 @@ go-to-file,,EA94
 grabber,,EB02
 graph,,EB03
 gripper,,EB04
+group-by-ref-type,,EB97
 heart,,EB05
 history,,EA82
 home,,EB06
@@ -285,6 +286,7 @@ triangle-right,,EB70
 triangle-up,,EB71
 twitter,,EB72
 unfold,,EB73
+ungroup-by-ref-type,,EB98
 unlock,,EB74
 unmute,,EB75
 unverified,,EB76
