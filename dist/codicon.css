@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?6322d96cc3cbbff15660ba4f0b107584") format("truetype");
+	src: url("./codicon.ttf?279add2ec8b3d516ca20a123230cbf9f") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -303,6 +303,7 @@
 .codicon-paintcan:before { content: "\eb2a" }
 .codicon-pin:before { content: "\eb2b" }
 .codicon-play:before { content: "\eb2c" }
+.codicon-run:before { content: "\eb2c" }
 .codicon-plug:before { content: "\eb2d" }
 .codicon-preserve-case:before { content: "\eb2e" }
 .codicon-preview:before { content: "\eb2f" }
