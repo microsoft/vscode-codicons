@@ -13,6 +13,7 @@ arrow-small-up,,EAA0
 arrow-up,,EAA1
 beaker,,EA79
 bell-dot,,F101
+bell-progress,,F102
 bell,,EAA2
 bold,,EAA3
 book,,EAA4
@@ -56,8 +57,8 @@ credit-card,,EAC9
 dash,,EACC
 dashboard,,EACD
 database,,EACE
-debug-alt-2,,F102
-debug-alt,,F103
+debug-alt-2,,F103
+debug-alt,,F104
 debug-breakpoint-conditional-unverified,,EAA6
 debug-breakpoint-conditional,,EAA7
 debug-breakpoint-data-unverified,,EAA8
