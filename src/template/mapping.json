@@ -390,6 +390,8 @@
   "symbol-misc": "60259",
   "symbol-operator": "60260",
   "symbol-property": "60261",
+  "wrench": "60261",
+  "wrench-subaction": "60261",
   "symbol-snippet": "60262",
   "tasklist": "60263",
   "telescope": "60264",
