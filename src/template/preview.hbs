@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>{{ fontName }}</title>
 
-    <style>
+    <style type="text/css">
 
         body {
             font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
@@ -62,6 +62,23 @@
             text-overflow: ellipsis;
         }
 
+        #search {
+            display: flex;
+            width: 100%;
+            font-size: 16px;
+            padding: 12px 16px;
+            margin: 0 auto;
+            max-width: 1200px;
+            margin-bottom: 22px;
+            border: 1px solid rgba(0,0,0,.1);
+            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.06);
+        }
+
+        #search:focus {
+            outline: none !important;
+            border-color: #18a0fb;
+        }
+
         #copier {
             position: absolute;
             top: -9999px;
@@ -71,7 +88,7 @@
         #notification {
             position: fixed;
             margin: auto;
-            bottom: 60px;
+            bottom: 40px;
             left: 50%;
             width: auto;
             transform: translateX(-50%);
@@ -100,8 +117,10 @@
 
     <h1>{{ fontName }}</h1>
 
-    {{# each names }}
+    <input type="text" id="search" placeholder="Search for icon names">
 
+    <div id="icons">
+    {{# each names }}
         <div class="icon" data-name="{{ this }}" title="{{ this }}">
             <span class="inner">
                 <{{ ../baseTag }} class="codicon {{ ../classPrefix }}{{ this }}"></{{ ../baseTag }}>
@@ -109,42 +128,60 @@
             <br>
             <span class='label'>{{ this }}</span>
         </div>
-
     {{/ each }}
+    </div>
 
     <div id="notification">📋 Copied: <span id="notification-id"></span></div>
     <input type="text" id="copier">
 
 <script type="text/javascript">
-let icons = document.getElementsByClassName('icon');
-let copier = document.getElementById('copier');
-let notification = document.getElementById('notification');
-let notificationText = document.getElementById('notification-id');
-let timer;
+    let icons = document.getElementsByClassName('icon');
+    let copier = document.getElementById('copier');
+    let notification = document.getElementById('notification');
+    let notificationText = document.getElementById('notification-id');
+    let search = document.getElementById('search');
+    let timer;
 
-for(i=0;i<icons.length;i++){
-  let icon = icons[i]
-  icon.onclick = function(e){
-    let name = this.getAttribute('data-name');
+    for(i=0;i<icons.length;i++){
+        let icon = icons[i]
+        icon.onclick = function(e){
+            let name = this.getAttribute('data-name');
 
-    copier.value = name;
-    copier.select();
-    copier.setSelectionRange(0, 99999)
-    document.execCommand('copy');
+            copier.value = name;
+            copier.select();
+            copier.setSelectionRange(0, 99999)
+            document.execCommand('copy');
 
-    notificationText.innerHTML = name;
-    animateNotification();
-    e.preventDefault();
-  }
-}
+            notificationText.innerHTML = name;
+            animateNotification();
+            e.preventDefault();
+        }
+    }
 
-function animateNotification(){
-    window.clearTimeout(timer);
-    notification.classList.add('show');
-    timer = window.setTimeout(function(){
-        notification.classList.remove('show');
-    }, 3000);
-}
+    function animateNotification(){
+        window.clearTimeout(timer);
+        notification.classList.add('show');
+        timer = window.setTimeout(function(){
+            notification.classList.remove('show');
+        }, 3000);
+    }
+
+    search.addEventListener('keyup', function(){
+        let filter = search.value.toUpperCase();
+        let wrapper = document.getElementById('icons');
+        let icon = wrapper.getElementsByTagName('div');
+
+        for (i = 0; i < icon.length; i++) {
+            compareText = icon[i].textContent || icon[i].innerText;
+            if (compareText.toUpperCase().indexOf(filter) > -1) {
+                icon[i].style.display = '';
+            } else {
+                icon[i].style.display = 'none';
+            }
+        }
+    });
+
+    search.focus();
 
 </script>
 </body>
