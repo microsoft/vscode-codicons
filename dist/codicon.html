@@ -1542,6 +1542,13 @@
             <br>
             <span class='label'>primitive-square</span>
         </div>
+        <div class="icon" data-name="profile" title="profile">
+            <span class="inner">
+                <i class="codicon codicon-profile"></i>
+            </span>
+            <br>
+            <span class='label'>profile</span>
+        </div>
         <div class="icon" data-name="project" title="project">
             <span class="inner">
                 <i class="codicon codicon-project"></i>
@@ -2350,8 +2357,8 @@
 
     function animateNotification(){
         window.clearTimeout(timer);
-        notification.classList.add('show');
         search.focus();
+        notification.classList.add('show');
         timer = window.setTimeout(function(){
             notification.classList.remove('show');
         }, 3000);

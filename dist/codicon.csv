@@ -197,6 +197,7 @@ plug,,EB2D
 preserve-case,,EB2E
 preview,,EB2F
 primitive-square,,EA72
+profile,,F104
 project,,EB30
 pulse,,EB31
 question,,EB32
@@ -226,7 +227,7 @@ root-folder-opened,,EB45
 root-folder,,EB46
 rss,,EB47
 ruby,,EB48
-run-all,,F104
+run-all,,F105
 save-all,,EB49
 save-as,,EB4A
 save,,EB4B
