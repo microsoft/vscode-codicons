@@ -52,7 +52,6 @@ color-mode,,EAC6
 comment-discussion,,EAC7
 comment,,EA6B
 compare-changes,,EAC8
-console,,EA85
 credit-card,,EAC9
 dash,,EACC
 dashboard,,EACD
@@ -68,6 +67,7 @@ debug-breakpoint-function,,EB88
 debug-breakpoint-log-unverified,,EAAA
 debug-breakpoint-log,,EAAB
 debug-breakpoint-unsupported,,EB8C
+debug-console,,F105
 debug-continue,,EACF
 debug-disconnect,,EAD0
 debug-pause,,EAD1
@@ -156,6 +156,7 @@ json,,EA8B
 kebab-vertical,,EB10
 key,,EB11
 law,,EB12
+library,,F106
 lightbulb-autofix,,EB13
 lightbulb,,EA61
 link-external,,EB14
@@ -189,6 +190,7 @@ note,,EB26
 octoface,,EB27
 open-preview,,EB28
 organization,,EA7E
+output,,F107
 package,,EB29
 paintcan,,EB2A
 person,,EA67
@@ -227,7 +229,7 @@ root-folder-opened,,EB45
 root-folder,,EB46
 rss,,EB47
 ruby,,EB48
-run-all,,F105
+run-all,,F108
 save-all,,EB49
 save-as,,EB4A
 save,,EB4B
@@ -278,6 +280,7 @@ sync,,EA77
 tag,,EA66
 tasklist,,EB67
 telescope,,EB68
+terminal,,EA85
 text-size,,EB69
 three-bars,,EB6A
 thumbsdown,,EB6B
