@@ -1,5 +1,5 @@
 short_name,character,unicode
-account,,F101
+account,,EB99
 activate-breakpoints,,EA97
 add,,EA60
 archive,,EA98
@@ -13,7 +13,7 @@ arrow-small-right,,EA9F
 arrow-small-up,,EAA0
 arrow-up,,EAA1
 beaker,,EA79
-bell-dot,,F102
+bell-dot,,EB9A
 bell,,EAA2
 bold,,EAA3
 book,,EAA4
@@ -56,8 +56,8 @@ credit-card,,EAC9
 dash,,EACC
 dashboard,,EACD
 database,,EACE
-debug-alt-2,,F103
-debug-alt,,F104
+debug-alt-2,,F101
+debug-alt,,F102
 debug-breakpoint-conditional-unverified,,EAA6
 debug-breakpoint-conditional,,EAA7
 debug-breakpoint-data-unverified,,EAA8
@@ -67,7 +67,7 @@ debug-breakpoint-function,,EB88
 debug-breakpoint-log-unverified,,EAAA
 debug-breakpoint-log,,EAAB
 debug-breakpoint-unsupported,,EB8C
-debug-console,,F105
+debug-console,,EB9B
 debug-continue,,EACF
 debug-disconnect,,EAD0
 debug-pause,,EAD1
@@ -156,7 +156,7 @@ json,,EA8B
 kebab-vertical,,EB10
 key,,EB11
 law,,EB12
-library,,F106
+library,,EB9C
 lightbulb-autofix,,EB13
 lightbulb,,EA61
 link-external,,EB14
@@ -190,7 +190,7 @@ note,,EB26
 octoface,,EB27
 open-preview,,EB28
 organization,,EA7E
-output,,F107
+output,,EB9D
 package,,EB29
 paintcan,,EB2A
 person,,EA67
@@ -229,7 +229,7 @@ root-folder-opened,,EB45
 root-folder,,EB46
 rss,,EB47
 ruby,,EB48
-run-all,,F108
+run-all,,EB9E
 save-all,,EB49
 save-as,,EB4A
 save,,EB4B
@@ -276,6 +276,7 @@ symbol-snippet,,EB66
 symbol-string,,EB8D
 symbol-structure,,EA91
 symbol-variable,,EA88
+sync-ignored,,EB9F
 sync,,EA77
 tag,,EA66
 tasklist,,EB67

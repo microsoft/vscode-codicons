@@ -453,5 +453,14 @@
   "feedback": "60310",
 
   "group-by-ref-type": "60311",
-  "ungroup-by-ref-type": "60312"
+  "ungroup-by-ref-type": "60312",
+
+  "account": "60313",
+  "bell-dot": "60314",
+  "debug-console": "60315",
+  "library": "60316",
+  "output": "60317",
+  "run-all": "60318",
+  "sync-ignored": "60319"
+
 }
