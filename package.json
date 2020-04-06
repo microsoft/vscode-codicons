@@ -22,7 +22,7 @@
   "devDependencies": {
     "icon-font-generator": "^2.1.10",
     "svgo": "^1.3.2",
-    "minimist": "^1.2.2",
+    "minimist": "^1.2.3",
     "opentype.js": "^0.6.6"
   }
 }
