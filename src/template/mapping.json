@@ -461,6 +461,7 @@
   "library": "60316",
   "output": "60317",
   "run-all": "60318",
-  "sync-ignored": "60319"
+  "sync-ignored": "60319",
+  "pinned": "60320"
 
 }
