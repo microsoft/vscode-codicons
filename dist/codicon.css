@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?5313c14e7c6952c57fa239ad7d0dda2c") format("truetype");
+	src: url("./codicon.ttf?dfd6a49baa44e0e53668cfbbde763e0e") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -114,6 +114,8 @@
 .codicon-folder:before { content: "\ea83" }
 .codicon-file-directory:before { content: "\ea83" }
 .codicon-symbol-folder:before { content: "\ea83" }
+.codicon-logo-github:before { content: "\ea84" }
+.codicon-mark-github:before { content: "\ea84" }
 .codicon-github:before { content: "\ea84" }
 .codicon-terminal:before { content: "\ea85" }
 .codicon-console:before { content: "\ea85" }
@@ -422,8 +424,5 @@
 .codicon-run-all:before { content: "\eb9e" }
 .codicon-sync-ignored:before { content: "\eb9f" }
 .codicon-pinned:before { content: "\eba0" }
-.codicon-github-logo:before { content: "\eba1" }
-.codicon-logo-github:before { content: "\eba1" }
-.codicon-mark-github:before { content: "\eba1" }
 .codicon-debug-alt-2:before { content: "\f101" }
 .codicon-debug-alt:before { content: "\f102" }

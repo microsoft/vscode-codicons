@@ -127,6 +127,8 @@
   "file-directory": "60035",
   "symbol-folder": "60035",
 
+  "logo-github": "60036",
+  "mark-github": "60036",
   "github": "60036",
 
   "terminal": "60037",
@@ -460,9 +462,6 @@
   "output": "60317",
   "run-all": "60318",
   "sync-ignored": "60319",
-  "pinned": "60320",
+  "pinned": "60320"
 
-  "github-logo": "60321",
-  "logo-github": "60321",
-  "mark-github": "60321"
 }
