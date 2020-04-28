@@ -233,7 +233,7 @@
   "collapse-all": "60101",
   "color-mode": "60102",
   "comment-discussion": "60103",
-  "compare-changes": "60104",
+  
   "credit-card": "60105",
   "dash": "60108",
   "dashboard": "60109",
@@ -285,6 +285,7 @@
   "gist": "60155",
   "git-commit": "60156",
   "git-compare": "60157",
+  "compare-changes": "60157",
   "git-merge": "60158",
   "github-action": "60159",
   "github-alt": "60160",

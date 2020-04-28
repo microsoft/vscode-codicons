@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?5d4d76ab2ce5108968ad644d591a16a6") format("truetype");
+	src: url("./codicon.ttf?9d200539b815a8d024752d3d6b006b61") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -204,7 +204,6 @@
 .codicon-collapse-all:before { content: "\eac5" }
 .codicon-color-mode:before { content: "\eac6" }
 .codicon-comment-discussion:before { content: "\eac7" }
-.codicon-compare-changes:before { content: "\eac8" }
 .codicon-credit-card:before { content: "\eac9" }
 .codicon-dash:before { content: "\eacc" }
 .codicon-dashboard:before { content: "\eacd" }
@@ -256,6 +255,7 @@
 .codicon-gist:before { content: "\eafb" }
 .codicon-git-commit:before { content: "\eafc" }
 .codicon-git-compare:before { content: "\eafd" }
+.codicon-compare-changes:before { content: "\eafd" }
 .codicon-git-merge:before { content: "\eafe" }
 .codicon-github-action:before { content: "\eaff" }
 .codicon-github-alt:before { content: "\eb00" }
