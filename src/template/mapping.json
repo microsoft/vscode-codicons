@@ -463,6 +463,8 @@
   "run-all": "60318",
   "sync-ignored": "60319",
   "pinned": "60320",
-  "github-inverted": "60321"
+  "github-inverted": "60321",
 
+  "server-process": "60322",
+  "server-environment": "60323"
 }
