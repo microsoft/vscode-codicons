@@ -153,7 +153,7 @@ issue-reopened,,EB0B
 issues,,EB0C
 italic,,EB0D
 jersey,,EB0E
-json,,EA8B
+json,,EB0F
 kebab-vertical,,EB10
 key,,EB11
 law,,EB12
@@ -271,6 +271,7 @@ symbol-key,,EA93
 symbol-keyword,,EB62
 symbol-method,,EA8C
 symbol-misc,,EB63
+symbol-namespace,,EA8B
 symbol-numeric,,EA90
 symbol-operator,,EB64
 symbol-parameter,,EA92

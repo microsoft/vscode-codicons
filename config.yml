@@ -8,3 +8,4 @@ plugins:
   - addAttributesToSVGElement:
       attributes:
         - fill: 'currentColor'
+  - removeViewBox: false
