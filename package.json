@@ -5,12 +5,11 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf dist && mkdir dist",
-    "temp": "rm -rf temp && mkdir temp && cp -R src/icons/ temp",
-    "svgo": "svgo -f temp/ --config config.yml",
+    "svgo": "svgo -f src/icons/ --config config.yml",
     "move": "sh util.sh",
     "export-to-csv": "node src/export/index.js -f dist/codicon.ttf > dist/codicon.csv",
-    "fonts": "icon-font-generator temp/*.svg -o dist -n codicon -p codicon --csstp src/template/styles.hbs --height=1000 --center --codepoints src/template/mapping.json --json false --types 'ttf'",
-    "dev": "npm run clean && npm run move && npm run temp && npm run svgo && npm run fonts -- --html true --htmltp src/template/preview.hbs && npm run export-to-csv"
+    "fonts": "icon-font-generator src/icons/*.svg -o dist -n codicon -p codicon --csstp src/template/styles.hbs --height=1000 --center --codepoints src/template/mapping.json --json false --types 'ttf'",
+    "dev": "npm run clean && npm run move && npm run svgo && npm run fonts -- --html true --htmltp src/template/preview.hbs && npm run export-to-csv"
   },
   "repository": {
     "type": "git",

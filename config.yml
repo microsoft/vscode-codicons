@@ -3,3 +3,5 @@ plugins:
       noSpaceAfterFlags: false
   - mergePaths:
       noSpaceAfterFlags: false
+  - removeAttrs:
+      attrs: '*:fill'
