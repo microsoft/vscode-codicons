@@ -51,13 +51,11 @@ collapse-all,,EAC5
 color-mode,,EAC6
 comment-discussion,,EAC7
 comment,,EA6B
-compare-changes,,EAC8
 credit-card,,EAC9
 dash,,EACC
 dashboard,,EACD
 database,,EACE
-debug-alt-2,,F101
-debug-alt,,F102
+debug-alt,,EB91
 debug-breakpoint-conditional-unverified,,EAA6
 debug-breakpoint-conditional,,EAA7
 debug-breakpoint-data-unverified,,EAA8
@@ -194,9 +192,11 @@ organization,,EA7E
 output,,EB9D
 package,,EB29
 paintcan,,EB2A
+pass,,EBA4
 person,,EA67
 pin,,EB2B
 pinned,,EBA0
+play-circle,,EBA6
 play,,EB2C
 plug,,EB2D
 preserve-case,,EB2E
@@ -256,6 +256,7 @@ squirrel,,EB58
 star-empty,,EA6A
 star-full,,EB59
 star-half,,EB5A
+stop-circle,,EBA5
 symbol-array,,EA8A
 symbol-boolean,,EA8F
 symbol-class,,EB5B

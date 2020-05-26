@@ -233,7 +233,6 @@
   "collapse-all": "60101",
   "color-mode": "60102",
   "comment-discussion": "60103",
-  "compare-changes": "60104",
   "credit-card": "60105",
   "dash": "60108",
   "dashboard": "60109",
@@ -285,6 +284,7 @@
   "gist": "60155",
   "git-commit": "60156",
   "git-compare": "60157",
+  "compare-changes": "60157",
   "git-merge": "60158",
   "github-action": "60159",
   "github-alt": "60160",
@@ -442,7 +442,7 @@
   "debug-reverse-continue": "60302",
   "debug-step-back": "60303",
   "debug-restart-frame": "60304",
-  "debug-alternate": "60305",
+  "debug-alt": "60305",
 
   "call-incoming": "60306",
   "call-outgoing": "60307",
@@ -466,5 +466,9 @@
   "github-inverted": "60321",
 
   "server-process": "60322",
-  "server-environment": "60323"
+  "server-environment": "60323",
+
+  "pass": "60324",
+  "stop-circle": "60325",
+  "play-circle": "60326"
 }
