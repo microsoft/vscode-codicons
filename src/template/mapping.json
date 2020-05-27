@@ -470,5 +470,6 @@
 
   "pass": "60324",
   "stop-circle": "60325",
-  "play-circle": "60326"
+  "play-circle": "60326",
+  "record": "60327"
 }

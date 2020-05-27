@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?f39daf81fd97fe0efad2b26f5a7db933") format("truetype");
+	src: url("./codicon.ttf?10f26e16aed022da93b447350f7fd1d3") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -430,3 +430,4 @@
 .codicon-pass:before { content: "\eba4" }
 .codicon-stop-circle:before { content: "\eba5" }
 .codicon-play-circle:before { content: "\eba6" }
+.codicon-record:before { content: "\eba7" }
