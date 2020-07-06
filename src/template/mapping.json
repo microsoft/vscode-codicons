@@ -471,5 +471,8 @@
   "pass": "60324",
   "stop-circle": "60325",
   "play-circle": "60326",
-  "record": "60327"
+  "record": "60327",
+
+  "debug-alt-small": "60328",
+  "vm-connect": "60329"
 }

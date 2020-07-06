@@ -55,6 +55,7 @@ credit-card,,EAC9
 dash,,EACC
 dashboard,,EACD
 database,,EACE
+debug-alt-small,,EBA8
 debug-alt,,EB91
 debug-breakpoint-conditional-unverified,,EAA6
 debug-breakpoint-conditional,,EAA7
@@ -308,6 +309,7 @@ unverified,,EB76
 verified,,EB77
 versions,,EB78
 vm-active,,EB79
+vm-connect,,EBA9
 vm-outline,,EB7A
 vm-running,,EB7B
 vm,,EA7A
