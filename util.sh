@@ -1,1 +1,0 @@
-cd src/icons && find . -mindepth 2 -type f -print -exec mv {} . \; && find . -type d -empty -delete

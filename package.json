@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "rm -rf dist && mkdir dist",
-    "svgo": "svgo -f src/icons/ --config config.yml",
-    "move": "sh util.sh",
-    "replace": "cp -R dist/codicon.ttf ../vscode/src/vs/base/browser/ui/codicons/codicon/codicon.ttf",
-    "export-to-csv": "node src/export/index.js -f dist/codicon.ttf > dist/codicon.csv",
-    "fonts": "icon-font-generator src/icons/*.svg -o dist -n codicon -p codicon --csstp src/template/styles.hbs --height=1000 --center --codepoints src/template/mapping.json --json false --types 'ttf'",
-    "dev": "npm run clean && npm run move && npm run svgo && npm run fonts -- --html true --htmltp src/template/preview.hbs && npm run export-to-csv && npm run replace"
+    "clean": "node ./scripts/reset.js",
+    "svgo": "svgo -f ./src/icons/ --config config.yml",
+    "replace-in-vscode": "cp -R ./dist/codicon.ttf ../vscode/src/vs/base/browser/ui/codicons/codicon/codicon.ttf",
+    "export-to-csv": "node ./scripts/export-to-csv.js -f ./dist/codicon.ttf > ./dist/codicon.csv",
+    "fonts": "icon-font-generator ./src/icons/*.svg -o dist -n codicon -p codicon --csstp ./src/template/styles.hbs --height=1000 --center --codepoints ./src/template/mapping.json --json false --types 'ttf'",
+    "dev": "npm run clean && npm run svgo && npm run fonts -- --html true --htmltp ./src/template/preview.hbs && npm run export-to-csv && npm run replace-in-vscode",
+    "build": "npm run clean && npm run svgo && npm run fonts -- --html true --htmltp ./src/template/preview.hbs"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,11 @@
     "name": "Microsoft Corporation"
   },
   "devDependencies": {
+    "@hutsoninc/flatten-dir": "^1.0.3",
     "icon-font-generator": "^2.1.10",
-    "svgo": "^1.3.2",
     "minimist": "^1.2.3",
-    "opentype.js": "^0.6.6"
+    "opentype.js": "^0.6.6",
+    "rimraf": "^3.0.2",
+    "svgo": "^1.3.2"
   }
 }
