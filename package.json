@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "node scripts/reset.js",
-    "svgo": "svgo -f src/icons/ --config config.yml",
-    "replace-in-vscode": "cp -R dist/codicon.ttf ../vscode/src/vs/base/browser/ui/codicons/codicon/codicon.ttf",
-    "export-to-csv": "node scripts/export-to-csv.js -f dist/codicon.ttf > dist/codicon.csv",
-    "fonts": "icon-font-generator src/icons/*.svg -o dist -n codicon -p codicon --csstp src/template/styles.hbs --height=1000 --center --codepoints src/template/mapping.json --json false --types 'ttf'",
-    "dev": "npm run clean && npm run svgo && npm run fonts -- --html true --htmltp src/template/preview.hbs && npm run export-to-csv && npm run replace-in-vscode",
-    "build": "npm run clean && npm run svgo && npm run fonts -- --html true --htmltp src/template/preview.hbs"
+    "clean": "node ./scripts/reset.js",
+    "svgo": "svgo -f ./src/icons/ --config config.yml",
+    "replace-in-vscode": "cp -R ./dist/codicon.ttf ../vscode/src/vs/base/browser/ui/codicons/codicon/codicon.ttf",
+    "export-to-csv": "node ./scripts/export-to-csv.js -f ./dist/codicon.ttf > ./dist/codicon.csv",
+    "fonts": "icon-font-generator ./src/icons/*.svg -o dist -n codicon -p codicon --csstp ./src/template/styles.hbs --height=1000 --center --codepoints ./src/template/mapping.json --json false --types 'ttf'",
+    "dev": "npm run clean && npm run svgo && npm run fonts -- --html true --htmltp ./src/template/preview.hbs && npm run export-to-csv && npm run replace-in-vscode",
+    "build": "npm run clean && npm run svgo && npm run fonts -- --html true --htmltp ./src/template/preview.hbs"
   },
   "repository": {
     "type": "git",
