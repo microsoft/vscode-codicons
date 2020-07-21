@@ -476,5 +476,6 @@
   "debug-alt-small": "60328",
   "vm-connect": "60329",
 
-  "cloud": "60330"
+  "cloud": "60330",
+  "merge": "60331"
 }

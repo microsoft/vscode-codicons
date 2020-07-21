@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?cc995d363c11f4cc215cb0355e955bca") format("truetype");
+	src: url("./codicon.ttf?0157c11b7267b6da81eca74d418a8f17") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -434,3 +434,4 @@
 .codicon-debug-alt-small:before { content: "\eba8" }
 .codicon-vm-connect:before { content: "\eba9" }
 .codicon-cloud:before { content: "\ebaa" }
+.codicon-merge:before { content: "\ebab" }
