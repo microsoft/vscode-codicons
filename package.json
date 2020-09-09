@@ -11,7 +11,7 @@
     "fonts": "icon-font-generator ./src/icons/*.svg -o dist -n codicon -p codicon --csstp ./src/template/styles.hbs --height=1000 --center --codepoints ./src/template/mapping.json --json false --types 'ttf'",
     "dev": "npm run clean && npm run svgo && npm run fonts -- --html true --htmltp ./src/template/preview.hbs && npm run export-to-csv && npm run replace-in-vscode",
     "build": "npm run clean && npm run svgo && npm run fonts -- --html true --htmltp ./src/template/preview.hbs",
-    "release": "release-it --dry-run"
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
