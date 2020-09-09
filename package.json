@@ -10,7 +10,8 @@
     "export-to-csv": "node ./scripts/export-to-csv.js -f ./dist/codicon.ttf > ./dist/codicon.csv",
     "fonts": "icon-font-generator ./src/icons/*.svg -o dist -n codicon -p codicon --csstp ./src/template/styles.hbs --height=1000 --center --codepoints ./src/template/mapping.json --json false --types 'ttf'",
     "dev": "npm run clean && npm run svgo && npm run fonts -- --html true --htmltp ./src/template/preview.hbs && npm run export-to-csv && npm run replace-in-vscode",
-    "build": "npm run clean && npm run svgo && npm run fonts -- --html true --htmltp ./src/template/preview.hbs"
+    "build": "npm run clean && npm run svgo && npm run fonts -- --html true --htmltp ./src/template/preview.hbs",
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "icon-font-generator": "^2.1.10",
     "minimist": "^1.2.3",
     "opentype.js": "^0.6.6",
+    "release-it": "^14.0.2",
     "rimraf": "^3.0.2",
     "svgo": "^1.3.2"
   }
