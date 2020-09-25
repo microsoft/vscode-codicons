@@ -26,6 +26,7 @@ calendar,,EAB0
 call-incoming,,EB92
 call-outgoing,,EB93
 case-sensitive,,EAB1
+check-all,,EBB1
 check,,EAB2
 checklist,,EAB3
 chevron-down,,EAB4
