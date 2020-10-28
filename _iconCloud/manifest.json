@@ -29,8 +29,7 @@
     "metadata-1-dataStyle": "ClickablePill",
     "metadata-1-dataType": "Keywords",
     "metadata-1-label": "Keywords",
-    "metadata-1-sorting": "ByWeight",
-    "requestIconUrl": null
+    "metadata-1-sorting": "ByWeight"
   },
   "libraryVersion": "2.43"
 }
