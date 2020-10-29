@@ -175,7 +175,6 @@
         },
         "variable": "_IconData_TypeKey_"
       },
-      
       {
         "method": "GetColumnValue",
         "params": {
@@ -183,6 +182,27 @@
           "iterator": "iconsTableIterator"
         },
         "variable": "_IconData_Key_"
+      },
+      {
+        "method": "Copy",
+        "params": {
+          "from": "_CollectionData_Key_"
+        },
+        "variable": "_CollectionIconData_CollectionKey_"
+      },
+      {
+        "method": "Copy",
+        "params": {
+          "from": "_IconData_Key_"
+        },
+        "variable": "_CollectionIconData_IconKey_"
+      },
+      {
+        "method": "UpdateVariablesTable",
+        "params": {
+          "variables": "_CollectionIconDataVariables_"
+        },
+        "variable": "_CollectionIconData_"
       },
       {
         "method": "GetColumnValue",
