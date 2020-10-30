@@ -1,5 +1,26 @@
 [
   {
+    "type": "Value",
+    "value": "~/dist/codicon.ttf",
+    "valueType": "Text",
+    "referenceOnly": true,
+    "name": "libraryArtifactTtfFilePath"
+  },
+  {
+    "type": "Value",
+    "value": "~/dist/codicon.woff",
+    "valueType": "Text",
+    "referenceOnly": true,
+    "name": "libraryArtifactWoffFilePath"
+  },
+  {
+    "type": "Value",
+    "value": "~/dist/codicon.woff2",
+    "valueType": "Text",
+    "referenceOnly": true,
+    "name": "libraryArtifactWoff2FilePath"
+  },
+  {
     "type": "VariableBag",
     "valueType": "None",
     "values": [],
@@ -63,16 +84,14 @@
     "valueType": "Text",
     "name": "iconShortName"
   },
-  
-  {
+    {
     "type": "Value",
     "value": "codicons",
     "valueType": "Text",
     "referenceOnly": true,
     "name": "collectionName"
   },
-  
-  {
+    {
     "type": "Value",
     "value": "~/src/icons/{iconShortName}.svg",
     "valueType": "Text",

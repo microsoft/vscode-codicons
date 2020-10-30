@@ -1,5 +1,13 @@
 ﻿[
   {
+    "method": "GetFilePaths",
+    "notes": "Get all the files from the root directory, and put them into a cache.  This is for performance.",
+    "params": {
+      "rootPath": "_RootPath_"
+    },
+    "variable": "_FilePathsCache_"
+  },
+  {
     "method": "AddToVariableBag",
     "params": {
       "value": "_LibraryVersion_"
@@ -10,6 +18,36 @@
     "method": "AddToVariableBag",
     "params": {
       "value": "_LibraryLastUpdated_"
+    },
+    "variable": "libraryArtifacts"
+  },
+  {
+    "method": "AddIfFileExists",
+    "params": {
+      "property": "_TtfFileProperty_",
+      "filePath": "libraryArtifactTtfFilePath",
+      "rootPath": "_RootPath_",
+      "filePathsCache": "_FilePathsCache_"
+    },
+    "variable": "libraryArtifacts"
+  },
+  {
+    "method": "AddIfFileExists",
+    "params": {
+      "property": "_WoffFileProperty_",
+      "filePath": "libraryArtifactWoffFilePath",
+      "rootPath": "_RootPath_",
+      "filePathsCache": "_FilePathsCache_"
+    },
+    "variable": "libraryArtifacts"
+  },
+  {
+    "method": "AddIfFileExists",
+    "params": {
+      "property": "_Woff2FileProperty_",
+      "filePath": "libraryArtifactWoff2FilePath",
+      "rootPath": "_RootPath_",
+      "filePathsCache": "_FilePathsCache_"
     },
     "variable": "libraryArtifacts"
   },
@@ -37,14 +75,6 @@
       "valuesColumn": "_LibraryArtifactData_Value_"
     },
     "variable": "_LibraryArtifactData_"
-  },
-  {
-    "method": "GetFilePaths",
-    "notes": "Get all the files from the root directory, and put them into a cache.  This is for performance.",
-    "params": {
-      "rootPath": "_RootPath_"
-    },
-    "variable": "_FilePathsCache_"
   },
   {
     "method": "LoadTable",
