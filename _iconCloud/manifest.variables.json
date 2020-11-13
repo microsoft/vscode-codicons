@@ -86,7 +86,7 @@
   },
     {
     "type": "Value",
-    "value": "codicons",
+    "value": "Icons",
     "valueType": "Text",
     "referenceOnly": true,
     "name": "collectionName"
@@ -131,5 +131,19 @@
     "type": "Value",
     "valueType": "Text",
     "name": "version"
+  },
+  {
+    "type": "Value",
+    "valueType": "Text",
+    "value": " ",
+    "referenceOnly": true,
+    "name": "spaceChar"
+  },
+  {
+    "type": "Value",
+    "valueType": "Text",
+    "value": "-",
+    "referenceOnly": true,
+    "name": "dashChar"
   }
 ]

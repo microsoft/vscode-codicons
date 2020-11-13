@@ -240,6 +240,33 @@
           "columnName": "iconColumnShortName",
           "iterator": "iconsTableIterator"
         },
+        "variable": "iconShortName"
+      },
+      {
+        "method": "Replace",
+        "params": {
+          "from": "dashChar",
+          "to": "spaceChar"
+        },
+        "variable": "iconShortName"
+      },
+      {
+        "method": "Capitalize",
+        "variable": "iconShortName"
+      },
+      {
+        "method": "Replace",
+        "params": {
+          "from": "spaceChar",
+          "to": "dashChar"
+        },
+        "variable": "iconShortName"
+      },
+      {
+        "method": "Copy",
+        "params": {
+          "from": "iconShortName"
+        },
         "variable": "_IconData_Name_"
       },
       {
