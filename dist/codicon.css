@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?13cedf70e654d3e009c7670ac7c3d957") format("truetype");
+	src: url("./codicon.ttf?c39a6f417c0e9b742898c54648b1f1ea") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -443,3 +443,5 @@
 .codicon-check-all:before { content: "\ebb1" }
 .codicon-pinned-dirty:before { content: "\ebb2" }
 .codicon-pass-filled:before { content: "\ebb3" }
+.codicon-circle-large-filled:before { content: "\ebb4" }
+.codicon-circle-large-outline:before { content: "\ebb5" }
