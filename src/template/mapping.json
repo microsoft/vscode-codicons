@@ -488,5 +488,6 @@
   "notebook":"60335",
   "redo":"60336",
   "check-all":"60337",
-  "pinned-dirty":"60338"
+  "pinned-dirty":"60338",
+  "pass-filled":"60339"
 }
