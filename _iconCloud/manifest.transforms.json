@@ -1,0 +1,368 @@
+﻿[
+  {
+    "method": "GetFilePaths",
+    "notes": "Get all the files from the root directory, and put them into a cache.  This is for performance.",
+    "params": {
+      "rootPath": "_RootPath_"
+    },
+    "variable": "_FilePathsCache_"
+  },
+  {
+    "method": "AddToVariableBag",
+    "params": {
+      "value": "_LibraryVersion_"
+    },
+    "variable": "libraryArtifacts"
+  },
+  {
+    "method": "AddToVariableBag",
+    "params": {
+      "value": "_LibraryLastUpdated_"
+    },
+    "variable": "libraryArtifacts"
+  },
+  {
+    "method": "AddIfFileExists",
+    "params": {
+      "property": "_TtfFileProperty_",
+      "filePath": "libraryArtifactTtfFilePath",
+      "rootPath": "_RootPath_",
+      "filePathsCache": "_FilePathsCache_"
+    },
+    "variable": "libraryArtifacts"
+  },
+  {
+    "method": "AddIfFileExists",
+    "params": {
+      "property": "_WoffFileProperty_",
+      "filePath": "libraryArtifactWoffFilePath",
+      "rootPath": "_RootPath_",
+      "filePathsCache": "_FilePathsCache_"
+    },
+    "variable": "libraryArtifacts"
+  },
+  {
+    "method": "AddIfFileExists",
+    "params": {
+      "property": "_Woff2FileProperty_",
+      "filePath": "libraryArtifactWoff2FilePath",
+      "rootPath": "_RootPath_",
+      "filePathsCache": "_FilePathsCache_"
+    },
+    "variable": "libraryArtifacts"
+  },
+  {
+    "method": "Copy",
+    "params": {
+      "from": "_LibraryLastUpdated_"
+    },
+    "variable": "lastUpdated"
+  },
+  {
+    "method": "Copy",
+    "params": {
+      "from": "_LibraryVersion_"
+    },
+    "variable": "version"
+  },
+  {
+    "method": "AddNameValuePairsToAssociationTable",
+    "params": {
+      "key": "_LibraryKey_",
+      "values": "libraryArtifacts",
+      "keyColumn": "_LibraryArtifactData_LibraryKey_",
+      "namesColumn": "_LibraryArtifactData_Name_",
+      "valuesColumn": "_LibraryArtifactData_Value_"
+    },
+    "variable": "_LibraryArtifactData_"
+  },
+  {
+    "method": "LoadTable",
+    "params": {
+      "relativePath": "_DataFilePath_",
+      "rootPath": "_RootPath_"
+    },
+    "variable": "iconsInputTable"
+  },
+  {
+    "method": "AppendColumn",
+    "notes": "Inject a unique ID field into the icons table.",
+    "params": {
+      "columnName": "iconColumnKeyName"
+    },
+    "variable": "iconsInputTable"
+  },
+  {
+    "transforms": [
+      {
+        "method": "GetColumnValue",
+        "params": {
+          "columnName": "iconColumnUnicodeValue",
+          "iterator": "iconsTableIterator"
+        },
+        "variable": "iconUnicodeValue"
+      },
+      {
+        "method": "GetHashKey",
+        "notes": "The icon Key is derived from the unicode value.",
+        "params": {
+          "from": "iconUnicodeValue"
+        },
+        "variable": "_IconData_Key_"
+      },
+      {
+        "method": "SetRowValue",
+        "params": {
+          "columnName": "iconColumnKeyName",
+          "value": "_IconData_Key_"
+        },
+        "variable": "iconsTableIterator"
+      }
+    ],
+    "method": "ForEachRow",
+    "notes": "Insert the 'key' for each icon into the source table.",
+    "variable": "iconsTableIterator"
+  },
+  {
+    "method": "Copy",
+    "params": {
+      "from": "_LibraryKey_"
+    },
+    "variable": "_CollectionData_LibraryKey_"
+  },
+  {
+    "method": "Copy",
+    "params": {
+      "from": "_IconTypeKey_"
+    },
+    "variable": "_CollectionData_TypeKey_"
+  },
+  {
+    "method": "GetHashKey",
+    "notes": "The collection Key is derived from the collection name.",
+    "params": {
+      "from": "collectionName"
+    },
+    "variable": "_CollectionData_Key_"
+  },
+  {
+    "method": "Copy",
+    "params": {
+      "from": "collectionName"
+    },
+    "variable": "_CollectionData_Name_"
+  },
+  {
+    "method": "UpdateVariablesTable",
+    "params": {
+      "variables": "_CollectionDataVariables_"
+    },
+    "variable": "_CollectionData_"
+  },
+  
+  {
+    "method": "Clear",
+    "variable": "collectionArtifacts"
+  },
+  {
+    "method": "AddToVariableBag",
+    "params": {
+      "value": "lastUpdated"
+    },
+    "variable": "collectionArtifacts"
+  },
+  {
+    "method": "AddToVariableBag",
+    "params": {
+      "value": "version"
+    },
+    "variable": "collectionArtifacts"
+  },
+  {
+    "method": "AddNameValuePairsToAssociationTable",
+    "params": {
+      "key": "_CollectionData_Key_",
+      "values": "collectionArtifacts",
+      "keyColumn": "_CollectionArtifactData_CollectionKey_",
+      "namesColumn": "_CollectionArtifactData_Name_",
+      "valuesColumn": "_CollectionArtifactData_Value_"
+    },
+    "variable": "_CollectionArtifactData_"
+  },
+  {
+    "transforms": [
+      {
+        "method": "Copy",
+        "params": {
+          "from": "_LibraryKey_"
+        },
+        "variable": "_IconData_LibraryKey_"
+      },
+      {
+        "method": "Copy",
+        "params": {
+          "from": "_IconTypeKey_"
+        },
+        "variable": "_IconData_TypeKey_"
+      },
+      {
+        "method": "GetColumnValue",
+        "params": {
+          "columnName": "iconColumnKeyName",
+          "iterator": "iconsTableIterator"
+        },
+        "variable": "_IconData_Key_"
+      },
+      {
+        "method": "Copy",
+        "params": {
+          "from": "_CollectionData_Key_"
+        },
+        "variable": "_CollectionIconData_CollectionKey_"
+      },
+      {
+        "method": "Copy",
+        "params": {
+          "from": "_IconData_Key_"
+        },
+        "variable": "_CollectionIconData_IconKey_"
+      },
+      {
+        "method": "UpdateVariablesTable",
+        "params": {
+          "variables": "_CollectionIconDataVariables_"
+        },
+        "variable": "_CollectionIconData_"
+      },
+      {
+        "method": "GetColumnValue",
+        "params": {
+          "columnName": "iconColumnShortName",
+          "iterator": "iconsTableIterator"
+        },
+        "variable": "iconShortName"
+      },
+      {
+        "method": "Replace",
+        "params": {
+          "from": "dashChar",
+          "to": "spaceChar"
+        },
+        "variable": "iconShortName"
+      },
+      {
+        "method": "Capitalize",
+        "variable": "iconShortName"
+      },
+      {
+        "method": "Replace",
+        "params": {
+          "from": "spaceChar",
+          "to": "dashChar"
+        },
+        "variable": "iconShortName"
+      },
+      {
+        "method": "Copy",
+        "params": {
+          "from": "iconShortName"
+        },
+        "variable": "_IconData_Name_"
+      },
+      {
+        "method": "UpdateVariablesTable",
+        "params": {
+          "variables": "_IconDataVariables_"
+        },
+        "variable": "_IconData_"
+      },
+      {
+        "method": "GetColumnValue",
+        "params": {
+          "columnName": "iconColumnShortName",
+          "iterator": "iconsTableIterator"
+        },
+        "variable": "iconShortName"
+      },
+      {
+        "method": "GetColumnValue",
+        "params": {
+          "columnName": "iconColumnGlyph",
+          "iterator": "iconsTableIterator"
+        },
+        "variable": "iconGlyph"
+      },
+      {
+        "method": "GetColumnValue",
+        "params": {
+          "columnName": "iconColumnUnicodeValue",
+          "iterator": "iconsTableIterator"
+        },
+        "variable": "iconUnicodeValue"
+      },
+      {
+        "method": "Clear",
+        "variable": "iconArtifacts"
+      },
+      {
+        "method": "Copy",
+        "params": {
+          "from": "svgFilePathFormat"
+        },
+        "variable": "svgIconFilePath"
+      },
+      {
+        "method": "Replace",
+        "params": {
+          "from": "iconShortNamePattern",
+          "to": "iconShortName"
+        },
+        "variable": "svgIconFilePath"
+      },
+      {
+        "method": "AddIfFileExists",
+        "params": {
+          "property": "_SvgFileProperty_",
+          "filePath": "svgIconFilePath",
+          "rootPath": "_RootPath_",
+          "filePathsCache": "_FilePathsCache_"
+        },
+        "variable": "iconArtifacts"
+      },
+      {
+        "method": "AddToVariableBag",
+        "params": {
+          "value": "iconGlyph"
+        },
+        "variable": "iconArtifacts"
+      },
+      {
+        "method": "AddToVariableBag",
+        "params": {
+          "value": "iconUnicodeValue"
+        },
+        "variable": "iconArtifacts"
+      },
+      {
+        "method": "AddToVariableBag",
+        "params": {
+          "value": "lastUpdated"
+        },
+        "variable": "iconArtifacts"
+      },
+      {
+        "method": "AddNameValuePairsToAssociationTable",
+        "params": {
+          "key": "_IconData_Key_",
+          "values": "iconArtifacts",
+          "keyColumn": "_IconArtifactData_IconKey_",
+          "namesColumn": "_IconArtifactData_Name_",
+          "valuesColumn": "_IconArtifactData_Value_"
+        },
+        "variable": "_IconArtifactData_"
+      }
+    ],
+    "method": "ForEachRow",
+    "variable": "iconsTableIterator"
+  }
+]

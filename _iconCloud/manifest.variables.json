@@ -1,0 +1,149 @@
+[
+  {
+    "type": "Value",
+    "value": "~/dist/codicon.ttf",
+    "valueType": "Text",
+    "referenceOnly": true,
+    "name": "libraryArtifactTtfFilePath"
+  },
+  {
+    "type": "Value",
+    "value": "~/dist/codicon.woff",
+    "valueType": "Text",
+    "referenceOnly": true,
+    "name": "libraryArtifactWoffFilePath"
+  },
+  {
+    "type": "Value",
+    "value": "~/dist/codicon.woff2",
+    "valueType": "Text",
+    "referenceOnly": true,
+    "name": "libraryArtifactWoff2FilePath"
+  },
+  {
+    "type": "VariableBag",
+    "valueType": "None",
+    "values": [],
+    "name": "libraryArtifacts"
+  },
+  {
+    "tableSpecifier": {
+      "dataColumnIndex": 0,
+      "dataRowIndex": 2,
+      "headerRowIndex": 0
+    },
+    "type": "Table",
+    "valueType": "None",
+    "name": "iconsInputTable"
+  },
+  {
+    "type": "Value",
+    "value": "ID",
+    "valueType": "Text",
+    "referenceOnly": true,
+    "name": "iconColumnKeyName"
+  },
+  {
+    "type": "Value",
+    "value": "short_name",
+    "valueType": "Text",
+    "referenceOnly": true,
+    "name": "iconColumnShortName"
+  },
+  {
+    "type": "Value",
+    "value": "unicode",
+    "valueType": "Text",
+    "referenceOnly": true,
+    "name": "iconColumnUnicodeValue"
+  },
+  {
+    "type": "Value",
+    "value": "character",
+    "valueType": "Text",
+    "referenceOnly": true,
+    "name": "iconColumnGlyph"
+  },
+  {
+    "type": "TableIterator",
+    "TargetName": "iconsInputTable",
+    "name": "iconsTableIterator"
+  },
+  {
+    "type": "Value",
+    "valueType": "Text",
+    "name": "iconGlyph"
+  },
+  {
+    "type": "Value",
+    "valueType": "Text",
+    "name": "iconUnicodeValue"
+  },
+  {
+    "type": "Value",
+    "valueType": "Text",
+    "name": "iconShortName"
+  },
+    {
+    "type": "Value",
+    "value": "Icons",
+    "valueType": "Text",
+    "referenceOnly": true,
+    "name": "collectionName"
+  },
+    {
+    "type": "Value",
+    "value": "~/src/icons/{iconShortName}.svg",
+    "valueType": "Text",
+    "referenceOnly": true,
+    "name": "svgFilePathFormat"
+  },
+  {
+    "type": "Value",
+    "value": "{iconShortName}",
+    "valueType": "Text",
+    "referenceOnly": true,
+    "name": "iconShortNamePattern"
+  },
+  {
+    "type": "Value",
+    "valueType": "Text",
+    "name": "svgIconFilePath"
+  },
+  {
+    "type": "VariableBag",
+    "valueType": "None",
+    "values": [],
+    "name": "collectionArtifacts"
+  },
+  {
+    "type": "VariableBag",
+    "valueType": "None",
+    "values": [],
+    "name": "iconArtifacts"
+  },
+  {
+    "type": "Value",
+    "valueType": "Text",
+    "name": "lastUpdated"
+  },
+  {
+    "type": "Value",
+    "valueType": "Text",
+    "name": "version"
+  },
+  {
+    "type": "Value",
+    "valueType": "Text",
+    "value": " ",
+    "referenceOnly": true,
+    "name": "spaceChar"
+  },
+  {
+    "type": "Value",
+    "valueType": "Text",
+    "value": "-",
+    "referenceOnly": true,
+    "name": "dashChar"
+  }
+]

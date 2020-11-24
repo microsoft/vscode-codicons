@@ -1,0 +1,36 @@
+{
+  "_type": "Library",
+  "_version": "XCHRDK",
+  "dataPaths": [
+    {
+      "dataPath": "~/dist/codicon.csv",
+      "transformPaths": ["~/_iconCloud/manifest.transforms.json"],
+      "variablePaths": ["~/_iconCloud/manifest.variables.json"]
+    },
+    {
+      "dataPath": "~/_iconCloud/keywords.csv",
+      "transformPaths": ["~/_iconCloud/keywords.transforms.json"],
+      "variablePaths": ["~/_iconCloud/keywords.variables.json"]
+    }
+  ],
+  "iconType": "Glyph",
+  "lastUpdated": "2020-10-23T12:00Z",
+  "libraryInfoKey": "8df73c1d1",
+  "libraryName": "VS Code Icons",
+  "libraryProperties":
+  {
+    "copyPreviewTypes": "Glyph",
+    "copySize": "32",
+    "copyTypes": "Glyph,Svg",
+    "downloadDefaultSize": "32",
+    "downloadTypes": "Svg",
+    "libraryFileNameBase": "VsCodeIcons",
+    "libraryIconSizes": "16,24,32,40,48,56,64",
+    "metadata-1-dataMapping": "Icon:iconKeywords",
+    "metadata-1-dataStyle": "ClickablePill",
+    "metadata-1-dataType": "Keywords",
+    "metadata-1-label": "Keywords",
+    "metadata-1-sorting": "ByWeight"
+  },
+  "libraryVersion": "2.43"
+}
