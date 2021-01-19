@@ -491,5 +491,8 @@
   "pinned-dirty":"60338",
   "pass-filled":"60339",
   "circle-large-filled":"60340",
-  "circle-large-outline":"60341"
+  "circle-large-outline":"60341",
+  
+  "combine":"60342",
+  "gather":"60342"
 }
