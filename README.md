@@ -1,6 +1,6 @@
 # Visual Studio Code - Codicons
 
-This tool takes the Visual Studio Code icons and converts them into an font using the [icon-font-generator](https://github.com/Workshape/icon-font-generator). All icons are stored under `src > icons`. The mappings of the class names and unicode characters are stored in `src/template/mapping.json` as well as the default styles under `src/template/styles.hbs`.
+This tool takes the Visual Studio Code icons and converts them into an font using the [icon-font-generator](https://github.com/Workshape/icon-font-generator).
 
 ## How to use
 You can use the [npm package](https://www.npmjs.com/package/vscode-codicons) and install into your project via `npm i vscode-codicons` or you can copy the icon files from the `dist` folder. 
@@ -9,6 +9,9 @@ If you're building a VS Code extension, see this [webview extension sample](http
 
 ## Building Locally
 
+All icons are stored under `src > icons`. The mappings of the class names and unicode characters are stored in `src/template/mapping.json` as well as the default styles under `src/template/styles.hbs`.
+
+### Install dependencies
 After cloning this repo, install dependencies by running:
 
 ```
@@ -23,7 +26,7 @@ npm run build
 
 Output will be exported to a `dist` folder. We track this folder so that we can see the updated changes to the unicode characters.
 
-### Update Packages
+### Update packages
 
 You can run `npm outdated` to see if there are any package updates. To update packages, run:
 
@@ -31,9 +34,11 @@ You can run `npm outdated` to see if there are any package updates. To update pa
 npm update
 ```
 
-### Add Icons
+### Add icons
 
-Export your icons (svg) to the `src/icons` folder and add an entry into `src/template/mapping.json` with the new unicode key and run the the build command. The build command will also remove any subfolders in the `icons` folder to keep the folder structure consistent.
+Export your icons (svg) to the `src/icons` folder and add an entry into `src/template/mapping.json` with a new codepoint key (this gets converted into a unicode key) and run the the build command. The build command will also remove any subfolders in the `icons` folder to keep the folder structure consistent.
+
+Next, update the [codicons file](https://github.com/microsoft/vscode/blob/master/src/vs/base/common/codicons.ts) on the vscode repository, ensuring that the unicode characters are the same (you reference the [css file](https://github.com/microsoft/vscode-codicons/blob/master/dist/codicon.css)).
 
 
 ## Using in VS Code
