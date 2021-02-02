@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?fd7125ea468d32e09c67d664ccfe9f9f") format("truetype");
+	src: url("./codicon.ttf?f0f138cfba5df495d77aa8c41fedcfff") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -449,3 +449,6 @@
 .codicon-gather:before { content: "\ebb6" }
 .codicon-table:before { content: "\ebb7" }
 .codicon-variable-group:before { content: "\ebb8" }
+.codicon-type-hierarchy:before { content: "\ebb9" }
+.codicon-type-hierarchy-sub:before { content: "\ebba" }
+.codicon-type-hierarchy-super:before { content: "\ebbb" }

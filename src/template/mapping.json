@@ -496,5 +496,8 @@
   "combine":"60342",
   "gather":"60342",
   "table":"60343",
-  "variable-group":"60344"
+  "variable-group":"60344",
+  "type-hierarchy":"60345",
+  "type-hierarchy-sub":"60346",
+  "type-hierarchy-super":"60347"
 }
