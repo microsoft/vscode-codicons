@@ -494,5 +494,7 @@
   "circle-large-outline":"60341",
   
   "combine":"60342",
-  "gather":"60342"
+  "gather":"60342",
+  "table":"60343",
+  "variable-group":"60344"
 }

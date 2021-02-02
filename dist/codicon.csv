@@ -299,6 +299,7 @@ symbol-structure,,EA91
 symbol-variable,,EA88
 sync-ignored,,EB9F
 sync,,EA77
+table,,EBB7
 tag,,EA66
 tasklist,,EB67
 telescope,,EB68
@@ -319,6 +320,7 @@ ungroup-by-ref-type,,EB98
 unlock,,EB74
 unmute,,EB75
 unverified,,EB76
+variable-group,,EBB8
 verified,,EB77
 versions,,EB78
 vm-active,,EB79

@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?756fa482df4f1610f1e0548d031e8c29") format("truetype");
+	src: url("./codicon.ttf?fd7125ea468d32e09c67d664ccfe9f9f") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -447,3 +447,5 @@
 .codicon-circle-large-outline:before { content: "\ebb5" }
 .codicon-combine:before { content: "\ebb6" }
 .codicon-gather:before { content: "\ebb6" }
+.codicon-table:before { content: "\ebb7" }
+.codicon-variable-group:before { content: "\ebb8" }
