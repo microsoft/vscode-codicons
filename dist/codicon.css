@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?f0f138cfba5df495d77aa8c41fedcfff") format("truetype");
+	src: url("./codicon.ttf?d8db032c436945ad93e5e6e06a007865") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -452,3 +452,4 @@
 .codicon-type-hierarchy:before { content: "\ebb9" }
 .codicon-type-hierarchy-sub:before { content: "\ebba" }
 .codicon-type-hierarchy-super:before { content: "\ebbb" }
+.codicon-git-pull-request-create:before { content: "\ebbc" }

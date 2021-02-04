@@ -135,6 +135,7 @@ gist-secret,,EAFA
 git-commit,,EAFC
 git-compare,,EAFD
 git-merge,,EAFE
+git-pull-request-create,,EBBC
 git-pull-request,,EA64
 github-action,,EAFF
 github-alt,,EB00

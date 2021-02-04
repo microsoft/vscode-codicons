@@ -499,5 +499,7 @@
   "variable-group":"60344",
   "type-hierarchy":"60345",
   "type-hierarchy-sub":"60346",
-  "type-hierarchy-super":"60347"
+  "type-hierarchy-super":"60347",
+  
+  "git-pull-request-create":"60348"
 }
