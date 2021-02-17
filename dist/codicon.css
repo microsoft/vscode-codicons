@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?a2762d8f19e7745f495834e3138905ab") format("truetype");
+	src: url("./codicon.ttf?c8d6b35439ac35a29ed4d11fe5d8fb8f") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -455,3 +455,4 @@
 .codicon-git-pull-request-create:before { content: "\ebbc" }
 .codicon-run-above:before { content: "\ebbd" }
 .codicon-run-below:before { content: "\ebbe" }
+.codicon-notebook-template:before { content: "\ebbf" }
