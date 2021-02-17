@@ -501,5 +501,7 @@
   "type-hierarchy-sub":"60346",
   "type-hierarchy-super":"60347",
   
-  "git-pull-request-create":"60348"
+  "git-pull-request-create":"60348",
+  "run-above":"60349",
+  "run-below":"60350"
 }
