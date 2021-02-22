@@ -75,6 +75,7 @@ debug-console,,EB9B
 debug-continue,,EACF
 debug-disconnect,,EAD0
 debug-pause,,EAD1
+debug-rerun,,EBC0
 debug-restart-frame,,EB90
 debug-restart,,EAD2
 debug-reverse-continue,,EB8E
