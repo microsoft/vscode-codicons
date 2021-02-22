@@ -504,5 +504,6 @@
   "git-pull-request-create":"60348",
   "run-above":"60349",
   "run-below":"60350",
-  "notebook-template":"60351"
+  "notebook-template":"60351",
+  "debug-rerun":"60352"
 }
