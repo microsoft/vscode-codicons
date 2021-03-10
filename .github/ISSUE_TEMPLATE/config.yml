@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: VS Code Example
+    url: https://github.com/microsoft/vscode-extension-samples/tree/main/webview-codicons-sample
+    about: See this example for how to use in a VS Code extension
+  - name: NPM Package
+    url: https://www.npmjs.com/package/vscode-codicons
+    about: Use this npm package
