@@ -342,5 +342,8 @@ whitespace,,EB7D
 whole-word,,EB7E
 window,,EB7F
 word-wrap,,EB80
+workspace-trusted,,EBC1
+workspace-unknown,,EBC3
+workspace-untrusted,,EBC2
 zoom-in,,EB81
 zoom-out,,EB82

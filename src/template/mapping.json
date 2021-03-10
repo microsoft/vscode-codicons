@@ -505,5 +505,9 @@
   "run-above":"60349",
   "run-below":"60350",
   "notebook-template":"60351",
-  "debug-rerun":"60352"
+  "debug-rerun":"60352",
+
+  "workspace-trusted":"60353",
+  "workspace-untrusted":"60354",
+  "workspace-unknown":"60355"
 }
