@@ -509,5 +509,11 @@
 
   "workspace-trusted":"60353",
   "workspace-untrusted":"60354",
-  "workspace-unknown":"60355"
+  "workspace-unknown":"60355",
+
+  "terminal-cmd":"60356",
+  "terminal-debia":"60357",
+  "terminal-linux":"60358",
+  "terminal-powershell":"60359",
+  "terminal-tmux":"60360"
 }
