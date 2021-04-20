@@ -515,5 +515,6 @@
   "terminal-debia":"60357",
   "terminal-linux":"60358",
   "terminal-powershell":"60359",
-  "terminal-tmux":"60360"
+  "terminal-tmux":"60360",
+  "terminal-ubuntu":"60361"
 }
