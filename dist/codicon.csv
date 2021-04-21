@@ -76,6 +76,7 @@ debug-breakpoint-unsupported,,EB8C
 debug-console,,EB9B
 debug-continue,,EACF
 debug-disconnect,,EAD0
+debug-line-by-line,,EBD0
 debug-pause,,EAD1
 debug-rerun,,EBC0
 debug-restart-frame,,EB90
