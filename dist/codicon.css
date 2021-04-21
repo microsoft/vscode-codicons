@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?e1c800156c8fec059ebe408eab0c221c") format("truetype");
+	src: url("./codicon.ttf?c66f3f22325794166cbccdddf3cb7d7c") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -467,3 +467,4 @@
 .codicon-terminal-tmux:before { content: "\ebc8" }
 .codicon-terminal-ubuntu:before { content: "\ebc9" }
 .codicon-terminal-bash:before { content: "\ebca" }
+.codicon-arrow-swap:before { content: "\ebcb" }

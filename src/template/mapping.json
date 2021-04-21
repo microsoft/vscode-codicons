@@ -517,5 +517,7 @@
   "terminal-powershell":"60359",
   "terminal-tmux":"60360",
   "terminal-ubuntu":"60361",
-  "terminal-bash":"60362"
+  "terminal-bash":"60362",
+
+  "arrow-swap":"60363"
 }
