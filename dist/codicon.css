@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?72c0826d97996ea5bb0d34dc5177d568") format("truetype");
+	src: url("./codicon.ttf?9ea3782429390c8dd2cdda79afb746c5") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -470,3 +470,4 @@
 .codicon-copy:before { content: "\ebcc" }
 .codicon-person-add:before { content: "\ebcd" }
 .codicon-filter-filled:before { content: "\ebce" }
+.codicon-wand:before { content: "\ebcf" }
