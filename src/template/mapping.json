@@ -24,7 +24,6 @@
   "tag-remove": "60006",
   
   "person": "60007",
-  "person-add": "60007",
   "person-follow": "60007",
   "person-outline": "60007",
   "person-filled": "60007",
@@ -520,5 +519,6 @@
   "terminal-bash":"60362",
 
   "arrow-swap":"60363",
-  "copy":"60364"
+  "copy":"60364",
+  "person-add":"60365"
 }
