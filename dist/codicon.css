@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?dc2796f01489905245cf1d547fa9457c") format("truetype");
+	src: url("./codicon.ttf?72c0826d97996ea5bb0d34dc5177d568") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -469,3 +469,4 @@
 .codicon-arrow-swap:before { content: "\ebcb" }
 .codicon-copy:before { content: "\ebcc" }
 .codicon-person-add:before { content: "\ebcd" }
+.codicon-filter-filled:before { content: "\ebce" }
