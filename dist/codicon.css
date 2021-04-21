@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?0900b042a933b7653377c028f81fac69") format("truetype");
+	src: url("./codicon.ttf?3c7566a17ebaa2192aa1e68e61ba7d86") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -461,9 +461,8 @@
 .codicon-workspace-untrusted:before { content: "\ebc2" }
 .codicon-workspace-unknown:before { content: "\ebc3" }
 .codicon-terminal-cmd:before { content: "\ebc4" }
-.codicon-terminal-debia:before { content: "\ebc5" }
+.codicon-terminal-debian:before { content: "\ebc5" }
 .codicon-terminal-linux:before { content: "\ebc6" }
 .codicon-terminal-powershell:before { content: "\ebc7" }
 .codicon-terminal-tmux:before { content: "\ebc8" }
 .codicon-terminal-ubuntu:before { content: "\ebc9" }
-.codicon-terminal-debian:before { content: "\f101" }
