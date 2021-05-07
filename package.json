@@ -22,7 +22,9 @@
   },
   "devDependencies": {
     "@hutsoninc/flatten-dir": "^1.0.3",
+    "handlebars": ">=4.7.7",
     "icon-font-generator": "^2.1.10",
+    "lodash": ">=4.17.21",
     "minimist": "^1.2.3",
     "opentype.js": "^0.6.6",
     "release-it": "^14.0.2",
