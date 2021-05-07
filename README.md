@@ -38,7 +38,7 @@ npm update
 
 Export your icons (svg) to the `src/icons` folder and add an entry into `src/template/mapping.json` with a new codepoint key (this gets converted into a unicode key) and run the the build command. The build command will also remove any subfolders in the `icons` folder to keep the folder structure consistent.
 
-Next, update the [codicons file](https://github.com/microsoft/vscode/blob/master/src/vs/base/common/codicons.ts) on the vscode repository, ensuring that the unicode characters are the same (you reference the [css file](https://github.com/microsoft/vscode-codicons/blob/master/dist/codicon.css)).
+Next, update the [codicons file](https://github.com/microsoft/vscode/blob/master/src/vs/base/common/codicons.ts) on the vscode repository, ensuring that the unicode characters are the same (you can reference the [css file](https://github.com/microsoft/vscode-codicons/blob/master/dist/codicon.css)).
 
 
 ## Using in VS Code
