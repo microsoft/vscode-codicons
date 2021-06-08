@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?a5c37fcaf2b6a16eb9ac28bb99d8b44c") format("truetype");
+	src: url("./codicon.ttf?ea3f7a4f48230be3127ca0c5230b6ee8") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -473,3 +473,4 @@
 .codicon-wand:before { content: "\ebcf" }
 .codicon-debug-line-by-line:before { content: "\ebd0" }
 .codicon-inspect:before { content: "\ebd1" }
+.codicon-document-preview:before { content: "\f101" }
