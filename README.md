@@ -1,6 +1,6 @@
 # Visual Studio Code - Codicons
 
-This tool takes the Visual Studio Code icons and converts them into an font using the [icon-font-generator](https://github.com/Workshape/icon-font-generator).
+This tool takes the Visual Studio Code icons and converts them into an font using the [fantasticon](https://github.com/tancredi/fantasticon).
 
 ## How to use
 You can use the [npm package](https://www.npmjs.com/package/vscode-codicons) and install into your project via `npm i vscode-codicons` or you can copy the icon files from the `dist` folder. 
