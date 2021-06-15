@@ -4,12 +4,12 @@
  *--------------------------------------------------------------------------------------------*/
 
 @font-face {
-	font-family: "{{ fontName }}";
-	src: {{{ src }}};
+	font-family: "{{ name }}";
+	src: {{{ fontSrc }}};
 }
 
 .codicon[class*='codicon-'] {
-	font: normal normal normal 16px/1 {{ fontName }};
+	font: normal normal normal 16px/1 {{ name }};
 	display: inline-block;
 	text-decoration: none;
 	text-rendering: auto;
@@ -23,5 +23,5 @@
 
 
 {{# each codepoints }}
-.{{ ../classPrefix }}{{ @key }}:before { content: "\\{{ this }}" }
+.{{ ../prefix }}-{{ @key }}:before { content: "\\{{ codepoint this }}" }
 {{/ each }}

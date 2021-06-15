@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{ fontName }}</title>
+    <title>{{ name }} | The icon font for Visual Studio Code </title>
 
     <style type="text/css">
 
@@ -67,7 +67,7 @@
             transition: all .3s ease-in-out;
         }
 
-        .icon .inner {{ baseTag }} {
+        .icon .inner {{ tag }} {
             padding: 16px 0;
             font-size: 48px;
             color: #333;
@@ -144,22 +144,22 @@
 
     </style>
 
-    <link rel="stylesheet" type="text/css" href="{{ htmlCssRelativePath }}" />
+    <link rel="stylesheet" type="text/css" href="{{ name }}.css" />
 </head>
 <body>
 
-    <h1>{{ fontName }}</h1>
+    <h1>{{ name }}</h1>
 
     <input type="text" id="search" placeholder="Search for icon names">
 
     <div id="icons">
-    {{# each names }}
-        <div class="icon" data-name="{{ this }}" title="{{ this }}">
+    {{# each assets }}
+        <div class="icon" data-name="{{ @key }}" title="{{ @key }}">
             <span class="inner">
-                <{{ ../baseTag }} class="codicon {{ ../classPrefix }}{{ this }}"></{{ ../baseTag }}>
+                <{{ ../tag }} class="{{ ../prefix }} {{ ../prefix }}-{{ @key }}"></{{ ../tag }}>
             </span>
             <br>
-            <span class='label'>{{ this }}</span>
+            <span class='label'>{{ @key }}</span>
             <span class='description'></span>
         </div>
     {{/ each }}
