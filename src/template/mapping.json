@@ -449,5 +449,11 @@
   "filter-filled": 60366,
   "wand": 60367,
   "debug-line-by-line": 60368,
-  "inspect": 60369
+  "inspect": 60369,
+  "layers": 60370,
+  "layers-dot": 60371,
+  "layers-active": 60372,
+  "compass": 60373,
+  "compass-dot": 60374,
+  "compass-active": 60375
 }

@@ -57,6 +57,9 @@ color-mode,,EAC6
 combine,,EBB6
 comment-discussion,,EAC7
 comment,,EA6B
+compass-active,,EBD7
+compass-dot,,EBD6
+compass,,EBD5
 copy,,EBCC
 credit-card,,EAC9
 dash,,EACC
@@ -170,6 +173,9 @@ json,,EB0F
 kebab-vertical,,EB10
 key,,EB11
 law,,EB12
+layers-active,,EBD4
+layers-dot,,EBD3
+layers,,EBD2
 library,,EB9C
 lightbulb-autofix,,EB13
 lightbulb,,EA61

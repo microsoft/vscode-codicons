@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?9326c0ad8980b51116d31e76c387c582") format("truetype");
+	src: url("./codicon.ttf?b987662cca7f1afb530d147f4f678e60") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -473,3 +473,9 @@
 .codicon-wand:before { content: "\ebcf" }
 .codicon-debug-line-by-line:before { content: "\ebd0" }
 .codicon-inspect:before { content: "\ebd1" }
+.codicon-layers:before { content: "\ebd2" }
+.codicon-layers-dot:before { content: "\ebd3" }
+.codicon-layers-active:before { content: "\ebd4" }
+.codicon-compass:before { content: "\ebd5" }
+.codicon-compass-dot:before { content: "\ebd6" }
+.codicon-compass-active:before { content: "\ebd7" }
