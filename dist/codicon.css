@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?b987662cca7f1afb530d147f4f678e60") format("truetype");
+	src: url("./codicon.ttf?b6ee9402d87ea6ef88603301259c0cdc") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -479,3 +479,4 @@
 .codicon-compass:before { content: "\ebd5" }
 .codicon-compass-dot:before { content: "\ebd6" }
 .codicon-compass-active:before { content: "\ebd7" }
+.codicon-azure:before { content: "\ebd8" }

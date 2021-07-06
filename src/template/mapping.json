@@ -455,5 +455,6 @@
   "layers-active": 60372,
   "compass": 60373,
   "compass-dot": 60374,
-  "compass-active": 60375
+  "compass-active": 60375,
+  "azure": 60376
 }
