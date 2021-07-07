@@ -144,7 +144,9 @@ gist-secret,,EAFA
 git-commit,,EAFC
 git-compare,,EAFD
 git-merge,,EAFE
+git-pull-request-closed,,EBDA
 git-pull-request-create,,EBBC
+git-pull-request-draft,,EBDB
 git-pull-request,,EA64
 github-action,,EAFF
 github-alt,,EB00
@@ -165,7 +167,7 @@ hubot,,EB08
 inbox,,EB09
 info,,EA74
 inspect,,EBD1
-issue-closed,,EB0A
+issue-draft,,EBD9
 issue-reopened,,EB0B
 issues,,EB0C
 italic,,EB0D

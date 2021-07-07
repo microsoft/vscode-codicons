@@ -244,7 +244,6 @@
   "horizontal-rule": 60167,
   "hubot": 60168,
   "inbox": 60169,
-  "issue-closed": 60170,
   "issue-reopened": 60171,
   "issues": 60172,
   "italic": 60173,
@@ -404,6 +403,7 @@
   "server-process": 60322,
   "server-environment": 60323,
   "pass": 60324,
+  "issue-closed": 60324,
   "stop-circle": 60325,
   "play-circle": 60326,
   "record": 60327,
@@ -456,5 +456,8 @@
   "compass": 60373,
   "compass-dot": 60374,
   "compass-active": 60375,
-  "azure": 60376
+  "azure": 60376,
+  "issue-draft": 60377,
+  "git-pull-request-closed": 60378,
+  "git-pull-request-draft": 60379
 }

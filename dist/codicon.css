@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?b6ee9402d87ea6ef88603301259c0cdc") format("truetype");
+	src: url("./codicon.ttf?9642aa1d48ab4e55aa1bf3f0b8678aa1") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -267,7 +267,6 @@
 .codicon-horizontal-rule:before { content: "\eb07" }
 .codicon-hubot:before { content: "\eb08" }
 .codicon-inbox:before { content: "\eb09" }
-.codicon-issue-closed:before { content: "\eb0a" }
 .codicon-issue-reopened:before { content: "\eb0b" }
 .codicon-issues:before { content: "\eb0c" }
 .codicon-italic:before { content: "\eb0d" }
@@ -427,6 +426,7 @@
 .codicon-server-process:before { content: "\eba2" }
 .codicon-server-environment:before { content: "\eba3" }
 .codicon-pass:before { content: "\eba4" }
+.codicon-issue-closed:before { content: "\eba4" }
 .codicon-stop-circle:before { content: "\eba5" }
 .codicon-play-circle:before { content: "\eba6" }
 .codicon-record:before { content: "\eba7" }
@@ -480,3 +480,6 @@
 .codicon-compass-dot:before { content: "\ebd6" }
 .codicon-compass-active:before { content: "\ebd7" }
 .codicon-azure:before { content: "\ebd8" }
+.codicon-issue-draft:before { content: "\ebd9" }
+.codicon-git-pull-request-closed:before { content: "\ebda" }
+.codicon-git-pull-request-draft:before { content: "\ebdb" }
