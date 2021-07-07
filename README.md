@@ -1,24 +1,37 @@
-# Visual Studio Code - Codicons
+<div align="center">
+
+# Codicons
+
+The icon font for [Visual Studio Code](https://github.com/microsoft/vscode)
+
+![codicons preview of the icons](preview.png)
+
+</div>
+
 
 This tool takes the Visual Studio Code icons and converts them into an icon font using [fantasticon](https://github.com/tancredi/fantasticon).
 
-## How to use
-You can use the [npm package](https://www.npmjs.com/package/vscode-codicons) and install into your project via `npm i vscode-codicons` or you can copy the icon files from the `dist` folder. 
+## Install
+You can use the [npm package](https://www.npmjs.com/package/vscode-codicons) and install into your project via:
 
-If you're building a VS Code extension, see this [webview extension sample](https://github.com/microsoft/vscode-extension-samples/tree/master/webview-codicons-sample).
+```
+npm i vscode-codicons
+```
 
-## Building Locally
+If you're building a VS Code extension, see this [webview extension sample](https://github.com/microsoft/vscode-extension-samples/tree/master/webview-codicons-sample) on how to integrate.
+
+# Building Locally
 
 All icons are stored under `src > icons`. The mappings of the class names and unicode characters are stored in `src/template/mapping.json` as well as the default styles under `src/template/styles.hbs`.
 
-### Install dependencies
+## Install dependencies
 After cloning this repo, install dependencies by running:
 
 ```
 npm install
 ```
 
-### Build
+## Build
 
 ```
 npm run build
@@ -26,7 +39,7 @@ npm run build
 
 Output will be exported to a `dist` folder. We track this folder so that we can see the updated changes to the unicode characters.
 
-### Update packages
+## Update packages
 
 You can run `npm outdated` to see if there are any package updates. To update packages, run:
 
@@ -34,7 +47,7 @@ You can run `npm outdated` to see if there are any package updates. To update pa
 npm update
 ```
 
-### Add icons
+## Add icons
 
 Export your icons (svg) to the `src/icons` folder and add an entry into `src/template/mapping.json` with a new codepoint key (this gets converted into a unicode key) and run the the build command. The build command will also remove any subfolders in the `icons` folder to keep the folder structure consistent.
 
@@ -42,6 +55,8 @@ Next, update the [codicons file](https://github.com/microsoft/vscode/blob/master
 
 
 ## Using in VS Code
+
+If you're building a VS Code extension, see this [webview extension sample](https://github.com/microsoft/vscode-extension-samples/tree/master/webview-codicons-sample) on how to integrate.
 
 When needing to reference an icon in the [Visual Studio Code source code](https://github.com/microsoft/vscode), simply create a dom element/container that contains `codicon` and the [icon name](https://microsoft.github.io/vscode-codicons/dist/codicon.html) like:
 
