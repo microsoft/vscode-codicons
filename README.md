@@ -4,7 +4,7 @@
 
 The icon font for [Visual Studio Code](https://github.com/microsoft/vscode)
 
-![codicons preview of the icons](preview.png)
+![codicons preview of the icons](https://raw.githubusercontent.com/microsoft/vscode-codicons/main/preview.png)
 
 </div>
 
