@@ -13,7 +13,7 @@ The icon font for [Visual Studio Code](https://github.com/microsoft/vscode)
 This tool takes the Visual Studio Code icons and converts them into an icon font using [fantasticon](https://github.com/tancredi/fantasticon).
 
 ## Install
-You can use the [npm package](https://www.npmjs.com/package/vscode-codicons) and install into your project via:
+You can use the [npm package](https://www.npmjs.com/package/@vscode/codicons) and install into your project via:
 
 ```
 npm i @vscode/codicons
