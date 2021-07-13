@@ -16,8 +16,10 @@ This tool takes the Visual Studio Code icons and converts them into an icon font
 You can use the [npm package](https://www.npmjs.com/package/vscode-codicons) and install into your project via:
 
 ```
-npm i vscode-codicons
+npm i @vscode/codicons
 ```
+
+_Note: We've deprecated `vscode-codicons` in favor of `@vscode/codicons`_
 
 If you're building a VS Code extension, see this [webview extension sample](https://github.com/microsoft/vscode-extension-samples/tree/master/webview-codicons-sample) on how to integrate.
 
