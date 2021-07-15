@@ -8,8 +8,6 @@ The icon font for [Visual Studio Code](https://github.com/microsoft/vscode)
 
 </div>
 
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/microsoft/vscode-codicons)
-
 This tool takes the Visual Studio Code icons and converts them into an icon font using [fantasticon](https://github.com/tancredi/fantasticon).
 
 ## Install
