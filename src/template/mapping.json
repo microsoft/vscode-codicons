@@ -459,5 +459,7 @@
   "azure": 60376,
   "issue-draft": 60377,
   "git-pull-request-closed": 60378,
-  "git-pull-request-draft": 60379
+  "git-pull-request-draft": 60379,
+  "debug-all": 60380,
+  "debug-coverage": 60381
 }

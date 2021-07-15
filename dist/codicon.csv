@@ -66,6 +66,7 @@ credit-card,,EAC9
 dash,,EACC
 dashboard,,EACD
 database,,EACE
+debug-all,,EBDC
 debug-alt-small,,EBA8
 debug-alt,,EB91
 debug-breakpoint-conditional-unverified,,EAA6
@@ -79,6 +80,7 @@ debug-breakpoint-log,,EAAB
 debug-breakpoint-unsupported,,EB8C
 debug-console,,EB9B
 debug-continue,,EACF
+debug-coverage,,EBDD
 debug-disconnect,,EAD0
 debug-line-by-line,,EBD0
 debug-pause,,EAD1

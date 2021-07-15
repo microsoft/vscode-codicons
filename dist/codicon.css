@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?9642aa1d48ab4e55aa1bf3f0b8678aa1") format("truetype");
+	src: url("./codicon.ttf?997afbd55d4901b36b70bb5899df9fb3") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -483,3 +483,5 @@
 .codicon-issue-draft:before { content: "\ebd9" }
 .codicon-git-pull-request-closed:before { content: "\ebda" }
 .codicon-git-pull-request-draft:before { content: "\ebdb" }
+.codicon-debug-all:before { content: "\ebdc" }
+.codicon-debug-coverage:before { content: "\ebdd" }
