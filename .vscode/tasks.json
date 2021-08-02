@@ -4,6 +4,11 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "Build Locally",
+            "type": "npm",
+            "script": "build"
+        },
+        {
             "label": "Build for VS Code",
             "type": "npm",
             "script": "dev",
@@ -13,9 +18,9 @@
             }
         },
         {
-            "label": "Build",
             "type": "npm",
-            "script": "build"
+            "script": "release",
+            "label": "Publish NPM Package"
         }
     ]
 }
