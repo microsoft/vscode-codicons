@@ -461,5 +461,6 @@
   "git-pull-request-closed": 60378,
   "git-pull-request-draft": 60379,
   "debug-all": 60380,
-  "debug-coverage": 60381
+  "debug-coverage": 60381,
+  "run-errors": 60382
 }
