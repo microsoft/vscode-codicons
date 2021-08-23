@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?01396d1843cb318e1089a78e8dee6985") format("truetype");
+	src: url("./codicon.ttf?93fd3c148c2eb8354d169b7f453a2c38") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -487,3 +487,4 @@
 .codicon-debug-coverage:before { content: "\ebdd" }
 .codicon-run-errors:before { content: "\ebde" }
 .codicon-folder-library:before { content: "\ebdf" }
+.codicon-logo-vscode:before { content: "\ebe0" }
