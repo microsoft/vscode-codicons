@@ -12,7 +12,7 @@
     "export-to-csv": "node ./scripts/export-to-csv.js -f ./dist/codicon.ttf > ./dist/codicon.csv",
     "fonts": "fantasticon",
     "dev": "npm run clean && npm run svgo && npm run fonts && npm run export-to-csv && npm run replace-in-vscode",
-    "build": "npm run clean && npm run svgo && npm run fonts",
+    "build": "npm run clean && npm run svgo && npm run fonts && npm run export-to-csv",
     "release": "release-it"
   },
   "repository": {
