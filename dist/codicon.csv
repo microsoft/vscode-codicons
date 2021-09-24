@@ -161,8 +161,8 @@ globe,,EB01
 go-to-file,,EA94
 grabber,,EB02
 graph-left,,EBAD
-graph-line,,EBE1
-graph-scatter,,EBE2
+graph-line,,EBE2
+graph-scatter,,EBE3
 graph,,EB03
 gripper,,EB04
 group-by-ref-type,,EB97
@@ -231,6 +231,7 @@ pass-filled,,EBB3
 pass,,EBA4
 person-add,,EBCD
 person,,EA67
+pie-chart,,EBE4
 pin,,EB2B
 pinned-dirty,,EBB2
 pinned,,EBA0

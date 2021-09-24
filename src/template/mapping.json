@@ -465,7 +465,8 @@
   "run-errors": 60382,
   "folder-library": 60383,
   "debug-continue-small": 60384,
-  "graph-line": 60385,
-  "graph-scatter": 60386,
-  "pie-chart": 60386
+  "codicon-beaker-stop": 60385,
+  "graph-line": 60386,
+  "graph-scatter": 60387,
+  "pie-chart": 60388
 }
