@@ -14,7 +14,7 @@ arrow-small-up,,EAA0
 arrow-swap,,EBCB
 arrow-up,,EAA1
 azure,,EBD8
-beaker-stop,,EBE1
+beaker-stop,,F101
 beaker,,EA79
 bell-dot,,EB9A
 bell,,EAA2
@@ -161,6 +161,8 @@ globe,,EB01
 go-to-file,,EA94
 grabber,,EB02
 graph-left,,EBAD
+graph-line,,EBE1
+graph-scatter,,EBE2
 graph,,EB03
 gripper,,EB04
 group-by-ref-type,,EB97
