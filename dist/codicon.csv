@@ -79,6 +79,7 @@ debug-breakpoint-log-unverified,,EAAA
 debug-breakpoint-log,,EAAB
 debug-breakpoint-unsupported,,EB8C
 debug-console,,EB9B
+debug-continue-small,,EBE0
 debug-continue,,EACF
 debug-coverage,,EBDD
 debug-disconnect,,EAD0

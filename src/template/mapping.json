@@ -463,5 +463,6 @@
   "debug-all": 60380,
   "debug-coverage": 60381,
   "run-errors": 60382,
-  "folder-library": 60383
+  "folder-library": 60383,
+  "debug-continue-small": 60384
 }
