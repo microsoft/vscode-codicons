@@ -34,8 +34,6 @@
     "ansi-regex": "^5.0.1",
     "glob-parent": "^5.1.2",
     "set-value": "^4.0.1",
-    "tar": "^6.1.9",
-    "svg2ttf": "^6.0.2",
-    "@xmldom/xmldom": "^0.7.5"
+    "tar": "^6.1.9"
   }
 }
