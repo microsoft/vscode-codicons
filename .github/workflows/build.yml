@@ -1,4 +1,4 @@
-name: Build Codicons
+name: Codicons Build
 
 on:
   push:
