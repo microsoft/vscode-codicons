@@ -468,5 +468,8 @@
   "beaker-stop": 60385,
   "graph-line": 60386,
   "graph-scatter": 60387,
-  "pie-chart": 60388
+  "pie-chart": 60388,
+  "bracket": 60175,
+  "bracket-dot": 60389,
+  "bracket-error": 60390
 }
