@@ -3,6 +3,7 @@
 [![NPM Version](https://img.shields.io/npm/v/@vscode/codicons)](https://www.npmjs.com/package/@vscode/codicons)
 [![NPM Downloads](https://img.shields.io/npm/dw/@vscode/codicons)](https://www.npmjs.com/package/@vscode/codicons)
 [![Build Status](https://github.com/microsoft/vscode-codicons/actions/workflows/build.yml/badge.svg)](https://github.com/microsoft/vscode-codicons/actions/workflows/build.yml)
+[![CodeQL Status](https://github.com/microsoft/vscode-codicons/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/microsoft/vscode-codicons/actions/workflows/build.yml)
 
 ![codicons preview of the icons](https://raw.githubusercontent.com/microsoft/vscode-codicons/main/preview.png)
 
