@@ -53,15 +53,27 @@ Export your icons (svg) to the `src/icons` folder and add an entry into `src/tem
 Next, update the [codicons file](https://github.com/microsoft/vscode/blob/master/src/vs/base/common/codicons.ts) on the vscode repository, ensuring that the unicode characters are the same (you can reference the [css file](https://github.com/microsoft/vscode-codicons/blob/master/dist/codicon.css)).
 
 
-## Using in VS Code
+## Using CSS Classes
 
 If you're building a VS Code extension, see this [webview extension sample](https://github.com/microsoft/vscode-extension-samples/tree/master/webview-codicons-sample) on how to integrate.
 
-When needing to reference an icon in the [Visual Studio Code source code](https://github.com/microsoft/vscode), simply create a dom element/container that contains `codicon` and the [icon name](https://microsoft.github.io/vscode-codicons/dist/codicon.html) like:
+When needing to reference an icon in the [Visual Studio Code source code](https://github.com/microsoft/vscode) via CSS classes, simply create a dom element/container that contains `codicon` and the [icon name](https://microsoft.github.io/vscode-codicons/dist/codicon.html) like:
 
-`<div class='codicon codicon-add'></div>`
+```html
+<div class='codicon codicon-add'></div>
+```
 
 It's recommended to use a single dom element for each icon and not to add children elements to it.
+
+## Using SVG Sprites
+
+When needing to use the `codicon.svg` sprite file, you can reference icons using the following method:
+
+```html
+<svg>
+    <use xlink:href="codicon.svg#add" />
+</svg>
+```
 
 # Contributing
 
