@@ -202,6 +202,7 @@ list-unordered,,EB17
 live-share,,EB18
 loading,,EB19
 location,,EB1A
+lock-small,,EBE8
 lock,,EA75
 magnet,,EBAE
 mail-read,,EB1B
@@ -235,6 +236,7 @@ person-add,,EBCD
 person,,EA67
 pie-chart,,EBE4
 pin,,EB2B
+pinned-dirty-small,,EBE7
 pinned-dirty,,EBB2
 pinned,,EBA0
 play-circle,,EBA6
