@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?71f1e8c74f54ad164086fdb0017aae07") format("truetype");
+	src: url("./codicon.ttf?1a42c1e9878576c556c40b8ec8cbd3dc") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -498,3 +498,4 @@
 .codicon-pinned-dirty-small:before { content: "\ebe7" }
 .codicon-lock-small:before { content: "\ebe8" }
 .codicon-pinned-small:before { content: "\eb85" }
+.codicon-azure-devops:before { content: "\eb86" }
