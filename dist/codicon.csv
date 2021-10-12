@@ -13,7 +13,7 @@ arrow-small-right,,EA9F
 arrow-small-up,,EAA0
 arrow-swap,,EBCB
 arrow-up,,EAA1
-azure-devops,,EB86
+azure-devops,,EBEA
 azure,,EBD8
 beaker-stop,,EBE1
 beaker,,EA79
@@ -198,6 +198,7 @@ list-filter,,EB83
 list-flat,,EB84
 list-ordered,,EB16
 list-selection,,EB85
+list-tree,,EB86
 list-unordered,,EB17
 live-share,,EB18
 loading,,EB19
@@ -238,6 +239,7 @@ pie-chart,,EBE4
 pin,,EB2B
 pinned-dirty-small,,EBE7
 pinned-dirty,,EBB2
+pinned-small,,EBE9
 pinned,,EBA0
 play-circle,,EBA6
 play,,EB2C
