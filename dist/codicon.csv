@@ -13,7 +13,7 @@ arrow-small-right,,EA9F
 arrow-small-up,,EAA0
 arrow-swap,,EBCB
 arrow-up,,EAA1
-azure-devops,,EBEA
+azure-devops,,EBE8
 azure,,EBD8
 beaker-stop,,EBE1
 beaker,,EA79
@@ -203,7 +203,7 @@ list-unordered,,EB17
 live-share,,EB18
 loading,,EB19
 location,,EB1A
-lock-small,,EBE8
+lock-small,,EBE7
 lock,,EA75
 magnet,,EBAE
 mail-read,,EB1B
@@ -237,9 +237,7 @@ person-add,,EBCD
 person,,EA67
 pie-chart,,EBE4
 pin,,EB2B
-pinned-dirty-small,,EBE7
 pinned-dirty,,EBB2
-pinned-small,,EBE9
 pinned,,EBA0
 play-circle,,EBA6
 play,,EB2C

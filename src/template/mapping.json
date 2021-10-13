@@ -472,8 +472,6 @@
   "bracket": 60175,
   "bracket-dot": 60389,
   "bracket-error": 60390,
-  "pinned-dirty-small": 60391,
-  "lock-small": 60392,
-  "pinned-small": 60393,
-  "azure-devops": 60394
+  "lock-small": 60391,
+  "azure-devops": 60392
 }

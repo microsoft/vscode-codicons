@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "codicon";
-	src: url("./codicon.ttf?fe2e3fb1238091748254e50f19d0360a") format("truetype");
+	src: url("./codicon.ttf?d55fc0c629289c92f94b80ed97c4cad6") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -495,7 +495,5 @@
 .codicon-bracket:before { content: "\eb0f" }
 .codicon-bracket-dot:before { content: "\ebe5" }
 .codicon-bracket-error:before { content: "\ebe6" }
-.codicon-pinned-dirty-small:before { content: "\ebe7" }
-.codicon-lock-small:before { content: "\ebe8" }
-.codicon-pinned-small:before { content: "\ebe9" }
-.codicon-azure-devops:before { content: "\ebea" }
+.codicon-lock-small:before { content: "\ebe7" }
+.codicon-azure-devops:before { content: "\ebe8" }
