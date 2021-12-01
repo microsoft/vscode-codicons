@@ -475,5 +475,6 @@
   "lock-small": 60391,
   "azure-devops": 60392,
   "verified-filled": 60393,
-  "newline": 60394
+  "newline": 60394,
+  "layout": 60395
 }
