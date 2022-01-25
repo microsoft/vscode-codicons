@@ -52,7 +52,7 @@
         .icon:hover {
             cursor: pointer;
         }
-        
+
         .icon:hover .inner {
             box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.24);
         }
@@ -71,7 +71,7 @@
             padding: 16px 0;
             font-size: 48px;
             color: #333;
-            overflow: hidden;            
+            overflow: hidden;
         }
 
         .icon .inner::before {
@@ -156,7 +156,7 @@
     {{# each assets }}
         <div class="icon" data-name="{{ @key }}" title="{{ @key }}">
             <span class="inner">
-                <{{ ../tag }} class="{{ ../prefix }} {{ ../prefix }}-{{ @key }}"></{{ ../tag }}>
+                <{{ ../tag }} class="{{ ../prefix }} {{ ../prefix }}-{{ @key }}" aria-hidden="true"></{{ ../tag }}>
             </span>
             <br>
             <span class='label'>{{ @key }}</span>
