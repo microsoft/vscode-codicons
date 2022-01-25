@@ -5,12 +5,13 @@
 
 @font-face {
 	font-family: "codicon";
+	font-display: block;
 	src: url("./codicon.ttf?e12b729c5152a59bb1fd969fb64b8d0c") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
 	font: normal normal normal 16px/1 codicon;
-	display: block;
+	display: inline-block;
 	text-decoration: none;
 	text-rendering: auto;
 	text-align: center;
