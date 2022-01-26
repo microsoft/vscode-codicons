@@ -189,6 +189,16 @@ law,,EB12
 layers-active,,EBD4
 layers-dot,,EBD3
 layers,,EBD2
+layout-activitybar-left,,EBEC
+layout-activitybar-right,,EBED
+layout-panel-center,,EBEF
+layout-panel-justify,,EBF0
+layout-panel-left,,EBEE
+layout-panel-right,,EBF1
+layout-panel,,EBF2
+layout-sidebar-left,,EBF3
+layout-sidebar-right,,EBF4
+layout-statusbar,,EBF5
 layout,,EBEB
 library,,EB9C
 lightbulb-autofix,,EB13

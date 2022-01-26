@@ -476,5 +476,15 @@
   "azure-devops": 60392,
   "verified-filled": 60393,
   "newline": 60394,
-  "layout": 60395
+  "layout": 60395,
+  "layout-activitybar-left": 60396,
+  "layout-activitybar-right": 60397,
+  "layout-panel-left": 60398,
+  "layout-panel-center": 60399,
+  "layout-panel-justify": 60400,
+  "layout-panel-right": 60401,
+  "layout-panel": 60402,
+  "layout-sidebar-left": 60403,
+  "layout-sidebar-right": 60404,
+  "layout-statusbar": 60405
 }
