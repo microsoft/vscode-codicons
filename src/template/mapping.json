@@ -486,5 +486,8 @@
   "layout-panel": 60402,
   "layout-sidebar-left": 60403,
   "layout-sidebar-right": 60404,
-  "layout-statusbar": 60405
+  "layout-statusbar": 60405,
+  "layout-menubar": 60406,
+  "layout-centered": 60407,
+  "target": 60408
 }

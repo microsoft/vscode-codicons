@@ -191,6 +191,8 @@ layers-dot,,EBD3
 layers,,EBD2
 layout-activitybar-left,,EBEC
 layout-activitybar-right,,EBED
+layout-centered,,EBF7
+layout-menubar,,EBF6
 layout-panel-center,,EBEF
 layout-panel-justify,,EBF0
 layout-panel-left,,EBEE
@@ -346,6 +348,7 @@ sync-ignored,,EB9F
 sync,,EA77
 table,,EBB7
 tag,,EA66
+target,,EBF8
 tasklist,,EB67
 telescope,,EB68
 terminal-bash,,EBCA

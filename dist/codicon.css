@@ -6,7 +6,7 @@
 @font-face {
 	font-family: "codicon";
 	font-display: block;
-	src: url("./codicon.ttf?25d9996be9045732a435010f1cac1330") format("truetype");
+	src: url("./codicon.ttf?c8db4d929c275be999e86c624427a6af") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -511,3 +511,6 @@
 .codicon-layout-sidebar-left:before { content: "\ebf3" }
 .codicon-layout-sidebar-right:before { content: "\ebf4" }
 .codicon-layout-statusbar:before { content: "\ebf5" }
+.codicon-layout-menubar:before { content: "\ebf6" }
+.codicon-layout-centered:before { content: "\ebf7" }
+.codicon-target:before { content: "\ebf8" }
