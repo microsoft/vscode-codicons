@@ -489,5 +489,6 @@
   "layout-statusbar": 60405,
   "layout-menubar": 60406,
   "layout-centered": 60407,
-  "target": 60408
+  "target": 60408,
+  "indent": 60409
 }

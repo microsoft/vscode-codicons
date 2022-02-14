@@ -6,7 +6,7 @@
 @font-face {
 	font-family: "codicon";
 	font-display: block;
-	src: url("./codicon.ttf?c8db4d929c275be999e86c624427a6af") format("truetype");
+	src: url("./codicon.ttf?da73ba00ff2398bcc46a42ca64668f77") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -514,3 +514,4 @@
 .codicon-layout-menubar:before { content: "\ebf6" }
 .codicon-layout-centered:before { content: "\ebf7" }
 .codicon-target:before { content: "\ebf8" }
+.codicon-indent:before { content: "\ebf9" }
