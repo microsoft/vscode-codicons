@@ -492,5 +492,9 @@
   "target": 60408,
   "indent": 60409,
   "record-small": 60410,
-  "error-small": 60411
+  "error-small": 60411,
+  "arrow-circle-down": 60412,
+  "arrow-circle-left": 60413,
+  "arrow-circle-right": 60414,
+  "arrow-circle-up": 60415
 }
