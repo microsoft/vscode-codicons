@@ -490,5 +490,7 @@
   "layout-menubar": 60406,
   "layout-centered": 60407,
   "target": 60408,
-  "indent": 60409
+  "indent": 60409,
+  "record-small": 60410,
+  "error-small": 60411
 }
