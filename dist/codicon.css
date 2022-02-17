@@ -22,6 +22,36 @@
 	-ms-user-select: none;
 }
 
+/*---------------------
+ *  Modifiers
+ *-------------------*/
+
+@keyframes codicon-spin {
+	100% {
+		transform:rotate(360deg);
+	}
+}
+
+.codicon-sync.codicon-modifier-spin,
+.codicon-loading.codicon-modifier-spin,
+.codicon-gear.codicon-modifier-spin {
+	/* Use steps to throttle FPS to reduce CPU usage */
+	animation: codicon-spin 1.5s steps(30) infinite;
+}
+
+.codicon-modifier-disabled {
+	opacity: 0.5;
+}
+
+/* custom speed & easing for loading icon */
+.codicon-loading {
+	animation-duration: 1s !important;
+	animation-timing-function: cubic-bezier(0.53, 0.21, 0.29, 0.67) !important;
+}
+
+/*---------------------
+ *  Icons
+ *-------------------*/
 
 .codicon-add:before { content: "\ea60" }
 .codicon-plus:before { content: "\ea60" }
