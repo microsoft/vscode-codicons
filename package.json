@@ -1,7 +1,7 @@
 {
   "name": "@vscode/codicons",
   "version": "0.0.30",
-  "fontVersion": "1.7",
+  "fontVersion": "1.8",
   "description": "The icon font for Visual Studio Code",
   "license": "CC-BY-4.0",
   "main": "index.js",
