@@ -202,9 +202,12 @@ layout-menubar,,EBF6
 layout-panel-center,,EBEF
 layout-panel-justify,,EBF0
 layout-panel-left,,EBEE
+layout-panel-off,,EC65
 layout-panel-right,,EBF1
 layout-panel,,EBF2
+layout-sidebar-left-off,,EC66
 layout-sidebar-left,,EBF3
+layout-sidebar-right-off,,EC64
 layout-sidebar-right,,EBF4
 layout-statusbar,,EBF5
 layout,,EBEB
