@@ -43,6 +43,10 @@
 	opacity: 0.5;
 }
 
+.codicon-modifier-hidden {
+	opacity: 0;
+}
+
 /* custom speed & easing for loading icon */
 .codicon-loading {
 	animation-duration: 1s !important;
