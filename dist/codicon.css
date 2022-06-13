@@ -6,7 +6,7 @@
 @font-face {
 	font-family: "codicon";
 	font-display: block;
-	src: url("./codicon.ttf?f06865699f1720ee6ca6e0a4aa084d76") format("truetype");
+	src: url("./codicon.ttf?752d158f6fdd841fdf625d81780ae8e5") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -559,3 +559,4 @@
 .codicon-layout-panel-off:before { content: "\ec01" }
 .codicon-layout-sidebar-left-off:before { content: "\ec02" }
 .codicon-blank:before { content: "\ec03" }
+.codicon-heart-filled:before { content: "\ec04" }
