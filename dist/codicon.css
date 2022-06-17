@@ -6,7 +6,7 @@
 @font-face {
 	font-family: "codicon";
 	font-display: block;
-	src: url("./codicon.ttf?8b8f74b71023e64e4a0ee9fef922f43d") format("truetype");
+	src: url("./codicon.ttf?354cd4853b34f32fb8938a50a1b42acb") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -433,6 +433,7 @@
 .codicon-debug-breakpoint-function:before { content: "\eb88" }
 .codicon-debug-breakpoint-function-disabled:before { content: "\eb88" }
 .codicon-debug-stackframe-active:before { content: "\eb89" }
+.codicon-circle-small-filled:before { content: "\eb8a" }
 .codicon-debug-stackframe-dot:before { content: "\eb8a" }
 .codicon-debug-stackframe:before { content: "\eb8b" }
 .codicon-debug-stackframe-focused:before { content: "\eb8b" }
@@ -560,4 +561,7 @@
 .codicon-layout-sidebar-left-off:before { content: "\ec02" }
 .codicon-blank:before { content: "\ec03" }
 .codicon-heart-filled:before { content: "\ec04" }
-.codicon-bell-slash:before { content: "\ec05" }
+.codicon-map:before { content: "\ec05" }
+.codicon-map-filled:before { content: "\ec06" }
+.codicon-circle-small:before { content: "\ec07" }
+.codicon-bell-slash:before { content: "\ec08" }

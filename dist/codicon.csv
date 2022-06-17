@@ -22,7 +22,7 @@ azure,,EBD8
 beaker-stop,,EBE1
 beaker,,EA79
 bell-dot,,EB9A
-bell-slash,,EC05
+bell-slash,,EC08
 bell,,EAA2
 blank,,EC03
 bold,,EAA3
@@ -54,6 +54,8 @@ circle-large-filled,,EBB4
 circle-large-outline,,EBB5
 circle-outline,,EABC
 circle-slash,,EABD
+circle-small-filled,,EB8A
+circle-small,,EC07
 circuit-board,,EABE
 clear-all,,EABF
 clippy,,EAC0
@@ -100,7 +102,6 @@ debug-restart-frame,,EB90
 debug-restart,,EAD2
 debug-reverse-continue,,EB8E
 debug-stackframe-active,,EB89
-debug-stackframe-dot,,EB8A
 debug-stackframe,,EB8B
 debug-start,,EAD3
 debug-step-back,,EB8F
@@ -233,6 +234,8 @@ lock,,EA75
 magnet,,EBAE
 mail-read,,EB1B
 mail,,EB1C
+map-filled,,EC06
+map,,EC05
 markdown,,EB1D
 megaphone,,EB1E
 mention,,EB1F

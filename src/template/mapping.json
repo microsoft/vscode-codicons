@@ -375,6 +375,7 @@
   "debug-breakpoint-function": 60296,
   "debug-breakpoint-function-disabled": 60296,
   "debug-stackframe-active": 60297,
+  "circle-small-filled": 60298,
   "debug-stackframe-dot": 60298,
   "debug-stackframe": 60299,
   "debug-stackframe-focused": 60299,
@@ -502,5 +503,8 @@
   "layout-sidebar-left-off": 60418,
   "blank": 60419,
   "heart-filled": 60420,
-  "bell-slash": 60421
+  "map": 60421,
+  "map-filled": 60422,
+  "circle-small": 60423,
+  "bell-slash": 60424
 }
