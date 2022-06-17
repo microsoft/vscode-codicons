@@ -501,5 +501,7 @@
   "layout-panel-off": 60417,
   "layout-sidebar-left-off": 60418,
   "blank": 60419,
-  "heart-filled": 60420
+  "heart-filled": 60420,
+  "map": 60421,
+  "map-filled": 60422
 }
