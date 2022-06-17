@@ -53,6 +53,8 @@ circle-large-filled,,EBB4
 circle-large-outline,,EBB5
 circle-outline,,EABC
 circle-slash,,EABD
+circle-small-filled,,EB8A
+circle-small,,EC07
 circuit-board,,EABE
 clear-all,,EABF
 clippy,,EAC0
@@ -99,7 +101,6 @@ debug-restart-frame,,EB90
 debug-restart,,EAD2
 debug-reverse-continue,,EB8E
 debug-stackframe-active,,EB89
-debug-stackframe-dot,,EB8A
 debug-stackframe,,EB8B
 debug-start,,EAD3
 debug-step-back,,EB8F
