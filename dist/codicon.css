@@ -6,7 +6,7 @@
 @font-face {
 	font-family: "codicon";
 	font-display: block;
-	src: url("./codicon.ttf?0d212ff1403552c70df8a37d9eb727ae") format("truetype");
+	src: url("./codicon.ttf?397098f010dda732bd24d2bbb356741b") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -565,3 +565,4 @@
 .codicon-map-filled:before { content: "\ec06" }
 .codicon-circle-small:before { content: "\ec07" }
 .codicon-bell-slash:before { content: "\ec08" }
+.codicon-comment-unresolved:before { content: "\f101" }
