@@ -506,5 +506,7 @@
   "map": 60421,
   "map-filled": 60422,
   "circle-small": 60423,
-  "bell-slash": 60424
+  "bell-slash": 60424,
+  "bell-slash-dot": 60425,
+  "comment-unresolved": 60426
 }
