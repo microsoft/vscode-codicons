@@ -165,6 +165,8 @@ git-merge,,EAFE
 git-pull-request-closed,,EBDA
 git-pull-request-create,,EBBC
 git-pull-request-draft,,EBDB
+git-pull-request-go-to-changes,,EC0B
+git-pull-request-new-changes,,EC0C
 git-pull-request,,EA64
 github-action,,EAFF
 github-alt,,EB00
