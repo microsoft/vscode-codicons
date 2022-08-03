@@ -107,6 +107,7 @@
 .codicon-debug-breakpoint:before { content: "\ea71" }
 .codicon-debug-breakpoint-disabled:before { content: "\ea71" }
 .codicon-debug-hint:before { content: "\ea71" }
+.codicon-terminal-decoration-success:before { content: "\ea71" }
 .codicon-primitive-square:before { content: "\ea72" }
 .codicon-edit:before { content: "\ea73" }
 .codicon-pencil:before { content: "\ea73" }
@@ -228,6 +229,7 @@
 .codicon-circle-outline:before { content: "\eabc" }
 .codicon-circle:before { content: "\eabc" }
 .codicon-debug-breakpoint-unverified:before { content: "\eabc" }
+.codicon-terminal-decoration-incomplete:before { content: "\eabc" }
 .codicon-circle-slash:before { content: "\eabd" }
 .codicon-circuit-board:before { content: "\eabe" }
 .codicon-clear-all:before { content: "\eabf" }
@@ -436,6 +438,7 @@
 .codicon-debug-stackframe-active:before { content: "\eb89" }
 .codicon-circle-small-filled:before { content: "\eb8a" }
 .codicon-debug-stackframe-dot:before { content: "\eb8a" }
+.codicon-terminal-decoration-mark:before { content: "\eb8a" }
 .codicon-debug-stackframe:before { content: "\eb8b" }
 .codicon-debug-stackframe-focused:before { content: "\eb8b" }
 .codicon-debug-breakpoint-unsupported:before { content: "\eb8c" }
@@ -554,6 +557,7 @@
 .codicon-indent:before { content: "\ebf9" }
 .codicon-record-small:before { content: "\ebfa" }
 .codicon-error-small:before { content: "\ebfb" }
+.codicon-terminal-decoration-error:before { content: "\ebfb" }
 .codicon-arrow-circle-down:before { content: "\ebfc" }
 .codicon-arrow-circle-left:before { content: "\ebfd" }
 .codicon-arrow-circle-right:before { content: "\ebfe" }
