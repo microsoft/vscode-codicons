@@ -516,5 +516,6 @@
   "bell-slash-dot": 60425,
   "comment-unresolved": 60426,
   "git-pull-request-go-to-changes": 60427,
-  "git-pull-request-new-changes": 60428
+  "git-pull-request-new-changes": 60428,
+  "search-fuzzy": 60429
 }
