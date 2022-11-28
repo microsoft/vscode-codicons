@@ -517,5 +517,6 @@
   "comment-unresolved": 60426,
   "git-pull-request-go-to-changes": 60427,
   "git-pull-request-new-changes": 60428,
-  "search-fuzzy": 60429
+  "search-fuzzy": 60429,
+  "comment-draft": 60430
 }
