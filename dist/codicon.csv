@@ -191,6 +191,7 @@ hubot,,EB08
 inbox,,EB09
 indent,,EBF9
 info,,EA74
+insert,,EC11
 inspect,,EBD1
 issue-draft,,EBD9
 issue-reopened,,EB0B
@@ -323,6 +324,7 @@ screen-normal,,EB4D
 search-fuzzy,,EC0D
 search-stop,,EB4E
 search,,EA6D
+send,,EC0F
 server-environment,,EBA3
 server-process,,EBA2
 server,,EB50
@@ -334,6 +336,7 @@ sign-out,,EA6E
 smiley,,EB54
 sort-precedence,,EB55
 source-control,,EA68
+sparkle,,EC10
 split-horizontal,,EB56
 split-vertical,,EB57
 squirrel,,EB58
