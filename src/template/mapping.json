@@ -394,6 +394,7 @@
   "menu": 60308,
   "expand-all": 60309,
   "feedback": 60310,
+  "git-pull-request-reviewer": 60310,
   "group-by-ref-type": 60311,
   "ungroup-by-ref-type": 60312,
   "account": 60313,

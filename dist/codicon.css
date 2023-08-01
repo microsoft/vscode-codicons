@@ -6,7 +6,7 @@
 @font-face {
 	font-family: "codicon";
 	font-display: block;
-	src: url("./codicon.ttf?bc4da82e46c3f50a50d46cfd2ba2399c") format("truetype");
+	src: url("./codicon.ttf?d453bbb43b7361ec7f0d63f467e50835") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -452,6 +452,7 @@
 .codicon-menu:before { content: "\eb94" }
 .codicon-expand-all:before { content: "\eb95" }
 .codicon-feedback:before { content: "\eb96" }
+.codicon-git-pull-request-reviewer:before { content: "\eb96" }
 .codicon-group-by-ref-type:before { content: "\eb97" }
 .codicon-ungroup-by-ref-type:before { content: "\eb98" }
 .codicon-account:before { content: "\eb99" }
