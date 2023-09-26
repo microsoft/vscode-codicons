@@ -526,5 +526,13 @@
   "send": 60431,
   "sparkle": 60432,
   "insert": 60433,
-  "mic": 60434
+  "mic": 60434,
+  "coffee": 60435,
+  "snake": 60436,
+  "game": 60437,
+  "vr": 60438,
+  "chip": 60439,
+  "piano": 60440,
+  "music": 60441,
+  "gear-small-filled": 60442
 }
