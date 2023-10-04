@@ -526,5 +526,7 @@
   "send": 60431,
   "sparkle": 60432,
   "insert": 60433,
-  "mic": 60434
+  "mic": 60434,
+  "thumbsdown-filled": 60435,
+  "thumbsup-filled": 60436
 }
