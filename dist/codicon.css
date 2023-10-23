@@ -6,7 +6,7 @@
 @font-face {
 	font-family: "codicon";
 	font-display: block;
-	src: url("./codicon.ttf?e9a9d3c1edae9ae305b0c6acd2cbc181") format("truetype");
+	src: url("./codicon.ttf?2dc46c83818085a92a00548323081b88") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -595,3 +595,4 @@
 .codicon-piano:before { content: "\ec1a" }
 .codicon-music:before { content: "\ec1b" }
 .codicon-mic-filled:before { content: "\ec1c" }
+.codicon-git-fetch:before { content: "\ec1d" }

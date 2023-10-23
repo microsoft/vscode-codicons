@@ -165,6 +165,7 @@ gift,,EAF9
 gist-secret,,EAFA
 git-commit,,EAFC
 git-compare,,EAFD
+git-fetch,,EC1D
 git-merge,,EAFE
 git-pull-request-closed,,EBDA
 git-pull-request-create,,EBBC
