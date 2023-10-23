@@ -528,5 +528,6 @@
   "insert": 60433,
   "mic": 60434,
   "thumbsdown-filled": 60435,
-  "thumbsup-filled": 60436
+  "thumbsup-filled": 60436,
+  "git-fetch": 60445
 }
