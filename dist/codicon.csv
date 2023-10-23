@@ -46,6 +46,7 @@ chevron-down,,EAB4
 chevron-left,,EAB5
 chevron-right,,EAB6
 chevron-up,,EAB7
+chip,,EC19
 chrome-close,,EAB8
 chrome-maximize,,EAB9
 chrome-minimize,,EABA
@@ -66,6 +67,7 @@ cloud-download,,EAC2
 cloud-upload,,EAC3
 cloud,,EBAA
 code,,EAC4
+coffee,,EC15
 collapse-all,,EAC5
 color-mode,,EAC6
 combine,,EBB6
@@ -157,6 +159,7 @@ folder-active,,EAF6
 folder-library,,EBDF
 folder-opened,,EAF7
 folder,,EA83
+game,,EC17
 gear,,EAF8
 gift,,EAF9
 gist-secret,,EAFA
@@ -247,12 +250,14 @@ megaphone,,EB1E
 mention,,EB1F
 menu,,EB94
 merge,,EBAB
+mic-filled,,EC1C
 mic,,EC12
 milestone,,EB20
 mirror,,EA69
 mortar-board,,EB21
 move,,EB22
 multiple-windows,,EB23
+music,,EC1B
 mute,,EB24
 new-file,,EA7F
 new-folder,,EA80
@@ -271,6 +276,7 @@ pass-filled,,EBB3
 pass,,EBA4
 person-add,,EBCD
 person,,EA67
+piano,,EC1A
 pie-chart,,EBE4
 pin,,EB2B
 pinned-dirty,,EBB2
@@ -335,6 +341,7 @@ shield,,EB53
 sign-in,,EA6F
 sign-out,,EA6E
 smiley,,EB54
+snake,,EC16
 sort-precedence,,EB55
 source-control,,EA68
 sparkle,,EC10
@@ -415,6 +422,7 @@ vm-connect,,EBA9
 vm-outline,,EB7A
 vm-running,,EB7B
 vm,,EA7A
+vr,,EC18
 wand,,EBCF
 warning,,EA6C
 watch,,EB7C
