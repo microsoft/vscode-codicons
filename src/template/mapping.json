@@ -528,5 +528,12 @@
   "insert": 60433,
   "mic": 60434,
   "thumbsdown-filled": 60435,
-  "thumbsup-filled": 60436
+  "thumbsup-filled": 60436,
+  "coffee": 60437,
+  "snake": 60438,
+  "game": 60439,
+  "vr": 60440,
+  "chip": 60441,
+  "piano": 60442,
+  "music": 60443
 }
