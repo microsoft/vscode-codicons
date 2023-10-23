@@ -537,5 +537,6 @@
   "piano": 60442,
   "music": 60443,
   "mic-filled": 60444,
-  "git-fetch": 60445
+  "git-fetch": 60445,
+  "copilot": 60446
 }
