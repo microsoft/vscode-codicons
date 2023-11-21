@@ -6,7 +6,7 @@
 @font-face {
 	font-family: "codicon";
 	font-display: block;
-	src: url("./codicon.ttf?97b5a19b84a20df0371413811f278025") format("truetype");
+	src: url("./codicon.ttf?93bde60245ef5c631e5115bfd3ea34ea") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -598,3 +598,4 @@
 .codicon-git-fetch:before { content: "\ec1d" }
 .codicon-copilot:before { content: "\ec1e" }
 .codicon-lightbulb-sparkle:before { content: "\ec1f" }
+.codicon-robot:before { content: "\ec20" }
