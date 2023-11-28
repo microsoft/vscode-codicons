@@ -207,6 +207,7 @@
   "diff-removed": 60127,
   "diff-renamed": 60128,
   "diff": 60129,
+  "diff-sidebyside": 60129,
   "discard": 60130,
   "editor-layout": 60131,
   "empty-window": 60132,
@@ -541,5 +542,7 @@
   "copilot": 60446,
   "lightbulb-sparkle": 60447,
   "robot": 60448,
-  "sparkle-filled": 60449
+  "sparkle-filled": 60449,
+  "diff-single": 60450,
+  "diff-multiple": 60451
 }

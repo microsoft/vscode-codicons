@@ -123,8 +123,10 @@ device-mobile,,EADB
 diff-added,,EADC
 diff-ignored,,EADD
 diff-modified,,EADE
+diff-multiple,,EC23
 diff-removed,,EADF
 diff-renamed,,EAE0
+diff-single,,EC22
 diff,,EAE1
 discard,,EAE2
 edit,,EA73
