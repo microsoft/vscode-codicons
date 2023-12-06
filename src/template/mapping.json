@@ -544,5 +544,7 @@
   "robot": 60448,
   "sparkle-filled": 60449,
   "diff-single": 60450,
-  "diff-multiple": 60451
+  "diff-multiple": 60451,
+  "surround-with": 60452,
+  "share": 60453
 }

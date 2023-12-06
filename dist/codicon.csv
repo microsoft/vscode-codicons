@@ -343,6 +343,7 @@ server-process,,EBA2
 server,,EB50
 settings-gear,,EB51
 settings,,EB52
+share,,EC25
 shield,,EB53
 sign-in,,EA6F
 sign-out,,EA6E
@@ -359,6 +360,7 @@ star-empty,,EA6A
 star-full,,EB59
 star-half,,EB5A
 stop-circle,,EBA5
+surround-with,,EC24
 symbol-array,,EA8A
 symbol-boolean,,EA8F
 symbol-class,,EB5B
