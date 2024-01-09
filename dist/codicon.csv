@@ -177,6 +177,7 @@ git-pull-request-go-to-changes,,EC0B
 git-pull-request-new-changes,,EC0C
 git-pull-request,,EA64
 git-stash-apply,,EC27
+git-stash-pop,,EC28
 git-stash,,EC26
 github-action,,EAFF
 github-alt,,EB00

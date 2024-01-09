@@ -548,5 +548,6 @@
   "surround-with": 60452,
   "share": 60453,
   "git-stash": 60454,
-  "git-stash-apply": 60455
+  "git-stash-apply": 60455,
+  "git-stash-pop": 60456
 }

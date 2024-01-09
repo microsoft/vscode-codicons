@@ -6,7 +6,7 @@
 @font-face {
 	font-family: "codicon";
 	font-display: block;
-	src: url("./codicon.ttf?d132c97a431426f343ec430ef4d5fe95") format("truetype");
+	src: url("./codicon.ttf?e2ea6cecefd1676a8361b1fa1f70168b") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -607,3 +607,4 @@
 .codicon-share:before { content: "\ec25" }
 .codicon-git-stash:before { content: "\ec26" }
 .codicon-git-stash-apply:before { content: "\ec27" }
+.codicon-git-stash-pop:before { content: "\ec28" }
