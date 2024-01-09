@@ -546,5 +546,7 @@
   "diff-single": 60450,
   "diff-multiple": 60451,
   "surround-with": 60452,
-  "share": 60453
+  "share": 60453,
+  "git-stash": 60454,
+  "git-stash-apply": 60455
 }

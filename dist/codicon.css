@@ -6,7 +6,7 @@
 @font-face {
 	font-family: "codicon";
 	font-display: block;
-	src: url("./codicon.ttf?95db974933d9216e653c60cdcc24d9d2") format("truetype");
+	src: url("./codicon.ttf?d132c97a431426f343ec430ef4d5fe95") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -605,3 +605,5 @@
 .codicon-diff-multiple:before { content: "\ec23" }
 .codicon-surround-with:before { content: "\ec24" }
 .codicon-share:before { content: "\ec25" }
+.codicon-git-stash:before { content: "\ec26" }
+.codicon-git-stash-apply:before { content: "\ec27" }
