@@ -6,7 +6,7 @@
 @font-face {
 	font-family: "codicon";
 	font-display: block;
-	src: url("./codicon.ttf?d1ae58e2afbd525235dd350ef92933ec") format("truetype");
+	src: url("./codicon.ttf?d9b1109d9920b1dd6ff18f1cfd343f63") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -611,3 +611,6 @@
 .codicon-vscode:before { content: "\ec29" }
 .codicon-vscode-insiders:before { content: "\ec2a" }
 .codicon-code-oss:before { content: "\ec2b" }
+.codicon-run-coverage:before { content: "\ec2c" }
+.codicon-run-all-coverage:before { content: "\ec2d" }
+.codicon-coverage:before { content: "\ec2e" }

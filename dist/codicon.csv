@@ -81,6 +81,7 @@ compass-dot,,EBD6
 compass,,EBD5
 copilot,,EC1E
 copy,,EBCC
+coverage,,EC2E
 credit-card,,EAC9
 dash,,EACC
 dashboard,,EACD
@@ -330,8 +331,10 @@ root-folder,,EB46
 rss,,EB47
 ruby,,EB48
 run-above,,EBBD
+run-all-coverage,,EC2D
 run-all,,EB9E
 run-below,,EBBE
+run-coverage,,EC2C
 run-errors,,EBDE
 save-all,,EB49
 save-as,,EB4A
