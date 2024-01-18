@@ -66,6 +66,7 @@ close,,EA76
 cloud-download,,EAC2
 cloud-upload,,EAC3
 cloud,,EBAA
+code-oss,,EC2B
 code,,EAC4
 coffee,,EC15
 collapse-all,,EAC5
@@ -435,6 +436,8 @@ vm-outline,,EB7A
 vm-running,,EB7B
 vm,,EA7A
 vr,,EC18
+vscode-insiders,,EC2A
+vscode,,EC29
 wand,,EBCF
 warning,,EA6C
 watch,,EB7C
