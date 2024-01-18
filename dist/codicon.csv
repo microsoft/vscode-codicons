@@ -170,7 +170,7 @@ gift,,EAF9
 gist-secret,,EAFA
 git-commit,,EAFC
 git-compare,,EAFD
-git-fetch,,EC1D
+git-fetch,,F101
 git-merge,,EAFE
 git-pull-request-closed,,EBDA
 git-pull-request-create,,EBBC
@@ -317,6 +317,7 @@ replace-all,,EB3C
 replace,,EB3D
 reply,,EA7D
 repo-clone,,EB3E
+repo-fetch,,EC1D
 repo-force-push,,EB3F
 repo-forked,,EA63
 repo-pull,,EB40

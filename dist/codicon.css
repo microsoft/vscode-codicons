@@ -6,7 +6,7 @@
 @font-face {
 	font-family: "codicon";
 	font-display: block;
-	src: url("./codicon.ttf?d9b1109d9920b1dd6ff18f1cfd343f63") format("truetype");
+	src: url("./codicon.ttf?f9c1a7f3d590fb0313e096a3696d92d8") format("truetype");
 }
 
 .codicon[class*='codicon-'] {
@@ -596,7 +596,7 @@
 .codicon-piano:before { content: "\ec1a" }
 .codicon-music:before { content: "\ec1b" }
 .codicon-mic-filled:before { content: "\ec1c" }
-.codicon-git-fetch:before { content: "\ec1d" }
+.codicon-repo-fetch:before { content: "\ec1d" }
 .codicon-copilot:before { content: "\ec1e" }
 .codicon-lightbulb-sparkle:before { content: "\ec1f" }
 .codicon-robot:before { content: "\ec20" }
@@ -614,3 +614,4 @@
 .codicon-run-coverage:before { content: "\ec2c" }
 .codicon-run-all-coverage:before { content: "\ec2d" }
 .codicon-coverage:before { content: "\ec2e" }
+.codicon-git-fetch:before { content: "\f101" }
