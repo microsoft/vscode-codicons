@@ -549,5 +549,8 @@
   "share": 60453,
   "git-stash": 60454,
   "git-stash-apply": 60455,
-  "git-stash-pop": 60456
+  "git-stash-pop": 60456,
+  "vscode": 60457,
+  "vscode-insiders": 60458,
+  "code-oss": 60459
 }
