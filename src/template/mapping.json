@@ -552,5 +552,8 @@
   "git-stash-pop": 60456,
   "vscode": 60457,
   "vscode-insiders": 60458,
-  "code-oss": 60459
+  "code-oss": 60459,
+  "run-coverage": 60460,
+  "run-all-coverage": 60461,
+  "coverage": 60462
 }
