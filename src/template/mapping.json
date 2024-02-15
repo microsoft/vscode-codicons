@@ -555,5 +555,6 @@
   "code-oss": 60459,
   "run-coverage": 60460,
   "run-all-coverage": 60461,
-  "coverage": 60462
+  "coverage": 60462,
+  "github-project": 60463
 }
