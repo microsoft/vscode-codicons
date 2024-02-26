@@ -37,7 +37,7 @@ npm install
 npm run build
 ```
 
-Output will be exported to a `dist` folder. We track this folder so that we can see the updated changes to the unicode characters.
+Output will be exported to a `dist` folder.
 
 ## Update packages
 
