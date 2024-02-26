@@ -3,6 +3,8 @@ name: Codicons Build
 on:
   push:
     branches: [ main ]
+    tags:        
+      - '*'
   pull_request:
     branches: [ main ]
   workflow_dispatch:
@@ -28,3 +30,37 @@ jobs:
         with:
           name: codicon-font-${{ github.sha }}
           path: dist/codicon.ttf
+
+  publish:
+      runs-on: ubuntu-latest
+
+      steps:
+        - name: Write release notes
+          if: startsWith(github.ref, 'refs/tags/')
+          run: |
+            commits=$(git log --pretty=format:"- %h: %s%n  (%H)%n" ${{ github.event.before }}..${{ github.sha }})
+            echo "This release includes: ${commits}" > release_notes.txt
+
+        # Create a release when a new tag is pushed. Writes out all new commit messages since the last release.
+        - name: Create Release
+          if: startsWith(github.ref, 'refs/tags/')
+          uses: actions/create-release@v1
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          with:
+            tag_name: ${{ github.ref }}
+            release_name: Release ${{ github.ref }}
+            draft: false
+            prerelease: false
+            body: $(cat release_notes.txt)
+  #       run: |
+  #         git config --global user.email "actions@github.com"
+  #         git config --global user.name "GitHub Actions"
+  #         git clone https://github.com/microsoft/vscode.git
+  #         cd vscode
+  #         git checkout -b update-codonicons
+  #         cp -r ../dist/codicon.ttf src/vs/base/browser/ui/codicons/codicon/
+  #         git add .
+  #         git commit -m "Update codicons to ${{ github.ref }}"
+  #         git push origin update-font
+  #         # TODO: Create PR
