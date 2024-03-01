@@ -32,19 +32,21 @@ jobs:
           path: dist/codicon.ttf
 
       - name: Pull Request to microsoft/vscode
-         run: |
-          git config user.email "hylbo@microsoft.com"
-          git config user.name "GitHub Actions at microsoft/vscode-codicons"
-          git clone https://github.com/microsoft/vscode.git
-          cd vscode
-          git checkout -b update-codicons
-          cp ../dist/codicon.ttf src/vs/base/browser/ui/codicons/codicon/
-        # TODO: Generate mapping file
+          run: |
+            git clone https://github.com/microsoft/vscode.git && cd vscode
 
-          git add .
-          git commit --no-verify -m "Update codicons to ${{ github.ref }}"
-          git push -f origin update-codicons
-        # TODO: Create PR
+            git config user.email "hylbo@microsoft.com"
+            git config user.name "GitHub Actions at microsoft/vscode-codicons"
+
+            git checkout -b update-codicons
+            cp ../dist/codicon.ttf src/vs/base/browser/ui/codicons/codicon/
+            cp ../dist/codiconsLibrary.ts src/vs/base/common/
+
+            git add .
+            git commit -m "Update codicons to ${{ github.ref }}"
+            git push -f origin update-codicons
+
+           # TODO: Create the PR
 
   publish:
       runs-on: ubuntu-latest
