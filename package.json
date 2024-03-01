@@ -9,11 +9,12 @@
     "clean": "node ./scripts/reset.js",
     "svgo": "svgo -f ./src/icons/ --config svgo.config.js",
     "sprite": "node ./scripts/svg-sprite.js --outDir dist --outFile codicon.svg",
-    "replace-in-vscode": "cp -R ./dist/codicon.ttf ../vscode/src/vs/base/browser/ui/codicons/codicon/codicon.ttf",
-    "export-to-csv": "node ./scripts/export-to-csv.js -f ./dist/codicon.ttf > ./dist/codicon.csv",
+    "replace-in-vscode": "cp -R ./dist/codicon.ttf ../vscode/src/vs/base/browser/ui/codicons/codicon/codicon.ttf &&  cp ./dist/codiconsLibrary.ts ../vscode/src/vs/base/common/codiconsLibrary.ts",
+    "export-to-ts":  "node ./scripts/export-to-ts.js  -f ./src/template/mapping.json > ./dist/codiconsLibrary.ts",
+    "export-to-csv": "node ./scripts/export-to-csv.js -f ./dist/codicon.ttf          > ./dist/codicon.csv",
     "fonts": "fantasticon",
-    "dev": "npm run clean && npm run svgo && npm run fonts && npm run export-to-csv && npm run sprite && npm run replace-in-vscode",
-    "build": "npm run clean && npm run svgo && npm run fonts && npm run export-to-csv && npm run sprite",
+    "dev":   "npm run clean &&  npm run svgo &&  npm run fonts &&  npm run export-to-ts &&  npm run export-to-csv &&  npm run sprite &&  npm run replace-in-vscode",
+    "build": "npm run clean &&  npm run svgo &&  npm run fonts &&  npm run export-to-ts &&  npm run export-to-csv &&  npm run sprite",
     "release": "release-it"
   },
   "repository": {
