@@ -31,6 +31,21 @@ jobs:
           name: codicon-font-${{ github.sha }}
           path: dist/codicon.ttf
 
+      - name: Pull Request to microsoft/vscode
+         run: |
+          git config user.email "hylbo@microsoft.com"
+          git config user.name "GitHub Actions at microsoft/vscode-codicons"
+          git clone https://github.com/microsoft/vscode.git
+          cd vscode
+          git checkout -b update-codicons
+          cp ../dist/codicon.ttf src/vs/base/browser/ui/codicons/codicon/
+        # TODO: Generate mapping file
+
+          git add .
+          git commit --no-verify -m "Update codicons to ${{ github.ref }}"
+          git push -f origin update-codicons
+        # TODO: Create PR
+
   publish:
       runs-on: ubuntu-latest
 
@@ -53,14 +68,3 @@ jobs:
             draft: false
             prerelease: false
             body: $(cat release_notes.txt)
-  #       run: |
-  #         git config --global user.email "actions@github.com"
-  #         git config --global user.name "GitHub Actions"
-  #         git clone https://github.com/microsoft/vscode.git
-  #         cd vscode
-  #         git checkout -b update-codonicons
-  #         cp -r ../dist/codicon.ttf src/vs/base/browser/ui/codicons/codicon/
-  #         git add .
-  #         git commit -m "Update codicons to ${{ github.ref }}"
-  #         git push origin update-font
-  #         # TODO: Create PR
