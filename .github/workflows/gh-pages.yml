@@ -1,0 +1,37 @@
+name: Publish GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build font
+        run: npm run build
+
+      - name: Update gh-pages branch
+        run: |
+          rm .gitignore
+          git add dist/codicon.csv
+          git add dist/codicon.css
+          git add dist/codicon.html
+          git add dist/codicon.svg
+          git add dist/codicon.ttf
+
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+          git commit -m "chore: Update gh-pages to ${{ github.sha }}"
+
+          git checkout -b gh-pages
+          git push -u -f origin gh-pages
