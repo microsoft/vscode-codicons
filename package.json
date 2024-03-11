@@ -13,8 +13,8 @@
     "export-to-ts":  "node ./scripts/export-to-ts.js  -f ./src/template/mapping.json > ./dist/codiconsLibrary.ts",
     "export-to-csv": "node ./scripts/export-to-csv.js -f ./dist/codicon.ttf          > ./dist/codicon.csv",
     "fonts": "fantasticon",
-    "dev":   "npm run clean &&  npm run svgo &&  npm run fonts &&  npm run export-to-ts &&  npm run export-to-csv &&  npm run sprite &&  npm run replace-in-vscode",
-    "build": "npm run clean &&  npm run svgo &&  npm run fonts &&  npm run export-to-ts &&  npm run export-to-csv &&  npm run sprite",
+    "dev":   "npm run build && npm run replace-in-vscode",
+    "build": "npm run clean && npm run svgo && npm run fonts && npm run export-to-ts && npm run export-to-csv && npm run sprite",
     "release": "release-it"
   },
   "repository": {
