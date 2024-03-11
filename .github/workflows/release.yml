@@ -1,0 +1,65 @@
+# Create a release when a new tag is pushed
+name: Codicons Release
+
+on:
+  push:
+    branches: [ main ]
+    tags:        
+      - '*' # Only runs on annotated tags
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # All history
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build font
+        run: npm run build
+
+      - name: Write release notes
+        if: startsWith(github.ref, 'refs/tags/')
+        run: | # List all commits since last tag
+          commits=$(git log --pretty=format:"* %s (%h)" $(git describe --abbrev=0 --tags `git rev-list --tags --skip=1  --max-count=1`)...)
+          echo -e "This release includes:\n${commits}" > release_notes.txt
+
+          {
+            echo 'release_notes<<EOF'
+            cat release_notes.txt
+            echo EOF
+          } >> "$GITHUB_ENV"
+
+      - name: Create Release 
+        if: startsWith(github.ref, 'refs/tags/')
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: ${{ github.ref }}
+          draft: true
+          prerelease: false
+          body: ${{ env.release_notes }}
+
+      - name: Upload Release Asset
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }} 
+          asset_path: ./dist/codicon.ttf
+          asset_name: codicon-font-${{ github.ref_name }}.ttf
+          asset_content_type: application/x-font-ttf
