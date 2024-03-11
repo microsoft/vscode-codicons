@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
     tags:        
-      - '*'
+      - '*' # Only runs on annotated tags
   pull_request:
     branches: [ main ]
   workflow_dispatch:
@@ -25,46 +25,40 @@ jobs:
       - name: Build font
         run: npm run build
 
-      - name: Upload artifact
+      - name: Upload codicon.ttf as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: codicon-font-${{ github.sha }}
+          name: codicon-font-${{ github.sha }}.ttf
           path: dist/codicon.ttf
 
-      - name: Pull Request to microsoft/vscode
-         run: |
-          git config user.email "hylbo@microsoft.com"
-          git config user.name "GitHub Actions at microsoft/vscode-codicons"
-          git clone https://github.com/microsoft/vscode.git
+      - name: PR to microsoft/vscode # TODO: Separate "deploy:" step?
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH="update-codicons"
+          MESSAGE="chore: Update codicons to ${{ github.sha }}"
+
+          git clone --depth=1 https://github.com/microsoft/vscode.git
           cd vscode
-          git checkout -b update-codicons
+          git checkout -b $BRANCH
+
           cp ../dist/codicon.ttf src/vs/base/browser/ui/codicons/codicon/
-        # TODO: Generate mapping file
-
+          cp ../dist/codiconsLibrary.ts src/vs/base/common/
           git add .
-          git commit --no-verify -m "Update codicons to ${{ github.ref }}"
-          git push -f origin update-codicons
-        # TODO: Create PR
 
-  publish:
-      runs-on: ubuntu-latest
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+          git commit -m "$MESSAGE"
 
-      steps:
-        - name: Write release notes
-          if: startsWith(github.ref, 'refs/tags/')
-          run: |
-            commits=$(git log --pretty=format:"- %h: %s%n  (%H)%n" ${{ github.event.before }}..${{ github.sha }})
-            echo "This release includes: ${commits}" > release_notes.txt
+# TODO: This doesn't work yet due to permissions
+#
+#          git push -f origin $BRANCH
 
-        # Create a release when a new tag is pushed. Writes out all new commit messages since the last release.
-        - name: Create Release
-          if: startsWith(github.ref, 'refs/tags/')
-          uses: actions/create-release@v1
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          with:
-            tag_name: ${{ github.ref }}
-            release_name: Release ${{ github.ref }}
-            draft: false
-            prerelease: false
-            body: $(cat release_notes.txt)
+#          echo "${{ secrets.ACCESS_TOKEN }}" > token.txt
+#          gh auth login --with-token < token.txt
+
+#          gh pr create \
+#            --title "$MESSAGE" \
+#            --body "" \
+#            --base "main" \
+#            --head "$BRANCH"
