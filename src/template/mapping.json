@@ -515,7 +515,11 @@
   "blank": 60419,
   "heart-filled": 60420,
   "map": 60421,
+  "map-horizontal": 60421,
+  "fold-horizontal": 60421,
   "map-filled": 60422,
+  "map-horizontal-filled": 60422,
+  "fold-horizontal-filled": 60422,
   "circle-small": 60423,
   "bell-slash": 60424,
   "bell-slash-dot": 60425,
@@ -556,5 +560,9 @@
   "run-coverage": 60460,
   "run-all-coverage": 60461,
   "coverage": 60462,
-  "github-project": 60463
+  "github-project": 60463,
+  "map-vertical": 60464,
+  "fold-vertical": 60464,
+  "map-vertical-filled": 60465,
+  "fold-vertical-filled": 60465
 }
