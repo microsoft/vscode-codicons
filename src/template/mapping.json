@@ -564,5 +564,6 @@
   "map-vertical": 60464,
   "fold-vertical": 60464,
   "map-vertical-filled": 60465,
-  "fold-vertical-filled": 60465
+  "fold-vertical-filled": 60465,
+  "go-to-search": 60466
 }
