@@ -51,12 +51,12 @@ npm update
 
 Export your icons (svg) to the `src/icons` folder and add an entry into `src/template/mapping.json` with a new codepoint key (this gets converted into a unicode key) and run the the build command. The build command will also remove any subfolders in the `icons` folder to keep the folder structure consistent.
 
-Next, update the [codicons file](https://github.com/microsoft/vscode/blob/master/src/vs/base/common/codicons.ts) on the vscode repository, ensuring that the unicode characters are the same (you can reference the [css file](https://github.com/microsoft/vscode-codicons/blob/master/dist/codicon.css)).
+Next, update the [codicons file](https://github.com/microsoft/vscode/blob/main/src/vs/base/common/codicons.ts) on the vscode repository, ensuring that the unicode characters are the same (you can reference the [css file](https://microsoft.github.io/vscode-codicons/dist/codicon.css)).
 
 
 ## Using CSS Classes
 
-If you're building a VS Code extension, see this [webview extension sample](https://github.com/microsoft/vscode-extension-samples/tree/master/webview-codicons-sample) on how to integrate.
+If you're building a VS Code extension, see this [webview extension sample](https://github.com/microsoft/vscode-extension-samples/tree/main/webview-codicons-sample) on how to integrate.
 
 When needing to reference an icon in the [Visual Studio Code source code](https://github.com/microsoft/vscode) via CSS classes, simply create a dom element/container that contains `codicon` and the [icon name](https://microsoft.github.io/vscode-codicons/dist/codicon.html) like:
 
