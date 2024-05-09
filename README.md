@@ -7,7 +7,7 @@
 
 ![codicons preview of the icons](https://raw.githubusercontent.com/microsoft/vscode-codicons/main/preview.png)
 
-This tool takes the [Visual Studio Code icons](https://microsoft.github.io/vscode-codicons/dist/codicon.html) and converts them into an icon font using [fantasticon](https://github.com/tancredi/fantasticon).
+This tool takes the [Visual Studio Code icons](https://github.com/microsoft/vscode-codicons/tree/main/src/icons) and converts them into an icon font using [fantasticon](https://github.com/tancredi/fantasticon).
 
 ## Install
 You can use the [npm package](https://www.npmjs.com/package/@vscode/codicons) and install into your project via:
@@ -37,8 +37,6 @@ npm install
 npm run build
 ```
 
-Output will be exported to a `dist` folder.
-
 ## Update packages
 
 You can run `npm outdated` to see if there are any package updates. To update packages, run:
@@ -51,14 +49,14 @@ npm update
 
 Export your icons (svg) to the `src/icons` folder and add an entry into `src/template/mapping.json` with a new codepoint key (this gets converted into a unicode key) and run the the build command. The build command will also remove any subfolders in the `icons` folder to keep the folder structure consistent.
 
-Next, update the [codicons file](https://github.com/microsoft/vscode/blob/main/src/vs/base/common/codicons.ts) on the vscode repository, ensuring that the unicode characters are the same (you can reference the [css file](https://microsoft.github.io/vscode-codicons/dist/codicon.css)).
+Next, update the [codicons file](https://github.com/microsoft/vscode/blob/main/src/vs/base/browser/ui/codicons/codicon/codicon.ttf) on the vscode repository.
 
 
 ## Using CSS Classes
 
 If you're building a VS Code extension, see this [webview extension sample](https://github.com/microsoft/vscode-extension-samples/tree/main/webview-codicons-sample) on how to integrate.
 
-When needing to reference an icon in the [Visual Studio Code source code](https://github.com/microsoft/vscode) via CSS classes, simply create a dom element/container that contains `codicon` and the [icon name](https://microsoft.github.io/vscode-codicons/dist/codicon.html) like:
+When needing to reference an icon in the [Visual Studio Code source code](https://github.com/microsoft/vscode) via CSS classes, simply create a dom element/container that contains `codicon` and the icon name like:
 
 ```html
 <div class='codicon codicon-add'></div>
