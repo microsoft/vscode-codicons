@@ -568,5 +568,6 @@
   "go-to-search": 60466,
   "percentage": 60467,
   "sort-percentage": 60467,
-  "attach": 60468
+  "attach": 60468,
+  "go-to-editing-session": 60469
 }
