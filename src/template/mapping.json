@@ -571,5 +571,10 @@
   "attach": 60468,
   "go-to-editing-session": 60469,
   "edit-session": 60470,
-  "code-review": 60471
+  "code-review": 60471,
+
+  // Codeium-defined codicons. Should go backwards from 63743 (0xF8FF) to avoid collisions.
+  "cascade": 63742
+  // Windsurf placeholder until we have a square svg.
+  // "windsurf": 63743
 }

@@ -1,28 +1,28 @@
 {
-  "name": "@vscode/codicons",
+  "name": "@windsurf/codicons",
   "version": "0.0.36",
   "fontVersion": "1.11",
-  "description": "The icon font for Visual Studio Code",
+  "description": "The icon font for Windsurf",
   "license": "CC-BY-4.0",
   "main": "index.js",
   "scripts": {
     "clean": "node ./scripts/reset.js",
     "svgo": "svgo -f ./src/icons/ --config svgo.config.js",
     "sprite": "node ./scripts/svg-sprite.js --outDir dist --outFile codicon.svg",
-    "replace-in-vscode": "cp -R ./dist/codicon.ttf ../vscode/src/vs/base/browser/ui/codicons/codicon/codicon.ttf &&  cp ./dist/codiconsLibrary.ts ../vscode/src/vs/base/common/codiconsLibrary.ts",
+    "replace-in-windsurf": "cp -R ./dist/codicon.ttf ../windsurf/src/vs/base/browser/ui/codicons/codicon/codicon.ttf &&  cp ./dist/codiconsLibrary.ts ../windsurf/src/vs/base/common/codiconsLibrary.ts",
     "export-to-ts":  "node ./scripts/export-to-ts.js  -f ./src/template/mapping.json > ./dist/codiconsLibrary.ts",
     "export-to-csv": "node ./scripts/export-to-csv.js -f ./dist/codicon.ttf          > ./dist/codicon.csv",
     "fonts": "fantasticon",
-    "dev":   "npm run build && npm run replace-in-vscode",
+    "dev":   "npm run build && npm run replace-in-windsurf",
     "build": "npm run clean && npm run svgo && npm run fonts && npm run export-to-ts && npm run export-to-csv && npm run sprite",
     "release": "release-it"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/vscode-codicons.git"
+    "url": "git+https://github.com/Exafunction/vscode-codicons.git"
   },
   "author": {
-    "name": "Microsoft Corporation"
+    "name": "Exafunction"
   },
   "devDependencies": {
     "ansi-regex": ">=5.0.1",

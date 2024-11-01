@@ -1,64 +1,64 @@
-name: Codicons Build
+# name: Codicons Build
 
-on:
-  push:
-    branches: [ main ]
-    tags:        
-      - '*' # Only runs on annotated tags
-  pull_request:
-    branches: [ main ]
-  workflow_dispatch:
+# on:
+#   push:
+#     branches: [ main ]
+#     tags:
+#       - '*' # Only runs on annotated tags
+#   pull_request:
+#     branches: [ main ]
+#   workflow_dispatch:
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '16'
+#     steps:
+#       - uses: actions/checkout@v4
+#       - uses: actions/setup-node@v4
+#         with:
+#           node-version: '16'
 
-      - name: Install dependencies
-        run: npm install
+#       - name: Install dependencies
+#         run: npm install
 
-      - name: Build font
-        run: npm run build
+#       - name: Build font
+#         run: npm run build
 
-      - name: Upload codicon.ttf as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: codicon-font-${{ github.sha }}.ttf
-          path: dist/codicon.ttf
+#       - name: Upload codicon.ttf as artifact
+#         uses: actions/upload-artifact@v4
+#         with:
+#           name: codicon-font-${{ github.sha }}.ttf
+#           path: dist/codicon.ttf
 
-      - name: PR to microsoft/vscode # TODO: Separate "deploy:" step?
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          BRANCH="update-codicons"
-          MESSAGE="chore: Update codicons to ${{ github.sha }}"
+#       - name: PR to microsoft/vscode # TODO: Separate "deploy:" step?
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#         run: |
+#           BRANCH="update-codicons"
+#           MESSAGE="chore: Update codicons to ${{ github.sha }}"
 
-          git clone --depth=1 https://github.com/microsoft/vscode.git
-          cd vscode
-          git checkout -b $BRANCH
+#           git clone --depth=1 https://github.com/microsoft/vscode.git
+#           cd vscode
+#           git checkout -b $BRANCH
 
-          cp ../dist/codicon.ttf src/vs/base/browser/ui/codicons/codicon/
-          cp ../dist/codiconsLibrary.ts src/vs/base/common/
-          git add .
+#           cp ../dist/codicon.ttf src/vs/base/browser/ui/codicons/codicon/
+#           cp ../dist/codiconsLibrary.ts src/vs/base/common/
+#           git add .
 
-          git config user.name "${{ github.actor }}"
-          git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
-          git commit -m "$MESSAGE"
+#           git config user.name "${{ github.actor }}"
+#           git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+#           git commit -m "$MESSAGE"
 
-# TODO: This doesn't work yet due to permissions
-#
-#          git push -f origin $BRANCH
+# # TODO: This doesn't work yet due to permissions
+# #
+# #          git push -f origin $BRANCH
 
-#          echo "${{ secrets.ACCESS_TOKEN }}" > token.txt
-#          gh auth login --with-token < token.txt
+# #          echo "${{ secrets.ACCESS_TOKEN }}" > token.txt
+# #          gh auth login --with-token < token.txt
 
-#          gh pr create \
-#            --title "$MESSAGE" \
-#            --body "" \
-#            --base "main" \
-#            --head "$BRANCH"
+# #          gh pr create \
+# #            --title "$MESSAGE" \
+# #            --body "" \
+# #            --base "main" \
+# #            --head "$BRANCH"
