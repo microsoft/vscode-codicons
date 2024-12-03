@@ -572,5 +572,6 @@
   "go-to-editing-session": 60469,
   "edit-session": 60470,
   "code-review": 60471,
-  "copilot-warning": 60472
+  "copilot-warning": 60472,
+  "python": 60473
 }
