@@ -1,3 +1,6 @@
 {
-    "livePreview.defaultPreviewPath": "/dist/codicon.html"
+    "livePreview.defaultPreviewPath": "/dist/codicon.html",
+    "git.branchProtection": [
+        "main"
+    ]
 }
