@@ -51,6 +51,8 @@ Export your icons (svg) to the `src/icons` folder and add an entry into `src/tem
 
 Next, update the [codicons file](https://github.com/microsoft/vscode/blob/main/src/vs/base/browser/ui/codicons/codicon/codicon.ttf) on the vscode repository.
 
+> **Note:** If your icons look broken after converting into fonts (happens often when exporting as SVG from Figma), you might need to sanitize them using a tool
+> like [svg-reorient](https://github.com/bigtimebuddy/svg-reorient).
 
 ## Using CSS Classes
 
