@@ -575,5 +575,6 @@
   "copilot-warning": 60472,
   "python": 60473,
   "copilot-large": 60474,
-  "copilot-warning-large": 60475
+  "copilot-warning-large": 60475,
+  "keyboard-tab": 60476
 }
