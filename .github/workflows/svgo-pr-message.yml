@@ -10,12 +10,13 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Add Warning Comment
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with:
           script: |
+            const { context, github } = require('@actions/github');
             const issue_number = context.payload.pull_request.number;
             const repo = context.repo.repo;
             const owner = context.repo.owner;
@@ -27,8 +28,4 @@ jobs:
               body: '⚠️ Please ensure all SVG files are optimized using SVGO, by running `npm run svgo`, before merging this pull request.'
             };
 
-            await github.issues.createComment({
-              ...comment,
-              issue_number: issue_number
-            });
-            
+            await github.issues.createComment(comment);
