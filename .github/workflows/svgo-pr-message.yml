@@ -28,6 +28,4 @@ jobs:
               ...comment,
               issue_number: issue_number
             });
-
-            name: Add SVGO Warning to PRs
             
