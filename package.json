@@ -6,6 +6,7 @@
   "license": "CC-BY-4.0",
   "main": "index.js",
   "scripts": {
+    "postinstall": "./install-hooks.sh",
     "clean": "node ./scripts/reset.js",
     "svgo": "svgo -f ./src/icons/ --config svgo.config.js",
     "sprite": "node ./scripts/svg-sprite.js --outDir dist --outFile codicon.svg",
