@@ -24,4 +24,10 @@ jobs:
               body: '⚠️ Please ensure all SVG files are optimized using SVGO, by running `npm run svgo`, before merging this pull request.'
             };
 
-            await github.issues.createComment(comment);
+            await github.issues.createComment({
+              ...comment,
+              issue_number: issue_number
+            });
+
+            name: Add SVGO Warning to PRs
+            
