@@ -50,15 +50,13 @@ jobs:
           git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
           git commit -m "$MESSAGE"
 
-# TODO: This doesn't work yet due to permissions
-#
-#          git push -f origin $BRANCH
+          git push -f https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/microsoft/vscode.git $BRANCH
 
-#          echo "${{ secrets.ACCESS_TOKEN }}" > token.txt
-#          gh auth login --with-token < token.txt
+          echo "${{ secrets.GITHUB_TOKEN }}" > token.txt
+          gh auth login --with-token < token.txt
 
-#          gh pr create \
-#            --title "$MESSAGE" \
-#            --body "" \
-#            --base "main" \
-#            --head "$BRANCH"
+          gh pr create \
+            --title "$MESSAGE" \
+            --body "" \
+            --base "main" \
+            --head "$BRANCH"
