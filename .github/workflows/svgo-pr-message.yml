@@ -13,7 +13,6 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            const { context, github } = require('@actions/github');
             const issue_number = context.payload.pull_request.number;
             const repo = context.repo.repo;
             const owner = context.repo.owner;
@@ -22,7 +21,7 @@ jobs:
               owner,
               repo,
               issue_number,
-              body: '⚠️ Please ensure you run `npm run svgo` before merging this pull request.'
+              body: '⚠️ Please ensure all SVG files are optimized using SVGO, by running `npm run svgo`, before merging this pull request.'
             };
 
             await github.issues.createComment(comment);
