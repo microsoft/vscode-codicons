@@ -576,5 +576,7 @@
   "python": 60473,
   "copilot-large": 60474,
   "copilot-warning-large": 60475,
-  "keyboard-tab": 60476
+  "keyboard-tab": 60476,
+  "copilot-blocked": 60477,
+  "copilot-not-connected": 60478
 }
