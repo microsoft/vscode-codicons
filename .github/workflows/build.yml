@@ -61,7 +61,7 @@ jobs:
           gh auth login --with-token < token.txt
 
           gh pr create \
-            --title "$MESSAGE" \
-            --body "" \
+            --title "[Codicon bump] $MESSAGE" \
+            --body "This PR was created automatically from [vscode-codicons](https://github.com/microsoft/vscode-codicons)" \
             --base "main" \
             --head "$BRANCH"
