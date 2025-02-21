@@ -578,5 +578,8 @@
   "copilot-warning-large": 60475,
   "keyboard-tab": 60476,
   "copilot-blocked": 60477,
-  "copilot-not-connected": 60478
+  "copilot-not-connected": 60478,
+  "flag": 60479,
+  "lightbulb-empty": 60480,
+  "symbol-method-arrow": 60481
 }
