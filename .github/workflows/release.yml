@@ -3,11 +3,11 @@ name: Codicons Release
 
 on:
   push:
-    branches: [ main ]
-    tags:        
-      - '*' # Only runs on annotated tags
+    branches: [main]
+    tags:
+      - "*" # Only runs on annotated tags
   pull_request:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
 jobs:
@@ -20,7 +20,7 @@ jobs:
           fetch-depth: 0 # All history
       - uses: actions/setup-node@v4
         with:
-          node-version: '16'
+          node-version: "16"
 
       - name: Install dependencies
         run: npm install
@@ -40,7 +40,7 @@ jobs:
             echo EOF
           } >> "$GITHUB_ENV"
 
-      - name: Create Release 
+      - name: Create Release
         if: startsWith(github.ref, 'refs/tags/')
         id: create_release
         uses: actions/create-release@v1
@@ -53,13 +53,24 @@ jobs:
           prerelease: false
           body: ${{ env.release_notes }}
 
-      - name: Upload Release Asset
+      - name: Upload Release Asset (codicon.ttf)
         if: startsWith(github.ref, 'refs/tags/')
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }} 
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./dist/codicon.ttf
           asset_name: codicon-font-${{ github.ref_name }}.ttf
           asset_content_type: application/x-font-ttf
+
+      - name: Upload Release Asset (codicon.svg)
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./dist/codicon.svg
+          asset_name: codicon-font-${{ github.ref_name }}.svg
+          asset_content_type: image/svg+xml
