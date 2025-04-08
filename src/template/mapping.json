@@ -583,5 +583,7 @@
   "lightbulb-empty": 60480,
   "symbol-method-arrow": 60481,
   "copilot-unavailable": 60482,
-  "repo-pinned": 60483
+  "repo-pinned": 60483,
+  "keyboard-tab-above": 60484,
+  "keyboard-tab-below": 60485
 }
