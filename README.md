@@ -9,6 +9,8 @@
 
 This tool takes the [Visual Studio Code icons](https://github.com/microsoft/vscode-codicons/tree/main/src/icons) and converts them into an icon font using [fantasticon](https://github.com/tancredi/fantasticon).
 
+Using the [Visual Studio Codicon Lookup](https://microsoft.github.io/vscode-codicons/dist/codicon.html) you can preview and search for icons.
+
 ## Install
 You can use the [npm package](https://www.npmjs.com/package/@vscode/codicons) and install into your project via:
 
