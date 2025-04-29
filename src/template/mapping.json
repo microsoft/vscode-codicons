@@ -585,5 +585,6 @@
   "copilot-unavailable": 60482,
   "repo-pinned": 60483,
   "keyboard-tab-above": 60484,
-  "keyboard-tab-below": 60485
+  "keyboard-tab-below": 60485,
+  "git-pull-request-done": 60486
 }
