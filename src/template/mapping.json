@@ -578,5 +578,13 @@
   "copilot-warning-large": 60475,
   "keyboard-tab": 60476,
   "copilot-blocked": 60477,
-  "copilot-not-connected": 60478
+  "copilot-not-connected": 60478,
+  "flag": 60479,
+  "lightbulb-empty": 60480,
+  "symbol-method-arrow": 60481,
+  "copilot-unavailable": 60482,
+  "repo-pinned": 60483,
+  "keyboard-tab-above": 60484,
+  "keyboard-tab-below": 60485,
+  "git-pull-request-done": 60486
 }
