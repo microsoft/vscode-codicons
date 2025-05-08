@@ -33,5 +33,9 @@
     "release-it": "15.10.1",
     "svg-sprite": "^1.5.2",
     "svgo": "2.7.0"
-  }
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
 }
