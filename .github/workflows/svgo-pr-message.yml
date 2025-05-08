@@ -1,0 +1,35 @@
+name: Add SVGO Warning to PRs
+
+on:
+  pull_request:
+    types: [opened, edited, reopened]
+
+jobs:
+  add-warning:
+    runs-on: ubuntu-latest
+
+    permissions:
+      pull-requests: write
+      issues: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Add Warning Comment
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issue_number = context.payload.pull_request.number;
+            const repo = context.repo.repo;
+            const owner = context.repo.owner;
+
+            const comment = {
+              owner,
+              repo,
+              issue_number,
+              body: '⚠️ Please ensure all SVG files are optimized using SVGO, by running `npm run svgo`, before merging this pull request.'
+            };
+
+            await github.rest.issues.createComment(comment);
