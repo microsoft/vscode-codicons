@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/env zsh
 
 # Script to copy codicon files from vscode-codicons to local vscode repo
 # Usage: ./scripts/update-vscode-codicons.sh
