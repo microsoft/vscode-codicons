@@ -4,7 +4,7 @@
 # Usage: ./scripts/update-vscode-codicons.sh
 
 # Define paths
-CODICONS_REPO="$(cd "$(dirname "$0")" && pwd)"
+CODICONS_REPO="$(cd "$(dirname "$0")/.." && pwd)"
 VSCODE_REPO="../vscode"
 
 # Ensure we're in the codicons repo
