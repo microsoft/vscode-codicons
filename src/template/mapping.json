@@ -588,5 +588,8 @@
   "keyboard-tab-below": 60485,
   "git-pull-request-done": 60486,
   "mcp": 60487,
-  "extensions-large": 60488
+  "extensions-large": 60488,
+  "layout-panel-dock": 60489,
+  "layout-sidebar-left-dock": 60490,
+  "layout-sidebar-right-dock": 60491
 }
