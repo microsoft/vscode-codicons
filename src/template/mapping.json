@@ -591,5 +591,8 @@
   "extensions-large": 60488,
   "layout-panel-dock": 60489,
   "layout-sidebar-left-dock": 60490,
-  "layout-sidebar-right-dock": 60491
+  "layout-sidebar-right-dock": 60491,
+  "copilot-in-progress": 60492,
+  "copilot-error": 60493,
+  "copilot-success": 60494
 }
