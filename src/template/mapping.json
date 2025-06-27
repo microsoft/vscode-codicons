@@ -594,5 +594,8 @@
   "layout-sidebar-right-dock": 60491,
   "copilot-in-progress": 60492,
   "copilot-error": 60493,
-  "copilot-success": 60494
+  "copilot-success": 60494,
+  "chat-sparkle": 60495,
+  "search-sparkle": 60496,
+  "edit-sparkle": 60497
 }
