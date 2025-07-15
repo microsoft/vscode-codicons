@@ -15,7 +15,6 @@
     "fonts": "fantasticon",
     "dev": "npm run build && npm run replace-in-vscode",
     "build": "npm run clean && npm run svgo && npm run fonts && npm run export-to-ts && npm run export-to-csv && npm run sprite",
-    "release": "release-it",
     "version:bump": "node ./scripts/version-bump.js",
     "version:patch": "node ./scripts/version-bump.js patch minor",
     "version:minor": "node ./scripts/version-bump.js minor minor",
