@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
+const { execFileSync } = require('child_process');
 
 /**
  * Bumps version numbers in package.json
@@ -81,22 +81,28 @@ function bumpVersions() {
   if (args.includes('--commit') || args.includes('-c')) {
     try {
       const message = `chore: bump version to ${newPackageVersion}, font to ${newFontVersion}`;
-      execSync(`git add ${packageJsonPath}`);
-      execSync(`git commit -m "${message}"`);
+      
+      // Use execFileSync instead of execSync to avoid shell injection
+      const { execFileSync } = require('child_process');
+      
+      // Safe git operations using separate arguments
+      execFileSync('git', ['add', packageJsonPath]);
+      execFileSync('git', ['commit', '-m', message]);
       console.log(`Changes committed: ${message}`);
       
       // Create a tag if requested
       if (args.includes('--tag') || args.includes('-t')) {
         const tagName = `v${newPackageVersion}`;
-        execSync(`git tag -a ${tagName} -m "Release ${tagName} with font version ${newFontVersion}"`);
+        const tagMessage = `Release ${tagName} with font version ${newFontVersion}`;
+        execFileSync('git', ['tag', '-a', tagName, '-m', tagMessage]);
         console.log(`Tag created: ${tagName}`);
       }
       
       // Push changes if requested
       if (args.includes('--push') || args.includes('-p')) {
-        execSync('git push');
+        execFileSync('git', ['push']);
         if (args.includes('--tag') || args.includes('-t')) {
-          execSync('git push --tags');
+          execFileSync('git', ['push', '--tags']);
         }
         console.log('Changes pushed to remote');
       }
@@ -109,7 +115,9 @@ function bumpVersions() {
   // Run npm install to update package-lock.json if requested
   if (args.includes('--npm-install') || args.includes('-i')) {
     try {
-      execSync('npm install', { stdio: 'inherit' });
+      // Use execFileSync instead of execSync to avoid shell injection
+      const { execFileSync } = require('child_process');
+      execFileSync('npm', ['install'], { stdio: 'inherit' });
       console.log('package-lock.json updated');
     } catch (error) {
       console.error('Error updating package-lock.json:', error.message);
