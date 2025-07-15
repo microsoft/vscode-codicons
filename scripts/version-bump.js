@@ -83,7 +83,6 @@ function bumpVersions() {
       const message = `chore: bump version to ${newPackageVersion}, font to ${newFontVersion}`;
       
       // Use execFileSync instead of execSync to avoid shell injection
-      const { execFileSync } = require('child_process');
       
       // Safe git operations using separate arguments
       execFileSync('git', ['add', packageJsonPath]);
