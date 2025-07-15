@@ -115,7 +115,6 @@ function bumpVersions() {
   if (args.includes('--npm-install') || args.includes('-i')) {
     try {
       // Use execFileSync instead of execSync to avoid shell injection
-      const { execFileSync } = require('child_process');
       execFileSync('npm', ['install'], { stdio: 'inherit' });
       console.log('package-lock.json updated');
     } catch (error) {
