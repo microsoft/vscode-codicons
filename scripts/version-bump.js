@@ -33,7 +33,12 @@ function bumpVersions() {
 
   // Bump package version
   const currentVersion = packageJson.version;
-  const [major, minor, patch] = currentVersion.split('.').map(Number);
+  const versionParts = currentVersion.split('.');
+  if (versionParts.length !== 3 || versionParts.some(part => isNaN(Number(part)))) {
+    console.error(`Invalid version format: ${currentVersion}. Expected format: x.y.z where x, y, and z are numbers.`);
+    process.exit(1);
+  }
+  const [major, minor, patch] = versionParts.map(Number);
   
   let newMajor = major;
   let newMinor = minor;
