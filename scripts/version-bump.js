@@ -59,6 +59,10 @@ function bumpVersions() {
   
   // Bump font version
   const currentFontVersion = packageJson.fontVersion;
+  if (!/^\d+\.\d+$/.test(currentFontVersion)) {
+    console.error(`Invalid font version: ${currentFontVersion}. Must be in the format "major.minor" (e.g., "1.0").`);
+    process.exit(1);
+  }
   const [fontMajor, fontMinor] = currentFontVersion.split('.').map(Number);
   
   let newFontMajor = fontMajor;
