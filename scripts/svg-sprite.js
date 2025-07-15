@@ -20,12 +20,15 @@ const findNames = (symbol) => {
 };
 
 mappingEntries.forEach(([mappedName, symbol]) => {
-  const file = path.resolve(`./src/icons/${mappedName}.svg`);
+  // Use path.join for cross-platform compatibility
+  const file = path.join(__dirname, '..', 'src', 'icons', `${mappedName}.svg`);
 
   if (fs.existsSync(file)) {
     for (const name of findNames(symbol)) {
+      // Use path.join for cross-platform compatibility
+      const svgPath = path.join(__dirname, '..', 'src', 'icons', `${name}.svg`);
       spriter.add(
-        path.resolve(`./src/icons/${name}.svg`),
+        svgPath,
         name + ".svg",
         fs.readFileSync(file, "utf-8"),
       );
@@ -34,6 +37,8 @@ mappingEntries.forEach(([mappedName, symbol]) => {
 });
 
 spriter.compile(function (error, result, data) {
-  fs.mkdirSync(path.resolve(opts.outDir), { recursive: true });
+  // Use path.join for cross-platform compatibility
+  const outDirPath = path.resolve(opts.outDir);
+  fs.mkdirSync(outDirPath, { recursive: true });
   fs.writeFileSync(result.symbol.sprite.path, result.symbol.sprite.contents);
 });
