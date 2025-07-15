@@ -87,7 +87,7 @@ function bumpVersions() {
   console.log(`Updated font version: ${currentFontVersion} → ${newFontVersion}`);
   
   // Optionally commit changes
-  if (args.includes('--commit') || args.includes('-c')) {
+  if (args.includes('--commit') || args.includes('-c') || args.includes('--tag') || args.includes('-t') || args.includes('--push') || args.includes('-p')) {
     try {
       const message = `chore: bump version to ${newPackageVersion}, font to ${newFontVersion}`;
       
