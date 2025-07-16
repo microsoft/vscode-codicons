@@ -2,8 +2,16 @@
  * Script to run fantasticon with explicit path handling for Windows CI compatibility
  */
 const { generateFonts } = require('fantasticon');
-const path = require('path');
 const fs = require('fs');
+const path = require('path');
+
+// For direct access to the internal APIs if needed
+let runnerModule;
+try {
+  runnerModule = require('fantasticon/lib/generators/runner');
+} catch (e) {
+  console.log('Could not load fantasticon runner module: ' + e.message);
+}
 
 // Log environment information for debugging
 console.log('Running fantasticon on platform: ' + process.platform);
@@ -122,15 +130,31 @@ if (process.platform === 'win32') {
     fs.mkdirSync(tempDir, { recursive: true });
   }
   
+  // Create an assets object directly for fantasticon
+  const assetsMap = {};
+  
   // Copy each SVG file to temp directory with a flat structure
-  svgFiles.forEach(function(file) {
+  svgFiles.forEach(function(file, index) {
     const sourcePath = path.join(inputDir, file);
     const destPath = path.join(tempDir, file);
+    const iconId = file.replace(/\.svg$/i, '');
     
     try {
       const content = fs.readFileSync(sourcePath, 'utf8');
       fs.writeFileSync(destPath, content, 'utf8');
-      console.log('Copied: ' + file + ' to ' + destPath);
+      
+      // Add to assets map (just in case we need this approach)
+      assetsMap[iconId] = {
+        id: iconId,
+        absolutePath: destPath.replace(/\\/g, '/'),
+        relativePath: file
+      };
+      
+      if (index < 5) {
+        console.log('Copied: ' + file + ' to ' + destPath);
+      } else if (index === 5) {
+        console.log('... and more files');
+      }
     } catch (error) {
       console.error('Error copying file: ' + sourcePath + ' - ' + error.message);
     }
@@ -142,6 +166,15 @@ if (process.platform === 'win32') {
   normalizedInputDir = tempDir.replace(/\\/g, '/');
   console.log('Using temp directory as input: ' + normalizedInputDir);
   
+  // Create a direct asset map file that can be loaded by fantasticon
+  const assetsMapFile = path.join(tempDir, 'assets.json');
+  try {
+    fs.writeFileSync(assetsMapFile, JSON.stringify(assetsMap, null, 2), 'utf8');
+    console.log('Created assets map file at: ' + assetsMapFile);
+  } catch (error) {
+    console.error('Error creating assets map: ' + error.message);
+  }
+  
   // Verify files in temp directory
   const tempFiles = fs.readdirSync(tempDir);
   const tempSvgFiles = tempFiles.filter(file => file.toLowerCase().endsWith('.svg'));
@@ -151,9 +184,54 @@ if (process.platform === 'win32') {
     console.error('Error: Failed to copy SVG files to temp directory');
     process.exit(1);
   }
+  
+  // List some of the files in the temp directory to confirm they're there
+  console.log('Files in temp directory:');
+  for (var i = 0; i < Math.min(5, tempSvgFiles.length); i++) {
+    const tempFilePath = path.join(tempDir, tempSvgFiles[i]);
+    const tempStats = fs.statSync(tempFilePath);
+    console.log(' - ' + tempSvgFiles[i] + ' (size: ' + tempStats.size + ' bytes)');
+    
+    // Validate SVG content
+    try {
+      const content = fs.readFileSync(tempFilePath, 'utf8');
+      if (!content.includes('<svg') || !content.includes('</svg>')) {
+        console.error('Warning: ' + tempSvgFiles[i] + ' may not be a valid SVG');
+      }
+    } catch (err) {
+      console.error('Error reading temp SVG: ' + err.message);
+    }
+  }
 };
 
+// Special case for Windows - try to patch the SVG file paths directly
+if (process.platform === 'win32') {
+  console.log('Windows platform detected, attempting to patch internal asset paths...');
+  
+  // Try a workaround for Windows by creating a paths.json file
+  const pathsJsonPath = path.join(outputDir, 'paths.json');
+  const svgPaths = svgFiles.map(file => {
+    const svgPath = path.join(normalizedInputDir, file).replace(/\\/g, '/');
+    return svgPath;
+  });
+  
+  try {
+    // Write the paths to a JSON file
+    fs.writeFileSync(pathsJsonPath, JSON.stringify(svgPaths, null, 2), 'utf8');
+    console.log('Created paths.json with ' + svgPaths.length + ' SVG paths');
+    console.log('First path: ' + svgPaths[0]);
+  } catch (error) {
+    console.error('Error creating paths.json: ' + error.message);
+  }
+}
+
 // Run fantasticon with explicit options
+console.log('Running generateFonts with inputDir: ' + normalizedInputDir);
+console.log('Font name: codicon');
+console.log('Font prefix: codicon');
+console.log('Font types: ttf');
+console.log('Asset types: css, html');
+
 generateFonts({
   name: 'codicon',
   prefix: 'codicon',
@@ -175,10 +253,19 @@ generateFonts({
       version: pkg.fontVersion
     }
   },
-  // Custom getIconId function to handle Windows path issues
+  // Custom getIconId function to handle Windows path issues - try various approaches
   getIconId: function(options) {
+    // Log the options for diagnostics
+    if (process.platform === 'win32' && options.index < 5) {
+      console.log('getIconId options for #' + options.index + ':');
+      console.log(' - basename: ' + options.basename);
+      console.log(' - relativeDirPath: ' + options.relativeDirPath);
+      console.log(' - absoluteFilePath: ' + options.absoluteFilePath);
+      console.log(' - relativeFilePath: ' + options.relativeFilePath);
+    }
+    
+    // For Windows paths, we want to extract just the filename
     const basename = options.basename;
-    // Simple function to just use the basename of the file
     return basename;
   }
 })
@@ -194,6 +281,82 @@ generateFonts({
 .catch(function(error) {
   console.error('Error running fantasticon: ' + error.message);
   console.error('Error stack: ' + error.stack);
+  
+  // WINDOWS FALLBACK APPROACH
+  if (process.platform === 'win32') {
+    console.log('Using Windows fallback approach...');
+    
+    // Check if we can access the internal APIs
+    if (runnerModule) {
+      try {
+        console.log('Attempting to use direct runner module...');
+        
+        // Create assets object directly
+        const directAssets = {};
+        svgFiles.forEach(function(file) {
+          const iconId = file.replace(/\.svg$/i, '');
+          const svgPath = path.join(normalizedInputDir, file).replace(/\\/g, '/');
+          directAssets[iconId] = {
+            id: iconId,
+            absolutePath: svgPath,
+            relativePath: file
+          };
+        });
+        
+        console.log('Created direct assets object with ' + Object.keys(directAssets).length + ' icons');
+        
+        // Create a runner with our direct assets
+        const { Runner } = runnerModule;
+        const runner = new Runner({
+          name: 'codicon',
+          prefix: 'codicon',
+          fontTypes: ['ttf'],
+          assetTypes: ['css', 'html'],
+          codepoints: codepoints,
+          formatOptions: {
+            ttf: {
+              url: pkg.url,
+              description: pkg.description,
+              version: pkg.fontVersion
+            }
+          },
+          templates: {
+            html: normalizedTemplateHtml,
+            css: normalizedTemplateCss
+          },
+          pathOptions: {}
+        });
+        
+        console.log('Created runner, attempting to generate fonts directly...');
+        
+        // Try to generate fonts with our assets
+        runner.generateFonts(directAssets)
+          .then(function(directResults) {
+            console.log('Direct font generation successful');
+            
+            // Write the results to files
+            Object.keys(directResults).forEach(function(type) {
+              const outputPath = path.join(outputDir, 'codicon.' + type);
+              fs.writeFileSync(outputPath, directResults[type]);
+              console.log('✔ Generated ' + type + ' file: ' + outputPath);
+            });
+          })
+          .catch(function(directError) {
+            console.error('Error with direct font generation: ' + directError.message);
+            console.error('Error stack: ' + directError.stack);
+            process.exit(1);
+          });
+        
+        return; // Don't exit with error if we're trying the fallback
+      } catch (fallbackError) {
+        console.error('Error with fallback approach: ' + fallbackError.message);
+        console.error('Error stack: ' + fallbackError.stack);
+      }
+    } else {
+      console.error('Runner module not available for fallback');
+    }
+  }
+  
   console.error('Current working directory: ' + process.cwd());
   console.error('Input directory (' + inputDir + ') exists: ' + fs.existsSync(inputDir));
   console.error('Output directory (' + outputDir + ') exists: ' + fs.existsSync(outputDir));
