@@ -7,7 +7,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "node ./scripts/reset.js",
-    "svgo": "svgo -f \"./src/icons/\" --config svgo.config.js",
+    "svgo": "svgo -f ./src/icons/ --config svgo.config.js",
     "sprite": "node ./scripts/svg-sprite.js --outDir dist --outFile codicon.svg",
     "replace-in-vscode": "cp -R ./dist/codicon.ttf ../vscode/src/vs/base/browser/ui/codicons/codicon/codicon.ttf &&  cp ./dist/codiconsLibrary.ts ../vscode/src/vs/base/common/codiconsLibrary.ts",
     "export-to-ts": "node ./scripts/export-to-ts.js  -f ./src/template/mapping.json > ./dist/codiconsLibrary.ts",

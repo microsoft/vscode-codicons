@@ -15,20 +15,14 @@ const mapping = require("../src/template/mapping.json");
 
 const mappingEntries = Object.entries(mapping);
 
-// Print current environment for debugging
-console.log(`Current directory: ${process.cwd()}`);
-console.log(`Script directory: ${__dirname}`);
-
 // Check if the icons directory exists and has SVG files
 const iconsDir = path.resolve(__dirname, '..', 'src', 'icons');
-console.log(`Looking for icons in: ${iconsDir}`);
 
 if (!fs.existsSync(iconsDir)) {
   console.error(`Error: Icons directory not found at ${iconsDir}`);
   // List parent directory contents for debugging
   try {
     const parentDir = path.resolve(iconsDir, '..');
-    console.log(`Parent directory exists: ${fs.existsSync(parentDir)}`);
     if (fs.existsSync(parentDir)) {
       console.log(`Contents of ${parentDir}:`);
       console.log(fs.readdirSync(parentDir));
@@ -94,7 +88,6 @@ spriter.compile(function (error, result, data) {
     const outDirPath = path.resolve(opts.outDir);
     fs.mkdirSync(outDirPath, { recursive: true });
     fs.writeFileSync(result.symbol.sprite.path, result.symbol.sprite.contents);
-    console.log(`Successfully created sprite at ${result.symbol.sprite.path}`);
   } catch (err) {
     console.error('Error writing output file:', err);
     process.exit(1);
