@@ -17,12 +17,19 @@ const outputDir = path.resolve(rootDir, 'dist');
 const templateHtml = path.resolve(rootDir, 'src', 'template', 'preview.hbs');
 const templateCss = path.resolve(rootDir, 'src', 'template', 'styles.hbs');
 
+// Normalize all paths to use forward slashes for consistency across platforms
+const normalizedInputDir = inputDir.replace(/\\/g, '/');
+const normalizedOutputDir = outputDir.replace(/\\/g, '/');
+const normalizedTemplateHtml = templateHtml.replace(/\\/g, '/');
+const normalizedTemplateCss = templateCss.replace(/\\/g, '/');
+
 // Log all resolved paths for debugging
 console.log('Root directory: ' + rootDir);
 console.log('Input directory: ' + inputDir);
 console.log('Output directory: ' + outputDir);
 console.log('Template HTML: ' + templateHtml);
 console.log('Template CSS: ' + templateCss);
+console.log('Normalized input directory: ' + normalizedInputDir);
 
 // Load configuration
 const pkgPath = path.join(rootDir, 'package.json');
@@ -65,9 +72,32 @@ if (!fs.existsSync(inputDir)) {
 }
 
 // Check if there are SVG files in the input directory
-const svgFiles = fs.readdirSync(inputDir).filter(function(file) { 
-  return file.endsWith('.svg'); 
+const allFiles = fs.readdirSync(inputDir);
+console.log('Total files in directory: ' + allFiles.length);
+
+// Get all SVG files with more reliable detection for Windows
+const svgFiles = allFiles.filter(function(file) { 
+  // Check both lowercase and original case for maximum compatibility
+  return file.toLowerCase().endsWith('.svg') || file.endsWith('.SVG'); 
 });
+
+// Log some details about the first few files for diagnostics
+if (svgFiles.length > 0) {
+  console.log('First 5 SVG files:');
+  for (var i = 0; i < Math.min(5, svgFiles.length); i++) {
+    const filePath = path.join(inputDir, svgFiles[i]);
+    const stats = fs.statSync(filePath);
+    try {
+      // Check if file is readable and has content
+      const content = fs.readFileSync(filePath, 'utf8');
+      const isSvgContent = content.includes('<svg') && content.includes('</svg>');
+      console.log(' - ' + svgFiles[i] + ' (size: ' + stats.size + ' bytes, valid SVG: ' + isSvgContent + ')');
+    } catch (error) {
+      console.log(' - ' + svgFiles[i] + ' (size: ' + stats.size + ' bytes, ERROR: ' + error.message + ')');
+    }
+  }
+}
+
 if (svgFiles.length === 0) {
   console.error('Error: No SVG files found in ' + inputDir);
   process.exit(1);
@@ -78,15 +108,16 @@ console.log('Found ' + svgFiles.length + ' SVG files in the input directory');
 generateFonts({
   name: 'codicon',
   prefix: 'codicon',
-  inputDir,
-  outputDir,
+  inputDir: normalizedInputDir, // Use normalized path for Windows compatibility
+  outputDir: normalizedOutputDir, // Use normalized path for Windows compatibility
   fontTypes: ['ttf'],
   assetTypes: ['css', 'html'],
   normalize: true,
   codepoints,
+  // fontPath option removed as it's not supported
   templates: {
-    html: templateHtml,
-    css: templateCss
+    html: normalizedTemplateHtml, // Use normalized path for Windows compatibility
+    css: normalizedTemplateCss // Use normalized path for Windows compatibility
   },
   formatOptions: {
     ttf: {
