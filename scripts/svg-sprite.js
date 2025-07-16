@@ -15,10 +15,27 @@ const mapping = require("../src/template/mapping.json");
 
 const mappingEntries = Object.entries(mapping);
 
+// Print current environment for debugging
+console.log(`Current directory: ${process.cwd()}`);
+console.log(`Script directory: ${__dirname}`);
+
 // Check if the icons directory exists and has SVG files
-const iconsDir = path.join(__dirname, '..', 'src', 'icons');
+const iconsDir = path.resolve(__dirname, '..', 'src', 'icons');
+console.log(`Looking for icons in: ${iconsDir}`);
+
 if (!fs.existsSync(iconsDir)) {
   console.error(`Error: Icons directory not found at ${iconsDir}`);
+  // List parent directory contents for debugging
+  try {
+    const parentDir = path.resolve(iconsDir, '..');
+    console.log(`Parent directory exists: ${fs.existsSync(parentDir)}`);
+    if (fs.existsSync(parentDir)) {
+      console.log(`Contents of ${parentDir}:`);
+      console.log(fs.readdirSync(parentDir));
+    }
+  } catch (err) {
+    console.error(`Error reading parent directory: ${err.message}`);
+  }
   process.exit(1);
 }
 
@@ -37,14 +54,14 @@ const findNames = (symbol) => {
 
 let processedFiles = 0;
 mappingEntries.forEach(([mappedName, symbol]) => {
-  // Use path.join for cross-platform compatibility
-  const file = path.join(__dirname, '..', 'src', 'icons', `${mappedName}.svg`);
+  // Use path.resolve for cross-platform compatibility
+  const file = path.resolve(iconsDir, `${mappedName}.svg`);
 
   if (fs.existsSync(file)) {
     processedFiles++;
     for (const name of findNames(symbol)) {
-      // Use path.join for cross-platform compatibility
-      const svgPath = path.join(__dirname, '..', 'src', 'icons', `${name}.svg`);
+      // Use path.resolve for cross-platform compatibility
+      const svgPath = path.resolve(iconsDir, `${name}.svg`);
       spriter.add(
         svgPath,
         name + ".svg",
@@ -73,7 +90,7 @@ spriter.compile(function (error, result, data) {
   }
   
   try {
-    // Use path.join for cross-platform compatibility
+    // Use path.resolve for cross-platform compatibility
     const outDirPath = path.resolve(opts.outDir);
     fs.mkdirSync(outDirPath, { recursive: true });
     fs.writeFileSync(result.symbol.sprite.path, result.symbol.sprite.contents);
