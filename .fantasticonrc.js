@@ -1,19 +1,20 @@
 /* eslint-disable */
 var pkg = require('./package.json');
+var path = require('path');
 var codepoints = require('./src/template/mapping.json');
 
 module.exports = {
     name: 'codicon',
     prefix: 'codicon',
     codepoints: codepoints,
-    inputDir: './src/icons',
-    outputDir: 'dist',
+    inputDir: path.join(__dirname, 'src', 'icons'),
+    outputDir: path.join(__dirname, 'dist'),
     fontTypes: ['ttf'],
     normalize: true,
     assetTypes: ['css', 'html'],
     templates: {
-        html: 'src/template/preview.hbs',
-        css: 'src/template/styles.hbs'
+        html: path.join(__dirname, 'src', 'template', 'preview.hbs'),
+        css: path.join(__dirname, 'src', 'template', 'styles.hbs')
     },
     formatOptions: {
         ttf: {
