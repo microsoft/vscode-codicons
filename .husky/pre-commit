@@ -1,1 +1,1 @@
-npm run svgo
+npm i && npm run svgo

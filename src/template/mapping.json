@@ -586,5 +586,17 @@
   "repo-pinned": 60483,
   "keyboard-tab-above": 60484,
   "keyboard-tab-below": 60485,
-  "git-pull-request-done": 60486
+  "git-pull-request-done": 60486,
+  "mcp": 60487,
+  "extensions-large": 60488,
+  "layout-panel-dock": 60489,
+  "layout-sidebar-left-dock": 60490,
+  "layout-sidebar-right-dock": 60491,
+  "copilot-in-progress": 60492,
+  "copilot-error": 60493,
+  "copilot-success": 60494,
+  "chat-sparkle": 60495,
+  "search-sparkle": 60496,
+  "edit-sparkle": 60497,
+  "copilot-snooze": 60498
 }
