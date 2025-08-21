@@ -599,5 +599,6 @@
   "search-sparkle": 60496,
   "edit-sparkle": 60497,
   "copilot-snooze": 60498,
-  "send-to-remote-agent": 60499
+  "send-to-remote-agent": 60499,
+  "comment-discussion-sparkle": 60500
 }
