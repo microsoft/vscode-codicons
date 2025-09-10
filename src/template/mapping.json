@@ -602,5 +602,7 @@
   "send-to-remote-agent": 60499,
   "comment-discussion-sparkle": 60500,
   "chat-sparkle-warning": 60501,
-  "chat-sparkle-error": 60502
+  "chat-sparkle-error": 60502,
+  "collection": 60503,
+  "new-collection": 60504
 }
