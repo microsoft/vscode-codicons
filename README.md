@@ -47,18 +47,18 @@ You can run `npm outdated` to see if there are any package updates. To update pa
 npm update
 ```
 
-## Add icons
+### ➕ Add icons
 
-Export your icons (svg) to the `src/icons` folder and add an entry into `src/template/mapping.json` with a new codepoint key (this gets converted into a unicode key) and run the the build command. The build command will also remove any subfolders in the `icons` folder to keep the folder structure consistent.
+Export your icons (svg) to the `src/icons` folder and add an entry into `src/template/mapping.json` with a new codepoint key (this gets converted into a unicode key) and run the the build command. The build command will also remove any subfolders in the `icons` folder to keep the folder structure consistent. 🎯
 
 Next, update the [codicons file](https://github.com/microsoft/vscode/blob/main/src/vs/base/browser/ui/codicons/codicon/codicon.ttf) on the vscode repository.
 
 > **Note:** If your icons look broken after converting into fonts (happens often when exporting as SVG from Figma), you might need to sanitize them using a tool
 > like [svg-reorient](https://github.com/bigtimebuddy/svg-reorient).
 
-## Using CSS Classes
+## 🎨 Using CSS Classes
 
-If you're building a VS Code extension, see this [webview extension sample](https://github.com/microsoft/vscode-extension-samples/tree/main/webview-codicons-sample) on how to integrate.
+If you're building a VS Code extension, see this [webview extension sample](https://github.com/microsoft/vscode-extension-samples/tree/main/webview-codicons-sample) on how to integrate. 🔗
 
 When needing to reference an icon in the [Visual Studio Code source code](https://github.com/microsoft/vscode) via CSS classes, simply create a dom element/container that contains `codicon` and the icon name like:
 
@@ -78,9 +78,9 @@ When needing to use the `codicon.svg` sprite file, you can reference icons using
 </svg>
 ```
 
-# Contributing
+## 🤝 Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+This project welcomes contributions and suggestions. Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
 
@@ -88,11 +88,11 @@ When you submit a pull request, a CLA bot will automatically determine whether y
 a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
 provided by the bot. You will only need to do this once across all repos using our CLA.
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). 📋
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-# Legal Notices
+## ⚖️ Legal Notices
 
 Microsoft and any contributors grant you a license to the Microsoft documentation and other content
 in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
@@ -104,7 +104,7 @@ may be either trademarks or registered trademarks of Microsoft in the United Sta
 The licenses for this project do not grant you rights to use any Microsoft names, logos, or trademarks.
 Microsoft's general trademark guidelines can be found at http://go.microsoft.com/fwlink/?LinkID=254653.
 
-Privacy information can be found at https://privacy.microsoft.com/en-us/
+Privacy information can be found at https://privacy.microsoft.com/en-us/ 🔒
 
 Microsoft and any contributors reserve all other rights, whether under their respective copyrights, patents,
 or trademarks, whether by implication, estoppel or otherwise.
