@@ -604,5 +604,6 @@
   "chat-sparkle-warning": 60501,
   "chat-sparkle-error": 60502,
   "collection": 60503,
-  "new-collection": 60504
+  "new-collection": 60504,
+  "thinking": 60505
 }
