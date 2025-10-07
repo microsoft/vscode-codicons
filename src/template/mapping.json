@@ -72,7 +72,6 @@
   "vm": 60026,
   "device-desktop": 60026,
   "file": 60027,
-  "file-text": 60027,
   "more": 60028,
   "ellipsis": 60028,
   "kebab-horizontal": 60028,
@@ -605,5 +604,14 @@
   "chat-sparkle-error": 60502,
   "collection": 60503,
   "new-collection": 60504,
-  "thinking": 60505
+  "thinking": 60505,
+  "build": 60506,
+  "comment-discussion-quote": 60507,
+  "cursor": 60508,
+  "eraser": 60509,
+  "file-text": 60510,
+  "git-lens": 60511,
+  "quotes": 60512,
+  "rename": 60513,
+  "run-with-deps": 60514
 }
