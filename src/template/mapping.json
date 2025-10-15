@@ -613,5 +613,6 @@
   "git-lens": 60511,
   "quotes": 60512,
   "rename": 60513,
-  "run-with-deps": 60514
+  "run-with-deps": 60514,
+  "debug-connected": 60515
 }
