@@ -616,5 +616,6 @@
   "run-with-deps": 60514,
   "debug-connected": 60515,
   "strikethrough": 60516,
-  "open-in-product": 60517
+  "open-in-product": 60517,
+  "index-zero": 60518
 }
