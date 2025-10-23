@@ -617,5 +617,7 @@
   "debug-connected": 60515,
   "strikethrough": 60516,
   "open-in-product": 60517,
-  "index-zero": 60518
+  "index-zero": 60518,
+  "agent": 60519,
+  "edit-code": 60520
 }
