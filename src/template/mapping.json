@@ -619,5 +619,8 @@
   "open-in-product": 60517,
   "index-zero": 60518,
   "agent": 60519,
-  "edit-code": 60520
+  "edit-code": 60520,
+  "repo-selected": 60521,
+  "skip": 60522,
+  "merge-into": 60523
 }
