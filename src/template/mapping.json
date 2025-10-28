@@ -622,5 +622,8 @@
   "edit-code": 60520,
   "repo-selected": 60521,
   "skip": 60522,
-  "merge-into": 60523
+  "merge-into": 60523,
+  "branch-dirty": 60524,
+  "branch-staged-changes": 60525,
+  "branch-merge-rebase-in-progress": 60526
 }
