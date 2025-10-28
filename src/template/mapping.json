@@ -21,9 +21,6 @@
   "person-follow": 60007,
   "person-outline": 60007,
   "person-filled": 60007,
-  "git-branch": 60008,
-  "git-branch-create": 60008,
-  "git-branch-delete": 60008,
   "source-control": 60008,
   "mirror": 60009,
   "mirror-public": 60009,
@@ -625,5 +622,8 @@
   "merge-into": 60523,
   "branch-dirty": 60524,
   "branch-staged-changes": 60525,
-  "branch-merge-rebase-in-progress": 60526
+  "branch-merge-rebase-in-progress": 60526,
+  "git-branch": 60527,
+  "git-branch-create": 60527,
+  "git-branch-delete": 60527
 }
