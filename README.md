@@ -9,6 +9,8 @@
 
 This tool takes the [Visual Studio Code icons](https://github.com/microsoft/vscode-codicons/tree/main/src/icons) and converts them into an icon font using [fantasticon](https://github.com/tancredi/fantasticon).
 
+Using the [Visual Studio Codicon Lookup](https://microsoft.github.io/vscode-codicons/dist/codicon.html) you can preview and search for icons.
+
 ## Install
 You can use the [npm package](https://www.npmjs.com/package/@vscode/codicons) and install into your project via:
 
@@ -51,6 +53,8 @@ Export your icons (svg) to the `src/icons` folder and add an entry into `src/tem
 
 Next, update the [codicons file](https://github.com/microsoft/vscode/blob/main/src/vs/base/browser/ui/codicons/codicon/codicon.ttf) on the vscode repository.
 
+> **Note:** If your icons look broken after converting into fonts (happens often when exporting as SVG from Figma), you might need to sanitize them using a tool
+> like [svg-reorient](https://github.com/bigtimebuddy/svg-reorient).
 
 ## Using CSS Classes
 
@@ -76,7 +80,7 @@ When needing to use the `codicon.svg` sprite file, you can reference icons using
 
 # Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+This project welcomes contributions and suggestions. Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
 
