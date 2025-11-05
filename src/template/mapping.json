@@ -626,5 +626,6 @@
   "git-branch": 60527,
   "git-branch-create": 60527,
   "git-branch-delete": 60527,
-  "search-large": 60528
+  "search-large": 60528,
+  "git-terminal-bash": 60529
 }
