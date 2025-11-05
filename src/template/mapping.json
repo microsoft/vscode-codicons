@@ -625,5 +625,6 @@
   "git-branch-conflicts": 60526,
   "git-branch": 60527,
   "git-branch-create": 60527,
-  "git-branch-delete": 60527
+  "git-branch-delete": 60527,
+  "search-large": 60528
 }
