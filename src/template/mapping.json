@@ -628,5 +628,6 @@
   "git-branch-delete": 60527,
   "search-large": 60528,
   "terminal-git-bash": 60529,
-  "window-active": 60530
+  "window-active": 60530,
+  "forward": 60531
 }
