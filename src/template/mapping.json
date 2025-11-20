@@ -629,5 +629,6 @@
   "search-large": 60528,
   "terminal-git-bash": 60529,
   "window-active": 60530,
-  "forward": 60531
+  "forward": 60531,
+  "download": 60532
 }
