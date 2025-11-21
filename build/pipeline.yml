@@ -43,3 +43,5 @@ extends:
         ${{ else }}:
           publishPackage: true
           nextVersion: ${{ parameters.nextVersion }}
+        ghCreateRelease: true
+        ghReleaseAddChangeLog: true
