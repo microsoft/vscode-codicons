@@ -6,9 +6,11 @@ Pre-release builds are created automatically for each push to `main`. The builds
 
 Stable releases are created by triggering the release pipeline: https://monacotools.visualstudio.com/Monaco/_build?definitionId=631
 To create a stable release, you'll need to specify one of the following release types in the "Release Version" parameter:
+- `prerelease`: for creating a pre-release build
 - `patch`: for backward-compatible bug fixes
 - `minor`: for backward-compatible new features
 - `major`: for changes that break backward compatibility
-- `X.X.X`: for specifying an exact version number
 
-Most of the time, you'll want to use `patch` or `minor`.
+Most of the time, you'll want to use `patch` or `minor`. For any of the above release types, the version number will be incremented automatically based on the latest stable release.
+
+To create a stable release at a specific version, you can use `X.X.X` format (e.g., `1.2.3`). In this case, the version number will be set exactly as specified, regardless of the previous latest stable release.
