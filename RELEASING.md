@@ -14,3 +14,10 @@ To create a stable release, you'll need to specify one of the following release 
 Most of the time, you'll want to use `patch` or `minor`. For any of the above release types, the version number will be incremented automatically based on the latest stable release.
 
 To create a stable release at a specific version, you can use `X.X.X` format (e.g., `1.2.3`). In this case, the version number will be set exactly as specified, regardless of the previous latest stable release.
+
+## Releasing from other branches
+
+To release from a branch other than `main`, you can choose the branch from the "Select pipeline version by branch/tag" dropdown when you run the pipeline. 
+Then, specify the desired release type as described above.
+
+Releasing from other branches is useful for creating recovery releases and pre-releases for testing.
