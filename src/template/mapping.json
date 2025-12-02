@@ -630,5 +630,6 @@
   "terminal-git-bash": 60529,
   "window-active": 60530,
   "forward": 60531,
-  "download": 60532
+  "download": 60532,
+  "clockface": 60533
 }
