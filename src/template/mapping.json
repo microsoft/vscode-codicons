@@ -631,5 +631,7 @@
   "window-active": 60530,
   "forward": 60531,
   "download": 60532,
-  "clockface": 60533
+  "clockface": 60533,
+  "unarchive": 60534,
+  "session-in-progress": 60535
 }
