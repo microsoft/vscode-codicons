@@ -633,5 +633,8 @@
   "download": 60532,
   "clockface": 60533,
   "unarchive": 60534,
-  "session-in-progress": 60535
+  "session-in-progress": 60535,
+  "collection-small": 60536,
+  "vm-small": 60537,
+  "cloud-small": 60538
 }
