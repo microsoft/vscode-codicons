@@ -31,7 +31,7 @@ jobs:
           name: codicon-font-${{ github.sha }}.ttf
           path: dist/codicon.ttf
 
-      - name: PR to microsoft/vscode # TODO: Separate "deploy:" step?
+      - name: PR to microsoft/vscode
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -42,23 +42,26 @@ jobs:
           cd vscode
           git checkout -b $BRANCH
 
-          cp ../dist/codicon.ttf src/vs/base/browser/ui/codicons/codicon/
-          cp ../dist/codiconsLibrary.ts src/vs/base/common/
+          cp -f ../dist/codicon.ttf src/vs/base/browser/ui/codicons/codicon/
+          cp -f ../dist/codiconsLibrary.ts src/vs/base/common/
           git add .
 
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+
+          if git diff-index --quiet HEAD --; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
           git commit -m "$MESSAGE"
+          git push -f https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/microsoft/vscode.git $BRANCH
 
-# TODO: This doesn't work yet due to permissions
-#
-#          git push -f origin $BRANCH
+          echo "${{ secrets.GITHUB_TOKEN }}" > token.txt
+          gh auth login --with-token < token.txt
 
-#          echo "${{ secrets.ACCESS_TOKEN }}" > token.txt
-#          gh auth login --with-token < token.txt
-
-#          gh pr create \
-#            --title "$MESSAGE" \
-#            --body "" \
-#            --base "main" \
-#            --head "$BRANCH"
+          gh pr create \
+            --title "[Codicon bump] $MESSAGE" \
+            --body "This PR was created automatically from [vscode-codicons](https://github.com/microsoft/vscode-codicons)" \
+            --base "main" \
+            --head "$BRANCH"
