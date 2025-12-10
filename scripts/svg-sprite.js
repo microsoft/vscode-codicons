@@ -13,7 +13,14 @@ const config = {
 const spriter = new SVGSpriter(config);
 const mapping = require("../src/template/mapping.json");
 
-const mappingEntries = Object.entries(mapping);
+// New format: mapping is { "code": ["alias1", "alias2", ...] }
+// Build a lookup from alias to code for easy access
+const aliasToCode = {};
+Object.entries(mapping).forEach(([code, aliases]) => {
+  aliases.forEach(alias => {
+    aliasToCode[alias] = parseInt(code);
+  });
+});
 
 // Check if the icons directory exists and has SVG files
 const iconsDir = path.resolve(__dirname, '..', 'src', 'icons');
@@ -42,18 +49,39 @@ if (svgFiles.length === 0) {
 
 console.log(`Found ${svgFiles.length} SVG files in ${iconsDir}`);
 
-const findNames = (symbol) => {
-  return mappingEntries.filter(([_, s]) => s === symbol).map(([name]) => name);
+// Find all aliases that share the same code as the given alias
+const findNames = (aliasName) => {
+  const code = aliasToCode[aliasName];
+  if (!code) return [aliasName];
+  
+  // Find all aliases with this code
+  const codeStr = code.toString();
+  return mapping[codeStr] || [aliasName];
 };
 
 let processedFiles = 0;
-mappingEntries.forEach(([mappedName, symbol]) => {
+
+// Process all unique aliases (we use a Set to track processed icons)
+const processedIcons = new Set();
+
+Object.entries(mapping).forEach(([code, aliases]) => {
+  // Use the first alias as the primary SVG file name
+  const primaryAlias = aliases[0];
+  
+  // Skip if we've already processed this icon
+  if (processedIcons.has(primaryAlias)) {
+    return;
+  }
+  
   // Use path.resolve for cross-platform compatibility
-  const file = path.resolve(iconsDir, `${mappedName}.svg`);
+  const file = path.resolve(iconsDir, `${primaryAlias}.svg`);
 
   if (fs.existsSync(file)) {
     processedFiles++;
-    for (const name of findNames(symbol)) {
+    processedIcons.add(primaryAlias);
+    
+    // Add sprite entries for all aliases of this icon
+    for (const name of aliases) {
       // Use path.resolve for cross-platform compatibility
       const svgPath = path.resolve(iconsDir, `${name}.svg`);
       spriter.add(

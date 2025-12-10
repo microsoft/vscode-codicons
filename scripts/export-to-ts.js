@@ -28,8 +28,15 @@ fs.readFile(opts.f, 'utf8', (err, data) => {
         console.log("// Instead, add mappings to codiconsDerived in codicons.ts.");
         console.log("export const codiconsLibrary = {");
 
-        Object.entries(mapping).forEach(([name, value]) => {
-            console.log(`\t${toCamelCase(name)}: register('${name}', ${decimalToHex(value)}),`);
+        // New format: mapping is { "code": ["alias1", "alias2", ...] }
+        Object.entries(mapping).forEach(([code, aliases]) => {
+            const codeValue = parseInt(code);
+            const hexValue = decimalToHex(codeValue);
+            
+            // Register each alias with the same code
+            aliases.forEach((name) => {
+                console.log(`\t${toCamelCase(name)}: register('${name}', ${hexValue}),`);
+            });
         });
 
         console.log("} as const;");
