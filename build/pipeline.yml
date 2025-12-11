@@ -1,5 +1,3 @@
-name: $(Date:yyyyMMdd)$(Rev:.r)
-
 trigger:
   branches:
     include:
@@ -15,10 +13,12 @@ resources:
       endpoint: Monaco
 
 parameters:
-  - name: publishPackage
-    displayName: 🚀 Publish codicons
-    type: boolean
-    default: false
+  - name: nextVersion
+    displayName: '🚀 Release Version (eg: none, major, minor, patch, prerelease, or X.X.X)'
+    type: string
+    default: 'none'
+
+name: "$(Date:yyyyMMdd).$(Rev:r)${{ replace(format(' (🚀 {0})', parameters.nextVersion), ' (🚀 none)', '') }}"
 
 extends:
   template: azure-pipelines/npm-package/pipeline.yml@templates
@@ -33,4 +33,15 @@ extends:
           - script: npm run build
             displayName: Build npm package
 
-        publishPackage: ${{ parameters.publishPackage }}
+        ${{ if or(eq(parameters.nextVersion, 'prerelease'), and(in(variables['Build.Reason'], 'IndividualCI', 'BatchedCI'), eq(variables['Build.SourceBranch'], 'refs/heads/main'))) }}:
+          publishPackage: true
+          publishRequiresApproval: false
+          nextVersion: prerelease
+          tag: next
+        ${{ elseif eq(parameters.nextVersion, 'none') }}:
+          publishPackage: false
+        ${{ else }}:
+          publishPackage: true
+          nextVersion: ${{ parameters.nextVersion }}
+        ghCreateRelease: true
+        ghReleaseAddChangeLog: true
