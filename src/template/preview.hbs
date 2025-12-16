@@ -224,7 +224,7 @@
 
     <div id="icons">
     {{# each assets }}
-        <div class="icon" data-name="{{ @key }}" title="{{ @key }}">
+        <div class="icon" data-name="{{ @key }}" title="{{ @key }}" data-tags="" data-description="">
             <span class="inner">
                 <{{ ../tag }} class="{{ ../prefix }} {{ ../prefix }}-{{ @key }}" aria-hidden="true"></{{ ../tag }}>
             </span>
@@ -245,289 +245,339 @@
     let notificationText = document.getElementById('notification-id');
     let search = document.getElementById('search');
     let timer;
-    let descriptions = [
-        {
-            name: 'account',
-            description: 'person people face user contact outline'
-        },
-        {
-            name: 'activate-breakpoints',
-            description: 'dot circle toggle switch'
-        },
-        {
-            name: 'add',
-            description: 'combine plus add more new'
-        },
-        {
-            name: 'archive',
-            description: 'save box delivery package'
-        },
-        {
-            name: 'arrow-both',
-            description: 'switch swap'
-        },
-        {
-            name: 'beaker',
-            description: 'test lab tube tool'
-        },
-        {
-            name: 'bell',
-            description: 'alert notify notification'
-        },
-        {
-            name: 'bell-dot',
-            description: 'alert notify notification'
-        },
-        {
-            name: 'bold',
-            description: 'text format weight font style'
-        },
-        {
-            name: 'book',
-            description: 'library text read open'
-        },
-        {
-            name: 'bookmark',
-            description: 'book save later'
-        },
-        {
-            name: 'briefcase',
-            description: 'work workplace'
-        },
-        {
-            name: 'broadcast',
-            description: 'tower signal connect connection'
-        },
-        {
-            name: 'browser',
-            description: 'web internet page window'
-        },
-        {
-            name: 'bug',
-            description: 'error issue insect block'
-        },
-        {
-            name: 'calendar',
-            description: 'day time week month date schedule event planner'
-        },
-        {
-            name: 'call-incoming',
-            description: 'phone cell voice connection direction'
-        },
-        {
-            name: 'call-outgoing',
-            description: 'phone cell voice connection direction'
-        },
-        {
-            name: 'case-sensitive',
-            description: 'search filter option letters words'
-        },
-        {
-            name: 'check-all',
-            description: 'checkmark select everything checked mark complete finish done accept approve'
-        },
-        {
-            name: 'check',
-            description: 'checkmark select everything checked mark complete finish done accept approve'
-        },
-        {
-            name: 'checklist',
-            description: 'checkmark select everything checked mark complete finish done accept todo task text'
-        },
-        {
-            name: 'chevron-down',
-            description: 'twistie tree node folder fold collapse'
-        },
-        {
-            name: 'chevron-left',
-            description: 'twistie tree node folder fold collapse'
-        },
-        {
-            name: 'chevron-right',
-            description: 'twistie tree node folder fold collapse'
-        },
-        {
-            name: 'chevron-up',
-            description: 'twistie tree node folder fold collapse'
-        },
-        {
-            name: 'chrome-close',
-            description: 'menu bar window dismiss'
-        },
-        {
-            name: 'chrome-maximize',
-            description: 'menu bar window large increase'
-        },
-        {
-            name: 'chrome-minimize',
-            description: 'menu bar window small decrease'
-        },
-        {
-            name: 'chrome-restore',
-            description: 'menu bar window'
-        },
-        {
-            name: 'circle-filled',
-            description: 'dot round small bullet breakpoint'
-        },
-        {
-            name: 'circle-large-filled',
-            description: 'dot round bullet'
-        },
-        {
-            name: 'circle-large',
-            description: 'dot round bullet'
-        },
-        {
-            name: 'circle',
-            description: 'dot round small bullet unverified breakpoint'
-        },
-        {
-            name: 'circle-slash',
-            description: 'error block stop disable'
-        },
-        {
-            name: 'circuit-board',
-            description: 'iot device process lines'
-        },
-        {
-            name: 'clear-all',
-            description: 'reset remove'
-        },
-        {
-            name: 'clippy',
-            description: 'clipboard document edit copy'
-        },
-        {
-            name: 'close-all',
-            description: 'remove bulk'
-        },
-        {
-            name: 'close',
-            description: 'remove x cancel stop miltiply'
-        },
-        {
-            name: 'cloud-download',
-            description: 'install import'
-        },
-        {
-            name: 'cloud-upload',
-            description: 'export'
-        },
-        {
-            name: 'cloud',
-            description: 'online service'
-        },
-        {
-            name: 'code',
-            description: 'embed script programming server'
-        },
-        {
-            name: 'collapse-all',
-            description: 'bulk fold minimize'
-        },
-        {
-            name: 'color-mode',
-            description: 'switch dark light contrast mode toggle'
-        },
-        {
-            name: 'comment-discussion',
-            description: 'dialog message bubble chat'
-        },
-        {
-            name: 'comment',
-            description: 'dialog message bubble chat'
-        },
-        {
-            name: 'credit-card',
-            description: 'payment merchant money'
-        },
-        {
-            name: 'dash',
-            description: 'line minus subtract hyphen'
-        },
-        {
-            name: 'dashboard',
-            description: 'panel stats dial'
-        },
-        {
-            name: 'database',
-            description: 'sql db storage online cloud'
-        },
-        {
-            name: 'debug-alt-small',
-            description: 'run'
-        },
-        {
-            name: 'debug-alt',
-            description: 'run'
-        },
-        {
-            name: 'debug-console',
-            description: 'terminal command input compile build'
-        },
-        {
-            name: 'debug-disconnect',
-            description: 'stop unplug eject'
-        },
-        {
-            name: 'desktop-download',
-            description: 'install'
-        },
-        {
-            name: 'device-camera-video',
-            description: 'movie record capture'
-        },
-        {
-            name: 'device-camera',
-            description: 'capture picture image'
-        },
-        {
-            name: 'device-mobile',
-            description: 'phone handheld smartphone'
-        },
-        {
-            name: 'diff-added',
-            description: 'git change'
-        },
-        {
-            name: 'diff-ignored',
-            description: 'git change'
-        },
-        {
-            name: 'diff-modified',
-            description: 'git change'
-        },
-        {
-            name: 'diff-renamed',
-            description: 'git change'
-        },
-        {
-            name: 'diff-removed',
-            description: 'git change'
-        },
-        {
-            name: 'play-circle',
-            description: 'run'
-        },
-        {
-            name: 'pass',
-            description: 'play check checkmark outline issue closed'
-        },
-        {
-            name: 'pass-filled',
-            description: 'play check checkmark filled issue closed'
-        },
-        {
-            name: 'play',
-            description: 'run'
-        },
-    ];
+    
+    // Load metadata
+    let metadata = {}; // METADATA_PLACEHOLDER
 
-    descriptions.some(function(item) {
-        let findIcon = document.querySelectorAll(`[data-name="${item.name}"]`);
-        findIcon[0].querySelector('.description').innerHTML += item.description;
-    });
+    if (Object.keys(metadata).length > 0) {
+        applyMetadata();
+    } else {
+        fetch('metadata.json')
+            .then(response => response.json())
+            .then(data => {
+                metadata = data;
+                applyMetadata();
+            })
+            .catch(error => {
+                console.warn('Could not load metadata.json, using fallback descriptions', error);
+                applyLegacyDescriptions();
+            });
+    }
+
+    function applyMetadata() {
+        for (let i = 0; i < icons.length; i++) {
+            let icon = icons[i];
+            let name = icon.getAttribute('data-name');
+            
+            if (metadata[name]) {
+                let meta = metadata[name];
+                let tags = meta.tags ? meta.tags.join(' ') : '';
+                let description = meta.description || '';
+                
+                icon.setAttribute('data-tags', tags);
+                icon.setAttribute('data-description', description);
+                
+                // Update visible description
+                let descriptionSpan = icon.querySelector('.description');
+                if (descriptionSpan) {
+                    descriptionSpan.innerHTML = description + (tags ? ' - ' + tags : '');
+                }
+            }
+        }
+    }
+
+    function applyLegacyDescriptions() {
+        let descriptions = [
+            {
+                name: 'account',
+                description: 'person people face user contact outline'
+            },
+            {
+                name: 'activate-breakpoints',
+                description: 'dot circle toggle switch'
+            },
+            {
+                name: 'add',
+                description: 'combine plus add more new'
+            },
+            {
+                name: 'archive',
+                description: 'save box delivery package'
+            },
+            {
+                name: 'arrow-both',
+                description: 'switch swap'
+            },
+            {
+                name: 'attach',
+                description: 'clip paperclip file link connect add'
+            },
+            {
+                name: 'beaker',
+                description: 'test lab tube tool'
+            },
+            {
+                name: 'bell',
+                description: 'alert notify notification'
+            },
+            {
+                name: 'bell-dot',
+                description: 'alert notify notification'
+            },
+            {
+                name: 'bold',
+                description: 'text format weight font style'
+            },
+            {
+                name: 'book',
+                description: 'library text read open'
+            },
+            {
+                name: 'bookmark',
+                description: 'book save later'
+            },
+            {
+                name: 'briefcase',
+                description: 'work workplace'
+            },
+            {
+                name: 'broadcast',
+                description: 'tower signal connect connection'
+            },
+            {
+                name: 'browser',
+                description: 'web internet page window'
+            },
+            {
+                name: 'bug',
+                description: 'error issue insect block'
+            },
+            {
+                name: 'calendar',
+                description: 'day time week month date schedule event planner'
+            },
+            {
+                name: 'call-incoming',
+                description: 'phone cell voice connection direction'
+            },
+            {
+                name: 'call-outgoing',
+                description: 'phone cell voice connection direction'
+            },
+            {
+                name: 'case-sensitive',
+                description: 'search filter option letters words'
+            },
+            {
+                name: 'check-all',
+                description: 'checkmark select everything checked mark complete finish done accept approve'
+            },
+            {
+                name: 'check',
+                description: 'checkmark select everything checked mark complete finish done accept approve'
+            },
+            {
+                name: 'checklist',
+                description: 'checkmark select everything checked mark complete finish done accept todo task text'
+            },
+            {
+                name: 'chevron-down',
+                description: 'twistie tree node folder fold collapse'
+            },
+            {
+                name: 'chevron-left',
+                description: 'twistie tree node folder fold collapse'
+            },
+            {
+                name: 'chevron-right',
+                description: 'twistie tree node folder fold collapse'
+            },
+            {
+                name: 'chevron-up',
+                description: 'twistie tree node folder fold collapse'
+            },
+            {
+                name: 'chrome-close',
+                description: 'menu bar window dismiss'
+            },
+            {
+                name: 'chrome-maximize',
+                description: 'menu bar window large increase'
+            },
+            {
+                name: 'chrome-minimize',
+                description: 'menu bar window small decrease'
+            },
+            {
+                name: 'chrome-restore',
+                description: 'menu bar window'
+            },
+            {
+                name: 'circle-filled',
+                description: 'dot round small bullet breakpoint'
+            },
+            {
+                name: 'circle-large-filled',
+                description: 'dot round bullet'
+            },
+            {
+                name: 'circle-large',
+                description: 'dot round bullet'
+            },
+            {
+                name: 'circle',
+                description: 'dot round small bullet unverified breakpoint'
+            },
+            {
+                name: 'circle-slash',
+                description: 'error block stop disable'
+            },
+            {
+                name: 'circuit-board',
+                description: 'iot device process lines'
+            },
+            {
+                name: 'clear-all',
+                description: 'reset remove'
+            },
+            {
+                name: 'clippy',
+                description: 'clipboard document edit copy'
+            },
+            {
+                name: 'close-all',
+                description: 'remove bulk'
+            },
+            {
+                name: 'close',
+                description: 'remove x cancel stop miltiply'
+            },
+            {
+                name: 'cloud-download',
+                description: 'install import'
+            },
+            {
+                name: 'cloud-upload',
+                description: 'export'
+            },
+            {
+                name: 'cloud',
+                description: 'online service'
+            },
+            {
+                name: 'code',
+                description: 'embed script programming server'
+            },
+            {
+                name: 'collapse-all',
+                description: 'bulk fold minimize'
+            },
+            {
+                name: 'color-mode',
+                description: 'switch dark light contrast mode toggle'
+            },
+            {
+                name: 'comment-discussion',
+                description: 'dialog message bubble chat'
+            },
+            {
+                name: 'comment',
+                description: 'dialog message bubble chat'
+            },
+            {
+                name: 'credit-card',
+                description: 'payment merchant money'
+            },
+            {
+                name: 'dash',
+                description: 'line minus subtract hyphen'
+            },
+            {
+                name: 'dashboard',
+                description: 'panel stats dial'
+            },
+            {
+                name: 'database',
+                description: 'sql db storage online cloud'
+            },
+            {
+                name: 'debug-alt-small',
+                description: 'run'
+            },
+            {
+                name: 'debug-alt',
+                description: 'run'
+            },
+            {
+                name: 'debug-console',
+                description: 'terminal command input compile build'
+            },
+            {
+                name: 'debug-disconnect',
+                description: 'stop unplug eject'
+            },
+            {
+                name: 'desktop-download',
+                description: 'install'
+            },
+            {
+                name: 'device-camera-video',
+                description: 'movie record capture'
+            },
+            {
+                name: 'device-camera',
+                description: 'capture picture image'
+            },
+            {
+                name: 'device-mobile',
+                description: 'phone handheld smartphone'
+            },
+            {
+                name: 'diff-added',
+                description: 'git change'
+            },
+            {
+                name: 'diff-ignored',
+                description: 'git change'
+            },
+            {
+                name: 'diff-modified',
+                description: 'git change'
+            },
+            {
+                name: 'diff-renamed',
+                description: 'git change'
+            },
+            {
+                name: 'diff-removed',
+                description: 'git change'
+            },
+            {
+                name: 'play-circle',
+                description: 'run'
+            },
+            {
+                name: 'pass',
+                description: 'play check checkmark outline issue closed'
+            },
+            {
+                name: 'pass-filled',
+                description: 'play check checkmark filled issue closed'
+            },
+            {
+                name: 'play',
+                description: 'run'
+            },
+        ];
+
+        descriptions.some(function(item) {
+            let findIcon = document.querySelectorAll(`[data-name="${item.name}"]`);
+            if (findIcon[0]) {
+                findIcon[0].querySelector('.description').innerHTML += item.description;
+                findIcon[0].setAttribute('data-description', item.description);
+            }
+        });
+    }
 
     for(i=0;i<icons.length;i++){
         let icon = icons[i]
@@ -564,11 +614,16 @@
         let icon = wrapper.getElementsByTagName('div');
 
         for (i = 0; i < icon.length; i++) {
-            let textInner = sanitizeText(icon[i].innerText)
+            let name = icon[i].getAttribute('data-name') || '';
+            let tags = icon[i].getAttribute('data-tags') || '';
+            let description = icon[i].getAttribute('data-description') || '';
+            let textInner = sanitizeText(icon[i].innerText);
             let textContents = sanitizeText(icon[i].textContent);
-            compareText = textContents || textInner;
+            
+            // Search in name, tags, description, and text content
+            let searchableText = (name + ' ' + tags + ' ' + description + ' ' + textContents + ' ' + textInner).toUpperCase();
 
-            if (compareText.toUpperCase().indexOf(filter) > -1) {
+            if (searchableText.indexOf(filter) > -1) {
                 icon[i].style.display = '';
             } else {
                 icon[i].style.display = 'none';
