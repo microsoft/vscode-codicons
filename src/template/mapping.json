@@ -1701,5 +1701,11 @@
   ],
   "60540": [
     "remove-small"
+  ],
+  "60541": [
+    "worktree-small"
+  ],
+  "60542": [
+    "worktree"
   ]
 }
