@@ -1,0 +1,533 @@
+IconKeyValue,Descriptions
+account,User account or person icon
+activate-breakpoints,Enable or activate breakpoints
+add,Add or create new item
+archive,Archive or package items
+arrow-both,Bidirectional arrow
+arrow-circle-down,Circular arrow pointing down
+arrow-circle-left,Circular arrow pointing left
+arrow-circle-right,Circular arrow pointing right
+arrow-circle-up,Circular arrow pointing up
+arrow-down,Arrow pointing down
+arrow-left,Arrow pointing left
+arrow-right,Arrow pointing right
+arrow-up,Arrow pointing up
+beaker,Testing or experimental feature
+bell,Notification or alert
+bell-dot,Notification with unread indicator
+bold,Bold text formatting
+book,Documentation or reading material
+bookmark,Bookmark or save for later
+briefcase,Work or business related
+broadcast,Broadcast or transmit signal
+browser,Web browser or webpage
+bug,Bug or error
+calendar,Calendar or schedule
+call-incoming,Incoming call
+call-outgoing,Outgoing call
+case-sensitive,Case-sensitive search option
+check,Check or success indicator
+check-all,Check all or select all
+checklist,Checklist or task list
+chevron-down,Chevron pointing down
+chevron-left,Chevron pointing left
+chevron-right,Chevron pointing right
+chevron-up,Chevron pointing up
+chrome-close,Close window button
+chrome-maximize,Maximize window button
+chrome-minimize,Minimize window button
+chrome-restore,Restore window button
+circle-filled,Filled circle
+circle-large-filled,Large filled circle
+circle-large,Large circle outline
+circle-slash,Blocked or disabled
+circuit-board,Circuit board or IoT device
+clear-all,Clear or reset all
+clippy,Clipboard or copy
+close,Close or cancel
+close-all,Close all items
+cloud,Cloud service or storage
+cloud-download,Download from cloud
+cloud-upload,Upload to cloud
+code,Code or programming
+coffee,Coffee or break time
+collapse-all,Collapse all items
+color-mode,Color or theme mode
+comment,Comment or message
+comment-discussion,Discussion or conversation
+copilot,AI Copilot assistant
+copy,Copy content
+credit-card,Payment or credit card
+dash,Dash or minus
+dashboard,Dashboard or overview
+database,Database or data storage
+debug,Debug or test
+debug-alt,Debug alternative icon
+debug-console,Debug console or terminal
+device-camera,Camera device
+device-camera-video,Video camera
+device-mobile,Mobile device
+diff,Diff or comparison
+diff-added,Added changes in diff
+diff-ignored,Ignored changes in diff
+diff-modified,Modified changes in diff
+diff-removed,Removed changes in diff
+diff-renamed,Renamed changes in diff
+edit,Edit or modify
+error,Error or critical issue
+extensions,Extensions or plugins
+eye,View or watch
+eye-closed,Hide or invisible
+file,File or document
+file-code,Code file
+files,Multiple files
+filter,Filter or refine
+folder,Folder or directory
+folder-opened,Opened folder
+gear,Settings or configuration
+git-branch,Git branch
+git-commit,Git commit
+git-merge,Git merge
+git-pull-request,Pull request
+globe,Globe or web
+graph,Graph or chart
+heart,Like or favorite
+home,Home page
+info,Information or help
+issues,Issues or tasks
+json,JSON format
+key,Key or password
+law,Legal or license
+library,Library or collection
+lightbulb,Idea or suggestion
+link,Link or reference
+link-external,External link
+list-ordered,Ordered list
+list-unordered,Unordered list
+loading,Loading or processing
+location,Location or place
+mail,Email or mail
+markdown,Markdown format
+menu,Menu or options
+merge,Merge or combine
+mic,Microphone or audio
+mirror,Mirror or reflect
+more,More options
+move,Move or drag
+new-file,New file
+new-folder,New folder
+note,Note or memo
+notebook,Notebook or interactive document
+organization,Organization or company
+output,Output or result
+package,Package or module
+pass,Pass or success
+person,Person or user
+pin,Pin or attach
+play,Play or run
+plug,Plugin or extension
+preview,Preview or view
+project,Project or workspace
+question,Question or help
+record,Record or capture
+redo,Redo action
+refresh,Refresh or reload
+regex,Regular expression
+remote,Remote connection
+remove,Remove or delete
+replace,Replace or substitute
+repo,Repository
+report,Report or summary
+rocket,Launch or deploy
+save,Save or store
+save-all,Save all
+search,Search or find
+server,Server or host
+settings,Settings or preferences
+settings-gear,Settings gear
+shield,Security or protection
+source-control,Source control
+sparkle,AI or automated feature
+split-horizontal,Split horizontally
+split-vertical,Split vertically
+star,Star or favorite
+symbol-class,Class symbol
+symbol-method,Method symbol
+tag,Tag or label
+terminal,Terminal or console
+text-size,Text size or font
+trash,Trash or delete
+unlock,Unlock or open
+verified,Verified or approved
+watch,Watch or monitor
+window,Window or panel
+workspace-trusted,Trusted workspace
+zoom-in,Zoom in or enlarge
+zoom-out,Zoom out or reduce
+add-small,Small add icon
+agent,AI agent or bot
+alert,Alert or warning
+array,Array data structure
+arrow-small-down,Small arrow pointing down
+arrow-small-left,Small arrow pointing left
+arrow-small-right,Small arrow pointing right
+arrow-small-up,Small arrow pointing up
+arrow-swap,Swap arrows
+attach,Attach file or item
+azure,Microsoft Azure logo
+azure-devops,Azure DevOps logo
+beaker-stop,Stop experiment or test
+bell-slash,Notifications disabled
+bell-slash-dot,Notifications disabled with unread
+blank,Blank or empty space
+bracket-dot,Bracket with dot indicator
+bracket-error,Bracket with error indicator
+build,Build or compile
+chat-sparkle,AI chat suggestion
+chat-sparkle-error,AI chat error
+chat-sparkle-warning,AI chat warning
+chip,Computer chip or processor
+circle-outline,Circle outline shape
+circle-small,Small circle outline
+circle-small-filled,Small filled circle
+clockface,Clock face showing time
+clone,Clone or duplicate
+cloud-small,Small cloud icon
+code-oss,Code OSS logo
+code-review,Code review
+collection,Collection of items
+collection-small,Small collection
+combine,Combine items
+comment-discussion-quote,Quoted discussion comment
+comment-discussion-sparkle,AI discussion comment
+comment-draft,Draft comment
+comment-unresolved,Unresolved comment
+compass,Compass for navigation
+compass-active,Active compass
+compass-dot,Compass with indicator
+copilot-blocked,Copilot blocked
+copilot-error,Copilot error
+copilot-in-progress,Copilot working
+copilot-large,Large Copilot logo
+copilot-not-connected,Copilot disconnected
+copilot-snooze,Copilot snoozed
+copilot-success,Copilot success
+copilot-unavailable,Copilot unavailable
+copilot-warning,Copilot warning
+copilot-warning-large,Large Copilot warning
+coverage,Code coverage
+cursor,Mouse cursor
+debug-all,Debug all
+debug-alt-small,Small debug run icon
+debug-breakpoint-conditional,Conditional breakpoint
+debug-breakpoint-conditional-unverified,Unverified conditional breakpoint
+debug-breakpoint-data,Data breakpoint
+debug-breakpoint-data-unverified,Unverified data breakpoint
+debug-breakpoint-function,Function breakpoint
+debug-breakpoint-function-unverified,Unverified function breakpoint
+debug-breakpoint-log,Logpoint
+debug-breakpoint-log-unverified,Unverified logpoint
+debug-breakpoint-unsupported,Unsupported breakpoint
+debug-connected,Debugger connected
+debug-continue,Continue debugging
+debug-continue-small,Small continue icon
+debug-coverage,Debug coverage
+debug-disconnect,Disconnect debugger
+debug-line-by-line,Debug line by line
+debug-pause,Pause debugging
+debug-rerun,Rerun debug session
+debug-restart,Restart debugging
+debug-restart-frame,Restart stack frame
+debug-reverse-continue,Reverse continue
+debug-stackframe,Stack frame
+debug-stackframe-active,Active stack frame
+debug-start,Start debugging
+debug-step-back,Step back
+debug-step-into,Step into
+debug-step-out,Step out
+debug-step-over,Step over
+debug-stop,Stop debugging
+diff-multiple,Multiple diffs
+diff-single,Single diff
+discard,Discard changes
+download,Download
+edit-code,Edit code
+edit-session,Edit session
+edit-sparkle,AI edit
+editor-layout,Editor layout
+empty-window,Empty window
+eraser,Eraser
+error-small,Small error icon
+exclude,Exclude item
+expand-all,Expand all items
+export,Export data
+extensions-large,Large extensions icon
+feedback,Feedback
+file-binary,Binary file
+file-media,Media file
+file-pdf,PDF file
+file-submodule,Git submodule
+file-symlink-directory,Directory symlink
+file-symlink-file,File symlink
+file-text,Text file
+file-zip,Zip archive
+filter-filled,Filled filter icon
+flag,Flag
+flame,Flame or fire
+fold,Fold or collapse
+fold-down,Fold down
+fold-up,Fold up
+folder-active,Active folder
+folder-library,Library folder
+forward,Forward
+game,Game controller
+gift,Gift box
+gist,GitHub Gist
+gist-fork,Fork Gist
+gist-private,Private Gist
+gist-secret,Secret Gist
+git-branch-changes,Branch changes
+git-branch-conflicts,Branch conflicts
+git-branch-staged-changes,Staged changes
+git-compare,Compare git versions
+git-pull-request-closed,Closed pull request
+git-pull-request-create,Create pull request
+git-pull-request-done,Completed pull request
+git-pull-request-draft,Draft pull request
+git-pull-request-go-to-changes,Go to PR changes
+git-pull-request-new-changes,New PR changes
+git-stash,Git stash
+git-stash-apply,Apply git stash
+git-stash-pop,Pop git stash
+github-action,GitHub Action
+github-alt,GitHub logo alternative
+github-inverted,Inverted GitHub logo
+github-project,GitHub Project
+go-to-editing-session,Go to editing session
+go-to-search,Go to search
+grabber,Drag handle
+graph-left,Graph aligned left
+graph-line,Line graph
+graph-scatter,Scatter plot
+gripper,Gripper handle
+group-by-ref-type,Group by reference type
+heart-filled,Filled heart
+history,History or log
+horizontal-rule,Horizontal rule
+hubot,Hubot
+inbox,Inbox
+indent,Indent text
+index-zero,Zero index
+insert,Insert item
+inspect,Inspect element
+issue-draft,Draft issue
+issue-reopened,Reopened issue
+italic,Italic text
+jersey,Jersey or shirt
+kebab-vertical,Vertical kebab menu
+keyboard-tab,Tab key
+keyboard-tab-above,Tab above
+keyboard-tab-below,Tab below
+layers,Layers
+layers-active,Active layers
+layers-dot,Layers with indicator
+layout,Layout
+layout-activitybar-left,Activity bar left
+layout-activitybar-right,Activity bar right
+layout-centered,Centered layout
+layout-menubar,Menubar layout
+layout-panel,Panel layout
+layout-panel-center,Panel center
+layout-panel-dock,Dock panel
+layout-panel-justify,Justify panel
+layout-panel-left,Panel left
+layout-panel-off,Hide panel
+layout-panel-right,Panel right
+layout-sidebar-left,Sidebar left
+layout-sidebar-left-dock,Dock sidebar left
+layout-sidebar-left-off,Hide sidebar left
+layout-sidebar-right,Sidebar right
+layout-sidebar-right-dock,Dock sidebar right
+layout-sidebar-right-off,Hide sidebar right
+layout-statusbar,Status bar
+lightbulb-autofix,Auto-fix suggestion
+lightbulb-empty,Empty lightbulb
+lightbulb-sparkle,AI suggestion
+list-filter,Filter list
+list-flat,Flat list
+list-selection,List selection
+list-tree,Tree list
+live-share,Live Share
+lock-small,Small lock
+log-in,Log in
+log-out,Log out
+logo-github,GitHub logo
+magnet,Magnet
+mail-read,Read mail
+mail-reply,Reply to mail
+map,Map
+map-filled,Filled map
+map-vertical,Vertical map
+map-vertical-filled,Filled vertical map
+mcp,Model Context Protocol
+megaphone,Megaphone
+mention,Mention or @ symbol
+merge-into,Merge into
+mic-filled,Filled microphone
+milestone,Milestone
+mortar-board,Mortar board or graduation
+multiple-windows,Multiple windows
+music,Music note
+mute,Mute sound
+new-collection,New collection
+newline,Newline character
+no-newline,No newline
+notebook-template,Notebook template
+octoface,Octocat face
+open-in-product,Open in product
+open-preview,Open preview
+paintcan,Paint can
+pass-filled,Filled pass icon
+percentage,Percentage symbol
+person-add,Add person
+piano,Piano keys
+pie-chart,Pie chart
+pinned,Pinned item
+pinned-dirty,Pinned item with changes
+play-circle,Play circle
+preserve-case,Preserve case
+primitive-square,Square shape
+pulse,Pulse or activity
+python,Python language logo
+quote,Quote mark
+quotes,Double quotes
+radio-tower,Radio tower
+reactions,Reactions
+record-keys,Record keystrokes
+record-small,Small record icon
+references,Code references
+remote-explorer,Remote explorer
+remove-small,Small remove icon
+rename,Rename
+replace-all,Replace all
+repo-clone,Clone repository
+repo-fetch,Fetch repository
+repo-force-push,Force push repository
+repo-pinned,Pinned repository
+repo-pull,Pull repository
+repo-push,Push repository
+repo-selected,Selected repository
+repo-sync,Sync repository
+request-changes,Request changes
+robot,Robot
+root-folder,Root folder
+root-folder-opened,Opened root folder
+rss,RSS feed
+ruby,Ruby language
+run-above,Run above
+run-all,Run all
+run-all-coverage,Run all with coverage
+run-below,Run below
+run-coverage,Run with coverage
+run-errors,Run errors
+run-with-deps,Run with dependencies
+save-as,Save as
+screen-full,Full screen
+screen-normal,Normal screen
+search-fuzzy,Fuzzy search
+search-large,Large search icon
+search-sparkle,AI search
+search-stop,Stop search
+send,Send message
+send-to-remote-agent,Send to remote agent
+server-environment,Server environment
+server-process,Server process
+session-in-progress,Session in progress
+share,Share
+skip,Skip
+smiley,Smiley face
+snake,Snake
+sort-precedence,Sort by precedence
+sparkle-filled,Filled sparkle
+squirrel,Squirrel
+star-full,Full star
+star-half,Half star
+stop-circle,Stop circle
+strikethrough,Strikethrough text
+surround-with,Surround with
+symbol-boolean,Boolean symbol
+symbol-color,Color symbol
+symbol-constant,Constant symbol
+symbol-enum,Enum symbol
+symbol-enum-member,Enum member symbol
+symbol-field,Field symbol
+symbol-file,File symbol
+symbol-interface,Interface symbol
+symbol-key,Key symbol
+symbol-keyword,Keyword symbol
+symbol-method-arrow,Method arrow symbol
+symbol-misc,Miscellaneous symbol
+symbol-module,Module symbol
+symbol-numeric,Numeric symbol
+symbol-operator,Operator symbol
+symbol-parameter,Parameter symbol
+symbol-property,Property symbol
+symbol-reference,Reference symbol
+symbol-ruler,Ruler symbol
+symbol-snippet,Snippet symbol
+symbol-string,String symbol
+symbol-structure,Structure symbol
+sync-ignored,Sync ignored
+table,Table
+target,Target
+tasklist,Task list
+telescope,Telescope
+terminal-bash,Bash terminal
+terminal-cmd,Command prompt
+terminal-debian,Debian terminal
+terminal-git-bash,Git Bash terminal
+terminal-linux,Linux terminal
+terminal-powershell,PowerShell terminal
+terminal-tmux,Tmux terminal
+terminal-ubuntu,Ubuntu terminal
+thinking,Thinking
+three-bars,Three bars menu
+thumbsdown,Thumbs down
+thumbsdown-filled,Filled thumbs down
+thumbsup,Thumbs up
+thumbsup-filled,Filled thumbs up
+tools,Tools
+triangle-down,Triangle pointing down
+triangle-left,Triangle pointing left
+triangle-right,Triangle pointing right
+triangle-up,Triangle pointing up
+twitter,Twitter logo
+type-hierarchy,Type hierarchy
+type-hierarchy-sub,Sub-type hierarchy
+type-hierarchy-super,Super-type hierarchy
+unarchive,Unarchive
+unfold,Unfold
+ungroup-by-ref-type,Ungroup by reference type
+unmute,Unmute sound
+unverified,Unverified
+variable,Variable
+variable-group,Variable group
+verified-filled,Filled verified icon
+versions,Versions
+vm,Virtual machine
+vm-active,Active virtual machine
+vm-connect,Connect to VM
+vm-outline,VM outline
+vm-running,Running VM
+vm-small,Small VM icon
+vr,VR headset
+vscode,VS Code logo
+vscode-insiders,VS Code Insiders logo
+wand,Magic wand
+whitespace,Whitespace character
+whole-word,Match whole word
+window-active,Active window
+word-wrap,Word wrap
+workspace-unknown,Unknown workspace trust
+workspace-untrusted,Untrusted workspace
+zap,Zap or flash

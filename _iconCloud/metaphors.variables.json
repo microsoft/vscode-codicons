@@ -1,6 +1,6 @@
 [
   {
-    "name": "iconKeywordsInputTable",
+    "name": "iconMetaphorsInputTable",
     "tableSpecifier":
     {
       "dataColumnIndex": 0,
@@ -18,15 +18,15 @@
     "valueType": "Text"
   },
   {
-    "name": "iconColumnKeywordsName",
+    "name": "iconColumnMetaphorsName",
     "referenceOnly": true,
     "type": "Value",
-    "value": "Keywords",
+    "value": "Metaphors",
     "valueType": "Text"
   },
   {
-    "TargetName": "iconKeywordsInputTable",
-    "name": "iconKeywordsTableIterator",
+    "TargetName": "iconMetaphorsInputTable",
+    "name": "iconMetaphorsTableIterator",
     "type": "TableIterator"
   },
   {
@@ -35,7 +35,7 @@
     "valueType": "Text"
   },
   {
-    "name": "iconKeywords",
+    "name": "iconMetaphors",
     "type": "Value",
     "valueType": "Text"
   },

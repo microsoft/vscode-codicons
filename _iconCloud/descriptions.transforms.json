@@ -1,54 +1,48 @@
 [
   {
     "method": "LoadTable",
-    "params":
-    {
+    "params": {
       "relativePath": "_DataFilePath_",
       "rootPath": "_RootPath_"
     },
-    "variable": "iconKeywordsInputTable"
+    "variable": "iconDescriptionsInputTable"
   },
   {
     "method": "ForEachRow",
     "transforms": [
       {
         "method": "Copy",
-        "params":
-        {
+        "params": {
           "from": "_LibraryKey_"
         },
         "variable": "_IconData_LibraryKey_"
       },
       {
         "method": "Copy",
-        "params":
-        {
+        "params": {
           "from": "_IconTypeKey_"
         },
         "variable": "_IconData_TypeKey_"
       },
       {
         "method": "GetColumnValue",
-        "params":
-        {
+        "params": {
           "columnName": "iconColumnIconKeyValueName",
-          "iterator": "iconKeywordsTableIterator"
+          "iterator": "iconDescriptionsTableIterator"
         },
         "variable": "iconKeyValue"
       },
       {
         "method": "GetHashKey",
         "notes": "The icon Key is derived from the shortend icon file name.",
-        "params":
-        {
+        "params": {
           "from": "iconKeyValue"
         },
         "variable": "_IconData_Key_"
       },
       {
         "method": "UpdateVariablesTable",
-        "params":
-        {
+        "params": {
           "variables": "_IconDataVariables_"
         },
         "variable": "_IconData_"
@@ -59,25 +53,22 @@
       },
       {
         "method": "GetColumnValue",
-        "params":
-        {
-          "columnName": "iconColumnKeywordsName",
-          "iterator": "iconKeywordsTableIterator"
+        "params": {
+          "columnName": "iconColumnDescriptionsName",
+          "iterator": "iconDescriptionsTableIterator"
         },
-        "variable": "iconKeywords"
+        "variable": "iconDescriptions"
       },
       {
         "method": "AddToVariableBag",
-        "params":
-        {
-          "value": "iconKeywords"
+        "params": {
+          "value": "iconDescriptions"
         },
         "variable": "iconArtifacts"
       },
       {
         "method": "AddNameValuePairsToAssociationTable",
-        "params":
-        {
+        "params": {
           "key": "_IconData_Key_",
           "keyColumn": "_IconArtifactData_IconKey_",
           "namesColumn": "_IconArtifactData_Name_",
@@ -87,6 +78,6 @@
         "variable": "_IconArtifactData_"
       }
     ],
-    "variable": "iconKeywordsTableIterator"
+    "variable": "iconDescriptionsTableIterator"
   }
 ]
