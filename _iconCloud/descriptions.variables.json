@@ -1,8 +1,7 @@
 [
   {
-    "name": "iconKeywordsInputTable",
-    "tableSpecifier":
-    {
+    "name": "iconDescriptionsInputTable",
+    "tableSpecifier": {
       "dataColumnIndex": 0,
       "dataRowIndex": 1,
       "headerRowIndex": 0
@@ -18,15 +17,15 @@
     "valueType": "Text"
   },
   {
-    "name": "iconColumnKeywordsName",
+    "name": "iconColumnDescriptionsName",
     "referenceOnly": true,
     "type": "Value",
-    "value": "Keywords",
+    "value": "Descriptions",
     "valueType": "Text"
   },
   {
-    "TargetName": "iconKeywordsInputTable",
-    "name": "iconKeywordsTableIterator",
+    "TargetName": "iconDescriptionsInputTable",
+    "name": "iconDescriptionsTableIterator",
     "type": "TableIterator"
   },
   {
@@ -35,7 +34,7 @@
     "valueType": "Text"
   },
   {
-    "name": "iconKeywords",
+    "name": "iconDescriptions",
     "type": "Value",
     "valueType": "Text"
   },

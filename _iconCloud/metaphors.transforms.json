@@ -6,7 +6,7 @@
       "relativePath": "_DataFilePath_",
       "rootPath": "_RootPath_"
     },
-    "variable": "iconKeywordsInputTable"
+    "variable": "iconMetaphorsInputTable"
   },
   {
     "method": "ForEachRow",
@@ -32,7 +32,7 @@
         "params":
         {
           "columnName": "iconColumnIconKeyValueName",
-          "iterator": "iconKeywordsTableIterator"
+          "iterator": "iconMetaphorsTableIterator"
         },
         "variable": "iconKeyValue"
       },
@@ -61,16 +61,16 @@
         "method": "GetColumnValue",
         "params":
         {
-          "columnName": "iconColumnKeywordsName",
-          "iterator": "iconKeywordsTableIterator"
+          "columnName": "iconColumnMetaphorsName",
+          "iterator": "iconMetaphorsTableIterator"
         },
-        "variable": "iconKeywords"
+        "variable": "iconMetaphors"
       },
       {
         "method": "AddToVariableBag",
         "params":
         {
-          "value": "iconKeywords"
+          "value": "iconMetaphors"
         },
         "variable": "iconArtifacts"
       },
@@ -87,6 +87,6 @@
         "variable": "_IconArtifactData_"
       }
     ],
-    "variable": "iconKeywordsTableIterator"
+    "variable": "iconMetaphorsTableIterator"
   }
 ]

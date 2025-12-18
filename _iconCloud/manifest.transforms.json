@@ -104,9 +104,9 @@
       },
       {
         "method": "GetHashKey",
-        "notes": "The icon Key is derived from the unicode value.",
+        "notes": "The icon Key is derived from the short name.",
         "params": {
-          "from": "iconUnicodeValue"
+          "from": "iconShortName"
         },
         "variable": "_IconData_Key_"
       },
