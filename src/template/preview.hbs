@@ -117,10 +117,6 @@
             margin: 8px;
         }
 
-        .icon:hover {
-            cursor: pointer;
-        }
-
         .icon:hover .inner {
             box-shadow: 0px 0px 12px var(--card-shadow-hover);
         }
@@ -157,6 +153,41 @@
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+        }
+
+        .copy-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 4px;
+            opacity: 0;
+            transition: opacity 0.2s ease-in-out;
+        }
+
+        .icon:hover .copy-buttons {
+            opacity: 1;
+        }
+
+        .copy-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 4px;
+            color: var(--text-secondary);
+            border-radius: 4px;
+            transition: color 0.2s ease, background-color 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .copy-btn:hover {
+            color: var(--text-color);
+            background-color: var(--input-border);
+        }
+
+        .copy-btn i {
+            font-size: 14px;
         }
 
         .description {
@@ -210,50 +241,6 @@
             opacity: .9;
         }
 
-        #copy-modal {
-            position: fixed;
-            background-color: var(--card-bg);
-            border-radius: 8px;
-            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
-            padding: 8px 0;
-            z-index: 1000;
-            display: none;
-            min-width: 160px;
-        }
-
-        #copy-modal.show {
-            display: block;
-        }
-
-        .copy-option {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            padding: 8px 16px;
-            cursor: pointer;
-            color: var(--text-color);
-            font-size: 14px;
-            transition: background-color 0.2s ease;
-        }
-
-        .copy-option:hover {
-            background-color: var(--input-border);
-        }
-
-        #modal-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 999;
-            display: none;
-        }
-
-        #modal-overlay.show {
-            display: block;
-        }
-
     </style>
 
     <link rel="stylesheet" type="text/css" href="{{ name }}.css" />
@@ -275,24 +262,20 @@
             <br>
             <span class='label'>{{ @key }}</span>
             <span class='description'></span>
+            <div class="copy-buttons">
+                <button class="copy-btn copy-name-btn" title="Copy icon name" aria-label="Copy icon name">
+                    <i class="codicon codicon-copy" aria-hidden="true"></i>
+                </button>
+                <button class="copy-btn copy-svg-btn" title="Copy SVG" aria-label="Copy SVG">
+                    <i class="codicon codicon-file-code" aria-hidden="true"></i>
+                </button>
+            </div>
         </div>
     {{/ each }}
     </div>
 
     <div id="notification">📋 Copied: <span id="notification-id"></span></div>
     <input type="text" id="copier" aria-label="Clipboard helper">
-
-    <div id="modal-overlay"></div>
-    <div id="copy-modal">
-        <div class="copy-option" id="copy-name-option">
-            <i class="codicon codicon-symbol-string" aria-hidden="true"></i>
-            <span>Copy icon name</span>
-        </div>
-        <div class="copy-option" id="copy-svg-option">
-            <i class="codicon codicon-file-code" aria-hidden="true"></i>
-            <span>Copy SVG</span>
-        </div>
-    </div>
 
 <script type="text/javascript">
     let icons = document.getElementsByClassName('icon');
@@ -638,42 +621,7 @@
         });
     }
 
-    // Copy modal elements
-    let copyModal = document.getElementById('copy-modal');
-    let modalOverlay = document.getElementById('modal-overlay');
-    let copyNameOption = document.getElementById('copy-name-option');
-    let copySvgOption = document.getElementById('copy-svg-option');
-    let currentIconName = null;
-
-    function showCopyModal(iconName, x, y) {
-        currentIconName = iconName;
-        
-        // Position the modal near the click
-        copyModal.style.left = x + 'px';
-        copyModal.style.top = y + 'px';
-        
-        // Ensure modal stays within viewport
-        let rect = copyModal.getBoundingClientRect();
-        let viewportWidth = window.innerWidth;
-        let viewportHeight = window.innerHeight;
-        
-        if (x + 160 > viewportWidth) {
-            copyModal.style.left = (x - 160) + 'px';
-        }
-        if (y + 100 > viewportHeight) {
-            copyModal.style.top = (y - 100) + 'px';
-        }
-        
-        copyModal.classList.add('show');
-        modalOverlay.classList.add('show');
-    }
-
-    function hideCopyModal() {
-        copyModal.classList.remove('show');
-        modalOverlay.classList.remove('show');
-        currentIconName = null;
-    }
-
+    // Copy functionality
     function copyToClipboard(text, displayText) {
         if (navigator.clipboard && navigator.clipboard.writeText) {
             navigator.clipboard.writeText(text).then(function() {
@@ -698,41 +646,40 @@
         }
     }
 
-    modalOverlay.onclick = hideCopyModal;
-
-    copyNameOption.onclick = function() {
-        if (currentIconName) {
-            copyToClipboard(currentIconName, currentIconName);
-        }
-        hideCopyModal();
-    };
-
-    copySvgOption.onclick = function() {
-        if (currentIconName && svgData[currentIconName]) {
-            copyToClipboard(svgData[currentIconName], currentIconName + ' (SVG)');
-        } else if (currentIconName) {
-            // Fallback: try to fetch SVG if not in embedded data
-            fetch('icons/' + currentIconName + '.svg')
-                .then(response => response.text())
-                .then(svg => {
-                    copyToClipboard(svg, currentIconName + ' (SVG)');
-                })
-                .catch(error => {
-                    console.warn('Could not fetch SVG for ' + currentIconName, error);
-                    notificationText.innerHTML = 'SVG not available';
-                    animateNotification();
-                });
-        }
-        hideCopyModal();
-    };
-
+    // Setup copy buttons for each icon
     for(i=0;i<icons.length;i++){
-        let icon = icons[i]
-        icon.onclick = function(e){
-            let name = this.getAttribute('data-name');
-            showCopyModal(name, e.pageX, e.pageY);
-            e.preventDefault();
-        }
+        let icon = icons[i];
+        let name = icon.getAttribute('data-name');
+        
+        // Copy name button
+        let copyNameBtn = icon.querySelector('.copy-name-btn');
+        copyNameBtn.onclick = function(e){
+            e.stopPropagation();
+            let iconName = this.closest('.icon').getAttribute('data-name');
+            copyToClipboard(iconName, iconName);
+        };
+        
+        // Copy SVG button
+        let copySvgBtn = icon.querySelector('.copy-svg-btn');
+        copySvgBtn.onclick = function(e){
+            e.stopPropagation();
+            let iconName = this.closest('.icon').getAttribute('data-name');
+            if (svgData[iconName]) {
+                copyToClipboard(svgData[iconName], iconName + ' (SVG)');
+            } else {
+                // Fallback: try to fetch SVG if not in embedded data
+                fetch('icons/' + iconName + '.svg')
+                    .then(response => response.text())
+                    .then(svg => {
+                        copyToClipboard(svg, iconName + ' (SVG)');
+                    })
+                    .catch(error => {
+                        console.warn('Could not fetch SVG for ' + iconName, error);
+                        notificationText.innerHTML = 'SVG not available';
+                        animateNotification();
+                    });
+            }
+        };
     }
 
     function animateNotification(){
