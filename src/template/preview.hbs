@@ -210,6 +210,50 @@
             opacity: .9;
         }
 
+        #copy-modal {
+            position: fixed;
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+            padding: 8px 0;
+            z-index: 1000;
+            display: none;
+            min-width: 160px;
+        }
+
+        #copy-modal.show {
+            display: block;
+        }
+
+        .copy-option {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            cursor: pointer;
+            color: var(--text-color);
+            font-size: 14px;
+            transition: background-color 0.2s ease;
+        }
+
+        .copy-option:hover {
+            background-color: var(--input-border);
+        }
+
+        #modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 999;
+            display: none;
+        }
+
+        #modal-overlay.show {
+            display: block;
+        }
+
     </style>
 
     <link rel="stylesheet" type="text/css" href="{{ name }}.css" />
@@ -238,6 +282,18 @@
     <div id="notification">📋 Copied: <span id="notification-id"></span></div>
     <input type="text" id="copier" aria-label="Clipboard helper">
 
+    <div id="modal-overlay"></div>
+    <div id="copy-modal">
+        <div class="copy-option" id="copy-name-option">
+            <i class="codicon codicon-symbol-string" aria-hidden="true"></i>
+            <span>Copy icon name</span>
+        </div>
+        <div class="copy-option" id="copy-svg-option">
+            <i class="codicon codicon-file-code" aria-hidden="true"></i>
+            <span>Copy SVG</span>
+        </div>
+    </div>
+
 <script type="text/javascript">
     let icons = document.getElementsByClassName('icon');
     let copier = document.getElementById('copier');
@@ -248,6 +304,9 @@
     
     // Load metadata
     let metadata = {}; // METADATA_PLACEHOLDER
+    
+    // Load SVG data
+    let svgData = {}; // SVG_DATA_PLACEHOLDER
 
     if (Object.keys(metadata).length > 0) {
         applyMetadata();
@@ -579,18 +638,99 @@
         });
     }
 
+    // Copy modal elements
+    let copyModal = document.getElementById('copy-modal');
+    let modalOverlay = document.getElementById('modal-overlay');
+    let copyNameOption = document.getElementById('copy-name-option');
+    let copySvgOption = document.getElementById('copy-svg-option');
+    let currentIconName = null;
+
+    function showCopyModal(iconName, x, y) {
+        currentIconName = iconName;
+        
+        // Position the modal near the click
+        copyModal.style.left = x + 'px';
+        copyModal.style.top = y + 'px';
+        
+        // Ensure modal stays within viewport
+        let rect = copyModal.getBoundingClientRect();
+        let viewportWidth = window.innerWidth;
+        let viewportHeight = window.innerHeight;
+        
+        if (x + 160 > viewportWidth) {
+            copyModal.style.left = (x - 160) + 'px';
+        }
+        if (y + 100 > viewportHeight) {
+            copyModal.style.top = (y - 100) + 'px';
+        }
+        
+        copyModal.classList.add('show');
+        modalOverlay.classList.add('show');
+    }
+
+    function hideCopyModal() {
+        copyModal.classList.remove('show');
+        modalOverlay.classList.remove('show');
+        currentIconName = null;
+    }
+
+    function copyToClipboard(text, displayText) {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text).then(function() {
+                notificationText.innerHTML = displayText;
+                animateNotification();
+            }).catch(function() {
+                // Fallback to old method
+                copier.value = text;
+                copier.select();
+                copier.setSelectionRange(0, 99999);
+                document.execCommand('copy');
+                notificationText.innerHTML = displayText;
+                animateNotification();
+            });
+        } else {
+            copier.value = text;
+            copier.select();
+            copier.setSelectionRange(0, 99999);
+            document.execCommand('copy');
+            notificationText.innerHTML = displayText;
+            animateNotification();
+        }
+    }
+
+    modalOverlay.onclick = hideCopyModal;
+
+    copyNameOption.onclick = function() {
+        if (currentIconName) {
+            copyToClipboard(currentIconName, currentIconName);
+        }
+        hideCopyModal();
+    };
+
+    copySvgOption.onclick = function() {
+        if (currentIconName && svgData[currentIconName]) {
+            copyToClipboard(svgData[currentIconName], currentIconName + ' (SVG)');
+        } else if (currentIconName) {
+            // Fallback: try to fetch SVG if not in embedded data
+            fetch('icons/' + currentIconName + '.svg')
+                .then(response => response.text())
+                .then(svg => {
+                    copyToClipboard(svg, currentIconName + ' (SVG)');
+                })
+                .catch(error => {
+                    console.warn('Could not fetch SVG for ' + currentIconName, error);
+                    notificationText.innerHTML = 'SVG not available';
+                    animateNotification();
+                });
+        }
+        hideCopyModal();
+    };
+
     for(i=0;i<icons.length;i++){
         let icon = icons[i]
         icon.onclick = function(e){
             let name = this.getAttribute('data-name');
-
-            copier.value = name;
-            copier.select();
-            copier.setSelectionRange(0, 99999)
-            document.execCommand('copy');
-
-            notificationText.innerHTML = name;
-            animateNotification();
+            showCopyModal(name, e.pageX, e.pageY);
             e.preventDefault();
         }
     }
