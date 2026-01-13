@@ -161,11 +161,15 @@
             gap: 8px;
             margin-top: 4px;
             opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
             transition: opacity 0.2s ease-in-out;
         }
 
         .icon:hover .copy-buttons {
             opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
         }
 
         .copy-btn {
