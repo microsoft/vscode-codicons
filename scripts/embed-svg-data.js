@@ -23,7 +23,7 @@ let html = fs.readFileSync(htmlPath, 'utf8');
 
 if (html.includes('// SVG_DATA_PLACEHOLDER')) {
     // Use regex to replace the initialization
-    html = html.replace(/let svgData = .* \/\/ SVG_DATA_PLACEHOLDER/, `let svgData = ${JSON.stringify(svgData)}; // SVG_DATA_PLACEHOLDER`);
+    html = html.replace(/let svgData = .*? \/\/ SVG_DATA_PLACEHOLDER/, `let svgData = ${JSON.stringify(svgData)}; // SVG_DATA_PLACEHOLDER`);
     fs.writeFileSync(htmlPath, html);
     console.log(`SVG data embedded into HTML (${Object.keys(svgData).length} icons).`);
 } else {
