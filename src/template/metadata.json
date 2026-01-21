@@ -64,6 +64,11 @@
     "category": "navigation",
     "description": "Arrow pointing up"
   },
+  "ask": {
+    "tags": ["question", "help", "chat", "inquiry", "support", "message", "bubble"],
+    "category": "communication",
+    "description": "Question mark in chat bubble"
+  },
   "beaker": {
     "tags": ["test", "lab", "tube", "science", "experiment", "flask"],
     "category": "tool",
@@ -2173,6 +2178,11 @@
     "tags": ["view", "restore", "window", "monitor", "display"],
     "category": "window",
     "description": "Normal screen"
+  },
+  "screen-cut": {
+    "tags": ["scissors", "snip", "capture", "screenshot", "clip", "cut", "window", "select"],
+    "category": "action",
+    "description": "Scissors cutting screen"
   },
   "search-fuzzy": {
     "tags": ["find", "approximate", "match", "loose", "query"],
