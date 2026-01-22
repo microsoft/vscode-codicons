@@ -21,3 +21,12 @@ To release from a branch other than `main`, you can choose the branch from the "
 Then, specify the desired release type as described above.
 
 Releasing from other branches is useful for creating recovery releases and pre-releases for testing.
+
+## Adopting updates in microsoft/vscode
+
+Update the `@vscode/codicons` dependency version in `microsoft/vscode`'s `package.json`s:
+
+- https://github.com/microsoft/vscode/blob/main/remote/web/package.json
+- https://github.com/microsoft/vscode/blob/main/package.json
+
+Then, run `npm i` in `microsoft/vscode` to update the `package-lock.json`s and make a PR with your changes.
