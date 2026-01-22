@@ -1,0 +1,47 @@
+[
+  {
+    "name": "iconDescriptionsInputTable",
+    "tableSpecifier": {
+      "dataColumnIndex": 0,
+      "dataRowIndex": 1,
+      "headerRowIndex": 0
+    },
+    "type": "Table",
+    "valueType": "None"
+  },
+  {
+    "name": "iconColumnIconKeyValueName",
+    "referenceOnly": true,
+    "type": "Value",
+    "value": "IconKeyValue",
+    "valueType": "Text"
+  },
+  {
+    "name": "iconColumnDescriptionsName",
+    "referenceOnly": true,
+    "type": "Value",
+    "value": "Descriptions",
+    "valueType": "Text"
+  },
+  {
+    "TargetName": "iconDescriptionsInputTable",
+    "name": "iconDescriptionsTableIterator",
+    "type": "TableIterator"
+  },
+  {
+    "name": "iconKeyValue",
+    "type": "Value",
+    "valueType": "Text"
+  },
+  {
+    "name": "iconDescriptions",
+    "type": "Value",
+    "valueType": "Text"
+  },
+  {
+    "name": "iconArtifacts",
+    "type": "VariableBag",
+    "valueType": "None",
+    "values": []
+  }
+]

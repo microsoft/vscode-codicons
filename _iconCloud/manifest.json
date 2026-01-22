@@ -11,6 +11,11 @@
       "dataPath": "~/_iconCloud/keywords.csv",
       "transformPaths": ["~/_iconCloud/keywords.transforms.json"],
       "variablePaths": ["~/_iconCloud/keywords.variables.json"]
+    },
+    {
+      "dataPath": "~/_iconCloud/metaphors.csv",
+      "transformPaths": ["~/_iconCloud/metaphors.transforms.json"],
+      "variablePaths": ["~/_iconCloud/metaphors.variables.json"]
     }
   ],
   "iconType": "Glyph",
@@ -30,7 +35,12 @@
     "metadata-1-dataStyle": "ClickablePill",
     "metadata-1-dataType": "Keywords",
     "metadata-1-label": "Keywords",
-    "metadata-1-sorting": "ByWeight"
+    "metadata-1-sorting": "ByWeight",
+    "metadata-2-dataMapping": "Icon:iconMetaphors",
+    "metadata-2-dataStyle": "ClickablePill",
+    "metadata-2-dataType": "Metaphors",
+    "metadata-2-label": "Metaphors",
+    "metadata-2-sorting": "ByName"
   },
   "libraryVersion": "2.43"
 }

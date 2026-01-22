@@ -1,0 +1,48 @@
+[
+  {
+    "name": "iconCategoriesInputTable",
+    "tableSpecifier":
+    {
+      "dataColumnIndex": 0,
+      "dataRowIndex": 1,
+      "headerRowIndex": 0
+    },
+    "type": "Table",
+    "valueType": "None"
+  },
+  {
+    "name": "iconColumnIconKeyValueName",
+    "referenceOnly": true,
+    "type": "Value",
+    "value": "IconKeyValue",
+    "valueType": "Text"
+  },
+  {
+    "name": "iconColumnCategoriesName",
+    "referenceOnly": true,
+    "type": "Value",
+    "value": "Categories",
+    "valueType": "Text"
+  },
+  {
+    "TargetName": "iconCategoriesInputTable",
+    "name": "iconCategoriesTableIterator",
+    "type": "TableIterator"
+  },
+  {
+    "name": "iconKeyValue",
+    "type": "Value",
+    "valueType": "Text"
+  },
+  {
+    "name": "iconCategories",
+    "type": "Value",
+    "valueType": "Text"
+  },
+  {
+    "name": "iconArtifacts",
+    "type": "VariableBag",
+    "valueType": "None",
+    "values": []
+  }
+]

@@ -1,0 +1,2672 @@
+{
+  "account": {
+    "tags": ["person", "people", "face", "user", "contact", "profile", "avatar"],
+    "category": "user",
+    "description": "User account or person icon"
+  },
+  "activate-breakpoints": {
+    "tags": ["debug", "dot", "circle", "toggle", "switch", "enable"],
+    "category": "debug",
+    "description": "Enable or activate breakpoints"
+  },
+  "add": {
+    "tags": ["plus", "new", "create", "combine", "more", "insert"],
+    "category": "action",
+    "description": "Add or create new item"
+  },
+  "archive": {
+    "tags": ["save", "box", "delivery", "package", "store", "compress"],
+    "category": "file",
+    "description": "Archive or package items"
+  },
+  "arrow-both": {
+    "tags": ["switch", "swap", "exchange", "bidirectional", "transfer"],
+    "category": "navigation",
+    "description": "Bidirectional arrow"
+  },
+  "arrow-circle-down": {
+    "tags": ["download", "direction", "navigate", "round"],
+    "category": "navigation",
+    "description": "Circular arrow pointing down"
+  },
+  "arrow-circle-left": {
+    "tags": ["back", "direction", "navigate", "round", "previous"],
+    "category": "navigation",
+    "description": "Circular arrow pointing left"
+  },
+  "arrow-circle-right": {
+    "tags": ["forward", "direction", "navigate", "round", "next"],
+    "category": "navigation",
+    "description": "Circular arrow pointing right"
+  },
+  "arrow-circle-up": {
+    "tags": ["upload", "direction", "navigate", "round"],
+    "category": "navigation",
+    "description": "Circular arrow pointing up"
+  },
+  "arrow-down": {
+    "tags": ["direction", "navigate", "sort", "download", "descend"],
+    "category": "navigation",
+    "description": "Arrow pointing down"
+  },
+  "arrow-left": {
+    "tags": ["direction", "navigate", "back", "previous"],
+    "category": "navigation",
+    "description": "Arrow pointing left"
+  },
+  "arrow-right": {
+    "tags": ["direction", "navigate", "forward", "next"],
+    "category": "navigation",
+    "description": "Arrow pointing right"
+  },
+  "arrow-up": {
+    "tags": ["direction", "navigate", "sort", "upload", "ascend"],
+    "category": "navigation",
+    "description": "Arrow pointing up"
+  },
+  "ask": {
+    "tags": ["question", "help", "chat", "inquiry", "support", "message", "bubble"],
+    "category": "communication",
+    "description": "Question mark in chat bubble"
+  },
+  "beaker": {
+    "tags": ["test", "lab", "tube", "science", "experiment", "flask"],
+    "category": "tool",
+    "description": "Testing or experimental feature"
+  },
+  "bell": {
+    "tags": ["alert", "notify", "notification", "alarm", "reminder"],
+    "category": "notification",
+    "description": "Notification or alert"
+  },
+  "bell-dot": {
+    "tags": ["alert", "notify", "notification", "alarm", "unread", "badge"],
+    "category": "notification",
+    "description": "Notification with unread indicator"
+  },
+  "bold": {
+    "tags": ["text", "format", "weight", "font", "style", "strong"],
+    "category": "text",
+    "description": "Bold text formatting"
+  },
+  "book": {
+    "tags": ["library", "text", "read", "documentation", "manual", "guide"],
+    "category": "content",
+    "description": "Documentation or reading material"
+  },
+  "bookmark": {
+    "tags": ["save", "mark", "favorite", "remember", "flag"],
+    "category": "action",
+    "description": "Bookmark or save for later"
+  },
+  "briefcase": {
+    "tags": ["work", "workplace", "business", "professional", "job"],
+    "category": "general",
+    "description": "Work or business related"
+  },
+  "broadcast": {
+    "tags": ["tower", "signal", "connect", "connection", "transmit", "wireless"],
+    "category": "communication",
+    "description": "Broadcast or transmit signal"
+  },
+  "browser": {
+    "tags": ["web", "internet", "page", "window", "site"],
+    "category": "application",
+    "description": "Web browser or webpage"
+  },
+  "bug": {
+    "tags": ["error", "issue", "insect", "problem", "defect"],
+    "category": "debug",
+    "description": "Bug or error"
+  },
+  "calendar": {
+    "tags": ["day", "time", "week", "month", "date", "schedule", "event", "planner"],
+    "category": "general",
+    "description": "Calendar or schedule"
+  },
+  "call-incoming": {
+    "tags": ["phone", "call", "voice", "connection", "receive"],
+    "category": "communication",
+    "description": "Incoming call"
+  },
+  "call-outgoing": {
+    "tags": ["phone", "call", "voice", "connection", "send"],
+    "category": "communication",
+    "description": "Outgoing call"
+  },
+  "case-sensitive": {
+    "tags": ["search", "filter", "option", "letters", "words", "text"],
+    "category": "search",
+    "description": "Case-sensitive search option"
+  },
+  "check": {
+    "tags": ["checkmark", "select", "checked", "mark", "complete", "finish", "done", "accept", "approve", "success"],
+    "category": "status",
+    "description": "Check or success indicator"
+  },
+  "check-all": {
+    "tags": ["checkmark", "select", "everything", "checked", "mark", "complete", "finish", "done", "accept", "approve", "bulk"],
+    "category": "action",
+    "description": "Check all or select all"
+  },
+  "checklist": {
+    "tags": ["checkmark", "select", "checked", "mark", "complete", "finish", "done", "todo", "task", "list"],
+    "category": "content",
+    "description": "Checklist or task list"
+  },
+  "chevron-down": {
+    "tags": ["twistie", "tree", "node", "folder", "fold", "collapse", "expand", "dropdown"],
+    "category": "navigation",
+    "description": "Chevron pointing down"
+  },
+  "chevron-left": {
+    "tags": ["twistie", "tree", "node", "folder", "fold", "collapse", "back"],
+    "category": "navigation",
+    "description": "Chevron pointing left"
+  },
+  "chevron-right": {
+    "tags": ["twistie", "tree", "node", "folder", "fold", "expand", "forward"],
+    "category": "navigation",
+    "description": "Chevron pointing right"
+  },
+  "chevron-up": {
+    "tags": ["twistie", "tree", "node", "folder", "fold", "collapse", "expand"],
+    "category": "navigation",
+    "description": "Chevron pointing up"
+  },
+  "chrome-close": {
+    "tags": ["menu", "bar", "window", "dismiss", "exit", "quit"],
+    "category": "window",
+    "description": "Close window button"
+  },
+  "chrome-maximize": {
+    "tags": ["menu", "bar", "window", "large", "increase", "expand"],
+    "category": "window",
+    "description": "Maximize window button"
+  },
+  "chrome-minimize": {
+    "tags": ["menu", "bar", "window", "small", "decrease", "reduce"],
+    "category": "window",
+    "description": "Minimize window button"
+  },
+  "chrome-restore": {
+    "tags": ["menu", "bar", "window", "resize", "normal"],
+    "category": "window",
+    "description": "Restore window button"
+  },
+  "circle-filled": {
+    "tags": ["dot", "round", "small", "bullet", "point", "breakpoint"],
+    "category": "shape",
+    "description": "Filled circle"
+  },
+  "circle-large-filled": {
+    "tags": ["dot", "round", "bullet", "point"],
+    "category": "shape",
+    "description": "Large filled circle"
+  },
+  "circle-large": {
+    "tags": ["dot", "round", "bullet", "point", "outline"],
+    "category": "shape",
+    "description": "Large circle outline"
+  },
+  "circle-slash": {
+    "tags": ["error", "block", "stop", "disable", "prohibited", "forbidden"],
+    "category": "status",
+    "description": "Blocked or disabled"
+  },
+  "circuit-board": {
+    "tags": ["iot", "device", "process", "hardware", "technology"],
+    "category": "tool",
+    "description": "Circuit board or IoT device"
+  },
+  "clear-all": {
+    "tags": ["reset", "remove", "delete", "clean", "empty"],
+    "category": "action",
+    "description": "Clear or reset all"
+  },
+  "clippy": {
+    "tags": ["clipboard", "document", "edit", "copy", "paste"],
+    "category": "action",
+    "description": "Clipboard or copy"
+  },
+  "close": {
+    "tags": ["remove", "delete", "cancel", "stop", "dismiss", "exit"],
+    "category": "action",
+    "description": "Close or cancel"
+  },
+  "close-all": {
+    "tags": ["remove", "bulk", "dismiss", "exit"],
+    "category": "action",
+    "description": "Close all items"
+  },
+  "cloud": {
+    "tags": ["online", "service", "storage", "sync", "remote"],
+    "category": "storage",
+    "description": "Cloud service or storage"
+  },
+  "cloud-download": {
+    "tags": ["install", "import", "retrieve", "fetch"],
+    "category": "action",
+    "description": "Download from cloud"
+  },
+  "cloud-upload": {
+    "tags": ["export", "save", "send", "publish"],
+    "category": "action",
+    "description": "Upload to cloud"
+  },
+  "code": {
+    "tags": ["embed", "script", "programming", "development", "source"],
+    "category": "development",
+    "description": "Code or programming"
+  },
+  "coffee": {
+    "tags": ["break", "drink", "beverage", "java", "pause"],
+    "category": "general",
+    "description": "Coffee or break time"
+  },
+  "collapse-all": {
+    "tags": ["bulk", "fold", "minimize", "hide", "tree"],
+    "category": "action",
+    "description": "Collapse all items"
+  },
+  "color-mode": {
+    "tags": ["switch", "dark", "light", "contrast", "theme", "toggle"],
+    "category": "settings",
+    "description": "Color or theme mode"
+  },
+  "comment": {
+    "tags": ["dialog", "message", "bubble", "chat", "feedback", "note"],
+    "category": "communication",
+    "description": "Comment or message"
+  },
+  "comment-discussion": {
+    "tags": ["dialog", "message", "bubble", "chat", "conversation", "feedback"],
+    "category": "communication",
+    "description": "Discussion or conversation"
+  },
+  "copilot": {
+    "tags": ["ai", "assistant", "help", "automation", "suggestion"],
+    "category": "ai",
+    "description": "AI Copilot assistant"
+  },
+  "copy": {
+    "tags": ["duplicate", "clone", "clipboard", "paste"],
+    "category": "action",
+    "description": "Copy content"
+  },
+  "credit-card": {
+    "tags": ["payment", "merchant", "money", "billing", "purchase"],
+    "category": "general",
+    "description": "Payment or credit card"
+  },
+  "dash": {
+    "tags": ["line", "minus", "subtract", "hyphen", "separator"],
+    "category": "general",
+    "description": "Dash or minus"
+  },
+  "dashboard": {
+    "tags": ["panel", "stats", "dial", "overview", "metrics"],
+    "category": "application",
+    "description": "Dashboard or overview"
+  },
+  "database": {
+    "tags": ["sql", "storage", "data", "server", "table"],
+    "category": "storage",
+    "description": "Database or data storage"
+  },
+  "debug": {
+    "tags": ["run", "test", "troubleshoot", "fix", "breakpoint"],
+    "category": "debug",
+    "description": "Debug or test"
+  },
+  "debug-alt": {
+    "tags": ["run", "execute", "play", "start"],
+    "category": "debug",
+    "description": "Debug alternative icon"
+  },
+  "debug-console": {
+    "tags": ["terminal", "command", "input", "compile", "build", "output"],
+    "category": "debug",
+    "description": "Debug console or terminal"
+  },
+  "device-camera": {
+    "tags": ["capture", "picture", "image", "photo", "screenshot"],
+    "category": "device",
+    "description": "Camera device"
+  },
+  "device-camera-video": {
+    "tags": ["movie", "record", "capture", "video", "film"],
+    "category": "device",
+    "description": "Video camera"
+  },
+  "device-mobile": {
+    "tags": ["phone", "handheld", "smartphone", "mobile", "responsive"],
+    "category": "device",
+    "description": "Mobile device"
+  },
+  "diff": {
+    "tags": ["compare", "changes", "difference", "git", "version"],
+    "category": "git",
+    "description": "Diff or comparison"
+  },
+  "diff-added": {
+    "tags": ["git", "change", "new", "insert", "green"],
+    "category": "git",
+    "description": "Added changes in diff"
+  },
+  "diff-ignored": {
+    "tags": ["git", "change", "skip", "excluded"],
+    "category": "git",
+    "description": "Ignored changes in diff"
+  },
+  "diff-modified": {
+    "tags": ["git", "change", "edit", "updated", "yellow"],
+    "category": "git",
+    "description": "Modified changes in diff"
+  },
+  "diff-removed": {
+    "tags": ["git", "change", "delete", "removed", "red"],
+    "category": "git",
+    "description": "Removed changes in diff"
+  },
+  "diff-renamed": {
+    "tags": ["git", "change", "move", "renamed"],
+    "category": "git",
+    "description": "Renamed changes in diff"
+  },
+  "edit": {
+    "tags": ["pencil", "modify", "write", "change", "update"],
+    "category": "action",
+    "description": "Edit or modify"
+  },
+  "error": {
+    "tags": ["stop", "problem", "issue", "alert", "warning", "critical"],
+    "category": "status",
+    "description": "Error or critical issue"
+  },
+  "extensions": {
+    "tags": ["plugin", "addon", "package", "module", "marketplace"],
+    "category": "application",
+    "description": "Extensions or plugins"
+  },
+  "eye": {
+    "tags": ["view", "watch", "see", "visibility", "preview"],
+    "category": "action",
+    "description": "View or watch"
+  },
+  "eye-closed": {
+    "tags": ["hide", "hidden", "invisible", "privacy", "conceal"],
+    "category": "action",
+    "description": "Hide or invisible"
+  },
+  "file": {
+    "tags": ["document", "text", "page", "content"],
+    "category": "file",
+    "description": "File or document"
+  },
+  "file-code": {
+    "tags": ["source", "programming", "script", "development"],
+    "category": "file",
+    "description": "Code file"
+  },
+  "files": {
+    "tags": ["documents", "multiple", "explorer", "browser"],
+    "category": "file",
+    "description": "Multiple files"
+  },
+  "filter": {
+    "tags": ["funnel", "sort", "search", "refine", "narrow"],
+    "category": "action",
+    "description": "Filter or refine"
+  },
+  "folder": {
+    "tags": ["directory", "container", "storage", "organize"],
+    "category": "file",
+    "description": "Folder or directory"
+  },
+  "folder-opened": {
+    "tags": ["directory", "container", "storage", "organize", "expanded"],
+    "category": "file",
+    "description": "Opened folder"
+  },
+  "gear": {
+    "tags": ["settings", "configuration", "preferences", "options", "setup"],
+    "category": "settings",
+    "description": "Settings or configuration"
+  },
+  "git-branch": {
+    "tags": ["source", "control", "version", "tree", "fork"],
+    "category": "git",
+    "description": "Git branch"
+  },
+  "git-commit": {
+    "tags": ["save", "record", "version", "snapshot"],
+    "category": "git",
+    "description": "Git commit"
+  },
+  "git-merge": {
+    "tags": ["combine", "join", "integrate", "branch"],
+    "category": "git",
+    "description": "Git merge"
+  },
+  "git-pull-request": {
+    "tags": ["pr", "review", "merge", "contribution"],
+    "category": "git",
+    "description": "Pull request"
+  },
+  "globe": {
+    "tags": ["world", "internet", "web", "international", "network"],
+    "category": "general",
+    "description": "Globe or web"
+  },
+  "graph": {
+    "tags": ["chart", "visualization", "data", "analytics", "statistics"],
+    "category": "visualization",
+    "description": "Graph or chart"
+  },
+  "heart": {
+    "tags": ["like", "favorite", "love", "bookmark"],
+    "category": "general",
+    "description": "Like or favorite"
+  },
+  "home": {
+    "tags": ["house", "main", "start", "dashboard"],
+    "category": "navigation",
+    "description": "Home page"
+  },
+  "info": {
+    "tags": ["information", "help", "about", "details"],
+    "category": "status",
+    "description": "Information or help"
+  },
+  "issues": {
+    "tags": ["bug", "problem", "task", "ticket", "github"],
+    "category": "general",
+    "description": "Issues or tasks"
+  },
+  "json": {
+    "tags": ["bracket", "data", "format", "code", "structure"],
+    "category": "development",
+    "description": "JSON format"
+  },
+  "key": {
+    "tags": ["password", "secret", "access", "security", "authentication"],
+    "category": "security",
+    "description": "Key or password"
+  },
+  "law": {
+    "tags": ["legal", "license", "terms", "compliance"],
+    "category": "general",
+    "description": "Legal or license"
+  },
+  "library": {
+    "tags": ["collection", "repository", "storage", "archive"],
+    "category": "general",
+    "description": "Library or collection"
+  },
+  "lightbulb": {
+    "tags": ["idea", "suggestion", "tip", "hint", "smart"],
+    "category": "general",
+    "description": "Idea or suggestion"
+  },
+  "link": {
+    "tags": ["url", "hyperlink", "connection", "chain", "reference"],
+    "category": "general",
+    "description": "Link or reference"
+  },
+  "link-external": {
+    "tags": ["url", "open", "new", "outside", "external"],
+    "category": "action",
+    "description": "External link"
+  },
+  "list-ordered": {
+    "tags": ["numbered", "sequence", "steps", "order"],
+    "category": "content",
+    "description": "Ordered list"
+  },
+  "list-unordered": {
+    "tags": ["bullet", "items", "points"],
+    "category": "content",
+    "description": "Unordered list"
+  },
+  "loading": {
+    "tags": ["spinner", "progress", "wait", "processing", "busy"],
+    "category": "status",
+    "description": "Loading or processing"
+  },
+  "location": {
+    "tags": ["map", "place", "pin", "marker", "gps"],
+    "category": "general",
+    "description": "Location or place"
+  },
+  "mail": {
+    "tags": ["email", "message", "envelope", "communication"],
+    "category": "communication",
+    "description": "Email or mail"
+  },
+  "markdown": {
+    "tags": ["text", "format", "document", "md", "writing"],
+    "category": "development",
+    "description": "Markdown format"
+  },
+  "menu": {
+    "tags": ["hamburger", "navigation", "options", "list"],
+    "category": "navigation",
+    "description": "Menu or options"
+  },
+  "merge": {
+    "tags": ["combine", "join", "unite", "integrate"],
+    "category": "action",
+    "description": "Merge or combine"
+  },
+  "mic": {
+    "tags": ["microphone", "audio", "voice", "record", "sound"],
+    "category": "device",
+    "description": "Microphone or audio"
+  },
+  "mirror": {
+    "tags": ["reflect", "copy", "duplicate", "sync"],
+    "category": "action",
+    "description": "Mirror or reflect"
+  },
+  "more": {
+    "tags": ["ellipsis", "menu", "options", "actions", "dots"],
+    "category": "navigation",
+    "description": "More options"
+  },
+  "move": {
+    "tags": ["drag", "reorder", "relocate", "transfer"],
+    "category": "action",
+    "description": "Move or drag"
+  },
+  "new-file": {
+    "tags": ["create", "add", "document", "blank"],
+    "category": "file",
+    "description": "New file"
+  },
+  "new-folder": {
+    "tags": ["create", "add", "directory", "blank"],
+    "category": "file",
+    "description": "New folder"
+  },
+  "note": {
+    "tags": ["document", "memo", "text", "write"],
+    "category": "content",
+    "description": "Note or memo"
+  },
+  "notebook": {
+    "tags": ["jupyter", "code", "document", "interactive"],
+    "category": "development",
+    "description": "Notebook or interactive document"
+  },
+  "organization": {
+    "tags": ["company", "business", "group", "team"],
+    "category": "user",
+    "description": "Organization or company"
+  },
+  "output": {
+    "tags": ["result", "console", "terminal", "log"],
+    "category": "development",
+    "description": "Output or result"
+  },
+  "package": {
+    "tags": ["box", "module", "library", "dependency"],
+    "category": "development",
+    "description": "Package or module"
+  },
+  "pass": {
+    "tags": ["check", "success", "complete", "done", "approved"],
+    "category": "status",
+    "description": "Pass or success"
+  },
+  "person": {
+    "tags": ["user", "account", "profile", "human", "contact"],
+    "category": "user",
+    "description": "Person or user"
+  },
+  "pin": {
+    "tags": ["attach", "fix", "stick", "bookmark"],
+    "category": "action",
+    "description": "Pin or attach"
+  },
+  "play": {
+    "tags": ["run", "start", "execute", "begin"],
+    "category": "action",
+    "description": "Play or run"
+  },
+  "plug": {
+    "tags": ["extension", "connect", "addon", "power"],
+    "category": "general",
+    "description": "Plugin or extension"
+  },
+  "preview": {
+    "tags": ["view", "see", "look", "display"],
+    "category": "action",
+    "description": "Preview or view"
+  },
+  "project": {
+    "tags": ["workspace", "folder", "solution", "repository"],
+    "category": "general",
+    "description": "Project or workspace"
+  },
+  "question": {
+    "tags": ["help", "info", "unknown", "ask"],
+    "category": "general",
+    "description": "Question or help"
+  },
+  "record": {
+    "tags": ["capture", "start", "save", "log"],
+    "category": "action",
+    "description": "Record or capture"
+  },
+  "redo": {
+    "tags": ["repeat", "forward", "restore", "again"],
+    "category": "action",
+    "description": "Redo action"
+  },
+  "refresh": {
+    "tags": ["reload", "update", "sync", "restart"],
+    "category": "action",
+    "description": "Refresh or reload"
+  },
+  "regex": {
+    "tags": ["pattern", "search", "expression", "match"],
+    "category": "search",
+    "description": "Regular expression"
+  },
+  "remote": {
+    "tags": ["server", "cloud", "ssh", "connection"],
+    "category": "connection",
+    "description": "Remote connection"
+  },
+  "remove": {
+    "tags": ["delete", "trash", "clear", "eliminate"],
+    "category": "action",
+    "description": "Remove or delete"
+  },
+  "replace": {
+    "tags": ["swap", "substitute", "change", "exchange"],
+    "category": "action",
+    "description": "Replace or substitute"
+  },
+  "repo": {
+    "tags": ["repository", "git", "source", "project"],
+    "category": "git",
+    "description": "Repository"
+  },
+  "report": {
+    "tags": ["document", "analytics", "summary", "data"],
+    "category": "general",
+    "description": "Report or summary"
+  },
+  "rocket": {
+    "tags": ["launch", "deploy", "fast", "start"],
+    "category": "general",
+    "description": "Launch or deploy"
+  },
+  "save": {
+    "tags": ["disk", "store", "keep", "preserve"],
+    "category": "action",
+    "description": "Save or store"
+  },
+  "save-all": {
+    "tags": ["disk", "store", "keep", "preserve", "bulk"],
+    "category": "action",
+    "description": "Save all"
+  },
+  "search": {
+    "tags": ["find", "query", "look", "magnify", "locate"],
+    "category": "search",
+    "description": "Search or find"
+  },
+  "server": {
+    "tags": ["host", "backend", "database", "remote"],
+    "category": "general",
+    "description": "Server or host"
+  },
+  "settings": {
+    "tags": ["gear", "configuration", "preferences", "options"],
+    "category": "settings",
+    "description": "Settings or preferences"
+  },
+  "settings-gear": {
+    "tags": ["configuration", "preferences", "options", "setup"],
+    "category": "settings",
+    "description": "Settings gear"
+  },
+  "shield": {
+    "tags": ["security", "protect", "safety", "guard"],
+    "category": "security",
+    "description": "Security or protection"
+  },
+  "source-control": {
+    "tags": ["git", "version", "scm", "branch"],
+    "category": "git",
+    "description": "Source control"
+  },
+  "sparkle": {
+    "tags": ["ai", "magic", "auto", "smart", "copilot"],
+    "category": "ai",
+    "description": "AI or automated feature"
+  },
+  "split-horizontal": {
+    "tags": ["divide", "layout", "pane", "window"],
+    "category": "layout",
+    "description": "Split horizontally"
+  },
+  "split-vertical": {
+    "tags": ["divide", "layout", "pane", "window"],
+    "category": "layout",
+    "description": "Split vertically"
+  },
+  "star": {
+    "tags": ["favorite", "bookmark", "rating", "highlight"],
+    "category": "general",
+    "description": "Star or favorite"
+  },
+  "symbol-class": {
+    "tags": ["code", "object", "type", "definition"],
+    "category": "symbol",
+    "description": "Class symbol"
+  },
+  "symbol-method": {
+    "tags": ["code", "function", "procedure", "definition"],
+    "category": "symbol",
+    "description": "Method symbol"
+  },
+  "tag": {
+    "tags": ["label", "mark", "version", "release"],
+    "category": "general",
+    "description": "Tag or label"
+  },
+  "terminal": {
+    "tags": ["console", "command", "shell", "cli"],
+    "category": "application",
+    "description": "Terminal or console"
+  },
+  "text-size": {
+    "tags": ["font", "typography", "scale", "zoom"],
+    "category": "text",
+    "description": "Text size or font"
+  },
+  "trash": {
+    "tags": ["delete", "remove", "bin", "discard"],
+    "category": "action",
+    "description": "Trash or delete"
+  },
+  "unlock": {
+    "tags": ["open", "unsecure", "access", "unlocked"],
+    "category": "security",
+    "description": "Unlock or open"
+  },
+  "verified": {
+    "tags": ["check", "approved", "trusted", "confirmed"],
+    "category": "status",
+    "description": "Verified or approved"
+  },
+  "watch": {
+    "tags": ["monitor", "observe", "track", "follow"],
+    "category": "action",
+    "description": "Watch or monitor"
+  },
+  "window": {
+    "tags": ["application", "frame", "panel", "view"],
+    "category": "layout",
+    "description": "Window or panel"
+  },
+  "workspace-trusted": {
+    "tags": ["safe", "verified", "secure", "approved"],
+    "category": "status",
+    "description": "Trusted workspace"
+  },
+  "zoom-in": {
+    "tags": ["magnify", "enlarge", "increase", "expand"],
+    "category": "action",
+    "description": "Zoom in or enlarge"
+  },
+  "zoom-out": {
+    "tags": ["reduce", "shrink", "decrease", "minimize"],
+    "category": "action",
+    "description": "Zoom out or reduce"
+  },
+  "add-small": {
+    "tags": ["plus", "new", "create", "mini", "tiny"],
+    "category": "action",
+    "description": "Small add icon"
+  },
+  "agent": {
+    "tags": ["ai", "bot", "assistant", "robot", "service"],
+    "category": "ai",
+    "description": "AI agent or bot"
+  },
+  "alert": {
+    "tags": ["warning", "error", "danger", "notification", "triangle", "exclamation"],
+    "category": "status",
+    "description": "Alert or warning"
+  },
+  "array": {
+    "tags": ["list", "collection", "brackets", "data", "structure"],
+    "category": "symbol",
+    "description": "Array data structure"
+  },
+  "arrow-small-down": {
+    "tags": ["direction", "navigate", "mini", "tiny", "descend"],
+    "category": "navigation",
+    "description": "Small arrow pointing down"
+  },
+  "arrow-small-left": {
+    "tags": ["direction", "navigate", "back", "mini", "tiny"],
+    "category": "navigation",
+    "description": "Small arrow pointing left"
+  },
+  "arrow-small-right": {
+    "tags": ["direction", "navigate", "forward", "mini", "tiny"],
+    "category": "navigation",
+    "description": "Small arrow pointing right"
+  },
+  "arrow-small-up": {
+    "tags": ["direction", "navigate", "mini", "tiny", "ascend"],
+    "category": "navigation",
+    "description": "Small arrow pointing up"
+  },
+  "arrow-swap": {
+    "tags": ["switch", "exchange", "replace", "direction"],
+    "category": "action",
+    "description": "Swap arrows"
+  },
+  "attach": {
+    "tags": ["clip", "paperclip", "file", "link", "connect", "add"],
+    "category": "action",
+    "description": "Attach file or item"
+  },
+  "azure": {
+    "tags": ["cloud", "microsoft", "service", "platform", "logo"],
+    "category": "brand",
+    "description": "Microsoft Azure logo"
+  },
+  "azure-devops": {
+    "tags": ["cloud", "microsoft", "service", "cicd", "logo"],
+    "category": "brand",
+    "description": "Azure DevOps logo"
+  },
+  "beaker-stop": {
+    "tags": ["test", "experiment", "halt", "cancel", "lab"],
+    "category": "tool",
+    "description": "Stop experiment or test"
+  },
+  "bell-slash": {
+    "tags": ["mute", "silent", "quiet", "no-notification", "off"],
+    "category": "notification",
+    "description": "Notifications disabled"
+  },
+  "bell-slash-dot": {
+    "tags": ["mute", "silent", "quiet", "unread", "badge"],
+    "category": "notification",
+    "description": "Notifications disabled with unread"
+  },
+  "blank": {
+    "tags": ["empty", "nothing", "void", "clear", "space"],
+    "category": "general",
+    "description": "Blank or empty space"
+  },
+  "bracket-dot": {
+    "tags": ["code", "json", "array", "badge", "indicator"],
+    "category": "symbol",
+    "description": "Bracket with dot indicator"
+  },
+  "bracket-error": {
+    "tags": ["code", "json", "array", "issue", "problem"],
+    "category": "symbol",
+    "description": "Bracket with error indicator"
+  },
+  "build": {
+    "tags": ["compile", "make", "construct", "tools", "hammer"],
+    "category": "development",
+    "description": "Build or compile"
+  },
+  "chat-sparkle": {
+    "tags": ["ai", "copilot", "message", "magic", "suggestion"],
+    "category": "ai",
+    "description": "AI chat suggestion"
+  },
+  "chat-sparkle-error": {
+    "tags": ["ai", "copilot", "message", "issue", "problem"],
+    "category": "ai",
+    "description": "AI chat error"
+  },
+  "chat-sparkle-warning": {
+    "tags": ["ai", "copilot", "message", "alert", "caution", "exclamation"],
+    "category": "ai",
+    "description": "AI chat warning"
+  },
+  "chip": {
+    "tags": ["hardware", "processor", "cpu", "gpu", "silicon", "integrated"],
+    "category": "device",
+    "description": "Computer chip or processor"
+  },
+  "circle-outline": {
+    "tags": ["round", "shape", "empty", "ring", "hollow"],
+    "category": "shape",
+    "description": "Circle outline shape"
+  },
+  "circle-small": {
+    "tags": ["dot", "point", "round", "tiny", "mini"],
+    "category": "shape",
+    "description": "Small circle outline"
+  },
+  "circle-small-filled": {
+    "tags": ["dot", "point", "round", "tiny", "mini", "solid"],
+    "category": "shape",
+    "description": "Small filled circle"
+  },
+  "clockface": {
+    "tags": ["time", "watch", "schedule", "history", "wait", "hour", "minute"],
+    "category": "general",
+    "description": "Clock face showing time"
+  },
+  "clone": {
+    "tags": ["copy", "duplicate", "replicate", "git", "repo"],
+    "category": "action",
+    "description": "Clone or duplicate"
+  },
+  "cloud-small": {
+    "tags": ["online", "storage", "mini", "tiny", "remote"],
+    "category": "storage",
+    "description": "Small cloud icon"
+  },
+  "code-oss": {
+    "tags": ["vscode", "open source", "editor", "logo", "brand"],
+    "category": "brand",
+    "description": "Code OSS logo"
+  },
+  "code-review": {
+    "tags": ["pr", "pull request", "check", "inspect", "examine"],
+    "category": "git",
+    "description": "Code review"
+  },
+  "collection": {
+    "tags": ["group", "set", "library", "stack", "gather"],
+    "category": "general",
+    "description": "Collection of items"
+  },
+  "collection-small": {
+    "tags": ["group", "set", "library", "mini", "tiny"],
+    "category": "general",
+    "description": "Small collection"
+  },
+  "combine": {
+    "tags": ["merge", "join", "unite", "mix", "blend"],
+    "category": "action",
+    "description": "Combine items"
+  },
+  "comment-discussion-quote": {
+    "tags": ["chat", "reply", "reference", "cite", "message"],
+    "category": "communication",
+    "description": "Quoted discussion comment"
+  },
+  "comment-discussion-sparkle": {
+    "tags": ["ai", "chat", "copilot", "magic", "suggestion", "intelligent"],
+    "category": "ai",
+    "description": "AI discussion comment"
+  },
+  "comment-draft": {
+    "tags": ["message", "unsaved", "pending", "write", "edit", "pr"],
+    "category": "communication",
+    "description": "Draft comment"
+  },
+  "comment-unresolved": {
+    "tags": ["message", "open", "pending", "issue", "active", "pr"],
+    "category": "communication",
+    "description": "Unresolved comment"
+  },
+  "compass": {
+    "tags": ["navigate", "direction", "orient", "guide", "map"],
+    "category": "navigation",
+    "description": "Compass for navigation"
+  },
+  "compass-active": {
+    "tags": ["navigate", "direction", "orient", "guide", "on"],
+    "category": "navigation",
+    "description": "Active compass"
+  },
+  "compass-dot": {
+    "tags": ["navigate", "direction", "orient", "badge", "notification"],
+    "category": "navigation",
+    "description": "Compass with indicator"
+  },
+  "copilot-blocked": {
+    "tags": ["ai", "stop", "prevent", "ban", "restricted", "intelligent", "agent"],
+    "category": "ai",
+    "description": "Copilot blocked"
+  },
+  "copilot-error": {
+    "tags": ["ai", "issue", "problem", "fail", "bug", "cross", "intelligent", "agent"],
+    "category": "ai",
+    "description": "Copilot error"
+  },
+  "copilot-in-progress": {
+    "tags": ["ai", "loading", "thinking", "working", "busy", "spinner", "waiting", "intelligent", "agent"],
+    "category": "ai",
+    "description": "Copilot working"
+  },
+  "copilot-large": {
+    "tags": ["ai", "assistant", "big", "logo", "brand", "intelligent", "agent"],
+    "category": "ai",
+    "description": "Large Copilot logo"
+  },
+  "copilot-not-connected": {
+    "tags": ["ai", "offline", "disconnected", "network", "link", "intelligent", "agent"],
+    "category": "ai",
+    "description": "Copilot disconnected"
+  },
+  "copilot-snooze": {
+    "tags": ["ai", "sleep", "pause", "wait", "later", "intelligent", "agent"],
+    "category": "ai",
+    "description": "Copilot snoozed"
+  },
+  "copilot-success": {
+    "tags": ["ai", "check", "done", "complete", "ok", "intelligent", "agent", "tick", "pass"],
+    "category": "ai",
+    "description": "Copilot success"
+  },
+  "copilot-unavailable": {
+    "tags": ["ai", "offline", "missing", "gone", "disabled", "intelligent", "agent"],
+    "category": "ai",
+    "description": "Copilot unavailable"
+  },
+  "copilot-warning": {
+    "tags": ["ai", "alert", "caution", "attention", "issue", "exclamation", "intelligent", "agent"],
+    "category": "ai",
+    "description": "Copilot warning"
+  },
+  "copilot-warning-large": {
+    "tags": ["ai", "alert", "caution", "big", "attention", "exclamation", "intelligent", "agent"],
+    "category": "ai",
+    "description": "Large Copilot warning"
+  },
+  "coverage": {
+    "tags": ["test", "percent", "code", "quality", "metrics"],
+    "category": "debug",
+    "description": "Code coverage"
+  },
+  "cursor": {
+    "tags": ["pointer", "mouse", "click", "select", "arrow"],
+    "category": "general",
+    "description": "Mouse cursor"
+  },
+  "debug-all": {
+    "tags": ["run", "test", "everything", "suite", "batch", "play"],
+    "category": "debug",
+    "description": "Debug all"
+  },
+  "debug-alt-small": {
+    "tags": ["run", "play", "mini", "tiny", "start", "execute"],
+    "category": "debug",
+    "description": "Small debug run icon"
+  },
+  "debug-breakpoint-conditional": {
+    "tags": ["stop", "pause", "if", "logic", "test"],
+    "category": "debug",
+    "description": "Conditional breakpoint"
+  },
+  "debug-breakpoint-conditional-unverified": {
+    "tags": ["stop", "pause", "if", "grey", "inactive"],
+    "category": "debug",
+    "description": "Unverified conditional breakpoint"
+  },
+  "debug-breakpoint-data": {
+    "tags": ["stop", "pause", "variable", "value", "watch"],
+    "category": "debug",
+    "description": "Data breakpoint"
+  },
+  "debug-breakpoint-data-unverified": {
+    "tags": ["stop", "pause", "variable", "grey", "inactive"],
+    "category": "debug",
+    "description": "Unverified data breakpoint"
+  },
+  "debug-breakpoint-function": {
+    "tags": ["stop", "pause", "method", "call", "triangle"],
+    "category": "debug",
+    "description": "Function breakpoint"
+  },
+  "debug-breakpoint-function-unverified": {
+    "tags": ["stop", "pause", "method", "grey", "inactive"],
+    "category": "debug",
+    "description": "Unverified function breakpoint"
+  },
+  "debug-breakpoint-log": {
+    "tags": ["print", "message", "console", "diamond", "record"],
+    "category": "debug",
+    "description": "Logpoint"
+  },
+  "debug-breakpoint-log-unverified": {
+    "tags": ["print", "message", "grey", "inactive", "diamond"],
+    "category": "debug",
+    "description": "Unverified logpoint"
+  },
+  "debug-breakpoint-unsupported": {
+    "tags": ["stop", "error", "invalid", "broken", "fail", "exclamation"],
+    "category": "debug",
+    "description": "Unsupported breakpoint"
+  },
+  "debug-connected": {
+    "tags": ["attach", "link", "online", "active", "plug"],
+    "category": "debug",
+    "description": "Debugger connected"
+  },
+  "debug-continue": {
+    "tags": ["play", "resume", "next", "forward", "run"],
+    "category": "debug",
+    "description": "Continue debugging"
+  },
+  "debug-continue-small": {
+    "tags": ["play", "resume", "mini", "tiny", "run"],
+    "category": "debug",
+    "description": "Small continue icon"
+  },
+  "debug-coverage": {
+    "tags": ["test", "percent", "metrics", "quality", "report"],
+    "category": "debug",
+    "description": "Debug coverage"
+  },
+  "debug-disconnect": {
+    "tags": ["stop", "unplug", "detach", "offline", "end", "unplug"],
+    "category": "debug",
+    "description": "Disconnect debugger"
+  },
+  "debug-line-by-line": {
+    "tags": ["step", "walk", "trace", "flow", "execute"],
+    "category": "debug",
+    "description": "Debug line by line"
+  },
+  "debug-pause": {
+    "tags": ["break", "halt", "wait", "freeze", "stop"],
+    "category": "debug",
+    "description": "Pause debugging"
+  },
+  "debug-rerun": {
+    "tags": ["restart", "again", "repeat", "loop", "reload"],
+    "category": "debug",
+    "description": "Rerun debug session"
+  },
+  "debug-restart": {
+    "tags": ["reload", "reset", "again", "cycle", "refresh"],
+    "category": "debug",
+    "description": "Restart debugging"
+  },
+  "debug-restart-frame": {
+    "tags": ["stack", "reset", "up", "back", "context"],
+    "category": "debug",
+    "description": "Restart stack frame"
+  },
+  "debug-reverse-continue": {
+    "tags": ["back", "rewind", "previous", "undo", "return"],
+    "category": "debug",
+    "description": "Reverse continue"
+  },
+  "debug-stackframe": {
+    "tags": ["call", "layer", "context", "memory", "trace"],
+    "category": "debug",
+    "description": "Stack frame"
+  },
+  "debug-stackframe-active": {
+    "tags": ["call", "layer", "current", "now", "focus"],
+    "category": "debug",
+    "description": "Active stack frame"
+  },
+  "debug-start": {
+    "tags": ["run", "play", "launch", "begin", "execute"],
+    "category": "debug",
+    "description": "Start debugging"
+  },
+  "debug-step-back": {
+    "tags": ["reverse", "previous", "undo", "return", "rewind", "back", "arrow"],
+    "category": "debug",
+    "description": "Step back"
+  },
+  "debug-step-into": {
+    "tags": ["enter", "down", "inside", "drill", "call", "arrow"],
+    "category": "debug",
+    "description": "Step into"
+  },
+  "debug-step-out": {
+    "tags": ["exit", "up", "return", "leave", "escape"],
+    "category": "debug",
+    "description": "Step out"
+  },
+  "debug-step-over": {
+    "tags": ["next", "skip", "jump", "forward", "pass"],
+    "category": "debug",
+    "description": "Step over"
+  },
+  "debug-stop": {
+    "tags": ["terminate", "end", "kill", "halt", "finish", "stop", "exit", "square"],
+    "category": "debug",
+    "description": "Stop debugging"
+  },
+  "diff-multiple": {
+    "tags": ["compare", "changes", "files", "batch", "many", "git", "pr"],
+    "category": "git",
+    "description": "Multiple diffs"
+  },
+  "diff-single": {
+    "tags": ["compare", "change", "file", "one", "individual", "git", "pr"],
+    "category": "git",
+    "description": "Single diff"
+  },
+  "discard": {
+    "tags": ["undo", "revert", "throw", "trash", "cancel", "delete"],
+    "category": "action",
+    "description": "Discard changes"
+  },
+  "download": {
+    "tags": ["get", "retrieve", "save", "install", "pull", "cloud"],
+    "category": "action",
+    "description": "Download"
+  },
+  "edit-code": {
+    "tags": ["write", "modify", "script", "program", "change"],
+    "category": "development",
+    "description": "Edit code"
+  },
+  "edit-session": {
+    "tags": ["work", "context", "state", "save", "restore"],
+    "category": "action",
+    "description": "Edit session"
+  },
+  "edit-sparkle": {
+    "tags": ["ai", "magic", "auto", "fix", "refactor", "smart", "intelligent"],
+    "category": "ai",
+    "description": "AI edit"
+  },
+  "editor-layout": {
+    "tags": ["split", "grid", "view", "arrange", "window"],
+    "category": "layout",
+    "description": "Editor layout"
+  },
+  "empty-window": {
+    "tags": ["blank", "new", "clear", "frame", "start"],
+    "category": "window",
+    "description": "Empty window"
+  },
+  "eraser": {
+    "tags": ["delete", "remove", "clear", "rub", "clean"],
+    "category": "action",
+    "description": "Eraser"
+  },
+  "error-small": {
+    "tags": ["issue", "problem", "bug", "mini", "tiny", "cross"],
+    "category": "status",
+    "description": "Small error icon"
+  },
+  "exclude": {
+    "tags": ["remove", "hide", "filter", "minus", "ban"],
+    "category": "action",
+    "description": "Exclude item"
+  },
+  "expand-all": {
+    "tags": ["open", "show", "unfold", "reveal", "tree"],
+    "category": "action",
+    "description": "Expand all items"
+  },
+  "export": {
+    "tags": ["save", "send", "out", "download", "extract"],
+    "category": "action",
+    "description": "Export data"
+  },
+  "extensions-large": {
+    "tags": ["plugins", "addons", "marketplace", "big"],
+    "category": "application",
+    "description": "Large extensions icon"
+  },
+  "feedback": {
+    "tags": ["comment", "review", "opinion", "rate", "message"],
+    "category": "communication",
+    "description": "Feedback"
+  },
+  "file-binary": {
+    "tags": ["data", "raw", "executable", "blob", "01"],
+    "category": "file",
+    "description": "Binary file"
+  },
+  "file-media": {
+    "tags": ["image", "video", "audio", "picture", "movie"],
+    "category": "file",
+    "description": "Media file"
+  },
+  "file-pdf": {
+    "tags": ["document", "adobe", "print", "read", "paper"],
+    "category": "file",
+    "description": "PDF file"
+  },
+  "file-submodule": {
+    "tags": ["git", "repo", "link", "reference", "external"],
+    "category": "git",
+    "description": "Git submodule"
+  },
+  "file-symlink-directory": {
+    "tags": ["link", "shortcut", "alias", "folder", "pointer"],
+    "category": "file",
+    "description": "Directory symlink"
+  },
+  "file-symlink-file": {
+    "tags": ["link", "shortcut", "alias", "document", "pointer"],
+    "category": "file",
+    "description": "File symlink"
+  },
+  "file-text": {
+    "tags": ["document", "txt", "write", "read", "note"],
+    "category": "file",
+    "description": "Text file"
+  },
+  "file-zip": {
+    "tags": ["archive", "compress", "package", "bundle", "rar"],
+    "category": "file",
+    "description": "Zip archive"
+  },
+  "filter-filled": {
+    "tags": ["funnel", "sort", "refine", "solid", "active"],
+    "category": "action",
+    "description": "Filled filter icon"
+  },
+  "flag": {
+    "tags": ["mark", "report", "notice", "banner", "sign"],
+    "category": "status",
+    "description": "Flag"
+  },
+  "flame": {
+    "tags": ["fire", "hot", "burn", "danger", "popular"],
+    "category": "status",
+    "description": "Flame or fire"
+  },
+  "fold": {
+    "tags": ["collapse", "hide", "compress", "close", "squeeze"],
+    "category": "action",
+    "description": "Fold or collapse"
+  },
+  "fold-down": {
+    "tags": ["collapse", "hide", "bottom", "close", "minimize"],
+    "category": "action",
+    "description": "Fold down"
+  },
+  "fold-up": {
+    "tags": ["collapse", "hide", "top", "close", "minimize"],
+    "category": "action",
+    "description": "Fold up"
+  },
+  "folder-active": {
+    "tags": ["directory", "current", "open", "selected", "working"],
+    "category": "file",
+    "description": "Active folder"
+  },
+  "folder-library": {
+    "tags": ["collection", "books", "archive", "storage", "group"],
+    "category": "file",
+    "description": "Library folder"
+  },
+  "forward": {
+    "tags": ["next", "right", "advance", "go", "arrow"],
+    "category": "navigation",
+    "description": "Forward"
+  },
+  "game": {
+    "tags": ["play", "controller", "joystick", "fun", "entertainment"],
+    "category": "general",
+    "description": "Game controller"
+  },
+  "gift": {
+    "tags": ["present", "box", "reward", "package", "surprise"],
+    "category": "general",
+    "description": "Gift box"
+  },
+  "gist": {
+    "tags": ["github", "snippet", "code", "share", "note", "pr"],
+    "category": "git",
+    "description": "GitHub Gist"
+  },
+  "gist-fork": {
+    "tags": ["copy", "branch", "split", "duplicate", "share", "code", "pr"],
+    "category": "git",
+    "description": "Fork Gist"
+  },
+  "gist-private": {
+    "tags": ["lock", "secret", "hidden", "secure", "code", "pr"],
+    "category": "git",
+    "description": "Private Gist"
+  },
+  "gist-secret": {
+    "tags": ["lock", "hidden", "private", "secure", "code", "pr"],
+    "category": "git",
+    "description": "Secret Gist"
+  },
+  "git-branch-changes": {
+    "tags": ["diff", "modify", "edit", "update", "version", "git", "pr"],
+    "category": "git",
+    "description": "Branch changes"
+  },
+  "git-branch-conflicts": {
+    "tags": ["error", "clash", "issue", "problem", "merge", "exclamation", "git", "pr"],
+    "category": "git",
+    "description": "Branch conflicts"
+  },
+  "git-branch-staged-changes": {
+    "tags": ["ready", "commit", "add", "prepare", "version", "git", "pr"],
+    "category": "git",
+    "description": "Staged changes"
+  },
+  "git-compare": {
+    "tags": ["diff", "changes", "versus", "match", "check", "git", "pr"],
+    "category": "git",
+    "description": "Compare git versions"
+  },
+  "git-pull-request-closed": {
+    "tags": ["pr", "done", "finish", "reject", "end", "git"],
+    "category": "git",
+    "description": "Closed pull request"
+  },
+  "git-pull-request-create": {
+    "tags": ["pr", "new", "add", "start", "open", "git"],
+    "category": "git",
+    "description": "Create pull request"
+  },
+  "git-pull-request-done": {
+    "tags": ["pr", "merged", "complete", "success", "check", "git"],
+    "category": "git",
+    "description": "Completed pull request"
+  },
+  "git-pull-request-draft": {
+    "tags": ["pr", "wip", "work", "pending", "edit", "git"],
+    "category": "git",
+    "description": "Draft pull request"
+  },
+  "git-pull-request-go-to-changes": {
+    "tags": ["pr", "diff", "jump", "view", "files", "git"],
+    "category": "git",
+    "description": "Go to PR changes"
+  },
+  "git-pull-request-new-changes": {
+    "tags": ["pr", "update", "fresh", "recent", "notification", "git"],
+    "category": "git",
+    "description": "New PR changes"
+  },
+  "git-stash": {
+    "tags": ["save", "hide", "store", "temp", "shelf", "git"],
+    "category": "git",
+    "description": "Git stash"
+  },
+  "git-stash-apply": {
+    "tags": ["restore", "pop", "use", "retrieve", "load", "git"],
+    "category": "git",
+    "description": "Apply git stash"
+  },
+  "git-stash-pop": {
+    "tags": ["restore", "remove", "retrieve", "load", "apply", "git"],
+    "category": "git",
+    "description": "Pop git stash"
+  },
+  "github-action": {
+    "tags": ["ci", "cd", "automation", "workflow", "pipeline"],
+    "category": "git",
+    "description": "GitHub Action"
+  },
+  "github-alt": {
+    "tags": ["logo", "brand", "cat", "octocat", "social"],
+    "category": "brand",
+    "description": "GitHub logo alternative"
+  },
+  "github-inverted": {
+    "tags": ["logo", "brand", "cat", "octocat", "white"],
+    "category": "brand",
+    "description": "Inverted GitHub logo"
+  },
+  "github-project": {
+    "tags": ["board", "kanban", "plan", "organize", "tasks"],
+    "category": "git",
+    "description": "GitHub Project"
+  },
+  "go-to-editing-session": {
+    "tags": ["jump", "switch", "work", "context", "restore"],
+    "category": "action",
+    "description": "Go to editing session"
+  },
+  "go-to-search": {
+    "tags": ["find", "jump", "query", "look", "magnify"],
+    "category": "search",
+    "description": "Go to search"
+  },
+  "grabber": {
+    "tags": ["drag", "move", "handle", "grip", "hold"],
+    "category": "action",
+    "description": "Drag handle"
+  },
+  "graph-left": {
+    "tags": ["chart", "plot", "visualize", "data", "side"],
+    "category": "visualization",
+    "description": "Graph aligned left"
+  },
+  "graph-line": {
+    "tags": ["chart", "plot", "trend", "data", "statistics"],
+    "category": "visualization",
+    "description": "Line graph"
+  },
+  "graph-scatter": {
+    "tags": ["chart", "plot", "dots", "data", "distribution"],
+    "category": "visualization",
+    "description": "Scatter plot"
+  },
+  "gripper": {
+    "tags": ["drag", "move", "handle", "dots", "hold"],
+    "category": "action",
+    "description": "Gripper handle"
+  },
+  "group-by-ref-type": {
+    "tags": ["sort", "organize", "category", "class", "kind"],
+    "category": "action",
+    "description": "Group by reference type"
+  },
+  "heart-filled": {
+    "tags": ["love", "like", "favorite", "solid", "prefer"],
+    "category": "general",
+    "description": "Filled heart"
+  },
+  "history": {
+    "tags": ["time", "past", "log", "record", "clock"],
+    "category": "general",
+    "description": "History or log"
+  },
+  "horizontal-rule": {
+    "tags": ["line", "separator", "divider", "split", "hr"],
+    "category": "text",
+    "description": "Horizontal rule"
+  },
+  "hubot": {
+    "tags": ["bot", "robot", "ai", "assistant", "chat"],
+    "category": "ai",
+    "description": "Hubot"
+  },
+  "inbox": {
+    "tags": ["mail", "message", "tray", "receive", "incoming", "agent"],
+    "category": "communication",
+    "description": "Inbox"
+  },
+  "indent": {
+    "tags": ["tab", "space", "move", "right", "format"],
+    "category": "text",
+    "description": "Indent text"
+  },
+  "index-zero": {
+    "tags": ["0", "start", "first", "number", "count", "search", "find"],
+    "category": "symbol",
+    "description": "Zero index"
+  },
+  "insert": {
+    "tags": ["add", "new", "enter", "input", "plus"],
+    "category": "action",
+    "description": "Insert item"
+  },
+  "inspect": {
+    "tags": ["check", "examine", "debug", "look", "analyze"],
+    "category": "debug",
+    "description": "Inspect element"
+  },
+  "issue-draft": {
+    "tags": ["bug", "ticket", "wip", "pending", "unsaved"],
+    "category": "git",
+    "description": "Draft issue"
+  },
+  "issue-reopened": {
+    "tags": ["bug", "ticket", "active", "again", "back"],
+    "category": "git",
+    "description": "Reopened issue"
+  },
+  "italic": {
+    "tags": ["text", "format", "style", "slant", "emphasis"],
+    "category": "text",
+    "description": "Italic text"
+  },
+  "jersey": {
+    "tags": ["shirt", "clothing", "team", "sport", "uniform"],
+    "category": "general",
+    "description": "Jersey or shirt"
+  },
+  "kebab-vertical": {
+    "tags": ["menu", "more", "options", "dots", "overflow"],
+    "category": "navigation",
+    "description": "Vertical kebab menu"
+  },
+  "keyboard-tab": {
+    "tags": ["key", "indent", "space", "move", "jump", "button", "nes", "next", "edit", "suggestion", "accept"],
+    "category": "text",
+    "description": "Tab key"
+  },
+  "keyboard-tab-above": {
+    "tags": ["key", "indent", "up", "move", "jump", "button", "nes", "next", "edit", "suggestion", "accept"],
+    "category": "text",
+    "description": "Tab above"
+  },
+  "keyboard-tab-below": {
+    "tags": ["key", "indent", "down", "move", "jump", "button", "nes", "next", "edit", "suggestion", "accept"],
+    "category": "text",
+    "description": "Tab below"
+  },
+  "layers": {
+    "tags": ["stack", "sheets", "levels", "overlay", "group"],
+    "category": "layout",
+    "description": "Layers"
+  },
+  "layers-active": {
+    "tags": ["stack", "sheets", "current", "selected", "on"],
+    "category": "layout",
+    "description": "Active layers"
+  },
+  "layers-dot": {
+    "tags": ["stack", "sheets", "badge", "notification", "alert"],
+    "category": "layout",
+    "description": "Layers with indicator"
+  },
+  "layout": {
+    "tags": ["view", "arrange", "grid", "panel", "design"],
+    "category": "layout",
+    "description": "Layout"
+  },
+  "layout-activitybar-left": {
+    "tags": ["view", "sidebar", "menu", "dock", "west"],
+    "category": "layout",
+    "description": "Activity bar left"
+  },
+  "layout-activitybar-right": {
+    "tags": ["view", "sidebar", "menu", "dock", "east"],
+    "category": "layout",
+    "description": "Activity bar right"
+  },
+  "layout-centered": {
+    "tags": ["view", "middle", "focus", "align", "balance"],
+    "category": "layout",
+    "description": "Centered layout"
+  },
+  "layout-menubar": {
+    "tags": ["view", "top", "header", "options", "nav"],
+    "category": "layout",
+    "description": "Menubar layout"
+  },
+  "layout-panel": {
+    "tags": ["view", "bottom", "terminal", "output", "dock"],
+    "category": "layout",
+    "description": "Panel layout"
+  },
+  "layout-panel-center": {
+    "tags": ["view", "bottom", "middle", "align", "dock"],
+    "category": "layout",
+    "description": "Panel center"
+  },
+  "layout-panel-dock": {
+    "tags": ["view", "bottom", "fix", "anchor", "attach"],
+    "category": "layout",
+    "description": "Dock panel"
+  },
+  "layout-panel-justify": {
+    "tags": ["view", "bottom", "stretch", "fill", "align"],
+    "category": "layout",
+    "description": "Justify panel"
+  },
+  "layout-panel-left": {
+    "tags": ["view", "side", "west", "dock", "vertical"],
+    "category": "layout",
+    "description": "Panel left"
+  },
+  "layout-panel-off": {
+    "tags": ["view", "hide", "close", "remove", "invisible"],
+    "category": "layout",
+    "description": "Hide panel"
+  },
+  "layout-panel-right": {
+    "tags": ["view", "side", "east", "dock", "vertical"],
+    "category": "layout",
+    "description": "Panel right"
+  },
+  "layout-sidebar-left": {
+    "tags": ["view", "explorer", "tree", "west", "dock"],
+    "category": "layout",
+    "description": "Sidebar left"
+  },
+  "layout-sidebar-left-dock": {
+    "tags": ["view", "explorer", "fix", "anchor", "west"],
+    "category": "layout",
+    "description": "Dock sidebar left"
+  },
+  "layout-sidebar-left-off": {
+    "tags": ["view", "hide", "close", "remove", "explorer"],
+    "category": "layout",
+    "description": "Hide sidebar left"
+  },
+  "layout-sidebar-right": {
+    "tags": ["view", "outline", "east", "dock", "secondary"],
+    "category": "layout",
+    "description": "Sidebar right"
+  },
+  "layout-sidebar-right-dock": {
+    "tags": ["view", "outline", "fix", "anchor", "east"],
+    "category": "layout",
+    "description": "Dock sidebar right"
+  },
+  "layout-sidebar-right-off": {
+    "tags": ["view", "hide", "close", "remove", "outline"],
+    "category": "layout",
+    "description": "Hide sidebar right"
+  },
+  "layout-statusbar": {
+    "tags": ["view", "bottom", "footer", "info", "bar"],
+    "category": "layout",
+    "description": "Status bar"
+  },
+  "lightbulb-autofix": {
+    "tags": ["idea", "repair", "solve", "magic", "correct", "suggestion"],
+    "category": "action",
+    "description": "Auto-fix suggestion"
+  },
+  "lightbulb-empty": {
+    "tags": ["idea", "off", "hollow", "outline", "thought", "suggestion"],
+    "category": "general",
+    "description": "Empty lightbulb"
+  },
+  "lightbulb-sparkle": {
+    "tags": ["idea", "ai", "magic", "smart", "suggestion", "intelligent"],
+    "category": "ai",
+    "description": "AI suggestion"
+  },
+  "list-filter": {
+    "tags": ["sort", "refine", "search", "narrow", "view"],
+    "category": "action",
+    "description": "Filter list"
+  },
+  "list-flat": {
+    "tags": ["view", "plain", "simple", "linear", "rows"],
+    "category": "content",
+    "description": "Flat list"
+  },
+  "list-selection": {
+    "tags": ["choose", "pick", "check", "active", "highlight"],
+    "category": "content",
+    "description": "List selection"
+  },
+  "list-tree": {
+    "tags": ["hierarchy", "structure", "nested", "branches", "view", "files", "folders", "directory", "project"],
+    "category": "content",
+    "description": "Tree list"
+  },
+  "live-share": {
+    "tags": ["collaborate", "remote", "pair", "connect", "together"],
+    "category": "communication",
+    "description": "Live Share"
+  },
+  "lock-small": {
+    "tags": ["secure", "private", "mini", "tiny", "key", "readonly"],
+    "category": "security",
+    "description": "Small lock"
+  },
+  "log-in": {
+    "tags": ["sign in", "enter", "access", "auth", "arrow"],
+    "category": "user",
+    "description": "Log in"
+  },
+  "log-out": {
+    "tags": ["sign out", "exit", "leave", "disconnect", "arrow"],
+    "category": "user",
+    "description": "Log out"
+  },
+  "logo-github": {
+    "tags": ["brand", "cat", "octocat", "git", "social"],
+    "category": "brand",
+    "description": "GitHub logo"
+  },
+  "magnet": {
+    "tags": ["stick", "snap", "attract", "pull", "hold"],
+    "category": "tool",
+    "description": "Magnet"
+  },
+  "mail-read": {
+    "tags": ["email", "open", "message", "seen", "envelope"],
+    "category": "communication",
+    "description": "Read mail"
+  },
+  "mail-reply": {
+    "tags": ["email", "respond", "answer", "back", "arrow"],
+    "category": "communication",
+    "description": "Reply to mail"
+  },
+  "map": {
+    "tags": ["location", "guide", "plan", "chart", "area"],
+    "category": "general",
+    "description": "Map"
+  },
+  "map-filled": {
+    "tags": ["location", "guide", "solid", "area", "place"],
+    "category": "general",
+    "description": "Filled map"
+  },
+  "map-vertical": {
+    "tags": ["location", "guide", "up", "down", "chart"],
+    "category": "general",
+    "description": "Vertical map"
+  },
+  "map-vertical-filled": {
+    "tags": ["location", "guide", "solid", "up", "down"],
+    "category": "general",
+    "description": "Filled vertical map"
+  },
+  "mcp": {
+    "tags": ["protocol", "connect", "server", "client", "model", "ai", "tools"],
+    "category": "development",
+    "description": "Model Context Protocol"
+  },
+  "megaphone": {
+    "tags": ["shout", "announce", "broadcast", "loud", "speaker", "notification"],
+    "category": "communication",
+    "description": "Megaphone"
+  },
+  "mention": {
+    "tags": ["at", "tag", "user", "notify", "address", "collaborate", "communication"],
+    "category": "communication",
+    "description": "Mention or @ symbol"
+  },
+  "merge-into": {
+    "tags": ["combine", "join", "unite", "flow", "arrow", "pr", "git"],
+    "category": "git",
+    "description": "Merge into"
+  },
+  "mic-filled": {
+    "tags": ["audio", "voice", "record", "solid", "sound", "text", "speech", "tts"],
+    "category": "device",
+    "description": "Filled microphone"
+  },
+  "milestone": {
+    "tags": ["goal", "target", "flag", "marker", "progress", "git", "project", "issue", "pr"],
+    "category": "general",
+    "description": "Milestone"
+  },
+  "mortar-board": {
+    "tags": ["education", "learn", "school", "degree", "hat"],
+    "category": "general",
+    "description": "Mortar board or graduation"
+  },
+  "multiple-windows": {
+    "tags": ["screens", "views", "panels", "many", "stack"],
+    "category": "window",
+    "description": "Multiple windows"
+  },
+  "music": {
+    "tags": ["note", "sound", "audio", "song", "melody"],
+    "category": "general",
+    "description": "Music note"
+  },
+  "mute": {
+    "tags": ["silent", "quiet", "off", "sound", "volume"],
+    "category": "device",
+    "description": "Mute sound"
+  },
+  "new-collection": {
+    "tags": ["create", "add", "group", "set", "plus"],
+    "category": "general",
+    "description": "New collection"
+  },
+  "newline": {
+    "tags": ["enter", "return", "break", "text", "arrow"],
+    "category": "text",
+    "description": "Newline character"
+  },
+  "no-newline": {
+    "tags": ["stop", "end", "text", "break", "slash"],
+    "category": "text",
+    "description": "No newline"
+  },
+  "notebook-template": {
+    "tags": ["jupyter", "pattern", "layout", "model", "file"],
+    "category": "file",
+    "description": "Notebook template"
+  },
+  "octoface": {
+    "tags": ["github", "cat", "logo", "brand", "face"],
+    "category": "brand",
+    "description": "Octocat face"
+  },
+  "open-in-product": {
+    "tags": ["launch", "external", "view", "app", "arrow"],
+    "category": "action",
+    "description": "Open in product"
+  },
+  "open-preview": {
+    "tags": ["view", "see", "display", "show", "window"],
+    "category": "action",
+    "description": "Open preview"
+  },
+  "paintcan": {
+    "tags": ["color", "fill", "bucket", "art", "design"],
+    "category": "tool",
+    "description": "Paint can"
+  },
+  "pass-filled": {
+    "tags": ["check", "success", "solid", "ok", "done"],
+    "category": "status",
+    "description": "Filled pass icon"
+  },
+  "percentage": {
+    "tags": ["ratio", "math", "number", "rate", "symbol"],
+    "category": "symbol",
+    "description": "Percentage symbol"
+  },
+  "person-add": {
+    "tags": ["user", "invite", "new", "plus", "friend"],
+    "category": "user",
+    "description": "Add person"
+  },
+  "piano": {
+    "tags": ["music", "keys", "instrument", "sound", "play"],
+    "category": "general",
+    "description": "Piano keys"
+  },
+  "pie-chart": {
+    "tags": ["graph", "data", "visualize", "circle", "stats"],
+    "category": "visualization",
+    "description": "Pie chart"
+  },
+  "pinned": {
+    "tags": ["fixed", "sticky", "attached", "saved", "marker"],
+    "category": "action",
+    "description": "Pinned item"
+  },
+  "pinned-dirty": {
+    "tags": ["fixed", "sticky", "unsaved", "modified", "dot"],
+    "category": "action",
+    "description": "Pinned item with changes"
+  },
+  "play-circle": {
+    "tags": ["run", "start", "round", "button", "media"],
+    "category": "action",
+    "description": "Play circle"
+  },
+  "preserve-case": {
+    "tags": ["text", "search", "match", "caps", "font"],
+    "category": "search",
+    "description": "Preserve case"
+  },
+  "primitive-square": {
+    "tags": ["shape", "box", "block", "stop", "solid"],
+    "category": "shape",
+    "description": "Square shape"
+  },
+  "pulse": {
+    "tags": ["heartbeat", "activity", "monitor", "line", "health"],
+    "category": "status",
+    "description": "Pulse or activity"
+  },
+  "python": {
+    "tags": ["language", "code", "snake", "logo", "dev"],
+    "category": "brand",
+    "description": "Python language logo"
+  },
+  "quote": {
+    "tags": ["text", "cite", "reference", "speech", "mark"],
+    "category": "text",
+    "description": "Quote mark"
+  },
+  "quotes": {
+    "tags": ["text", "cite", "reference", "speech", "marks"],
+    "category": "text",
+    "description": "Double quotes"
+  },
+  "radio-tower": {
+    "tags": ["signal", "broadcast", "antenna", "wireless", "connect"],
+    "category": "communication",
+    "description": "Radio tower"
+  },
+  "reactions": {
+    "tags": ["emoji", "face", "emotion", "respond", "feeling"],
+    "category": "communication",
+    "description": "Reactions"
+  },
+  "record-keys": {
+    "tags": ["macro", "type", "input", "save", "keyboard"],
+    "category": "action",
+    "description": "Record keystrokes"
+  },
+  "record-small": {
+    "tags": ["capture", "dot", "mini", "tiny", "circle"],
+    "category": "action",
+    "description": "Small record icon"
+  },
+  "references": {
+    "tags": ["links", "citations", "uses", "calls", "list"],
+    "category": "development",
+    "description": "Code references"
+  },
+  "remote-explorer": {
+    "tags": ["server", "cloud", "ssh", "view", "connect"],
+    "category": "connection",
+    "description": "Remote explorer"
+  },
+  "remove-small": {
+    "tags": ["delete", "minus", "mini", "tiny", "trash"],
+    "category": "action",
+    "description": "Small remove icon"
+  },
+  "rename": {
+    "tags": ["edit", "change", "label", "title", "text"],
+    "category": "action",
+    "description": "Rename"
+  },
+  "replace-all": {
+    "tags": ["swap", "change", "bulk", "many", "substitute"],
+    "category": "action",
+    "description": "Replace all"
+  },
+  "repo-clone": {
+    "tags": ["git", "copy", "download", "duplicate", "project"],
+    "category": "git",
+    "description": "Clone repository"
+  },
+  "repo-fetch": {
+    "tags": ["git", "download", "update", "sync", "get"],
+    "category": "git",
+    "description": "Fetch repository"
+  },
+  "repo-force-push": {
+    "tags": ["git", "upload", "overwrite", "danger", "arrow"],
+    "category": "git",
+    "description": "Force push repository"
+  },
+  "repo-pinned": {
+    "tags": ["git", "favorite", "saved", "fixed", "project"],
+    "category": "git",
+    "description": "Pinned repository"
+  },
+  "repo-pull": {
+    "tags": ["git", "download", "update", "sync", "arrow"],
+    "category": "git",
+    "description": "Pull repository"
+  },
+  "repo-push": {
+    "tags": ["git", "upload", "send", "sync", "arrow"],
+    "category": "git",
+    "description": "Push repository"
+  },
+  "repo-selected": {
+    "tags": ["git", "active", "current", "check", "project"],
+    "category": "git",
+    "description": "Selected repository"
+  },
+  "repo-sync": {
+    "tags": ["git", "refresh", "update", "cycle", "arrows"],
+    "category": "git",
+    "description": "Sync repository"
+  },
+  "request-changes": {
+    "tags": ["pr", "review", "reject", "edit", "feedback"],
+    "category": "git",
+    "description": "Request changes"
+  },
+  "robot": {
+    "tags": ["ai", "bot", "automation", "machine", "android"],
+    "category": "ai",
+    "description": "Robot"
+  },
+  "root-folder": {
+    "tags": ["directory", "base", "home", "start", "project"],
+    "category": "file",
+    "description": "Root folder"
+  },
+  "root-folder-opened": {
+    "tags": ["directory", "base", "home", "expanded", "project"],
+    "category": "file",
+    "description": "Opened root folder"
+  },
+  "rss": {
+    "tags": ["feed", "news", "subscribe", "broadcast", "wifi"],
+    "category": "communication",
+    "description": "RSS feed"
+  },
+  "ruby": {
+    "tags": ["language", "code", "gem", "jewel", "red"],
+    "category": "brand",
+    "description": "Ruby language"
+  },
+  "run-above": {
+    "tags": ["play", "execute", "up", "previous", "start"],
+    "category": "action",
+    "description": "Run above"
+  },
+  "run-all": {
+    "tags": ["play", "execute", "everything", "batch", "start"],
+    "category": "action",
+    "description": "Run all"
+  },
+  "run-all-coverage": {
+    "tags": ["test", "execute", "metrics", "everything", "report"],
+    "category": "debug",
+    "description": "Run all with coverage"
+  },
+  "run-below": {
+    "tags": ["play", "execute", "down", "next", "start"],
+    "category": "action",
+    "description": "Run below"
+  },
+  "run-coverage": {
+    "tags": ["test", "execute", "metrics", "report", "check"],
+    "category": "debug",
+    "description": "Run with coverage"
+  },
+  "run-errors": {
+    "tags": ["test", "fail", "bug", "issue", "problem"],
+    "category": "debug",
+    "description": "Run errors"
+  },
+  "run-with-deps": {
+    "tags": ["play", "execute", "tree", "chain", "link"],
+    "category": "action",
+    "description": "Run with dependencies"
+  },
+  "save-as": {
+    "tags": ["disk", "store", "new", "copy", "file"],
+    "category": "action",
+    "description": "Save as"
+  },
+  "screen-full": {
+    "tags": ["view", "maximize", "expand", "monitor", "display"],
+    "category": "window",
+    "description": "Full screen"
+  },
+  "screen-normal": {
+    "tags": ["view", "restore", "window", "monitor", "display"],
+    "category": "window",
+    "description": "Normal screen"
+  },
+  "screen-cut": {
+    "tags": ["scissors", "snip", "capture", "screenshot", "clip", "cut", "window", "select"],
+    "category": "action",
+    "description": "Scissors cutting screen"
+  },
+  "search-fuzzy": {
+    "tags": ["find", "approximate", "match", "loose", "query"],
+    "category": "search",
+    "description": "Fuzzy search"
+  },
+  "search-large": {
+    "tags": ["find", "big", "magnify", "zoom", "query"],
+    "category": "search",
+    "description": "Large search icon"
+  },
+  "search-sparkle": {
+    "tags": ["ai", "find", "magic", "smart", "query"],
+    "category": "ai",
+    "description": "AI search"
+  },
+  "search-stop": {
+    "tags": ["find", "cancel", "halt", "end", "query"],
+    "category": "search",
+    "description": "Stop search"
+  },
+  "send": {
+    "tags": ["mail", "message", "submit", "paper plane", "go"],
+    "category": "communication",
+    "description": "Send message"
+  },
+  "send-to-remote-agent": {
+    "tags": ["transmit", "upload", "cloud", "server", "go"],
+    "category": "connection",
+    "description": "Send to remote agent"
+  },
+  "server-environment": {
+    "tags": ["host", "cloud", "settings", "config", "box"],
+    "category": "general",
+    "description": "Server environment"
+  },
+  "server-process": {
+    "tags": ["host", "run", "execute", "task", "gear"],
+    "category": "general",
+    "description": "Server process"
+  },
+  "session-in-progress": {
+    "tags": ["working", "busy", "active", "clock", "wait"],
+    "category": "status",
+    "description": "Session in progress"
+  },
+  "share": {
+    "tags": ["export", "send", "link", "collaborate", "arrow"],
+    "category": "action",
+    "description": "Share"
+  },
+  "skip": {
+    "tags": ["next", "jump", "pass", "ignore", "arrow"],
+    "category": "action",
+    "description": "Skip"
+  },
+  "smiley": {
+    "tags": ["face", "happy", "emotion", "good", "smile"],
+    "category": "general",
+    "description": "Smiley face"
+  },
+  "snake": {
+    "tags": ["python", "reptile", "game", "animal", "curve"],
+    "category": "general",
+    "description": "Snake"
+  },
+  "sort-precedence": {
+    "tags": ["order", "rank", "priority", "list", "arrange"],
+    "category": "action",
+    "description": "Sort by precedence"
+  },
+  "sparkle-filled": {
+    "tags": ["ai", "magic", "solid", "star", "shine"],
+    "category": "ai",
+    "description": "Filled sparkle"
+  },
+  "squirrel": {
+    "tags": ["animal", "ship", "release", "deploy", "mascot"],
+    "category": "general",
+    "description": "Squirrel"
+  },
+  "star-full": {
+    "tags": ["favorite", "solid", "rate", "best", "bookmark"],
+    "category": "general",
+    "description": "Full star"
+  },
+  "star-half": {
+    "tags": ["favorite", "partial", "rate", "middle", "bookmark"],
+    "category": "general",
+    "description": "Half star"
+  },
+  "stop-circle": {
+    "tags": ["halt", "end", "cancel", "round", "button"],
+    "category": "action",
+    "description": "Stop circle"
+  },
+  "strikethrough": {
+    "tags": ["text", "format", "delete", "cross", "line"],
+    "category": "text",
+    "description": "Strikethrough text"
+  },
+  "surround-with": {
+    "tags": ["wrap", "enclose", "code", "brackets", "container"],
+    "category": "development",
+    "description": "Surround with"
+  },
+  "symbol-boolean": {
+    "tags": ["code", "true", "false", "logic", "type"],
+    "category": "symbol",
+    "description": "Boolean symbol"
+  },
+  "symbol-color": {
+    "tags": ["code", "paint", "palette", "type", "style"],
+    "category": "symbol",
+    "description": "Color symbol"
+  },
+  "symbol-constant": {
+    "tags": ["code", "fixed", "value", "type", "immutable"],
+    "category": "symbol",
+    "description": "Constant symbol"
+  },
+  "symbol-enum": {
+    "tags": ["code", "list", "options", "type", "set"],
+    "category": "symbol",
+    "description": "Enum symbol"
+  },
+  "symbol-enum-member": {
+    "tags": ["code", "item", "option", "value", "part"],
+    "category": "symbol",
+    "description": "Enum member symbol"
+  },
+  "symbol-field": {
+    "tags": ["code", "property", "variable", "data", "member"],
+    "category": "symbol",
+    "description": "Field symbol"
+  },
+  "symbol-file": {
+    "tags": ["code", "document", "script", "source", "type"],
+    "category": "symbol",
+    "description": "File symbol"
+  },
+  "symbol-interface": {
+    "tags": ["code", "contract", "api", "type", "definition"],
+    "category": "symbol",
+    "description": "Interface symbol"
+  },
+  "symbol-key": {
+    "tags": ["code", "id", "access", "property", "name"],
+    "category": "symbol",
+    "description": "Key symbol"
+  },
+  "symbol-keyword": {
+    "tags": ["code", "reserved", "syntax", "language", "term"],
+    "category": "symbol",
+    "description": "Keyword symbol"
+  },
+  "symbol-method-arrow": {
+    "tags": ["code", "function", "call", "action", "run"],
+    "category": "symbol",
+    "description": "Method arrow symbol"
+  },
+  "symbol-misc": {
+    "tags": ["code", "other", "various", "general", "item"],
+    "category": "symbol",
+    "description": "Miscellaneous symbol"
+  },
+  "symbol-module": {
+    "tags": ["code", "package", "library", "container", "import"],
+    "category": "symbol",
+    "description": "Module symbol"
+  },
+  "symbol-numeric": {
+    "tags": ["code", "number", "digit", "math", "count"],
+    "category": "symbol",
+    "description": "Numeric symbol"
+  },
+  "symbol-operator": {
+    "tags": ["code", "math", "logic", "calc", "function"],
+    "category": "symbol",
+    "description": "Operator symbol"
+  },
+  "symbol-parameter": {
+    "tags": ["code", "input", "argument", "variable", "value"],
+    "category": "symbol",
+    "description": "Parameter symbol"
+  },
+  "symbol-property": {
+    "tags": ["code", "attribute", "field", "value", "data"],
+    "category": "symbol",
+    "description": "Property symbol"
+  },
+  "symbol-reference": {
+    "tags": ["code", "link", "pointer", "alias", "use"],
+    "category": "symbol",
+    "description": "Reference symbol"
+  },
+  "symbol-ruler": {
+    "tags": ["code", "measure", "size", "scale", "unit"],
+    "category": "symbol",
+    "description": "Ruler symbol"
+  },
+  "symbol-snippet": {
+    "tags": ["code", "template", "fragment", "reuse", "paste"],
+    "category": "symbol",
+    "description": "Snippet symbol"
+  },
+  "symbol-string": {
+    "tags": ["code", "text", "chars", "word", "value"],
+    "category": "symbol",
+    "description": "String symbol"
+  },
+  "symbol-structure": {
+    "tags": ["code", "object", "data", "model", "shape"],
+    "category": "symbol",
+    "description": "Structure symbol"
+  },
+  "sync-ignored": {
+    "tags": ["refresh", "skip", "exclude", "update", "circle"],
+    "category": "action",
+    "description": "Sync ignored"
+  },
+  "table": {
+    "tags": ["grid", "data", "rows", "columns", "sheet"],
+    "category": "content",
+    "description": "Table"
+  },
+  "target": {
+    "tags": ["aim", "goal", "bullseye", "focus", "point"],
+    "category": "general",
+    "description": "Target"
+  },
+  "tasklist": {
+    "tags": ["todo", "check", "items", "plan", "manage"],
+    "category": "content",
+    "description": "Task list"
+  },
+  "telescope": {
+    "tags": ["search", "find", "explore", "look", "space"],
+    "category": "search",
+    "description": "Telescope"
+  },
+  "terminal-bash": {
+    "tags": ["console", "shell", "script", "linux", "command"],
+    "category": "application",
+    "description": "Bash terminal"
+  },
+  "terminal-cmd": {
+    "tags": ["console", "shell", "windows", "command", "prompt"],
+    "category": "application",
+    "description": "Command prompt"
+  },
+  "terminal-debian": {
+    "tags": ["console", "shell", "linux", "os", "logo"],
+    "category": "application",
+    "description": "Debian terminal"
+  },
+  "terminal-git-bash": {
+    "tags": ["console", "shell", "git", "command", "logo"],
+    "category": "application",
+    "description": "Git Bash terminal"
+  },
+  "terminal-linux": {
+    "tags": ["console", "shell", "os", "penguin", "logo"],
+    "category": "application",
+    "description": "Linux terminal"
+  },
+  "terminal-powershell": {
+    "tags": ["console", "shell", "windows", "script", "logo"],
+    "category": "application",
+    "description": "PowerShell terminal"
+  },
+  "terminal-tmux": {
+    "tags": ["console", "multiplexer", "split", "window", "tool"],
+    "category": "application",
+    "description": "Tmux terminal"
+  },
+  "terminal-ubuntu": {
+    "tags": ["console", "shell", "linux", "os", "logo"],
+    "category": "application",
+    "description": "Ubuntu terminal"
+  },
+  "thinking": {
+    "tags": ["ai", "brain", "process", "wait", "loading"],
+    "category": "ai",
+    "description": "Thinking"
+  },
+  "three-bars": {
+    "tags": ["menu", "hamburger", "list", "options", "nav"],
+    "category": "navigation",
+    "description": "Three bars menu"
+  },
+  "thumbsdown": {
+    "tags": ["dislike", "bad", "no", "reject", "vote"],
+    "category": "general",
+    "description": "Thumbs down"
+  },
+  "thumbsdown-filled": {
+    "tags": ["dislike", "bad", "no", "reject", "solid"],
+    "category": "general",
+    "description": "Filled thumbs down"
+  },
+  "thumbsup": {
+    "tags": ["like", "good", "yes", "approve", "vote"],
+    "category": "general",
+    "description": "Thumbs up"
+  },
+  "thumbsup-filled": {
+    "tags": ["like", "good", "yes", "approve", "solid"],
+    "category": "general",
+    "description": "Filled thumbs up"
+  },
+  "tools": {
+    "tags": ["settings", "config", "repair", "fix", "utils"],
+    "category": "tool",
+    "description": "Tools"
+  },
+  "triangle-down": {
+    "tags": ["arrow", "direction", "point", "shape", "descend"],
+    "category": "shape",
+    "description": "Triangle pointing down"
+  },
+  "triangle-left": {
+    "tags": ["arrow", "direction", "point", "shape", "back"],
+    "category": "shape",
+    "description": "Triangle pointing left"
+  },
+  "triangle-right": {
+    "tags": ["arrow", "direction", "point", "shape", "forward"],
+    "category": "shape",
+    "description": "Triangle pointing right"
+  },
+  "triangle-up": {
+    "tags": ["arrow", "direction", "point", "shape", "ascend"],
+    "category": "shape",
+    "description": "Triangle pointing up"
+  },
+  "twitter": {
+    "tags": ["social", "bird", "logo", "brand", "share"],
+    "category": "brand",
+    "description": "Twitter logo"
+  },
+  "type-hierarchy": {
+    "tags": ["structure", "class", "tree", "inherit", "view"],
+    "category": "development",
+    "description": "Type hierarchy"
+  },
+  "type-hierarchy-sub": {
+    "tags": ["structure", "child", "down", "inherit", "view"],
+    "category": "development",
+    "description": "Sub-type hierarchy"
+  },
+  "type-hierarchy-super": {
+    "tags": ["structure", "parent", "up", "inherit", "view"],
+    "category": "development",
+    "description": "Super-type hierarchy"
+  },
+  "unarchive": {
+    "tags": ["restore", "open", "unpack", "box", "retrieve"],
+    "category": "file",
+    "description": "Unarchive"
+  },
+  "unfold": {
+    "tags": ["expand", "show", "open", "reveal", "spread"],
+    "category": "action",
+    "description": "Unfold"
+  },
+  "ungroup-by-ref-type": {
+    "tags": ["sort", "list", "flat", "view", "mix"],
+    "category": "action",
+    "description": "Ungroup by reference type"
+  },
+  "unmute": {
+    "tags": ["sound", "volume", "on", "audio", "hear"],
+    "category": "device",
+    "description": "Unmute sound"
+  },
+  "unverified": {
+    "tags": ["check", "hollow", "pending", "wait", "circle"],
+    "category": "status",
+    "description": "Unverified"
+  },
+  "variable": {
+    "tags": ["code", "value", "store", "data", "box"],
+    "category": "symbol",
+    "description": "Variable"
+  },
+  "variable-group": {
+    "tags": ["code", "collection", "set", "list", "data"],
+    "category": "symbol",
+    "description": "Variable group"
+  },
+  "verified-filled": {
+    "tags": ["check", "solid", "approved", "trusted", "ok"],
+    "category": "status",
+    "description": "Filled verified icon"
+  },
+  "versions": {
+    "tags": ["history", "changes", "git", "time", "backup"],
+    "category": "git",
+    "description": "Versions"
+  },
+  "vm": {
+    "tags": ["computer", "server", "remote", "machine", "box"],
+    "category": "device",
+    "description": "Virtual machine"
+  },
+  "vm-active": {
+    "tags": ["computer", "running", "on", "working", "remote"],
+    "category": "device",
+    "description": "Active virtual machine"
+  },
+  "vm-connect": {
+    "tags": ["computer", "link", "remote", "ssh", "join"],
+    "category": "device",
+    "description": "Connect to VM"
+  },
+  "vm-outline": {
+    "tags": ["computer", "box", "shape", "remote", "machine"],
+    "category": "device",
+    "description": "VM outline"
+  },
+  "vm-running": {
+    "tags": ["computer", "play", "active", "on", "remote"],
+    "category": "device",
+    "description": "Running VM"
+  },
+  "vm-small": {
+    "tags": ["computer", "mini", "tiny", "remote", "box"],
+    "category": "device",
+    "description": "Small VM icon"
+  },
+  "vr": {
+    "tags": ["virtual", "reality", "glasses", "headset", "3d"],
+    "category": "device",
+    "description": "VR headset"
+  },
+  "vscode": {
+    "tags": ["editor", "logo", "brand", "microsoft", "code"],
+    "category": "brand",
+    "description": "VS Code logo"
+  },
+  "vscode-insiders": {
+    "tags": ["editor", "logo", "brand", "green", "beta"],
+    "category": "brand",
+    "description": "VS Code Insiders logo"
+  },
+  "wand": {
+    "tags": ["magic", "fix", "auto", "spell", "wizard"],
+    "category": "tool",
+    "description": "Magic wand"
+  },
+  "whitespace": {
+    "tags": ["space", "invisible", "char", "format", "view"],
+    "category": "text",
+    "description": "Whitespace character"
+  },
+  "whole-word": {
+    "tags": ["search", "match", "text", "complete", "exact"],
+    "category": "search",
+    "description": "Match whole word"
+  },
+  "window-active": {
+    "tags": ["view", "current", "focus", "selected", "frame"],
+    "category": "window",
+    "description": "Active window"
+  },
+  "word-wrap": {
+    "tags": ["text", "format", "line", "break", "view"],
+    "category": "text",
+    "description": "Word wrap"
+  },
+  "workspace-unknown": {
+    "tags": ["status", "question", "unsure", "check", "folder"],
+    "category": "status",
+    "description": "Unknown workspace trust"
+  },
+  "workspace-untrusted": {
+    "tags": ["status", "danger", "warning", "shield", "folder", "exclamation"],
+    "category": "status",
+    "description": "Untrusted workspace"
+  },
+  "zap": {
+    "tags": ["flash", "electric", "power", "energy", "fast"],
+    "category": "general",
+    "description": "Zap or flash"
+  }
+}

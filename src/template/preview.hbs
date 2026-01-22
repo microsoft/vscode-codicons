@@ -30,17 +30,85 @@
             height: auto;
         }
 
+        :root {
+            --bg-color: #f8f8f8;
+            --text-color: #333;
+            --text-secondary: #666;
+            --card-bg: white;
+            --card-shadow: rgba(0, 0, 0, 0.06);
+            --card-shadow-hover: rgba(0, 0, 0, 0.24);
+            --input-border: rgba(0,0,0,.1);
+            --notification-bg: #212121;
+            --notification-text: white;
+        }
+
+        [data-theme="dark"] {
+            --bg-color: #1e1e1e;
+            --text-color: #cccccc;
+            --text-secondary: #999;
+            --card-bg: #252526;
+            --card-shadow: rgba(0, 0, 0, 0.3);
+            --card-shadow-hover: rgba(255, 255, 255, 0.1);
+            --input-border: rgba(255,255,255,.1);
+            --notification-bg: #3c3c3c;
+            --notification-text: #cccccc;
+        }
+
         body {
             font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
             margin: 0;
-            padding: 10px 20px;
+            padding: 0px 20px 10px 20px;
             text-align: center;
-            background-color: #f8f8f8;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        #header {
+            position: sticky;
+            top: 0;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin: 0 auto;
+            padding: 20px 64px;
+            background-color: var(--bg-color);
+            z-index: 100;
+            transition: background-color 0.3s ease;
         }
 
         h1 {
             font-weight: bold;
-            margin: 24px;
+            margin: 0;
+            color: var(--text-color);
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+
+        #theme-toggle {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            padding: 10px 20px;
+            background-color: var(--card-bg);
+            color: var(--text-color);
+            border: 1px solid var(--input-border);
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            box-shadow: 0px 0px 12px var(--card-shadow);
+            transition: all 0.3s ease;
+            flex-shrink: 0;
+            white-space: nowrap;
+        }
+
+        #theme-toggle:hover {
+            box-shadow: 0px 0px 12px var(--card-shadow-hover);
+        }
+
+        #theme-toggle:focus {
+            outline: none;
+            border-color: #18a0fb;
         }
 
         .icon {
@@ -49,20 +117,16 @@
             margin: 8px;
         }
 
-        .icon:hover {
-            cursor: pointer;
-        }
-
         .icon:hover .inner {
-            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.24);
+            box-shadow: 0px 0px 12px var(--card-shadow-hover);
         }
 
         .icon .inner {
             display: inline-block;
             width: 100%;
             text-align: center;
-            background-color: white;
-            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.06);
+            background-color: var(--card-bg);
+            box-shadow: 0px 0px 12px var(--card-shadow);
             border-radius: 4px;
             transition: all .3s ease-in-out;
         }
@@ -70,7 +134,7 @@
         .icon .inner {{ tag }} {
             padding: 16px 0;
             font-size: 48px;
-            color: #333;
+            color: var(--text-color);
             overflow: hidden;
         }
 
@@ -85,10 +149,49 @@
             box-sizing: border-box;
             padding: 4px;
             font-size: 10px;
-            color: #666;
+            color: var(--text-secondary);
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+        }
+
+        .copy-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 4px;
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+            transition: opacity 0.2s ease-in-out;
+        }
+
+        .icon:hover .copy-buttons {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
+
+        .copy-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 4px;
+            color: var(--text-secondary);
+            border-radius: 4px;
+            transition: color 0.2s ease, background-color 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .copy-btn:hover {
+            color: var(--text-color);
+            background-color: var(--input-border);
+        }
+
+        .copy-btn i {
+            font-size: 14px;
         }
 
         .description {
@@ -96,15 +199,15 @@
         }
 
         #search {
-            display: flex;
-            width: 100%;
+            flex: 1;
             font-size: 16px;
             padding: 12px 16px;
-            margin: 0 auto;
-            max-width: 900px;
-            margin-bottom: 24px;
-            border: 1px solid rgba(0,0,0,.1);
-            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.06);
+            border: 1px solid var(--input-border);
+            box-shadow: 0px 0px 12px var(--card-shadow);
+            background-color: var(--card-bg);
+            color: var(--text-color);
+            transition: all 0.3s ease;
+            border-radius: 4px;
         }
 
         #search:focus {
@@ -125,8 +228,8 @@
             left: 50%;
             width: auto;
             transform: translateX(-50%);
-            color: white;
-            background-color: #212121;
+            color: var(--notification-text);
+            background-color: var(--notification-bg);
             padding: 8px 24px;
             border-radius: 8px;
             opacity: 0;
@@ -148,25 +251,35 @@
 </head>
 <body>
 
-    <h1>{{ name }}</h1>
-
-    <input type="text" id="search" placeholder="Search for icon names">
+    <div id="header">
+        <h1>{{ name }}</h1>
+        <input type="text" id="search" placeholder="Search for icon names" aria-label="Search for icon names">
+        <button id="theme-toggle" aria-label="Toggle theme"><i class="codicon codicon-color-mode"></i> Dark Mode</button>
+    </div>
 
     <div id="icons">
     {{# each assets }}
-        <div class="icon" data-name="{{ @key }}" title="{{ @key }}">
+        <div class="icon" data-name="{{ @key }}" title="{{ @key }}" data-tags="" data-description="">
             <span class="inner">
                 <{{ ../tag }} class="{{ ../prefix }} {{ ../prefix }}-{{ @key }}" aria-hidden="true"></{{ ../tag }}>
             </span>
             <br>
             <span class='label'>{{ @key }}</span>
             <span class='description'></span>
+            <div class="copy-buttons">
+                <button class="copy-btn copy-name-btn" title="Copy icon name" aria-label="Copy icon name">
+                    <i class="codicon codicon-copy" aria-hidden="true"></i>
+                </button>
+                <button class="copy-btn copy-svg-btn" title="Copy SVG" aria-label="Copy SVG">
+                    <i class="codicon codicon-file-code" aria-hidden="true"></i>
+                </button>
+            </div>
         </div>
     {{/ each }}
     </div>
 
     <div id="notification">📋 Copied: <span id="notification-id"></span></div>
-    <input type="text" id="copier">
+    <input type="text" id="copier" aria-label="Clipboard helper">
 
 <script type="text/javascript">
     let icons = document.getElementsByClassName('icon');
@@ -175,304 +288,401 @@
     let notificationText = document.getElementById('notification-id');
     let search = document.getElementById('search');
     let timer;
-    let descriptions = [
-        {
-            name: 'account',
-            description: 'person people face user contact outline'
-        },
-        {
-            name: 'activate-breakpoints',
-            description: 'dot circle toggle switch'
-        },
-        {
-            name: 'add',
-            description: 'combine plus add more new'
-        },
-        {
-            name: 'archive',
-            description: 'save box delivery package'
-        },
-        {
-            name: 'arrow-both',
-            description: 'switch swap'
-        },
-        {
-            name: 'beaker',
-            description: 'test lab tube tool'
-        },
-        {
-            name: 'bell',
-            description: 'alert notify notification'
-        },
-        {
-            name: 'bell-dot',
-            description: 'alert notify notification'
-        },
-        {
-            name: 'bold',
-            description: 'text format weight font style'
-        },
-        {
-            name: 'book',
-            description: 'library text read open'
-        },
-        {
-            name: 'bookmark',
-            description: 'book save later'
-        },
-        {
-            name: 'briefcase',
-            description: 'work workplace'
-        },
-        {
-            name: 'broadcast',
-            description: 'tower signal connect connection'
-        },
-        {
-            name: 'browser',
-            description: 'web internet page window'
-        },
-        {
-            name: 'bug',
-            description: 'error issue insect block'
-        },
-        {
-            name: 'calendar',
-            description: 'day time week month date schedule event planner'
-        },
-        {
-            name: 'call-incoming',
-            description: 'phone cell voice connection direction'
-        },
-        {
-            name: 'call-outgoing',
-            description: 'phone cell voice connection direction'
-        },
-        {
-            name: 'case-sensitive',
-            description: 'search filter option letters words'
-        },
-        {
-            name: 'check-all',
-            description: 'checkmark select everything checked mark complete finish done accept approve'
-        },
-        {
-            name: 'check',
-            description: 'checkmark select everything checked mark complete finish done accept approve'
-        },
-        {
-            name: 'checklist',
-            description: 'checkmark select everything checked mark complete finish done accept todo task text'
-        },
-        {
-            name: 'chevron-down',
-            description: 'twistie tree node folder fold collapse'
-        },
-        {
-            name: 'chevron-left',
-            description: 'twistie tree node folder fold collapse'
-        },
-        {
-            name: 'chevron-right',
-            description: 'twistie tree node folder fold collapse'
-        },
-        {
-            name: 'chevron-up',
-            description: 'twistie tree node folder fold collapse'
-        },
-        {
-            name: 'chrome-close',
-            description: 'menu bar window dismiss'
-        },
-        {
-            name: 'chrome-maximize',
-            description: 'menu bar window large increase'
-        },
-        {
-            name: 'chrome-minimize',
-            description: 'menu bar window small decrease'
-        },
-        {
-            name: 'chrome-restore',
-            description: 'menu bar window'
-        },
-        {
-            name: 'circle-filled',
-            description: 'dot round small bullet breakpoint'
-        },
-        {
-            name: 'circle-large-filled',
-            description: 'dot round bullet'
-        },
-        {
-            name: 'circle-large',
-            description: 'dot round bullet'
-        },
-        {
-            name: 'circle',
-            description: 'dot round small bullet unverified breakpoint'
-        },
-        {
-            name: 'circle-slash',
-            description: 'error block stop disable'
-        },
-        {
-            name: 'circuit-board',
-            description: 'iot device process lines'
-        },
-        {
-            name: 'clear-all',
-            description: 'reset remove'
-        },
-        {
-            name: 'clippy',
-            description: 'clipboard document edit copy'
-        },
-        {
-            name: 'close-all',
-            description: 'remove bulk'
-        },
-        {
-            name: 'close',
-            description: 'remove x cancel stop miltiply'
-        },
-        {
-            name: 'cloud-download',
-            description: 'install import'
-        },
-        {
-            name: 'cloud-upload',
-            description: 'export'
-        },
-        {
-            name: 'cloud',
-            description: 'online service'
-        },
-        {
-            name: 'code',
-            description: 'embed script programming server'
-        },
-        {
-            name: 'collapse-all',
-            description: 'bulk fold minimize'
-        },
-        {
-            name: 'color-mode',
-            description: 'switch dark light contrast mode toggle'
-        },
-        {
-            name: 'comment-discussion',
-            description: 'dialog message bubble chat'
-        },
-        {
-            name: 'comment',
-            description: 'dialog message bubble chat'
-        },
-        {
-            name: 'credit-card',
-            description: 'payment merchant money'
-        },
-        {
-            name: 'dash',
-            description: 'line minus subtract hyphen'
-        },
-        {
-            name: 'dashboard',
-            description: 'panel stats dial'
-        },
-        {
-            name: 'database',
-            description: 'sql db storage online cloud'
-        },
-        {
-            name: 'debug-alt-small',
-            description: 'run'
-        },
-        {
-            name: 'debug-alt',
-            description: 'run'
-        },
-        {
-            name: 'debug-console',
-            description: 'terminal command input compile build'
-        },
-        {
-            name: 'debug-disconnect',
-            description: 'stop unplug eject'
-        },
-        {
-            name: 'desktop-download',
-            description: 'install'
-        },
-        {
-            name: 'device-camera-video',
-            description: 'movie record capture'
-        },
-        {
-            name: 'device-camera',
-            description: 'capture picture image'
-        },
-        {
-            name: 'device-mobile',
-            description: 'phone handheld smartphone'
-        },
-        {
-            name: 'diff-added',
-            description: 'git change'
-        },
-        {
-            name: 'diff-ignored',
-            description: 'git change'
-        },
-        {
-            name: 'diff-modified',
-            description: 'git change'
-        },
-        {
-            name: 'diff-renamed',
-            description: 'git change'
-        },
-        {
-            name: 'diff-removed',
-            description: 'git change'
-        },
-        {
-            name: 'play-circle',
-            description: 'run'
-        },
-        {
-            name: 'pass',
-            description: 'play check checkmark outline issue closed'
-        },
-        {
-            name: 'pass-filled',
-            description: 'play check checkmark filled issue closed'
-        },
-        {
-            name: 'play',
-            description: 'run'
-        },
-    ];
+    
+    // Load metadata
+    let metadata = {}; // METADATA_PLACEHOLDER
+    
+    // Load SVG data
+    let svgData = {}; // SVG_DATA_PLACEHOLDER
 
-    descriptions.some(function(item) {
-        let findIcon = document.querySelectorAll(`[data-name="${item.name}"]`);
-        findIcon[0].querySelector('.description').innerHTML += item.description;
-    });
+    if (Object.keys(metadata).length > 0) {
+        applyMetadata();
+    } else {
+        fetch('metadata.json')
+            .then(response => response.json())
+            .then(data => {
+                metadata = data;
+                applyMetadata();
+            })
+            .catch(error => {
+                console.warn('Could not load metadata.json, using fallback descriptions', error);
+                applyLegacyDescriptions();
+            });
+    }
 
-    for(i=0;i<icons.length;i++){
-        let icon = icons[i]
-        icon.onclick = function(e){
-            let name = this.getAttribute('data-name');
-
-            copier.value = name;
-            copier.select();
-            copier.setSelectionRange(0, 99999)
-            document.execCommand('copy');
-
-            notificationText.innerHTML = name;
-            animateNotification();
-            e.preventDefault();
+    function applyMetadata() {
+        for (let i = 0; i < icons.length; i++) {
+            let icon = icons[i];
+            let name = icon.getAttribute('data-name');
+            
+            if (metadata[name]) {
+                let meta = metadata[name];
+                let tags = meta.tags ? meta.tags.join(' ') : '';
+                let description = meta.description || '';
+                
+                icon.setAttribute('data-tags', tags);
+                icon.setAttribute('data-description', description);
+                
+                // Update visible description
+                let descriptionSpan = icon.querySelector('.description');
+                if (descriptionSpan) {
+                    descriptionSpan.innerHTML = description + (tags ? ' - ' + tags : '');
+                }
+            }
         }
+    }
+
+    function applyLegacyDescriptions() {
+        let descriptions = [
+            {
+                name: 'account',
+                description: 'person people face user contact outline'
+            },
+            {
+                name: 'activate-breakpoints',
+                description: 'dot circle toggle switch'
+            },
+            {
+                name: 'add',
+                description: 'combine plus add more new'
+            },
+            {
+                name: 'archive',
+                description: 'save box delivery package'
+            },
+            {
+                name: 'arrow-both',
+                description: 'switch swap'
+            },
+            {
+                name: 'attach',
+                description: 'clip paperclip file link connect add'
+            },
+            {
+                name: 'beaker',
+                description: 'test lab tube tool'
+            },
+            {
+                name: 'bell',
+                description: 'alert notify notification'
+            },
+            {
+                name: 'bell-dot',
+                description: 'alert notify notification'
+            },
+            {
+                name: 'bold',
+                description: 'text format weight font style'
+            },
+            {
+                name: 'book',
+                description: 'library text read open'
+            },
+            {
+                name: 'bookmark',
+                description: 'book save later'
+            },
+            {
+                name: 'briefcase',
+                description: 'work workplace'
+            },
+            {
+                name: 'broadcast',
+                description: 'tower signal connect connection'
+            },
+            {
+                name: 'browser',
+                description: 'web internet page window'
+            },
+            {
+                name: 'bug',
+                description: 'error issue insect block'
+            },
+            {
+                name: 'calendar',
+                description: 'day time week month date schedule event planner'
+            },
+            {
+                name: 'call-incoming',
+                description: 'phone cell voice connection direction'
+            },
+            {
+                name: 'call-outgoing',
+                description: 'phone cell voice connection direction'
+            },
+            {
+                name: 'case-sensitive',
+                description: 'search filter option letters words'
+            },
+            {
+                name: 'check-all',
+                description: 'checkmark select everything checked mark complete finish done accept approve'
+            },
+            {
+                name: 'check',
+                description: 'checkmark select everything checked mark complete finish done accept approve'
+            },
+            {
+                name: 'checklist',
+                description: 'checkmark select everything checked mark complete finish done accept todo task text'
+            },
+            {
+                name: 'chevron-down',
+                description: 'twistie tree node folder fold collapse'
+            },
+            {
+                name: 'chevron-left',
+                description: 'twistie tree node folder fold collapse'
+            },
+            {
+                name: 'chevron-right',
+                description: 'twistie tree node folder fold collapse'
+            },
+            {
+                name: 'chevron-up',
+                description: 'twistie tree node folder fold collapse'
+            },
+            {
+                name: 'chrome-close',
+                description: 'menu bar window dismiss'
+            },
+            {
+                name: 'chrome-maximize',
+                description: 'menu bar window large increase'
+            },
+            {
+                name: 'chrome-minimize',
+                description: 'menu bar window small decrease'
+            },
+            {
+                name: 'chrome-restore',
+                description: 'menu bar window'
+            },
+            {
+                name: 'circle-filled',
+                description: 'dot round small bullet breakpoint'
+            },
+            {
+                name: 'circle-large-filled',
+                description: 'dot round bullet'
+            },
+            {
+                name: 'circle-large',
+                description: 'dot round bullet'
+            },
+            {
+                name: 'circle',
+                description: 'dot round small bullet unverified breakpoint'
+            },
+            {
+                name: 'circle-slash',
+                description: 'error block stop disable'
+            },
+            {
+                name: 'circuit-board',
+                description: 'iot device process lines'
+            },
+            {
+                name: 'clear-all',
+                description: 'reset remove'
+            },
+            {
+                name: 'clippy',
+                description: 'clipboard document edit copy'
+            },
+            {
+                name: 'close-all',
+                description: 'remove bulk'
+            },
+            {
+                name: 'close',
+                description: 'remove x cancel stop miltiply'
+            },
+            {
+                name: 'cloud-download',
+                description: 'install import'
+            },
+            {
+                name: 'cloud-upload',
+                description: 'export'
+            },
+            {
+                name: 'cloud',
+                description: 'online service'
+            },
+            {
+                name: 'code',
+                description: 'embed script programming server'
+            },
+            {
+                name: 'collapse-all',
+                description: 'bulk fold minimize'
+            },
+            {
+                name: 'color-mode',
+                description: 'switch dark light contrast mode toggle'
+            },
+            {
+                name: 'comment-discussion',
+                description: 'dialog message bubble chat'
+            },
+            {
+                name: 'comment',
+                description: 'dialog message bubble chat'
+            },
+            {
+                name: 'credit-card',
+                description: 'payment merchant money'
+            },
+            {
+                name: 'dash',
+                description: 'line minus subtract hyphen'
+            },
+            {
+                name: 'dashboard',
+                description: 'panel stats dial'
+            },
+            {
+                name: 'database',
+                description: 'sql db storage online cloud'
+            },
+            {
+                name: 'debug-alt-small',
+                description: 'run'
+            },
+            {
+                name: 'debug-alt',
+                description: 'run'
+            },
+            {
+                name: 'debug-console',
+                description: 'terminal command input compile build'
+            },
+            {
+                name: 'debug-disconnect',
+                description: 'stop unplug eject'
+            },
+            {
+                name: 'desktop-download',
+                description: 'install'
+            },
+            {
+                name: 'device-camera-video',
+                description: 'movie record capture'
+            },
+            {
+                name: 'device-camera',
+                description: 'capture picture image'
+            },
+            {
+                name: 'device-mobile',
+                description: 'phone handheld smartphone'
+            },
+            {
+                name: 'diff-added',
+                description: 'git change'
+            },
+            {
+                name: 'diff-ignored',
+                description: 'git change'
+            },
+            {
+                name: 'diff-modified',
+                description: 'git change'
+            },
+            {
+                name: 'diff-renamed',
+                description: 'git change'
+            },
+            {
+                name: 'diff-removed',
+                description: 'git change'
+            },
+            {
+                name: 'play-circle',
+                description: 'run'
+            },
+            {
+                name: 'pass',
+                description: 'play check checkmark outline issue closed'
+            },
+            {
+                name: 'pass-filled',
+                description: 'play check checkmark filled issue closed'
+            },
+            {
+                name: 'play',
+                description: 'run'
+            },
+        ];
+
+        descriptions.some(function(item) {
+            let findIcon = document.querySelectorAll(`[data-name="${item.name}"]`);
+            if (findIcon[0]) {
+                findIcon[0].querySelector('.description').innerHTML += item.description;
+                findIcon[0].setAttribute('data-description', item.description);
+            }
+        });
+    }
+
+    // Copy functionality
+    function copyToClipboard(text, displayText) {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text).then(function() {
+                notificationText.innerHTML = displayText;
+                animateNotification();
+            }).catch(function() {
+                // Fallback to old method
+                copier.value = text;
+                copier.select();
+                copier.setSelectionRange(0, 99999);
+                document.execCommand('copy');
+                notificationText.innerHTML = displayText;
+                animateNotification();
+            });
+        } else {
+            copier.value = text;
+            copier.select();
+            copier.setSelectionRange(0, 99999);
+            document.execCommand('copy');
+            notificationText.innerHTML = displayText;
+            animateNotification();
+        }
+    }
+
+    // Setup copy buttons for each icon
+    for(let i=0;i<icons.length;i++){
+        let icon = icons[i];
+        
+        // Copy name button
+        let copyNameBtn = icon.querySelector('.copy-name-btn');
+        copyNameBtn.onclick = function(e){
+            e.stopPropagation();
+            let iconName = this.closest('.icon').getAttribute('data-name');
+            copyToClipboard(iconName, iconName);
+        };
+        
+        // Copy SVG button
+        let copySvgBtn = icon.querySelector('.copy-svg-btn');
+        copySvgBtn.onclick = function(e){
+            e.stopPropagation();
+            let iconName = this.closest('.icon').getAttribute('data-name');
+            if (svgData[iconName]) {
+                copyToClipboard(svgData[iconName], iconName + ' (SVG)');
+            } else {
+                // Fallback: try to fetch SVG if not in embedded data
+                fetch('icons/' + iconName + '.svg')
+                    .then(response => response.text())
+                    .then(svg => {
+                        copyToClipboard(svg, iconName + ' (SVG)');
+                    })
+                    .catch(error => {
+                        console.warn('Could not fetch SVG for ' + iconName, error);
+                        notificationText.innerHTML = 'SVG not available';
+                        animateNotification();
+                    });
+            }
+        };
     }
 
     function animateNotification(){
@@ -494,11 +704,16 @@
         let icon = wrapper.getElementsByTagName('div');
 
         for (i = 0; i < icon.length; i++) {
-            let textInner = sanitizeText(icon[i].innerText)
+            let name = icon[i].getAttribute('data-name') || '';
+            let tags = icon[i].getAttribute('data-tags') || '';
+            let description = icon[i].getAttribute('data-description') || '';
+            let textInner = sanitizeText(icon[i].innerText);
             let textContents = sanitizeText(icon[i].textContent);
-            compareText = textContents || textInner;
+            
+            // Search in name, tags, description, and text content
+            let searchableText = (name + ' ' + tags + ' ' + description + ' ' + textContents + ' ' + textInner).toUpperCase();
 
-            if (compareText.toUpperCase().indexOf(filter) > -1) {
+            if (searchableText.indexOf(filter) > -1) {
                 icon[i].style.display = '';
             } else {
                 icon[i].style.display = 'none';
@@ -507,6 +722,53 @@
     });
 
     search.focus();
+
+    // Theme toggle functionality
+    const themeToggle = document.getElementById('theme-toggle');
+    const html = document.documentElement;
+    const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    
+    // Function to get the theme: check localStorage first, then system preference
+    function getTheme() {
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            return savedTheme;
+        }
+        return prefersDarkScheme.matches ? 'dark' : 'light';
+    }
+    
+    // Initialize theme
+    const currentTheme = getTheme();
+    html.setAttribute('data-theme', currentTheme);
+    updateThemeButton(currentTheme);
+    
+    // Listen for system theme changes
+    prefersDarkScheme.addEventListener('change', function(e) {
+        // Only update if user hasn't manually set a preference
+        if (!localStorage.getItem('theme')) {
+            const newTheme = e.matches ? 'dark' : 'light';
+            html.setAttribute('data-theme', newTheme);
+            updateThemeButton(newTheme);
+        }
+    });
+    
+    // Manual toggle
+    themeToggle.addEventListener('click', function() {
+        const currentTheme = html.getAttribute('data-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        
+        html.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+        updateThemeButton(newTheme);
+    });
+    
+    function updateThemeButton(theme) {
+        if (theme === 'dark') {
+            themeToggle.innerHTML = '<i class="codicon codicon-color-mode"></i> Light Mode';
+        } else {
+            themeToggle.innerHTML = '<i class="codicon codicon-color-mode"></i> Dark Mode';
+        }
+    }
 
 </script>
 </body>

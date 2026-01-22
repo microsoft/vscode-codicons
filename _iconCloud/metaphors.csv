@@ -1,0 +1,533 @@
+IconKeyValue,Metaphors
+account,person people face user contact profile avatar
+activate-breakpoints,debug dot circle toggle switch enable
+add,plus new create combine more insert
+archive,save box delivery package store compress
+arrow-both,switch swap exchange bidirectional transfer
+arrow-circle-down,download direction navigate round
+arrow-circle-left,back direction navigate round previous
+arrow-circle-right,forward direction navigate round next
+arrow-circle-up,upload direction navigate round
+arrow-down,direction navigate sort download descend
+arrow-left,direction navigate back previous
+arrow-right,direction navigate forward next
+arrow-up,direction navigate sort upload ascend
+beaker,test lab tube science experiment flask
+bell,alert notify notification alarm reminder
+bell-dot,alert notify notification alarm unread badge
+bold,text format weight font style strong
+book,library text read documentation manual guide
+bookmark,save mark favorite remember flag
+briefcase,work workplace business professional job
+broadcast,tower signal connect connection transmit wireless
+browser,web internet page window site
+bug,error issue insect problem defect
+calendar,day time week month date schedule event planner
+call-incoming,phone call voice connection receive
+call-outgoing,phone call voice connection send
+case-sensitive,search filter option letters words text
+check,checkmark select checked mark complete finish done accept approve success
+check-all,checkmark select everything checked mark complete finish done accept approve bulk
+checklist,checkmark select checked mark complete finish done todo task list
+chevron-down,twistie tree node folder fold collapse expand dropdown
+chevron-left,twistie tree node folder fold collapse back
+chevron-right,twistie tree node folder fold expand forward
+chevron-up,twistie tree node folder fold collapse expand
+chrome-close,menu bar window dismiss exit quit
+chrome-maximize,menu bar window large increase expand
+chrome-minimize,menu bar window small decrease reduce
+chrome-restore,menu bar window resize normal
+circle-filled,dot round small bullet point breakpoint
+circle-large-filled,dot round bullet point
+circle-large,dot round bullet point outline
+circle-slash,error block stop disable prohibited forbidden
+circuit-board,iot device process hardware technology
+clear-all,reset remove delete clean empty
+clippy,clipboard document edit copy paste
+close,remove delete cancel stop dismiss exit
+close-all,remove bulk dismiss exit
+cloud,online service storage sync remote
+cloud-download,install import retrieve fetch
+cloud-upload,export save send publish
+code,embed script programming development source
+coffee,break drink beverage java pause
+collapse-all,bulk fold minimize hide tree
+color-mode,switch dark light contrast theme toggle
+comment,dialog message bubble chat feedback note
+comment-discussion,dialog message bubble chat conversation feedback
+copilot,ai assistant help automation suggestion
+copy,duplicate clone clipboard paste
+credit-card,payment merchant money billing purchase
+dash,line minus subtract hyphen separator
+dashboard,panel stats dial overview metrics
+database,sql storage data server table
+debug,run test troubleshoot fix breakpoint
+debug-alt,run execute play start
+debug-console,terminal command input compile build output
+device-camera,capture picture image photo screenshot
+device-camera-video,movie record capture video film
+device-mobile,phone handheld smartphone mobile responsive
+diff,compare changes difference git version
+diff-added,git change new insert green
+diff-ignored,git change skip excluded
+diff-modified,git change edit updated yellow
+diff-removed,git change delete removed red
+diff-renamed,git change move renamed
+edit,pencil modify write change update
+error,stop problem issue alert warning critical
+extensions,plugin addon package module marketplace
+eye,view watch see visibility preview
+eye-closed,hide hidden invisible privacy conceal
+file,document text page content
+file-code,source programming script development
+files,documents multiple explorer browser
+filter,funnel sort search refine narrow
+folder,directory container storage organize
+folder-opened,directory container storage organize expanded
+gear,settings configuration preferences options setup
+git-branch,source control version tree fork
+git-commit,save record version snapshot
+git-merge,combine join integrate branch
+git-pull-request,pr review merge contribution
+globe,world internet web international network
+graph,chart visualization data analytics statistics
+heart,like favorite love bookmark
+home,house main start dashboard
+info,information help about details
+issues,bug problem task ticket github
+json,bracket data format code structure
+key,password secret access security authentication
+law,legal license terms compliance
+library,collection repository storage archive
+lightbulb,idea suggestion tip hint smart
+link,url hyperlink connection chain reference
+link-external,url open new outside external
+list-ordered,numbered sequence steps order
+list-unordered,bullet items points
+loading,spinner progress wait processing busy
+location,map place pin marker gps
+mail,email message envelope communication
+markdown,text format document md writing
+menu,hamburger navigation options list
+merge,combine join unite integrate
+mic,microphone audio voice record sound
+mirror,reflect copy duplicate sync
+more,ellipsis menu options actions dots
+move,drag reorder relocate transfer
+new-file,create add document blank
+new-folder,create add directory blank
+note,document memo text write
+notebook,jupyter code document interactive
+organization,company business group team
+output,result console terminal log
+package,box module library dependency
+pass,check success complete done approved
+person,user account profile human contact
+pin,attach fix stick bookmark
+play,run start execute begin
+plug,extension connect addon power
+preview,view see look display
+project,workspace folder solution repository
+question,help info unknown ask
+record,capture start save log
+redo,repeat forward restore again
+refresh,reload update sync restart
+regex,pattern search expression match
+remote,server cloud ssh connection
+remove,delete trash clear eliminate
+replace,swap substitute change exchange
+repo,repository git source project
+report,document analytics summary data
+rocket,launch deploy fast start
+save,disk store keep preserve
+save-all,disk store keep preserve bulk
+search,find query look magnify locate
+server,host backend database remote
+settings,gear configuration preferences options
+settings-gear,configuration preferences options setup
+shield,security protect safety guard
+source-control,git version scm branch
+sparkle,ai magic auto smart copilot
+split-horizontal,divide layout pane window
+split-vertical,divide layout pane window
+star,favorite bookmark rating highlight
+symbol-class,code object type definition
+symbol-method,code function procedure definition
+tag,label mark version release
+terminal,console command shell cli
+text-size,font typography scale zoom
+trash,delete remove bin discard
+unlock,open unsecure access unlocked
+verified,check approved trusted confirmed
+watch,monitor observe track follow
+window,application frame panel view
+workspace-trusted,safe verified secure approved
+zoom-in,magnify enlarge increase expand
+zoom-out,reduce shrink decrease minimize
+add-small,plus new create mini tiny
+agent,ai bot assistant robot service
+alert,warning error danger notification triangle exclamation
+array,list collection brackets data structure
+arrow-small-down,direction navigate mini tiny descend
+arrow-small-left,direction navigate back mini tiny
+arrow-small-right,direction navigate forward mini tiny
+arrow-small-up,direction navigate mini tiny ascend
+arrow-swap,switch exchange replace direction
+attach,clip paperclip file link connect add
+azure,cloud microsoft service platform logo
+azure-devops,cloud microsoft service cicd logo
+beaker-stop,test experiment halt cancel lab
+bell-slash,mute silent quiet no-notification off
+bell-slash-dot,mute silent quiet unread badge
+blank,empty nothing void clear space
+bracket-dot,code json array badge indicator
+bracket-error,code json array issue problem
+build,compile make construct tools hammer
+chat-sparkle,ai copilot message magic suggestion
+chat-sparkle-error,ai copilot message issue problem
+chat-sparkle-warning,ai copilot message alert caution exclamation
+chip,hardware processor cpu gpu silicon integrated
+circle-outline,round shape empty ring hollow
+circle-small,dot point round tiny mini
+circle-small-filled,dot point round tiny mini solid
+clockface,time watch schedule history wait hour minute
+clone,copy duplicate replicate git repo
+cloud-small,online storage mini tiny remote
+code-oss,vscode open source editor logo brand
+code-review,pr pull request check inspect examine
+collection,group set library stack gather
+collection-small,group set library mini tiny
+combine,merge join unite mix blend
+comment-discussion-quote,chat reply reference cite message
+comment-discussion-sparkle,ai chat copilot magic suggestion intelligent
+comment-draft,message unsaved pending write edit pr
+comment-unresolved,message open pending issue active pr
+compass,navigate direction orient guide map
+compass-active,navigate direction orient guide on
+compass-dot,navigate direction orient badge notification
+copilot-blocked,ai stop prevent ban restricted intelligent agent
+copilot-error,ai issue problem fail bug cross intelligent agent
+copilot-in-progress,ai loading thinking working busy spinner waiting intelligent agent
+copilot-large,ai assistant big logo brand intelligent agent
+copilot-not-connected,ai offline disconnected network link intelligent agent
+copilot-snooze,ai sleep pause wait later intelligent agent
+copilot-success,ai check done complete ok intelligent agent tick pass
+copilot-unavailable,ai offline missing gone disabled intelligent agent
+copilot-warning,ai alert caution attention issue exclamation intelligent agent
+copilot-warning-large,ai alert caution big attention exclamation intelligent agent
+coverage,test percent code quality metrics
+cursor,pointer mouse click select arrow
+debug-all,run test everything suite batch play
+debug-alt-small,run play mini tiny start execute
+debug-breakpoint-conditional,stop pause if logic test
+debug-breakpoint-conditional-unverified,stop pause if grey inactive
+debug-breakpoint-data,stop pause variable value watch
+debug-breakpoint-data-unverified,stop pause variable grey inactive
+debug-breakpoint-function,stop pause method call triangle
+debug-breakpoint-function-unverified,stop pause method grey inactive
+debug-breakpoint-log,print message console diamond record
+debug-breakpoint-log-unverified,print message grey inactive diamond
+debug-breakpoint-unsupported,stop error invalid broken fail exclamation
+debug-connected,attach link online active plug
+debug-continue,play resume next forward run
+debug-continue-small,play resume mini tiny run
+debug-coverage,test percent metrics quality report
+debug-disconnect,stop unplug detach offline end unplug
+debug-line-by-line,step walk trace flow execute
+debug-pause,break halt wait freeze stop
+debug-rerun,restart again repeat loop reload
+debug-restart,reload reset again cycle refresh
+debug-restart-frame,stack reset up back context
+debug-reverse-continue,back rewind previous undo return
+debug-stackframe,call layer context memory trace
+debug-stackframe-active,call layer current now focus
+debug-start,run play launch begin execute
+debug-step-back,reverse previous undo return rewind back arrow
+debug-step-into,enter down inside drill call arrow
+debug-step-out,exit up return leave escape
+debug-step-over,next skip jump forward pass
+debug-stop,terminate end kill halt finish stop exit square
+diff-multiple,compare changes files batch many git pr
+diff-single,compare change file one individual git pr
+discard,undo revert throw trash cancel delete
+download,get retrieve save install pull cloud
+edit-code,write modify script program change
+edit-session,work context state save restore
+edit-sparkle,ai magic auto fix refactor smart intelligent
+editor-layout,split grid view arrange window
+empty-window,blank new clear frame start
+eraser,delete remove clear rub clean
+error-small,issue problem bug mini tiny cross
+exclude,remove hide filter minus ban
+expand-all,open show unfold reveal tree
+export,save send out download extract
+extensions-large,plugins addons marketplace big
+feedback,comment review opinion rate message
+file-binary,data raw executable blob 01
+file-media,image video audio picture movie
+file-pdf,document adobe print read paper
+file-submodule,git repo link reference external
+file-symlink-directory,link shortcut alias folder pointer
+file-symlink-file,link shortcut alias document pointer
+file-text,document txt write read note
+file-zip,archive compress package bundle rar
+filter-filled,funnel sort refine solid active
+flag,mark report notice banner sign
+flame,fire hot burn danger popular
+fold,collapse hide compress close squeeze
+fold-down,collapse hide bottom close minimize
+fold-up,collapse hide top close minimize
+folder-active,directory current open selected working
+folder-library,collection books archive storage group
+forward,next right advance go arrow
+game,play controller joystick fun entertainment
+gift,present box reward package surprise
+gist,github snippet code share note pr
+gist-fork,copy branch split duplicate share code pr
+gist-private,lock secret hidden secure code pr
+gist-secret,lock hidden private secure code pr
+git-branch-changes,diff modify edit update version git pr
+git-branch-conflicts,error clash issue problem merge exclamation git pr
+git-branch-staged-changes,ready commit add prepare version git pr
+git-compare,diff changes versus match check git pr
+git-pull-request-closed,pr done finish reject end git
+git-pull-request-create,pr new add start open git
+git-pull-request-done,pr merged complete success check git
+git-pull-request-draft,pr wip work pending edit git
+git-pull-request-go-to-changes,pr diff jump view files git
+git-pull-request-new-changes,pr update fresh recent notification git
+git-stash,save hide store temp shelf git
+git-stash-apply,restore pop use retrieve load git
+git-stash-pop,restore remove retrieve load apply git
+github-action,ci cd automation workflow pipeline
+github-alt,logo brand cat octocat social
+github-inverted,logo brand cat octocat white
+github-project,board kanban plan organize tasks
+go-to-editing-session,jump switch work context restore
+go-to-search,find jump query look magnify
+grabber,drag move handle grip hold
+graph-left,chart plot visualize data side
+graph-line,chart plot trend data statistics
+graph-scatter,chart plot dots data distribution
+gripper,drag move handle dots hold
+group-by-ref-type,sort organize category class kind
+heart-filled,love like favorite solid prefer
+history,time past log record clock
+horizontal-rule,line separator divider split hr
+hubot,bot robot ai assistant chat
+inbox,mail message tray receive incoming agent
+indent,tab space move right format
+index-zero,0 start first number count search find
+insert,add new enter input plus
+inspect,check examine debug look analyze
+issue-draft,bug ticket wip pending unsaved
+issue-reopened,bug ticket active again back
+italic,text format style slant emphasis
+jersey,shirt clothing team sport uniform
+kebab-vertical,menu more options dots overflow
+keyboard-tab,key indent space move jump button nes next edit suggestion accept
+keyboard-tab-above,key indent up move jump button nes next edit suggestion accept
+keyboard-tab-below,key indent down move jump button nes next edit suggestion accept
+layers,stack sheets levels overlay group
+layers-active,stack sheets current selected on
+layers-dot,stack sheets badge notification alert
+layout,view arrange grid panel design
+layout-activitybar-left,view sidebar menu dock west
+layout-activitybar-right,view sidebar menu dock east
+layout-centered,view middle focus align balance
+layout-menubar,view top header options nav
+layout-panel,view bottom terminal output dock
+layout-panel-center,view bottom middle align dock
+layout-panel-dock,view bottom fix anchor attach
+layout-panel-justify,view bottom stretch fill align
+layout-panel-left,view side west dock vertical
+layout-panel-off,view hide close remove invisible
+layout-panel-right,view side east dock vertical
+layout-sidebar-left,view explorer tree west dock
+layout-sidebar-left-dock,view explorer fix anchor west
+layout-sidebar-left-off,view hide close remove explorer
+layout-sidebar-right,view outline east dock secondary
+layout-sidebar-right-dock,view outline fix anchor east
+layout-sidebar-right-off,view hide close remove outline
+layout-statusbar,view bottom footer info bar
+lightbulb-autofix,idea repair solve magic correct suggestion
+lightbulb-empty,idea off hollow outline thought suggestion
+lightbulb-sparkle,idea ai magic smart suggestion intelligent
+list-filter,sort refine search narrow view
+list-flat,view plain simple linear rows
+list-selection,choose pick check active highlight
+list-tree,hierarchy structure nested branches view files folders directory project
+live-share,collaborate remote pair connect together
+lock-small,secure private mini tiny key readonly
+log-in,sign in enter access auth arrow
+log-out,sign out exit leave disconnect arrow
+logo-github,brand cat octocat git social
+magnet,stick snap attract pull hold
+mail-read,email open message seen envelope
+mail-reply,email respond answer back arrow
+map,location guide plan chart area
+map-filled,location guide solid area place
+map-vertical,location guide up down chart
+map-vertical-filled,location guide solid up down
+mcp,protocol connect server client model ai tools
+megaphone,shout announce broadcast loud speaker notification
+mention,at tag user notify address collaborate communication
+merge-into,combine join unite flow arrow pr git
+mic-filled,audio voice record solid sound text speech tts
+milestone,goal target flag marker progress git project issue pr
+mortar-board,education learn school degree hat
+multiple-windows,screens views panels many stack
+music,note sound audio song melody
+mute,silent quiet off sound volume
+new-collection,create add group set plus
+newline,enter return break text arrow
+no-newline,stop end text break slash
+notebook-template,jupyter pattern layout model file
+octoface,github cat logo brand face
+open-in-product,launch external view app arrow
+open-preview,view see display show window
+paintcan,color fill bucket art design
+pass-filled,check success solid ok done
+percentage,ratio math number rate symbol
+person-add,user invite new plus friend
+piano,music keys instrument sound play
+pie-chart,graph data visualize circle stats
+pinned,fixed sticky attached saved marker
+pinned-dirty,fixed sticky unsaved modified dot
+play-circle,run start round button media
+preserve-case,text search match caps font
+primitive-square,shape box block stop solid
+pulse,heartbeat activity monitor line health
+python,language code snake logo dev
+quote,text cite reference speech mark
+quotes,text cite reference speech marks
+radio-tower,signal broadcast antenna wireless connect
+reactions,emoji face emotion respond feeling
+record-keys,macro type input save keyboard
+record-small,capture dot mini tiny circle
+references,links citations uses calls list
+remote-explorer,server cloud ssh view connect
+remove-small,delete minus mini tiny trash
+rename,edit change label title text
+replace-all,swap change bulk many substitute
+repo-clone,git copy download duplicate project
+repo-fetch,git download update sync get
+repo-force-push,git upload overwrite danger arrow
+repo-pinned,git favorite saved fixed project
+repo-pull,git download update sync arrow
+repo-push,git upload send sync arrow
+repo-selected,git active current check project
+repo-sync,git refresh update cycle arrows
+request-changes,pr review reject edit feedback
+robot,ai bot automation machine android
+root-folder,directory base home start project
+root-folder-opened,directory base home expanded project
+rss,feed news subscribe broadcast wifi
+ruby,language code gem jewel red
+run-above,play execute up previous start
+run-all,play execute everything batch start
+run-all-coverage,test execute metrics everything report
+run-below,play execute down next start
+run-coverage,test execute metrics report check
+run-errors,test fail bug issue problem
+run-with-deps,play execute tree chain link
+save-as,disk store new copy file
+screen-full,view maximize expand monitor display
+screen-normal,view restore window monitor display
+search-fuzzy,find approximate match loose query
+search-large,find big magnify zoom query
+search-sparkle,ai find magic smart query
+search-stop,find cancel halt end query
+send,mail message submit paper plane go
+send-to-remote-agent,transmit upload cloud server go
+server-environment,host cloud settings config box
+server-process,host run execute task gear
+session-in-progress,working busy active clock wait
+share,export send link collaborate arrow
+skip,next jump pass ignore arrow
+smiley,face happy emotion good smile
+snake,python reptile game animal curve
+sort-precedence,order rank priority list arrange
+sparkle-filled,ai magic solid star shine
+squirrel,animal ship release deploy mascot
+star-full,favorite solid rate best bookmark
+star-half,favorite partial rate middle bookmark
+stop-circle,halt end cancel round button
+strikethrough,text format delete cross line
+surround-with,wrap enclose code brackets container
+symbol-boolean,code true false logic type
+symbol-color,code paint palette type style
+symbol-constant,code fixed value type immutable
+symbol-enum,code list options type set
+symbol-enum-member,code item option value part
+symbol-field,code property variable data member
+symbol-file,code document script source type
+symbol-interface,code contract api type definition
+symbol-key,code id access property name
+symbol-keyword,code reserved syntax language term
+symbol-method-arrow,code function call action run
+symbol-misc,code other various general item
+symbol-module,code package library container import
+symbol-numeric,code number digit math count
+symbol-operator,code math logic calc function
+symbol-parameter,code input argument variable value
+symbol-property,code attribute field value data
+symbol-reference,code link pointer alias use
+symbol-ruler,code measure size scale unit
+symbol-snippet,code template fragment reuse paste
+symbol-string,code text chars word value
+symbol-structure,code object data model shape
+sync-ignored,refresh skip exclude update circle
+table,grid data rows columns sheet
+target,aim goal bullseye focus point
+tasklist,todo check items plan manage
+telescope,search find explore look space
+terminal-bash,console shell script linux command
+terminal-cmd,console shell windows command prompt
+terminal-debian,console shell linux os logo
+terminal-git-bash,console shell git command logo
+terminal-linux,console shell os penguin logo
+terminal-powershell,console shell windows script logo
+terminal-tmux,console multiplexer split window tool
+terminal-ubuntu,console shell linux os logo
+thinking,ai brain process wait loading
+three-bars,menu hamburger list options nav
+thumbsdown,dislike bad no reject vote
+thumbsdown-filled,dislike bad no reject solid
+thumbsup,like good yes approve vote
+thumbsup-filled,like good yes approve solid
+tools,settings config repair fix utils
+triangle-down,arrow direction point shape descend
+triangle-left,arrow direction point shape back
+triangle-right,arrow direction point shape forward
+triangle-up,arrow direction point shape ascend
+twitter,social bird logo brand share
+type-hierarchy,structure class tree inherit view
+type-hierarchy-sub,structure child down inherit view
+type-hierarchy-super,structure parent up inherit view
+unarchive,restore open unpack box retrieve
+unfold,expand show open reveal spread
+ungroup-by-ref-type,sort list flat view mix
+unmute,sound volume on audio hear
+unverified,check hollow pending wait circle
+variable,code value store data box
+variable-group,code collection set list data
+verified-filled,check solid approved trusted ok
+versions,history changes git time backup
+vm,computer server remote machine box
+vm-active,computer running on working remote
+vm-connect,computer link remote ssh join
+vm-outline,computer box shape remote machine
+vm-running,computer play active on remote
+vm-small,computer mini tiny remote box
+vr,virtual reality glasses headset 3d
+vscode,editor logo brand microsoft code
+vscode-insiders,editor logo brand green beta
+wand,magic fix auto spell wizard
+whitespace,space invisible char format view
+whole-word,search match text complete exact
+window-active,view current focus selected frame
+word-wrap,text format line break view
+workspace-unknown,status question unsure check folder
+workspace-untrusted,status danger warning shield folder exclamation
+zap,flash electric power energy fast
