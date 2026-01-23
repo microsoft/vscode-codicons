@@ -701,9 +701,9 @@
     search.addEventListener('keyup', function(){
         let filter = search.value.toUpperCase();
         let wrapper = document.getElementById('icons');
-        let icon = wrapper.getElementsByTagName('div');
+        let icon = wrapper.getElementsByClassName('icon');
 
-        for (i = 0; i < icon.length; i++) {
+        for (let i = 0; i < icon.length; i++) {
             let name = icon[i].getAttribute('data-name') || '';
             let tags = icon[i].getAttribute('data-tags') || '';
             let description = icon[i].getAttribute('data-description') || '';
