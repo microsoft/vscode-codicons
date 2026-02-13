@@ -1934,6 +1934,11 @@
     "category": "action",
     "description": "Open in product"
   },
+  "open-in-window": {
+    "tags": ["launch", "external", "view", "window", "arrow", "new", "open"],
+    "category": "action",
+    "description": "Open in new window"
+  },
   "open-preview": {
     "tags": ["view", "see", "display", "show", "window"],
     "category": "action",
