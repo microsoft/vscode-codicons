@@ -1727,11 +1727,21 @@
     "new-session"
   ],
   "60549": [
-    "symbol-header-1",
-    "symbol-header-2",
-    "symbol-header-3",
-    "symbol-header-4",
-    "symbol-header-5",
-    "symbol-header-6"
+    "symbol-header-one"
+  ],
+  "60550": [
+    "symbol-header-two"
+  ],
+  "60551": [
+    "symbol-header-three"
+  ],
+  "60552": [
+    "symbol-header-four"
+  ],
+  "60553": [
+    "symbol-header-five"
+  ],
+  "60554": [
+    "symbol-header-six"
   ]
 }

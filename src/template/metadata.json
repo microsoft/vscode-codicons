@@ -2334,35 +2334,35 @@
     "category": "symbol",
     "description": "File symbol"
   },
-  "symbol-header-1": {
+  "symbol-header-one": {
     "tags": ["code", "title", "section", "type", "format"],
     "category": "symbol",
-    "description": "Header 1 symbol"
+    "description": "Header One symbol"
   },
-  "symbol-header-2": {
+  "symbol-header-two": {
     "tags": ["code", "subtitle", "section", "type", "format"],
     "category": "symbol",
-    "description": "Header 2 symbol"
+    "description": "Header Two symbol"
   },
-  "symbol-header-3": {
+  "symbol-header-three": {
     "tags": ["code", "subsection", "section", "type", "format"],
     "category": "symbol",
-    "description": "Header 3 symbol"
+    "description": "Header Three symbol"
   },
-  "symbol-header-4": {
+  "symbol-header-four": {
     "tags": ["code", "subsubtitle", "section", "type", "format"],
     "category": "symbol",
-    "description": "Header 4 symbol"
+    "description": "Header Four symbol"
   },
-  "symbol-header-5": {
+  "symbol-header-five": {
     "tags": ["code", "subsubsection", "section", "type", "format"],
     "category": "symbol",
-    "description": "Header 5 symbol"
+    "description": "Header Five symbol"
   },
-  "symbol-header-6": {
+  "symbol-header-six": {
     "tags": ["code", "subsubsubtitle", "section", "type", "format"],
     "category": "symbol",
-    "description": "Header 6 symbol"
+    "description": "Header Six symbol"
   },
   "symbol-interface": {
     "tags": ["code", "contract", "api", "type", "definition"],
