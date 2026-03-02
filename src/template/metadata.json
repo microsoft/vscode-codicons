@@ -2334,6 +2334,36 @@
     "category": "symbol",
     "description": "File symbol"
   },
+  "symbol-header-1": {
+    "tags": ["code", "title", "section", "type", "format"],
+    "category": "symbol",
+    "description": "Header 1 symbol"
+  },
+  "symbol-header-2": {
+    "tags": ["code", "subtitle", "section", "type", "format"],
+    "category": "symbol",
+    "description": "Header 2 symbol"
+  },
+  "symbol-header-3": {
+    "tags": ["code", "subsection", "section", "type", "format"],
+    "category": "symbol",
+    "description": "Header 3 symbol"
+  },
+  "symbol-header-4": {
+    "tags": ["code", "subsubtitle", "section", "type", "format"],
+    "category": "symbol",
+    "description": "Header 4 symbol"
+  },
+  "symbol-header-5": {
+    "tags": ["code", "subsubsection", "section", "type", "format"],
+    "category": "symbol",
+    "description": "Header 5 symbol"
+  },
+  "symbol-header-6": {
+    "tags": ["code", "subsubsubtitle", "section", "type", "format"],
+    "category": "symbol",
+    "description": "Header 6 symbol"
+  },
   "symbol-interface": {
     "tags": ["code", "contract", "api", "type", "definition"],
     "category": "symbol",
