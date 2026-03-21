@@ -3,11 +3,15 @@ var pkg = require('./package.json');
 var path = require('path');
 var mapping = require('./src/template/mapping.json');
 
-// Ensure paths are platform-agnostic for Windows CI
-var inputDir = path.resolve(__dirname, 'src', 'icons');
-var outputDir = path.resolve(__dirname, 'dist');
-var templateHtml = path.resolve(__dirname, 'src', 'template', 'preview.hbs');
-var templateCss = path.resolve(__dirname, 'src', 'template', 'styles.hbs');
+function normalizePath(filePath) {
+    return filePath.replace(/\\/g, '/');
+}
+
+// Fantasticon 4.x uses glob patterns internally, which require forward slashes.
+var inputDir = normalizePath(path.resolve(__dirname, 'src', 'icons'));
+var outputDir = normalizePath(path.resolve(__dirname, 'dist'));
+var templateHtml = normalizePath(path.resolve(__dirname, 'src', 'template', 'preview.hbs'));
+var templateCss = normalizePath(path.resolve(__dirname, 'src', 'template', 'styles.hbs'));
 
 // Convert new mapping format back to alias -> code format for fantasticon
 // New format: { "code": ["alias1", "alias2", ...] }

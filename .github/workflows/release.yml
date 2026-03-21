@@ -63,3 +63,21 @@ jobs:
           asset_path: ./dist/codicon.ttf
           asset_name: codicon-font-${{ github.ref_name }}.ttf
           asset_content_type: application/x-font-ttf
+
+  windows-pr-build:
+    if: github.event_name == 'pull_request'
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build font
+        run: npm run build
