@@ -789,6 +789,11 @@
     "category": "application",
     "description": "Terminal or console"
   },
+  "terminal-secure": {
+    "tags": ["console", "command", "shell", "cli", "lock", "secure", "protected"],
+    "category": "application",
+    "description": "Secure terminal"
+  },
   "text-size": {
     "tags": ["font", "typography", "scale", "zoom"],
     "category": "text",
