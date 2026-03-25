@@ -139,6 +139,16 @@
     "category": "search",
     "description": "Case-sensitive search option"
   },
+  "chat-export": {
+    "tags": ["chat", "export", "download", "save", "conversation", "message", "bubble", "arrow"],
+    "category": "communication",
+    "description": "Export or download chat conversation"
+  },
+  "chat-import": {
+    "tags": ["chat", "import", "upload", "load", "conversation", "message", "bubble", "arrow"],
+    "category": "communication",
+    "description": "Import or upload chat conversation"
+  },
   "check": {
     "tags": ["checkmark", "select", "checked", "mark", "complete", "finish", "done", "accept", "approve", "success"],
     "category": "status",
