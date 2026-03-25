@@ -1728,5 +1728,11 @@
   ],
   "60549": [
     "terminal-secure"
+  ],
+  "60550": [
+    "chat-import"
+  ],
+  "60551": [
+    "chat-export"
   ]
 }
