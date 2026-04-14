@@ -2259,6 +2259,11 @@
     "category": "action",
     "description": "Share"
   },
+  "share-window": {
+    "tags": ["window", "share", "screen", "multiple", "overlay", "collaborate", "display"],
+    "category": "layout",
+    "description": "Share or present a window"
+  },
   "skip": {
     "tags": ["next", "jump", "pass", "ignore", "arrow"],
     "category": "action",
