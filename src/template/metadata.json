@@ -2260,7 +2260,7 @@
     "description": "Share"
   },
   "share-window": {
-    "tags": ["window", "share", "screen", "multiple", "overlay", "collaborate", "display"],
+    "tags": ["window", "share", "screen", "multiple", "overlay", "collaborate", "display", "present"],
     "category": "layout",
     "description": "Share or present a window"
   },
