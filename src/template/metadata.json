@@ -808,7 +808,7 @@
     "category": "status",
     "description": "Blocked or disabled"
   },
-  "circle-slash-small": {
+  "circle-slash-compact": {
     "tags": [
       "error",
       "block",
@@ -819,7 +819,7 @@
       "compact"
     ],
     "category": "status",
-    "description": "Blocked or disabled (small variant)"
+    "description": "Blocked or disabled (compact variant)"
   },
   "circle-small": {
     "tags": [
@@ -1207,6 +1207,18 @@
     "category": "ai",
     "description": "Copilot blocked"
   },
+  "copilot-compact": {
+    "tags": [
+      "ai",
+      "assistant",
+      "help",
+      "automation",
+      "suggestion",
+      "compact"
+    ],
+    "category": "ai",
+    "description": "AI Copilot assistant (compact variant)"
+  },
   "copilot-error": {
     "tags": [
       "ai",
@@ -1261,18 +1273,6 @@
     ],
     "category": "ai",
     "description": "Copilot disconnected"
-  },
-  "copilot-small": {
-    "tags": [
-      "ai",
-      "assistant",
-      "help",
-      "automation",
-      "suggestion",
-      "compact"
-    ],
-    "category": "ai",
-    "description": "AI Copilot assistant (small variant)"
   },
   "copilot-snooze": {
     "tags": [
@@ -2359,6 +2359,17 @@
     "category": "file",
     "description": "Active folder"
   },
+  "folder-compact": {
+    "tags": [
+      "directory",
+      "container",
+      "storage",
+      "organize",
+      "compact"
+    ],
+    "category": "file",
+    "description": "Folder or directory (compact variant)"
+  },
   "folder-library": {
     "tags": [
       "collection",
@@ -2381,7 +2392,7 @@
     "category": "file",
     "description": "Opened folder"
   },
-  "folder-opened-small": {
+  "folder-opened-compact": {
     "tags": [
       "directory",
       "container",
@@ -2391,18 +2402,7 @@
       "compact"
     ],
     "category": "file",
-    "description": "Opened folder (small variant)"
-  },
-  "folder-small": {
-    "tags": [
-      "directory",
-      "container",
-      "storage",
-      "organize",
-      "compact"
-    ],
-    "category": "file",
-    "description": "Folder or directory (small variant)"
+    "description": "Opened folder (compact variant)"
   },
   "forward": {
     "tags": [
@@ -2437,7 +2437,7 @@
     "category": "settings",
     "description": "Settings or configuration"
   },
-  "gear-small": {
+  "gear-compact": {
     "tags": [
       "settings",
       "configuration",
@@ -2447,7 +2447,7 @@
       "compact"
     ],
     "category": "settings",
-    "description": "Settings or configuration (small variant)"
+    "description": "Settings or configuration (compact variant)"
   },
   "gift": {
     "tags": [
@@ -2533,6 +2533,18 @@
     "category": "git",
     "description": "Branch changes"
   },
+  "git-branch-compact": {
+    "tags": [
+      "source",
+      "control",
+      "version",
+      "tree",
+      "fork",
+      "compact"
+    ],
+    "category": "git",
+    "description": "Git branch (compact variant)"
+  },
   "git-branch-conflicts": {
     "tags": [
       "error",
@@ -2546,18 +2558,6 @@
     ],
     "category": "git",
     "description": "Branch conflicts"
-  },
-  "git-branch-small": {
-    "tags": [
-      "source",
-      "control",
-      "version",
-      "tree",
-      "fork",
-      "compact"
-    ],
-    "category": "git",
-    "description": "Git branch (small variant)"
   },
   "git-branch-staged-changes": {
     "tags": [
@@ -3410,7 +3410,7 @@
     "category": "general",
     "description": "Library or collection"
   },
-  "library-small": {
+  "library-compact": {
     "tags": [
       "collection",
       "repository",
@@ -3419,7 +3419,7 @@
       "compact"
     ],
     "category": "general",
-    "description": "Library or collection (small variant)"
+    "description": "Library or collection (compact variant)"
   },
   "lightbulb": {
     "tags": [
@@ -4395,7 +4395,7 @@
     "category": "action",
     "description": "Record keystrokes"
   },
-  "record-keys-small": {
+  "record-keys-compact": {
     "tags": [
       "macro",
       "type",
@@ -4405,7 +4405,7 @@
       "compact"
     ],
     "category": "action",
-    "description": "Record keystrokes (small variant)"
+    "description": "Record keystrokes (compact variant)"
   },
   "record-small": {
     "tags": [
@@ -4469,6 +4469,17 @@
     "category": "connection",
     "description": "Remote connection"
   },
+  "remote-compact": {
+    "tags": [
+      "server",
+      "cloud",
+      "ssh",
+      "connection",
+      "compact"
+    ],
+    "category": "connection",
+    "description": "Remote connection (compact variant)"
+  },
   "remote-explorer": {
     "tags": [
       "server",
@@ -4479,17 +4490,6 @@
     ],
     "category": "connection",
     "description": "Remote explorer"
-  },
-  "remote-small": {
-    "tags": [
-      "server",
-      "cloud",
-      "ssh",
-      "connection",
-      "compact"
-    ],
-    "category": "connection",
-    "description": "Remote connection (small variant)"
   },
   "remove": {
     "tags": [
@@ -4565,6 +4565,17 @@
     "category": "git",
     "description": "Clone repository"
   },
+  "repo-compact": {
+    "tags": [
+      "repository",
+      "git",
+      "source",
+      "project",
+      "compact"
+    ],
+    "category": "git",
+    "description": "Repository (compact variant)"
+  },
   "repo-fetch": {
     "tags": [
       "git",
@@ -4587,7 +4598,7 @@
     "category": "git",
     "description": "Force push repository"
   },
-  "repo-forked-small": {
+  "repo-forked-compact": {
     "tags": [
       "repository",
       "git",
@@ -4597,7 +4608,7 @@
       "compact"
     ],
     "category": "git",
-    "description": "Forked repository (small variant)"
+    "description": "Forked repository (compact variant)"
   },
   "repo-pinned": {
     "tags": [
@@ -4642,17 +4653,6 @@
     ],
     "category": "git",
     "description": "Selected repository"
-  },
-  "repo-small": {
-    "tags": [
-      "repository",
-      "git",
-      "source",
-      "project",
-      "compact"
-    ],
-    "category": "git",
-    "description": "Repository (small variant)"
   },
   "repo-sync": {
     "tags": [
@@ -5071,7 +5071,7 @@
     "category": "security",
     "description": "Security or protection"
   },
-  "shield-small": {
+  "shield-compact": {
     "tags": [
       "security",
       "protect",
@@ -5080,7 +5080,7 @@
       "compact"
     ],
     "category": "security",
-    "description": "Security or protection (small variant)"
+    "description": "Security or protection (compact variant)"
   },
   "skip": {
     "tags": [
@@ -5147,6 +5147,18 @@
     "category": "ai",
     "description": "AI or automated feature"
   },
+  "sparkle-compact": {
+    "tags": [
+      "ai",
+      "magic",
+      "auto",
+      "smart",
+      "copilot",
+      "compact"
+    ],
+    "category": "ai",
+    "description": "AI or automated feature (compact variant)"
+  },
   "sparkle-filled": {
     "tags": [
       "ai",
@@ -5157,18 +5169,6 @@
     ],
     "category": "ai",
     "description": "Filled sparkle"
-  },
-  "sparkle-small": {
-    "tags": [
-      "ai",
-      "magic",
-      "auto",
-      "smart",
-      "copilot",
-      "compact"
-    ],
-    "category": "ai",
-    "description": "AI or automated feature (small variant)"
   },
   "split-horizontal": {
     "tags": [
@@ -5298,7 +5298,7 @@
     "category": "symbol",
     "description": "Color symbol"
   },
-  "symbol-color-small": {
+  "symbol-color-compact": {
     "tags": [
       "code",
       "paint",
@@ -5308,7 +5308,7 @@
       "compact"
     ],
     "category": "symbol",
-    "description": "Color symbol (small variant)"
+    "description": "Color symbol (compact variant)"
   },
   "symbol-constant": {
     "tags": [
@@ -6183,7 +6183,7 @@
     "category": "window",
     "description": "Active window"
   },
-  "window-small": {
+  "window-compact": {
     "tags": [
       "application",
       "frame",
@@ -6192,7 +6192,7 @@
       "compact"
     ],
     "category": "layout",
-    "description": "Window or panel (small variant)"
+    "description": "Window or panel (compact variant)"
   },
   "word-wrap": {
     "tags": [
