@@ -2030,6 +2030,20 @@
     "category": "status",
     "description": "Error or critical issue"
   },
+  "error-compact": {
+    "tags": [
+      "stop",
+      "problem",
+      "issue",
+      "alert",
+      "critical",
+      "compact",
+      "circle",
+      "cross"
+    ],
+    "category": "status",
+    "description": "Error indicator (compact 12x12 variant)"
+  },
   "error-small": {
     "tags": [
       "issue",
