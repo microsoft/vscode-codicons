@@ -1737,5 +1737,53 @@
   ],
   "60552": [
     "share-window"
+  ],
+  "60553": [
+    "circle-slash-compact"
+  ],
+  "60554": [
+    "copilot-compact"
+  ],
+  "60555": [
+    "folder-opened-compact"
+  ],
+  "60556": [
+    "folder-compact"
+  ],
+  "60557": [
+    "gear-compact"
+  ],
+  "60558": [
+    "git-branch-compact"
+  ],
+  "60559": [
+    "library-compact"
+  ],
+  "60560": [
+    "record-keys-compact"
+  ],
+  "60561": [
+    "remote-compact"
+  ],
+  "60562": [
+    "repo-forked-compact"
+  ],
+  "60563": [
+    "repo-compact"
+  ],
+  "60564": [
+    "shield-compact"
+  ],
+  "60565": [
+    "sparkle-compact"
+  ],
+  "60566": [
+    "symbol-color-compact"
+  ],
+  "60567": [
+    "window-compact"
+  ],
+  "60568": [
+    "error-compact"
   ]
 }
