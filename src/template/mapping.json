@@ -1737,5 +1737,50 @@
   ],
   "60552": [
     "share-window"
+  ],
+  "60553": [
+    "circle-slash-small"
+  ],
+  "60554": [
+    "copilot-small"
+  ],
+  "60555": [
+    "folder-opened-small"
+  ],
+  "60556": [
+    "folder-small"
+  ],
+  "60557": [
+    "gear-small"
+  ],
+  "60558": [
+    "git-branch-small"
+  ],
+  "60559": [
+    "library-small"
+  ],
+  "60560": [
+    "record-keys-small"
+  ],
+  "60561": [
+    "remote-small"
+  ],
+  "60562": [
+    "repo-forked-small"
+  ],
+  "60563": [
+    "repo-small"
+  ],
+  "60564": [
+    "shield-small"
+  ],
+  "60565": [
+    "sparkle-small"
+  ],
+  "60566": [
+    "symbol-color-small"
+  ],
+  "60567": [
+    "window-small"
   ]
 }
