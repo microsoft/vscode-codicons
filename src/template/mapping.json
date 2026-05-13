@@ -1785,5 +1785,17 @@
   ],
   "60568": [
     "error-compact"
+  ],
+  "60569": [
+    "warning-compact"
+  ],
+  "60570": [
+    "pass-compact"
+  ],
+  "60571": [
+    "important"
+  ],
+  "60572": [
+    "important-compact"
   ]
 }

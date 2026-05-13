@@ -2941,6 +2941,31 @@
     "category": "ai",
     "description": "Hubot"
   },
+  "important": {
+    "tags": [
+      "alert",
+      "priority",
+      "attention",
+      "flag",
+      "notice",
+      "urgent"
+    ],
+    "category": "status",
+    "description": "Important or priority indicator"
+  },
+  "important-compact": {
+    "tags": [
+      "alert",
+      "priority",
+      "attention",
+      "flag",
+      "notice",
+      "urgent",
+      "compact"
+    ],
+    "category": "status",
+    "description": "Important or priority indicator (compact 12x12 variant)"
+  },
   "inbox": {
     "tags": [
       "mail",
@@ -4126,6 +4151,18 @@
     ],
     "category": "status",
     "description": "Pass or success"
+  },
+  "pass-compact": {
+    "tags": [
+      "check",
+      "success",
+      "complete",
+      "done",
+      "approved",
+      "compact"
+    ],
+    "category": "status",
+    "description": "Pass or success (compact 12x12 variant)"
   },
   "pass-filled": {
     "tags": [
@@ -6129,6 +6166,18 @@
     ],
     "category": "tool",
     "description": "Magic wand"
+  },
+  "warning-compact": {
+    "tags": [
+      "alert",
+      "caution",
+      "problem",
+      "triangle",
+      "attention",
+      "compact"
+    ],
+    "category": "status",
+    "description": "Warning indicator (compact 12x12 variant)"
   },
   "watch": {
     "tags": [
