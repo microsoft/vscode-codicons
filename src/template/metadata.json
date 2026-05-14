@@ -4744,6 +4744,17 @@
     "category": "general",
     "description": "Launch or deploy"
   },
+  "rocket-compact": {
+    "tags": [
+      "launch",
+      "deploy",
+      "fast",
+      "start",
+      "compact"
+    ],
+    "category": "general",
+    "description": "Launch or deploy (compact 12x12 variant)"
+  },
   "root-folder": {
     "tags": [
       "directory",
@@ -5991,6 +6002,17 @@
     ],
     "category": "device",
     "description": "Unmute sound"
+  },
+  "unpin": {
+    "tags": [
+      "pin",
+      "unstick",
+      "remove",
+      "detach",
+      "release"
+    ],
+    "category": "action",
+    "description": "Unpin or detach"
   },
   "unverified": {
     "tags": [
