@@ -36,6 +36,18 @@
     "category": "action",
     "description": "Add or create new item"
   },
+  "add-compact": {
+    "tags": [
+      "plus",
+      "new",
+      "create",
+      "combine",
+      "more",
+      "insert"
+    ],
+    "category": "action",
+    "description": "Add or create new item"
+  },
   "add-small": {
     "tags": [
       "plus",
