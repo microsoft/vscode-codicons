@@ -279,6 +279,18 @@
     "category": "action",
     "description": "Attach file or item"
   },
+  "attach-compact": {
+    "tags": [
+      "attachment",
+      "paperclip",
+      "clip",
+      "file",
+      "link",
+      "compact"
+    ],
+    "category": "action",
+    "description": "Attach a file or item (compact 12x12 variant)"
+  },
   "azure": {
     "tags": [
       "cloud",
@@ -312,6 +324,18 @@
     ],
     "category": "tool",
     "description": "Testing or experimental feature"
+  },
+  "beaker-compact": {
+    "tags": [
+      "experiment",
+      "lab",
+      "test",
+      "science",
+      "flask",
+      "compact"
+    ],
+    "category": "tool",
+    "description": "Beaker for experimental features (compact 12x12 variant)"
   },
   "beaker-stop": {
     "tags": [
@@ -636,6 +660,18 @@
     "category": "action",
     "description": "Check all or select all"
   },
+  "check-compact": {
+    "tags": [
+      "done",
+      "complete",
+      "success",
+      "tick",
+      "approved",
+      "compact"
+    ],
+    "category": "status",
+    "description": "Checkmark (compact 12x12 variant)"
+  },
   "checklist": {
     "tags": [
       "checkmark",
@@ -652,6 +688,18 @@
     "category": "content",
     "description": "Checklist or task list"
   },
+  "checklist-compact": {
+    "tags": [
+      "tasks",
+      "todo",
+      "list",
+      "checkboxes",
+      "items",
+      "compact"
+    ],
+    "category": "action",
+    "description": "Checklist of items (compact 12x12 variant)"
+  },
   "chevron-down": {
     "tags": [
       "twistie",
@@ -666,6 +714,18 @@
     "category": "navigation",
     "description": "Chevron pointing down"
   },
+  "chevron-down-compact": {
+    "tags": [
+      "arrow",
+      "down",
+      "expand",
+      "collapse",
+      "direction",
+      "compact"
+    ],
+    "category": "navigation",
+    "description": "Chevron pointing down (compact 12x12 variant)"
+  },
   "chevron-left": {
     "tags": [
       "twistie",
@@ -678,6 +738,18 @@
     ],
     "category": "navigation",
     "description": "Chevron pointing left"
+  },
+  "chevron-left-compact": {
+    "tags": [
+      "arrow",
+      "left",
+      "back",
+      "previous",
+      "direction",
+      "compact"
+    ],
+    "category": "navigation",
+    "description": "Chevron pointing left (compact 12x12 variant)"
   },
   "chevron-right": {
     "tags": [
@@ -692,6 +764,18 @@
     "category": "navigation",
     "description": "Chevron pointing right"
   },
+  "chevron-right-compact": {
+    "tags": [
+      "arrow",
+      "right",
+      "forward",
+      "next",
+      "direction",
+      "compact"
+    ],
+    "category": "navigation",
+    "description": "Chevron pointing right (compact 12x12 variant)"
+  },
   "chevron-up": {
     "tags": [
       "twistie",
@@ -704,6 +788,18 @@
     ],
     "category": "navigation",
     "description": "Chevron pointing up"
+  },
+  "chevron-up-compact": {
+    "tags": [
+      "arrow",
+      "up",
+      "collapse",
+      "expand",
+      "direction",
+      "compact"
+    ],
+    "category": "navigation",
+    "description": "Chevron pointing up (compact 12x12 variant)"
   },
   "chip": {
     "tags": [
@@ -775,6 +871,18 @@
     ],
     "category": "shape",
     "description": "Filled circle"
+  },
+  "circle-filled-compact": {
+    "tags": [
+      "circle",
+      "filled",
+      "dot",
+      "solid",
+      "indicator",
+      "compact"
+    ],
+    "category": "shape",
+    "description": "Filled circle (compact 12x12 variant)"
   },
   "circle-large": {
     "tags": [
@@ -855,6 +963,18 @@
     ],
     "category": "shape",
     "description": "Small filled circle"
+  },
+  "circle-small-filled-compact": {
+    "tags": [
+      "circle",
+      "dot",
+      "small",
+      "filled",
+      "indicator",
+      "compact"
+    ],
+    "category": "shape",
+    "description": "Small filled circle (compact 12x12 variant)"
   },
   "circuit-board": {
     "tags": [
@@ -948,6 +1068,18 @@
     ],
     "category": "action",
     "description": "Close all items"
+  },
+  "close-compact": {
+    "tags": [
+      "x",
+      "cancel",
+      "dismiss",
+      "remove",
+      "exit",
+      "compact"
+    ],
+    "category": "action",
+    "description": "Close or dismiss (compact 12x12 variant)"
   },
   "cloud": {
     "tags": [
@@ -1046,6 +1178,18 @@
     "category": "action",
     "description": "Collapse all items"
   },
+  "collapse-all-compact": {
+    "tags": [
+      "collapse",
+      "minimize",
+      "fold",
+      "tree",
+      "hide",
+      "compact"
+    ],
+    "category": "action",
+    "description": "Collapse all items (compact 12x12 variant)"
+  },
   "collection": {
     "tags": [
       "group",
@@ -1102,6 +1246,18 @@
     ],
     "category": "communication",
     "description": "Comment or message"
+  },
+  "comment-compact": {
+    "tags": [
+      "speech",
+      "message",
+      "chat",
+      "feedback",
+      "note",
+      "compact"
+    ],
+    "category": "communication",
+    "description": "Comment or message (compact 12x12 variant)"
   },
   "comment-discussion": {
     "tags": [
@@ -1161,6 +1317,18 @@
     ],
     "category": "communication",
     "description": "Unresolved comment"
+  },
+  "comment-unresolved-compact": {
+    "tags": [
+      "comment",
+      "unresolved",
+      "open",
+      "pending",
+      "discussion",
+      "compact"
+    ],
+    "category": "communication",
+    "description": "Unresolved comment (compact 12x12 variant)"
   },
   "compass": {
     "tags": [
@@ -1587,6 +1755,18 @@
     "category": "debug",
     "description": "Debugger connected"
   },
+  "debug-connected-compact": {
+    "tags": [
+      "debug",
+      "connected",
+      "session",
+      "active",
+      "run",
+      "compact"
+    ],
+    "category": "debug",
+    "description": "Debug session connected (compact 12x12 variant)"
+  },
   "debug-console": {
     "tags": [
       "terminal",
@@ -1643,6 +1823,18 @@
     ],
     "category": "debug",
     "description": "Disconnect debugger"
+  },
+  "debug-disconnect-compact": {
+    "tags": [
+      "debug",
+      "disconnect",
+      "stop",
+      "detach",
+      "session",
+      "compact"
+    ],
+    "category": "debug",
+    "description": "Disconnect debug session (compact 12x12 variant)"
   },
   "debug-line-by-line": {
     "tags": [
@@ -1973,6 +2165,18 @@
     "category": "development",
     "description": "Edit code"
   },
+  "edit-compact": {
+    "tags": [
+      "pencil",
+      "modify",
+      "write",
+      "change",
+      "edit",
+      "compact"
+    ],
+    "category": "action",
+    "description": "Edit or modify (compact 12x12 variant)"
+  },
   "edit-session": {
     "tags": [
       "work",
@@ -2196,6 +2400,18 @@
     ],
     "category": "file",
     "description": "Media file"
+  },
+  "file-media-compact": {
+    "tags": [
+      "file",
+      "image",
+      "media",
+      "picture",
+      "photo",
+      "compact"
+    ],
+    "category": "file",
+    "description": "Media file (compact 12x12 variant)"
   },
   "file-pdf": {
     "tags": [
@@ -2606,6 +2822,18 @@
     ],
     "category": "git",
     "description": "Compare git versions"
+  },
+  "git-fetch": {
+    "tags": [
+      "git",
+      "fetch",
+      "download",
+      "remote",
+      "sync",
+      "pull"
+    ],
+    "category": "git",
+    "description": "Fetch changes from a remote repository"
   },
   "git-merge": {
     "tags": [
@@ -3481,6 +3709,18 @@
     "category": "action",
     "description": "Auto-fix suggestion"
   },
+  "lightbulb-compact": {
+    "tags": [
+      "idea",
+      "hint",
+      "suggestion",
+      "tip",
+      "quickfix",
+      "compact"
+    ],
+    "category": "status",
+    "description": "Lightbulb hint or suggestion (compact 12x12 variant)"
+  },
   "lightbulb-empty": {
     "tags": [
       "idea",
@@ -3615,6 +3855,18 @@
     ],
     "category": "status",
     "description": "Loading or processing"
+  },
+  "loading-compact": {
+    "tags": [
+      "spinner",
+      "progress",
+      "wait",
+      "busy",
+      "loading",
+      "compact"
+    ],
+    "category": "status",
+    "description": "Loading indicator (compact 12x12 variant)"
   },
   "location": {
     "tags": [
@@ -4187,6 +4439,18 @@
     "category": "status",
     "description": "Filled pass icon"
   },
+  "pass-filled-compact": {
+    "tags": [
+      "check",
+      "success",
+      "complete",
+      "done",
+      "filled",
+      "compact"
+    ],
+    "category": "status",
+    "description": "Filled pass or success (compact 12x12 variant)"
+  },
   "percentage": {
     "tags": [
       "ratio",
@@ -4347,6 +4611,17 @@
     "category": "general",
     "description": "Project or workspace"
   },
+  "project-compact": {
+    "tags": [
+      "project",
+      "folder",
+      "workspace",
+      "briefcase",
+      "compact"
+    ],
+    "category": "file",
+    "description": "Project (compact 12x12 variant)"
+  },
   "pulse": {
     "tags": [
       "heartbeat",
@@ -4497,6 +4772,18 @@
     ],
     "category": "action",
     "description": "Refresh or reload"
+  },
+  "refresh-compact": {
+    "tags": [
+      "reload",
+      "sync",
+      "update",
+      "redo",
+      "refresh",
+      "compact"
+    ],
+    "category": "action",
+    "description": "Refresh or reload (compact 12x12 variant)"
   },
   "regex": {
     "tags": [
@@ -4967,6 +5254,18 @@
     "category": "search",
     "description": "Search or find"
   },
+  "search-compact": {
+    "tags": [
+      "find",
+      "magnify",
+      "lookup",
+      "query",
+      "search",
+      "compact"
+    ],
+    "category": "search",
+    "description": "Search or find (compact 12x12 variant)"
+  },
   "search-fuzzy": {
     "tags": [
       "find",
@@ -5075,6 +5374,18 @@
     ],
     "category": "status",
     "description": "Session in progress"
+  },
+  "session-in-progress-compact": {
+    "tags": [
+      "session",
+      "progress",
+      "active",
+      "running",
+      "status",
+      "compact"
+    ],
+    "category": "status",
+    "description": "Session in progress indicator (compact 12x12 variant)"
   },
   "settings": {
     "tags": [
@@ -5600,6 +5911,18 @@
     "category": "symbol",
     "description": "Structure symbol"
   },
+  "sync-compact": {
+    "tags": [
+      "refresh",
+      "reload",
+      "synchronize",
+      "update",
+      "sync",
+      "compact"
+    ],
+    "category": "action",
+    "description": "Synchronize (compact 12x12 variant)"
+  },
   "sync-ignored": {
     "tags": [
       "refresh",
@@ -5696,6 +6019,18 @@
     ],
     "category": "application",
     "description": "Command prompt"
+  },
+  "terminal-compact": {
+    "tags": [
+      "console",
+      "shell",
+      "cli",
+      "command",
+      "prompt",
+      "compact"
+    ],
+    "category": "tool",
+    "description": "Terminal or console (compact 12x12 variant)"
   },
   "terminal-debian": {
     "tags": [
@@ -6135,6 +6470,18 @@
     "category": "device",
     "description": "VM outline"
   },
+  "vm-pending": {
+    "tags": [
+      "virtual",
+      "machine",
+      "vm",
+      "pending",
+      "server",
+      "wait"
+    ],
+    "category": "device",
+    "description": "Virtual machine in pending state"
+  },
   "vm-running": {
     "tags": [
       "computer",
@@ -6332,6 +6679,18 @@
     ],
     "category": "git",
     "description": "Git worktree"
+  },
+  "worktree-compact": {
+    "tags": [
+      "git",
+      "worktree",
+      "branch",
+      "tree",
+      "workspace",
+      "compact"
+    ],
+    "category": "git",
+    "description": "Git worktree (compact 12x12 variant)"
   },
   "worktree-small": {
     "tags": [

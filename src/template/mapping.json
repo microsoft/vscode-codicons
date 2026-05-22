@@ -1806,5 +1806,95 @@
   ],
   "60575": [
     "add-compact"
+  ],
+  "60576": [
+    "attach-compact"
+  ],
+  "60577": [
+    "beaker-compact"
+  ],
+  "60578": [
+    "check-compact"
+  ],
+  "60579": [
+    "checklist-compact"
+  ],
+  "60580": [
+    "chevron-down-compact"
+  ],
+  "60581": [
+    "chevron-left-compact"
+  ],
+  "60582": [
+    "chevron-right-compact"
+  ],
+  "60583": [
+    "chevron-up-compact"
+  ],
+  "60584": [
+    "circle-filled-compact"
+  ],
+  "60585": [
+    "circle-small-filled-compact"
+  ],
+  "60586": [
+    "close-compact"
+  ],
+  "60587": [
+    "collapse-all-compact"
+  ],
+  "60588": [
+    "comment-compact"
+  ],
+  "60589": [
+    "comment-unresolved-compact"
+  ],
+  "60590": [
+    "debug-connected-compact"
+  ],
+  "60591": [
+    "debug-disconnect-compact"
+  ],
+  "60592": [
+    "edit-compact"
+  ],
+  "60593": [
+    "file-media-compact"
+  ],
+  "60594": [
+    "git-fetch"
+  ],
+  "60595": [
+    "lightbulb-compact"
+  ],
+  "60596": [
+    "loading-compact"
+  ],
+  "60597": [
+    "pass-filled-compact"
+  ],
+  "60598": [
+    "project-compact"
+  ],
+  "60599": [
+    "refresh-compact"
+  ],
+  "60600": [
+    "search-compact"
+  ],
+  "60601": [
+    "session-in-progress-compact"
+  ],
+  "60602": [
+    "sync-compact"
+  ],
+  "60603": [
+    "terminal-compact"
+  ],
+  "60604": [
+    "vm-pending"
+  ],
+  "60605": [
+    "worktree-compact"
   ]
 }
