@@ -1996,6 +1996,18 @@
     "category": "debug",
     "description": "Stop debugging"
   },
+  "developer-tools": {
+    "tags": [
+      "developer",
+      "tools",
+      "wrench",
+      "settings",
+      "configuration",
+      "utilities"
+    ],
+    "category": "tool",
+    "description": "Developer tools and utilities"
+  },
   "device-camera": {
     "tags": [
       "capture",
