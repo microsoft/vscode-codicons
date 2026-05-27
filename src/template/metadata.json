@@ -1092,6 +1092,17 @@
     "category": "storage",
     "description": "Cloud service or storage"
   },
+  "cloud-compact": {
+    "tags": [
+      "online",
+      "service",
+      "storage",
+      "remote",
+      "compact"
+    ],
+    "category": "storage",
+    "description": "Cloud service or storage (compact variant)"
+  },
   "cloud-download": {
     "tags": [
       "install",
