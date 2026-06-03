@@ -1902,5 +1902,17 @@
   ],
   "60607": [
     "cloud-compact"
+  ],
+  "60608": [
+    "agent-compact"
+  ],
+  "60609": [
+    "ask-compact"
+  ],
+  "60610": [
+    "settings-compact"
+  ],
+  "60611": [
+    "vm-compact"
   ]
 }

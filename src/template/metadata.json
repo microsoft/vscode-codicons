@@ -70,6 +70,18 @@
     "category": "ai",
     "description": "AI agent or bot"
   },
+  "agent-compact": {
+    "tags": [
+      "ai",
+      "bot",
+      "assistant",
+      "robot",
+      "service",
+      "compact"
+    ],
+    "category": "ai",
+    "description": "AI agent or bot (compact 12x12 variant)"
+  },
   "alert": {
     "tags": [
       "warning",
@@ -266,6 +278,19 @@
     ],
     "category": "communication",
     "description": "Question mark in chat bubble"
+  },
+  "ask-compact": {
+    "tags": [
+      "question",
+      "help",
+      "chat",
+      "inquiry",
+      "message",
+      "bubble",
+      "compact"
+    ],
+    "category": "communication",
+    "description": "Question mark in chat bubble (compact 12x12 variant)"
   },
   "attach": {
     "tags": [
@@ -5420,6 +5445,18 @@
     "category": "settings",
     "description": "Settings or preferences"
   },
+  "settings-compact": {
+    "tags": [
+      "sliders",
+      "controls",
+      "configuration",
+      "preferences",
+      "options",
+      "compact"
+    ],
+    "category": "settings",
+    "description": "Settings or preferences (compact 12x12 variant)"
+  },
   "settings-gear": {
     "tags": [
       "configuration",
@@ -6470,6 +6507,18 @@
     ],
     "category": "device",
     "description": "Active virtual machine"
+  },
+  "vm-compact": {
+    "tags": [
+      "computer",
+      "server",
+      "remote",
+      "machine",
+      "box",
+      "compact"
+    ],
+    "category": "device",
+    "description": "Virtual machine (compact 12x12 variant)"
   },
   "vm-connect": {
     "tags": [
