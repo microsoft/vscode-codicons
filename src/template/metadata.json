@@ -5190,6 +5190,18 @@
     "category": "action",
     "description": "Run below"
   },
+  "run-compact": {
+    "tags": [
+      "play",
+      "execute",
+      "start",
+      "triangle",
+      "go",
+      "compact"
+    ],
+    "category": "action",
+    "description": "Run or execute (compact)"
+  },
   "run-coverage": {
     "tags": [
       "test",
