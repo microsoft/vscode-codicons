@@ -1917,5 +1917,11 @@
   ],
   "60612": [
     "run-compact"
+  ],
+  "60613": [
+    "git-pull-request-comment"
+  ],
+  "60614": [
+    "git-pull-request-error"
   ]
 }

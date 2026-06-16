@@ -2915,6 +2915,18 @@
     "category": "git",
     "description": "Closed pull request"
   },
+  "git-pull-request-comment": {
+    "tags": [
+      "pr",
+      "review",
+      "feedback",
+      "discussion",
+      "note",
+      "git"
+    ],
+    "category": "git",
+    "description": "Pull request comment"
+  },
   "git-pull-request-create": {
     "tags": [
       "pr",
@@ -2950,6 +2962,18 @@
     ],
     "category": "git",
     "description": "Draft pull request"
+  },
+  "git-pull-request-error": {
+    "tags": [
+      "pr",
+      "fail",
+      "problem",
+      "warning",
+      "conflict",
+      "git"
+    ],
+    "category": "git",
+    "description": "Pull request error"
   },
   "git-pull-request-go-to-changes": {
     "tags": [
