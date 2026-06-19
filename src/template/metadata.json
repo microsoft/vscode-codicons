@@ -6893,5 +6893,17 @@
     ],
     "category": "action",
     "description": "Zoom out or reduce"
+  },
+  "voice-mode": {
+    "tags": [
+      "voice",
+      "audio",
+      "waveform",
+      "sound",
+      "microphone",
+      "speech"
+    ],
+    "category": "media",
+    "description": "Voice mode waveform indicator"
   }
 }
