@@ -5094,6 +5094,32 @@
     "category": "git",
     "description": "Request changes"
   },
+  "right-panel-hide": {
+    "tags": [
+      "layout",
+      "panel",
+      "sidebar",
+      "collapse",
+      "hide",
+      "right",
+      "close"
+    ],
+    "category": "layout",
+    "description": "Hide the right side panel"
+  },
+  "right-panel-show": {
+    "tags": [
+      "layout",
+      "panel",
+      "sidebar",
+      "expand",
+      "show",
+      "right",
+      "open"
+    ],
+    "category": "layout",
+    "description": "Show the right side panel"
+  },
   "robot": {
     "tags": [
       "ai",
@@ -6644,6 +6670,30 @@
     ],
     "category": "brand",
     "description": "VS Code Insiders logo"
+  },
+  "vscode-insiders-outline": {
+    "tags": [
+      "editor",
+      "logo",
+      "brand",
+      "outline",
+      "beta",
+      "insiders"
+    ],
+    "category": "brand",
+    "description": "VS Code Insiders logo outline"
+  },
+  "vscode-outline": {
+    "tags": [
+      "editor",
+      "logo",
+      "brand",
+      "outline",
+      "stable",
+      "vscode"
+    ],
+    "category": "brand",
+    "description": "VS Code logo outline"
   },
   "wand": {
     "tags": [
