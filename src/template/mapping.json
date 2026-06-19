@@ -1923,5 +1923,17 @@
   ],
   "60614": [
     "git-pull-request-error"
+  ],
+  "60615": [
+    "right-panel-hide"
+  ],
+  "60616": [
+    "right-panel-show"
+  ],
+  "60617": [
+    "vscode-insiders-outline"
+  ],
+  "60618": [
+    "vscode-outline"
   ]
 }
