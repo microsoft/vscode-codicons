@@ -6905,5 +6905,18 @@
     ],
     "category": "media",
     "description": "Voice mode waveform indicator"
+  },
+  "voice-mode-compact": {
+    "tags": [
+      "voice",
+      "audio",
+      "waveform",
+      "sound",
+      "microphone",
+      "speech",
+      "compact"
+    ],
+    "category": "media",
+    "description": "Compact voice mode waveform indicator"
   }
 }
