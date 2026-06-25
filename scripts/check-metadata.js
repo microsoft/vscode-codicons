@@ -8,12 +8,12 @@
 const fs = require('fs');
 const path = require('path');
 
-// Load the mapping file to get all icon names
-const mappingPath = path.join(__dirname, '..', 'src', 'template', 'mapping.json');
+// Load the icons directory to get all icon names
+const iconsDir = path.join(__dirname, '..', 'src', 'icons');
 const metadataPath = path.join(__dirname, '..', 'src', 'template', 'metadata.json');
 
-if (!fs.existsSync(mappingPath)) {
-    console.error('Error: mapping.json not found at', mappingPath);
+if (!fs.existsSync(iconsDir)) {
+    console.error('Error: icons directory not found at', iconsDir);
     process.exit(1);
 }
 
@@ -22,17 +22,15 @@ if (!fs.existsSync(metadataPath)) {
     process.exit(1);
 }
 
-const mapping = JSON.parse(fs.readFileSync(mappingPath, 'utf8'));
 const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf8'));
 
-// Collect all unique icon names from mapping
-const allIconNames = new Set();
-Object.values(mapping).forEach(aliases => {
-    // For each code point, add the first alias (primary name)
-    if (aliases && aliases.length > 0) {
-        allIconNames.add(aliases[0]);
-    }
-});
+// Collect all icon names from the actual SVG files. Metadata is keyed by the
+// SVG file name, which is the canonical identity for each icon.
+const allIconNames = new Set(
+    fs.readdirSync(iconsDir)
+        .filter(file => file.endsWith('.svg'))
+        .map(file => path.basename(file, '.svg'))
+);
 
 // Find icons without metadata
 const missingMetadata = [];
