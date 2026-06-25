@@ -2915,6 +2915,18 @@
     "category": "git",
     "description": "Closed pull request"
   },
+  "git-pull-request-comment": {
+    "tags": [
+      "pr",
+      "review",
+      "feedback",
+      "discussion",
+      "note",
+      "git"
+    ],
+    "category": "git",
+    "description": "Pull request comment"
+  },
   "git-pull-request-create": {
     "tags": [
       "pr",
@@ -2950,6 +2962,18 @@
     ],
     "category": "git",
     "description": "Draft pull request"
+  },
+  "git-pull-request-error": {
+    "tags": [
+      "pr",
+      "fail",
+      "problem",
+      "warning",
+      "conflict",
+      "git"
+    ],
+    "category": "git",
+    "description": "Pull request error"
   },
   "git-pull-request-go-to-changes": {
     "tags": [
@@ -5070,6 +5094,32 @@
     "category": "git",
     "description": "Request changes"
   },
+  "right-panel-hide": {
+    "tags": [
+      "layout",
+      "panel",
+      "sidebar",
+      "collapse",
+      "hide",
+      "right",
+      "close"
+    ],
+    "category": "layout",
+    "description": "Hide the right side panel"
+  },
+  "right-panel-show": {
+    "tags": [
+      "layout",
+      "panel",
+      "sidebar",
+      "expand",
+      "show",
+      "right",
+      "open"
+    ],
+    "category": "layout",
+    "description": "Show the right side panel"
+  },
   "robot": {
     "tags": [
       "ai",
@@ -6621,6 +6671,30 @@
     "category": "brand",
     "description": "VS Code Insiders logo"
   },
+  "vscode-insiders-outline": {
+    "tags": [
+      "editor",
+      "logo",
+      "brand",
+      "outline",
+      "beta",
+      "insiders"
+    ],
+    "category": "brand",
+    "description": "VS Code Insiders logo outline"
+  },
+  "vscode-outline": {
+    "tags": [
+      "editor",
+      "logo",
+      "brand",
+      "outline",
+      "stable",
+      "vscode"
+    ],
+    "category": "brand",
+    "description": "VS Code logo outline"
+  },
   "wand": {
     "tags": [
       "magic",
@@ -6819,5 +6893,30 @@
     ],
     "category": "action",
     "description": "Zoom out or reduce"
+  },
+  "voice-mode": {
+    "tags": [
+      "voice",
+      "audio",
+      "waveform",
+      "sound",
+      "microphone",
+      "speech"
+    ],
+    "category": "media",
+    "description": "Voice mode waveform indicator"
+  },
+  "voice-mode-compact": {
+    "tags": [
+      "voice",
+      "audio",
+      "waveform",
+      "sound",
+      "microphone",
+      "speech",
+      "compact"
+    ],
+    "category": "media",
+    "description": "Compact voice mode waveform indicator"
   }
 }
