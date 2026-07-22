@@ -3112,6 +3112,19 @@
     "category": "search",
     "description": "Go to search"
   },
+  "google-gemini": {
+    "tags": [
+      "gemini",
+      "google",
+      "ai",
+      "sparkle",
+      "star",
+      "logo",
+      "model"
+    ],
+    "category": "brand",
+    "description": "Google Gemini logo"
+  },
   "grabber": {
     "tags": [
       "drag",
@@ -3484,6 +3497,18 @@
     ],
     "category": "text",
     "description": "Tab below"
+  },
+  "kimi": {
+    "tags": [
+      "kimi",
+      "ai",
+      "logo",
+      "model",
+      "assistant",
+      "brand"
+    ],
+    "category": "brand",
+    "description": "Kimi logo"
   },
   "law": {
     "tags": [
@@ -4176,6 +4201,32 @@
     "category": "device",
     "description": "Microphone or audio"
   },
+  "mic-download": {
+    "tags": [
+      "microphone",
+      "audio",
+      "voice",
+      "download",
+      "save",
+      "arrow",
+      "record"
+    ],
+    "category": "device",
+    "description": "Microphone with download indicator"
+  },
+  "mic-download-compact": {
+    "tags": [
+      "microphone",
+      "audio",
+      "voice",
+      "download",
+      "save",
+      "arrow",
+      "compact"
+    ],
+    "category": "device",
+    "description": "Compact microphone with download indicator"
+  },
   "mic-filled": {
     "tags": [
       "audio",
@@ -4189,6 +4240,18 @@
     ],
     "category": "device",
     "description": "Filled microphone"
+  },
+  "microsoft": {
+    "tags": [
+      "microsoft",
+      "logo",
+      "windows",
+      "brand",
+      "squares",
+      "company"
+    ],
+    "category": "brand",
+    "description": "Microsoft logo"
   },
   "milestone": {
     "tags": [
@@ -6918,5 +6981,31 @@
     ],
     "category": "media",
     "description": "Compact voice mode waveform indicator"
+  },
+  "voice-mode-download": {
+    "tags": [
+      "voice",
+      "audio",
+      "waveform",
+      "sound",
+      "download",
+      "save",
+      "arrow"
+    ],
+    "category": "media",
+    "description": "Voice mode waveform with download indicator"
+  },
+  "voice-mode-download-compact": {
+    "tags": [
+      "voice",
+      "audio",
+      "waveform",
+      "sound",
+      "download",
+      "save",
+      "compact"
+    ],
+    "category": "media",
+    "description": "Compact voice mode waveform with download indicator"
   }
 }
