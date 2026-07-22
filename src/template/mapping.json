@@ -1941,5 +1941,26 @@
   ],
   "60620": [
     "voice-mode-compact"
+  ],
+  "60621": [
+    "mic-download"
+  ],
+  "60622": [
+    "mic-download-compact"
+  ],
+  "60623": [
+    "voice-mode-download"
+  ],
+  "60624": [
+    "voice-mode-download-compact"
+  ],
+  "60625": [
+    "google-gemini"
+  ],
+  "60626": [
+    "kimi"
+  ],
+  "60627": [
+    "microsoft"
   ]
 }
