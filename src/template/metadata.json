@@ -2559,6 +2559,182 @@
     "category": "action",
     "description": "Filled filter icon"
   },
+  "fish1-happy": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "happy",
+      "smile",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Happy fish style one"
+  },
+  "fish1-neutral": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "neutral",
+      "calm",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Neutral fish style one"
+  },
+  "fish1-sad": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "sad",
+      "frown",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Sad fish style one"
+  },
+  "fish1-very-sad": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "very sad",
+      "frown",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Very sad fish style one"
+  },
+  "fish2-happy": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "happy",
+      "smile",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Happy fish style two"
+  },
+  "fish2-neutral": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "neutral",
+      "calm",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Neutral fish style two"
+  },
+  "fish2-sad": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "sad",
+      "frown",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Sad fish style two"
+  },
+  "fish2-very-sad": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "very sad",
+      "frown",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Very sad fish style two"
+  },
+  "fish3-happy": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "happy",
+      "smile",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Happy fish style three"
+  },
+  "fish3-neutral": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "neutral",
+      "calm",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Neutral fish style three"
+  },
+  "fish3-sad": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "sad",
+      "frown",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Sad fish style three"
+  },
+  "fish3-very-sad": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "very sad",
+      "frown",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Very sad fish style three"
+  },
+  "fish4-happy": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "happy",
+      "smile",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Happy fish style four"
+  },
+  "fish4-neutral": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "neutral",
+      "calm",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Neutral fish style four"
+  },
+  "fish4-sad": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "sad",
+      "frown",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Sad fish style four"
+  },
+  "fish4-very-sad": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "very sad",
+      "frown",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Very sad fish style four"
+  },
   "flag": {
     "tags": [
       "mark",
@@ -4618,6 +4794,54 @@
     ],
     "category": "user",
     "description": "Add person"
+  },
+  "person-voice": {
+    "tags": [
+      "user",
+      "person",
+      "voice",
+      "speech",
+      "audio",
+      "sound"
+    ],
+    "category": "user",
+    "description": "Person speaking with voice waves"
+  },
+  "person-voice-compact": {
+    "tags": [
+      "user",
+      "person",
+      "voice",
+      "speech",
+      "audio",
+      "compact"
+    ],
+    "category": "user",
+    "description": "Person speaking with voice waves in a compact size"
+  },
+  "person-voice-filled": {
+    "tags": [
+      "user",
+      "person",
+      "voice",
+      "speech",
+      "audio",
+      "filled"
+    ],
+    "category": "user",
+    "description": "Filled person speaking with voice waves"
+  },
+  "person-voice-filled-compact": {
+    "tags": [
+      "user",
+      "person",
+      "voice",
+      "speech",
+      "filled",
+      "compact"
+    ],
+    "category": "user",
+    "description": "Filled person speaking with voice waves in a compact size"
   },
   "piano": {
     "tags": [
