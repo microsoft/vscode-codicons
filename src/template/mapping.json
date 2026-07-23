@@ -1962,5 +1962,65 @@
   ],
   "60627": [
     "microsoft"
+  ],
+  "60628": [
+    "fish1-happy"
+  ],
+  "60629": [
+    "fish1-neutral"
+  ],
+  "60630": [
+    "fish1-sad"
+  ],
+  "60631": [
+    "fish1-very-sad"
+  ],
+  "60632": [
+    "fish2-happy"
+  ],
+  "60633": [
+    "fish2-neutral"
+  ],
+  "60634": [
+    "fish2-sad"
+  ],
+  "60635": [
+    "fish2-very-sad"
+  ],
+  "60636": [
+    "fish3-happy"
+  ],
+  "60637": [
+    "fish3-neutral"
+  ],
+  "60638": [
+    "fish3-sad"
+  ],
+  "60639": [
+    "fish3-very-sad"
+  ],
+  "60640": [
+    "fish4-happy"
+  ],
+  "60641": [
+    "fish4-neutral"
+  ],
+  "60642": [
+    "fish4-sad"
+  ],
+  "60643": [
+    "fish4-very-sad"
+  ],
+  "60644": [
+    "person-voice"
+  ],
+  "60645": [
+    "person-voice-compact"
+  ],
+  "60646": [
+    "person-voice-filled"
+  ],
+  "60647": [
+    "person-voice-filled-compact"
   ]
 }
