@@ -7007,5 +7007,29 @@
     ],
     "category": "media",
     "description": "Compact voice mode waveform with download indicator"
+  },
+  "voice-mode-listening-on": {
+    "tags": [
+      "voice",
+      "audio",
+      "listening",
+      "microphone",
+      "speech",
+      "active"
+    ],
+    "category": "media",
+    "description": "Voice mode listening indicator (active)"
+  },
+  "voice-mode-listening-off": {
+    "tags": [
+      "voice",
+      "audio",
+      "listening",
+      "microphone",
+      "speech",
+      "inactive"
+    ],
+    "category": "media",
+    "description": "Voice mode listening indicator (inactive)"
   }
 }

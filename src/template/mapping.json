@@ -1962,5 +1962,11 @@
   ],
   "60627": [
     "microsoft"
+  ],
+  "60628": [
+    "voice-mode-listening-on"
+  ],
+  "60629": [
+    "voice-mode-listening-off"
   ]
 }
