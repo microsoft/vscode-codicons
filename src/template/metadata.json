@@ -7231,5 +7231,51 @@
     ],
     "category": "media",
     "description": "Compact voice mode waveform with download indicator"
+  },
+  "arrow-up-compact": {
+    
+    "tags": [
+      "arrow",
+      "up",
+      "direction",
+      "point",
+      "compact"
+    ],
+    "category": "navigation",
+    "description": "Arrow pointing up (compact 12x12 variant)"
+  },
+  "mic-compact": {
+    "tags": [
+      "microphone",
+      "audio",
+      "sound",
+      "voice",
+      "record",
+      "compact"
+    ],
+    "category": "media",
+    "description": "Microphone (compact 12x12 variant)"
+  },
+  "cloud-download-compact": {
+    "tags": [
+      "cloud",
+      "download",
+      "arrow",
+      "save",
+      "compact"
+    ],
+    "category": "cloud",
+    "description": "Cloud download (compact 12x12 variant)"
+  },
+  "cloud-upload-compact": {
+    "tags": [
+      "cloud",
+      "upload",
+      "arrow",
+      "send",
+      "compact"
+    ],
+    "category": "cloud",
+    "description": "Cloud upload (compact 12x12 variant)"
   }
 }
