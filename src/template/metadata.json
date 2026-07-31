@@ -7276,5 +7276,18 @@
     ],
     "category": "cloud",
     "description": "Cloud upload (compact 12x12 variant)"
+  },
+  "xai": {
+    "tags": [
+      "xai",
+      "grok",
+      "ai",
+      "logo",
+      "model",
+      "assistant",
+      "brand"
+    ],
+    "category": "brand",
+    "description": "xAI logo"
   }
 }
