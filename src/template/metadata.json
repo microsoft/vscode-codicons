@@ -170,6 +170,18 @@
     "category": "navigation",
     "description": "Circular arrow pointing up"
   },
+  "arrow-circle-up-sparkle": {
+    "tags": [
+      "upload",
+      "publish",
+      "sparkle",
+      "ai",
+      "enhance",
+      "circle"
+    ],
+    "category": "action",
+    "description": "AI-assisted upload or publish action"
+  },
   "arrow-down": {
     "tags": [
       "direction",
