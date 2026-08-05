@@ -26,7 +26,7 @@
     "version:commit": "node ./scripts/version-bump.js patch minor --commit",
     "version:tag": "node ./scripts/version-bump.js patch minor --commit --tag",
     "version:push": "node ./scripts/version-bump.js patch minor --commit --tag --push",
-    "prepare": "husky"
+    "prepare": "node ./scripts/prepare.js"
   },
   "repository": {
     "type": "git",
