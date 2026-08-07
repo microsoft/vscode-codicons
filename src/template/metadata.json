@@ -1118,6 +1118,18 @@
     "category": "action",
     "description": "Close or dismiss (compact 12x12 variant)"
   },
+  "close-small": {
+    "tags": [
+      "x",
+      "cancel",
+      "dismiss",
+      "remove",
+      "exit",
+      "small"
+    ],
+    "category": "action",
+    "description": "Small close or dismiss icon"
+  },
   "cloud": {
     "tags": [
       "online",
