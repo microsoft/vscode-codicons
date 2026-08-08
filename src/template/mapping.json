@@ -14,8 +14,8 @@
     "repo-delete"
   ],
   "60003": [
-    "gist-fork",
-    "repo-forked"
+    "repo-forked",
+    "gist-fork"
   ],
   "60004": [
     "git-pull-request",
@@ -45,30 +45,30 @@
     "mirror-public"
   ],
   "60010": [
+    "star-empty",
     "star",
     "star-add",
-    "star-delete",
-    "star-empty"
+    "star-delete"
   ],
   "60011": [
     "comment",
     "comment-add"
   ],
   "60012": [
-    "alert",
-    "warning"
+    "warning",
+    "alert"
   ],
   "60013": [
     "search",
     "search-save"
   ],
   "60014": [
-    "log-out",
-    "sign-out"
+    "sign-out",
+    "log-out"
   ],
   "60015": [
-    "log-in",
-    "sign-in"
+    "sign-in",
+    "log-in"
   ],
   "60016": [
     "eye",
@@ -96,9 +96,9 @@
     "issue-opened"
   ],
   "60021": [
+    "lock",
     "gist-private",
     "git-fork-private",
-    "lock",
     "mirror-private"
   ],
   "60022": [
@@ -107,12 +107,12 @@
     "x"
   ],
   "60023": [
-    "repo-sync",
-    "sync"
+    "sync",
+    "repo-sync"
   ],
   "60024": [
-    "clone",
-    "desktop-download"
+    "desktop-download",
+    "clone"
   ],
   "60025": [
     "beaker",
@@ -126,13 +126,13 @@
     "file"
   ],
   "60028": [
-    "more",
     "ellipsis",
+    "more",
     "kebab-horizontal"
   ],
   "60029": [
-    "mail-reply",
-    "reply"
+    "reply",
+    "mail-reply"
   ],
   "60030": [
     "organization",
@@ -161,9 +161,9 @@
     "symbol-folder"
   ],
   "60036": [
+    "github",
     "logo-github",
-    "mark-github",
-    "github"
+    "mark-github"
   ],
   "60037": [
     "terminal",
@@ -171,25 +171,25 @@
     "repl"
   ],
   "60038": [
-    "zap",
-    "symbol-event"
+    "symbol-event",
+    "zap"
   ],
   "60039": [
     "error",
     "stop"
   ],
   "60040": [
-    "variable",
-    "symbol-variable"
+    "symbol-variable",
+    "variable"
   ],
   "60042": [
-    "array",
-    "symbol-array"
+    "symbol-array",
+    "array"
   ],
   "60043": [
+    "symbol-namespace",
     "symbol-module",
     "symbol-package",
-    "symbol-namespace",
     "symbol-object"
   ],
   "60044": [
@@ -218,8 +218,8 @@
     "symbol-text"
   ],
   "60052": [
-    "symbol-reference",
-    "go-to-file"
+    "go-to-file",
+    "symbol-reference"
   ],
   "60053": [
     "symbol-enum",
@@ -344,8 +344,8 @@
     "chrome-restore"
   ],
   "60092": [
-    "circle-outline",
     "circle",
+    "circle-outline",
     "debug-breakpoint-unverified",
     "terminal-decoration-incomplete"
   ],

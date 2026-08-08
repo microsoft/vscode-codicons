@@ -65,31 +65,37 @@ let processedFiles = 0;
 const processedIcons = new Set();
 
 Object.entries(mapping).forEach(([code, aliases]) => {
-  // Use the first alias as the primary SVG file name
-  const primaryAlias = aliases[0];
-  
-  // Skip if we've already processed this icon
-  if (processedIcons.has(primaryAlias)) {
+  // The SVG file backing this icon may be named after any of its aliases,
+  // not necessarily the primary one, so pick whichever file actually exists.
+  const sourceAlias = aliases.find(alias =>
+    fs.existsSync(path.resolve(iconsDir, `${alias}.svg`))
+  );
+
+  if (!sourceAlias) {
+    console.warn(`Warning: no SVG file found for code ${code} (aliases: ${aliases.join(", ")})`);
     return;
   }
-  
-  // Use path.resolve for cross-platform compatibility
-  const file = path.resolve(iconsDir, `${primaryAlias}.svg`);
 
-  if (fs.existsSync(file)) {
-    processedFiles++;
-    processedIcons.add(primaryAlias);
-    
-    // Add sprite entries for all aliases of this icon
-    for (const name of aliases) {
-      // Use path.resolve for cross-platform compatibility
-      const svgPath = path.resolve(iconsDir, `${name}.svg`);
-      spriter.add(
-        svgPath,
-        name + ".svg",
-        fs.readFileSync(file, "utf-8"),
-      );
-    }
+  // Skip if we've already processed this icon
+  if (processedIcons.has(sourceAlias)) {
+    return;
+  }
+
+  // Use path.resolve for cross-platform compatibility
+  const file = path.resolve(iconsDir, `${sourceAlias}.svg`);
+
+  processedFiles++;
+  processedIcons.add(sourceAlias);
+
+  // Add sprite entries for all aliases of this icon
+  for (const name of aliases) {
+    // Use path.resolve for cross-platform compatibility
+    const svgPath = path.resolve(iconsDir, `${name}.svg`);
+    spriter.add(
+      svgPath,
+      name + ".svg",
+      fs.readFileSync(file, "utf-8"),
+    );
   }
 });
 
