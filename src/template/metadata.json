@@ -465,6 +465,19 @@
     "category": "content",
     "description": "Documentation or reading material"
   },
+  "book-compact": {
+    "tags": [
+      "library",
+      "text",
+      "read",
+      "documentation",
+      "manual",
+      "guide",
+      "compact"
+    ],
+    "category": "content",
+    "description": "Documentation or reading material (compact 12x12 variant)"
+  },
   "bookmark": {
     "tags": [
       "save",
@@ -4440,6 +4453,33 @@
     ],
     "category": "device",
     "description": "Filled microphone"
+  },
+  "mic-off": {
+    "tags": [
+      "microphone",
+      "audio",
+      "voice",
+      "mute",
+      "disabled",
+      "record",
+      "sound"
+    ],
+    "category": "device",
+    "description": "Microphone off or muted"
+  },
+  "mic-off-compact": {
+    "tags": [
+      "microphone",
+      "audio",
+      "voice",
+      "mute",
+      "disabled",
+      "record",
+      "sound",
+      "compact"
+    ],
+    "category": "device",
+    "description": "Microphone off or muted (compact 12x12 variant)"
   },
   "microsoft": {
     "tags": [
