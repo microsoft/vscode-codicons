@@ -1472,6 +1472,34 @@
     "category": "ai",
     "description": "AI Copilot assistant (compact variant)"
   },
+  "copilot-dot": {
+    "tags": [
+      "ai",
+      "assistant",
+      "status",
+      "indicator",
+      "badge",
+      "dot",
+      "intelligent",
+      "agent"
+    ],
+    "category": "ai",
+    "description": "Copilot with status indicator"
+  },
+  "copilot-dot-compact": {
+    "tags": [
+      "ai",
+      "assistant",
+      "status",
+      "indicator",
+      "badge",
+      "dot",
+      "agent",
+      "compact"
+    ],
+    "category": "ai",
+    "description": "Copilot with status indicator (compact 12x12 variant)"
+  },
   "copilot-error": {
     "tags": [
       "ai",
