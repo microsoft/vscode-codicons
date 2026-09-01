@@ -3838,6 +3838,28 @@
     "category": "layout",
     "description": "Centered layout"
   },
+  "layout-density-compact": {
+    "tags": [
+      "view",
+      "layout",
+      "spacing",
+      "dense",
+      "compact"
+    ],
+    "category": "layout",
+    "description": "Compact layout density"
+  },
+  "layout-density-default": {
+    "tags": [
+      "view",
+      "layout",
+      "spacing",
+      "standard",
+      "default"
+    ],
+    "category": "layout",
+    "description": "Default layout density"
+  },
   "layout-menubar": {
     "tags": [
       "view",
