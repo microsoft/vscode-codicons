@@ -3432,6 +3432,17 @@
     "category": "action",
     "description": "Gripper handle"
   },
+  "gripper-corner": {
+    "tags": [
+      "resize",
+      "corner",
+      "window",
+      "handle",
+      "drag"
+    ],
+    "category": "action",
+    "description": "Diagonal three-dot corner resize handle"
+  },
   "group-by-ref-type": {
     "tags": [
       "sort",
@@ -4452,6 +4463,18 @@
     ],
     "category": "git",
     "description": "Merge into"
+  },
+  "metered-connection": {
+    "tags": [
+      "network",
+      "wifi",
+      "connection",
+      "metered",
+      "data",
+      "limited"
+    ],
+    "category": "connection",
+    "description": "Metered network connection"
   },
   "mic": {
     "tags": [
