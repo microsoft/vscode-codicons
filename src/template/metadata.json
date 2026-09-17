@@ -82,7 +82,7 @@
     "category": "ai",
     "description": "AI agent or bot (compact 12x12 variant)"
   },
-  "alert": {
+  "warning": {
     "tags": [
       "warning",
       "error",
@@ -106,7 +106,7 @@
     "category": "file",
     "description": "Archive or package items"
   },
-  "array": {
+  "symbol-array": {
     "tags": [
       "list",
       "collection",
@@ -955,7 +955,7 @@
     "category": "shape",
     "description": "Large filled circle"
   },
-  "circle-outline": {
+  "circle": {
     "tags": [
       "round",
       "shape",
@@ -1086,7 +1086,7 @@
     "category": "general",
     "description": "Clock face showing time"
   },
-  "clone": {
+  "desktop-download": {
     "tags": [
       "copy",
       "duplicate",
@@ -2989,7 +2989,7 @@
     "category": "git",
     "description": "GitHub Gist"
   },
-  "gist-fork": {
+  "repo-forked": {
     "tags": [
       "copy",
       "branch",
@@ -3002,7 +3002,7 @@
     "category": "git",
     "description": "Fork Gist"
   },
-  "gist-private": {
+  "lock": {
     "tags": [
       "lock",
       "secret",
@@ -4262,7 +4262,7 @@
     "category": "security",
     "description": "Small lock"
   },
-  "log-in": {
+  "sign-in": {
     "tags": [
       "sign in",
       "enter",
@@ -4273,7 +4273,7 @@
     "category": "user",
     "description": "Log in"
   },
-  "log-out": {
+  "sign-out": {
     "tags": [
       "sign out",
       "exit",
@@ -4284,7 +4284,7 @@
     "category": "user",
     "description": "Log out"
   },
-  "logo-github": {
+  "github": {
     "tags": [
       "brand",
       "cat",
@@ -4327,7 +4327,7 @@
     "category": "communication",
     "description": "Read mail"
   },
-  "mail-reply": {
+  "reply": {
     "tags": [
       "email",
       "respond",
@@ -4591,7 +4591,7 @@
     "category": "action",
     "description": "Mirror or reflect"
   },
-  "more": {
+  "ellipsis": {
     "tags": [
       "ellipsis",
       "menu",
@@ -5486,7 +5486,7 @@
     "category": "git",
     "description": "Selected repository"
   },
-  "repo-sync": {
+  "sync": {
     "tags": [
       "git",
       "refresh",
@@ -6118,7 +6118,7 @@
     "category": "general",
     "description": "Squirrel"
   },
-  "star": {
+  "star-empty": {
     "tags": [
       "favorite",
       "bookmark",
@@ -6347,7 +6347,7 @@
     "category": "symbol",
     "description": "Miscellaneous symbol"
   },
-  "symbol-module": {
+  "symbol-namespace": {
     "tags": [
       "code",
       "package",
@@ -6402,7 +6402,7 @@
     "category": "symbol",
     "description": "Property symbol"
   },
-  "symbol-reference": {
+  "go-to-file": {
     "tags": [
       "code",
       "link",
@@ -6918,7 +6918,7 @@
     "category": "status",
     "description": "Unverified"
   },
-  "variable": {
+  "symbol-variable": {
     "tags": [
       "code",
       "value",
@@ -7287,7 +7287,7 @@
     "category": "git",
     "description": "Git worktree (small variant)"
   },
-  "zap": {
+  "symbol-event": {
     "tags": [
       "flash",
       "electric",
