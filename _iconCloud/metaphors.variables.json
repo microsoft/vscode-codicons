@@ -1,8 +1,7 @@
 [
   {
     "name": "iconMetaphorsInputTable",
-    "tableSpecifier":
-    {
+    "tableSpecifier": {
       "dataColumnIndex": 0,
       "dataRowIndex": 1,
       "headerRowIndex": 0

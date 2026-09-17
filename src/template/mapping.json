@@ -1941,5 +1941,134 @@
   ],
   "60620": [
     "voice-mode-compact"
+  ],
+  "60621": [
+    "mic-download"
+  ],
+  "60622": [
+    "mic-download-compact"
+  ],
+  "60623": [
+    "voice-mode-download"
+  ],
+  "60624": [
+    "voice-mode-download-compact"
+  ],
+  "60625": [
+    "google-gemini"
+  ],
+  "60626": [
+    "kimi"
+  ],
+  "60627": [
+    "microsoft"
+  ],
+  "60628": [
+    "fish1-happy"
+  ],
+  "60629": [
+    "fish1-neutral"
+  ],
+  "60630": [
+    "fish1-sad"
+  ],
+  "60631": [
+    "fish1-very-sad"
+  ],
+  "60632": [
+    "fish2-happy"
+  ],
+  "60633": [
+    "fish2-neutral"
+  ],
+  "60634": [
+    "fish2-sad"
+  ],
+  "60635": [
+    "fish2-very-sad"
+  ],
+  "60636": [
+    "fish3-happy"
+  ],
+  "60637": [
+    "fish3-neutral"
+  ],
+  "60638": [
+    "fish3-sad"
+  ],
+  "60639": [
+    "fish3-very-sad"
+  ],
+  "60640": [
+    "fish4-happy"
+  ],
+  "60641": [
+    "fish4-neutral"
+  ],
+  "60642": [
+    "fish4-sad"
+  ],
+  "60643": [
+    "fish4-very-sad"
+  ],
+  "60644": [
+    "person-voice"
+  ],
+  "60645": [
+    "person-voice-compact"
+  ],
+  "60646": [
+    "person-voice-filled"
+  ],
+  "60647": [
+    "person-voice-filled-compact"
+  ],
+  "60648": [
+    "cloud-download-compact"
+  ],
+  "60649": [
+    "cloud-upload-compact"
+  ],
+  "60650": [
+    "mic-compact"
+  ],
+  "60651": [
+    "arrow-up-compact"
+  ],
+  "60652": [
+    "xai"
+  ],
+  "60653": [
+    "arrow-circle-up-sparkle"
+  ],
+  "60654": [
+    "close-small"
+  ],
+  "60655": [
+    "book-compact"
+  ],
+  "60656": [
+    "mic-off"
+  ],
+  "60657": [
+    "mic-off-compact"
+  ],
+  "60658": [
+    "copilot-dot"
+  ],
+  "60659": [
+    "copilot-dot-compact"
+  ],
+  "60660": [
+    "layout-density-compact"
+  ],
+  "60661": [
+    "layout-density-default"
+  ],
+  "60662": [
+    "gripper-corner"
+  ],
+  "60663": [
+    "metered-connection"
   ]
 }

@@ -170,6 +170,18 @@
     "category": "navigation",
     "description": "Circular arrow pointing up"
   },
+  "arrow-circle-up-sparkle": {
+    "tags": [
+      "upload",
+      "publish",
+      "sparkle",
+      "ai",
+      "enhance",
+      "circle"
+    ],
+    "category": "action",
+    "description": "AI-assisted upload or publish action"
+  },
   "arrow-down": {
     "tags": [
       "direction",
@@ -452,6 +464,19 @@
     ],
     "category": "content",
     "description": "Documentation or reading material"
+  },
+  "book-compact": {
+    "tags": [
+      "library",
+      "text",
+      "read",
+      "documentation",
+      "manual",
+      "guide",
+      "compact"
+    ],
+    "category": "content",
+    "description": "Documentation or reading material (compact 12x12 variant)"
   },
   "bookmark": {
     "tags": [
@@ -1106,6 +1131,18 @@
     "category": "action",
     "description": "Close or dismiss (compact 12x12 variant)"
   },
+  "close-small": {
+    "tags": [
+      "x",
+      "cancel",
+      "dismiss",
+      "remove",
+      "exit",
+      "small"
+    ],
+    "category": "action",
+    "description": "Small close or dismiss icon"
+  },
   "cloud": {
     "tags": [
       "online",
@@ -1434,6 +1471,34 @@
     ],
     "category": "ai",
     "description": "AI Copilot assistant (compact variant)"
+  },
+  "copilot-dot": {
+    "tags": [
+      "ai",
+      "assistant",
+      "status",
+      "indicator",
+      "badge",
+      "dot",
+      "intelligent",
+      "agent"
+    ],
+    "category": "ai",
+    "description": "Copilot with status indicator"
+  },
+  "copilot-dot-compact": {
+    "tags": [
+      "ai",
+      "assistant",
+      "status",
+      "indicator",
+      "badge",
+      "dot",
+      "agent",
+      "compact"
+    ],
+    "category": "ai",
+    "description": "Copilot with status indicator (compact 12x12 variant)"
   },
   "copilot-error": {
     "tags": [
@@ -2559,6 +2624,182 @@
     "category": "action",
     "description": "Filled filter icon"
   },
+  "fish1-happy": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "happy",
+      "smile",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Happy fish style one"
+  },
+  "fish1-neutral": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "neutral",
+      "calm",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Neutral fish style one"
+  },
+  "fish1-sad": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "sad",
+      "frown",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Sad fish style one"
+  },
+  "fish1-very-sad": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "very sad",
+      "frown",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Very sad fish style one"
+  },
+  "fish2-happy": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "happy",
+      "smile",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Happy fish style two"
+  },
+  "fish2-neutral": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "neutral",
+      "calm",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Neutral fish style two"
+  },
+  "fish2-sad": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "sad",
+      "frown",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Sad fish style two"
+  },
+  "fish2-very-sad": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "very sad",
+      "frown",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Very sad fish style two"
+  },
+  "fish3-happy": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "happy",
+      "smile",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Happy fish style three"
+  },
+  "fish3-neutral": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "neutral",
+      "calm",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Neutral fish style three"
+  },
+  "fish3-sad": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "sad",
+      "frown",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Sad fish style three"
+  },
+  "fish3-very-sad": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "very sad",
+      "frown",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Very sad fish style three"
+  },
+  "fish4-happy": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "happy",
+      "smile",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Happy fish style four"
+  },
+  "fish4-neutral": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "neutral",
+      "calm",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Neutral fish style four"
+  },
+  "fish4-sad": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "sad",
+      "frown",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Sad fish style four"
+  },
+  "fish4-very-sad": {
+    "tags": [
+      "fish",
+      "aquatic",
+      "very sad",
+      "frown",
+      "mood"
+    ],
+    "category": "misc",
+    "description": "Very sad fish style four"
+  },
   "flag": {
     "tags": [
       "mark",
@@ -3112,6 +3353,19 @@
     "category": "search",
     "description": "Go to search"
   },
+  "google-gemini": {
+    "tags": [
+      "gemini",
+      "google",
+      "ai",
+      "sparkle",
+      "star",
+      "logo",
+      "model"
+    ],
+    "category": "brand",
+    "description": "Google Gemini logo"
+  },
   "grabber": {
     "tags": [
       "drag",
@@ -3177,6 +3431,17 @@
     ],
     "category": "action",
     "description": "Gripper handle"
+  },
+  "gripper-corner": {
+    "tags": [
+      "resize",
+      "corner",
+      "window",
+      "handle",
+      "drag"
+    ],
+    "category": "action",
+    "description": "Diagonal three-dot corner resize handle"
   },
   "group-by-ref-type": {
     "tags": [
@@ -3485,6 +3750,18 @@
     "category": "text",
     "description": "Tab below"
   },
+  "kimi": {
+    "tags": [
+      "kimi",
+      "ai",
+      "logo",
+      "model",
+      "assistant",
+      "brand"
+    ],
+    "category": "brand",
+    "description": "Kimi logo"
+  },
   "law": {
     "tags": [
       "legal",
@@ -3571,6 +3848,28 @@
     ],
     "category": "layout",
     "description": "Centered layout"
+  },
+  "layout-density-compact": {
+    "tags": [
+      "view",
+      "layout",
+      "spacing",
+      "dense",
+      "compact"
+    ],
+    "category": "layout",
+    "description": "Compact layout density"
+  },
+  "layout-density-default": {
+    "tags": [
+      "view",
+      "layout",
+      "spacing",
+      "standard",
+      "default"
+    ],
+    "category": "layout",
+    "description": "Default layout density"
   },
   "layout-menubar": {
     "tags": [
@@ -4165,6 +4464,18 @@
     "category": "git",
     "description": "Merge into"
   },
+  "metered-connection": {
+    "tags": [
+      "network",
+      "wifi",
+      "connection",
+      "metered",
+      "data",
+      "limited"
+    ],
+    "category": "connection",
+    "description": "Metered network connection"
+  },
   "mic": {
     "tags": [
       "microphone",
@@ -4175,6 +4486,32 @@
     ],
     "category": "device",
     "description": "Microphone or audio"
+  },
+  "mic-download": {
+    "tags": [
+      "microphone",
+      "audio",
+      "voice",
+      "download",
+      "save",
+      "arrow",
+      "record"
+    ],
+    "category": "device",
+    "description": "Microphone with download indicator"
+  },
+  "mic-download-compact": {
+    "tags": [
+      "microphone",
+      "audio",
+      "voice",
+      "download",
+      "save",
+      "arrow",
+      "compact"
+    ],
+    "category": "device",
+    "description": "Compact microphone with download indicator"
   },
   "mic-filled": {
     "tags": [
@@ -4189,6 +4526,45 @@
     ],
     "category": "device",
     "description": "Filled microphone"
+  },
+  "mic-off": {
+    "tags": [
+      "microphone",
+      "audio",
+      "voice",
+      "mute",
+      "disabled",
+      "record",
+      "sound"
+    ],
+    "category": "device",
+    "description": "Microphone off or muted"
+  },
+  "mic-off-compact": {
+    "tags": [
+      "microphone",
+      "audio",
+      "voice",
+      "mute",
+      "disabled",
+      "record",
+      "sound",
+      "compact"
+    ],
+    "category": "device",
+    "description": "Microphone off or muted (compact 12x12 variant)"
+  },
+  "microsoft": {
+    "tags": [
+      "microsoft",
+      "logo",
+      "windows",
+      "brand",
+      "squares",
+      "company"
+    ],
+    "category": "brand",
+    "description": "Microsoft logo"
   },
   "milestone": {
     "tags": [
@@ -4555,6 +4931,54 @@
     ],
     "category": "user",
     "description": "Add person"
+  },
+  "person-voice": {
+    "tags": [
+      "user",
+      "person",
+      "voice",
+      "speech",
+      "audio",
+      "sound"
+    ],
+    "category": "user",
+    "description": "Person speaking with voice waves"
+  },
+  "person-voice-compact": {
+    "tags": [
+      "user",
+      "person",
+      "voice",
+      "speech",
+      "audio",
+      "compact"
+    ],
+    "category": "user",
+    "description": "Person speaking with voice waves in a compact size"
+  },
+  "person-voice-filled": {
+    "tags": [
+      "user",
+      "person",
+      "voice",
+      "speech",
+      "audio",
+      "filled"
+    ],
+    "category": "user",
+    "description": "Filled person speaking with voice waves"
+  },
+  "person-voice-filled-compact": {
+    "tags": [
+      "user",
+      "person",
+      "voice",
+      "speech",
+      "filled",
+      "compact"
+    ],
+    "category": "user",
+    "description": "Filled person speaking with voice waves in a compact size"
   },
   "piano": {
     "tags": [
@@ -6918,5 +7342,89 @@
     ],
     "category": "media",
     "description": "Compact voice mode waveform indicator"
+  },
+  "voice-mode-download": {
+    "tags": [
+      "voice",
+      "audio",
+      "waveform",
+      "sound",
+      "download",
+      "save",
+      "arrow"
+    ],
+    "category": "media",
+    "description": "Voice mode waveform with download indicator"
+  },
+  "voice-mode-download-compact": {
+    "tags": [
+      "voice",
+      "audio",
+      "waveform",
+      "sound",
+      "download",
+      "save",
+      "compact"
+    ],
+    "category": "media",
+    "description": "Compact voice mode waveform with download indicator"
+  },
+  "arrow-up-compact": {
+    "tags": [
+      "arrow",
+      "up",
+      "direction",
+      "point",
+      "compact"
+    ],
+    "category": "navigation",
+    "description": "Arrow pointing up (compact 12x12 variant)"
+  },
+  "mic-compact": {
+    "tags": [
+      "microphone",
+      "audio",
+      "sound",
+      "voice",
+      "record",
+      "compact"
+    ],
+    "category": "media",
+    "description": "Microphone (compact 12x12 variant)"
+  },
+  "cloud-download-compact": {
+    "tags": [
+      "cloud",
+      "download",
+      "arrow",
+      "save",
+      "compact"
+    ],
+    "category": "cloud",
+    "description": "Cloud download (compact 12x12 variant)"
+  },
+  "cloud-upload-compact": {
+    "tags": [
+      "cloud",
+      "upload",
+      "arrow",
+      "send",
+      "compact"
+    ],
+    "category": "cloud",
+    "description": "Cloud upload (compact 12x12 variant)"
+  },
+  "xai": {
+    "tags": [
+      "xai",
+      "grok",
+      "ai",
+      "logo",
+      "model",
+      "assistant",
+      "brand"
+    ],
+    "category": "brand",
+    "description": "xAI logo"
   }
 }
