@@ -5507,6 +5507,20 @@
     "category": "general",
     "description": "Report or summary"
   },
+  "report-question": {
+    "tags": [
+      "question",
+      "help",
+      "report",
+      "chat",
+      "inquiry",
+      "support",
+      "message",
+      "bubble"
+    ],
+    "category": "communication",
+    "description": "Question mark in report-style chat bubble"
+  },
   "request-changes": {
     "tags": [
       "pr",
