@@ -2919,6 +2919,18 @@
     "category": "file",
     "description": "Library folder"
   },
+  "folder-library-opened": {
+    "tags": [
+      "collection",
+      "books",
+      "archive",
+      "storage",
+      "folder",
+      "expanded"
+    ],
+    "category": "file",
+    "description": "Opened library folder"
+  },
   "folder-opened": {
     "tags": [
       "directory",
@@ -6921,6 +6933,17 @@
     ],
     "category": "file",
     "description": "Unarchive"
+  },
+  "underline": {
+    "tags": [
+      "text",
+      "format",
+      "style",
+      "line",
+      "emphasis"
+    ],
+    "category": "text",
+    "description": "Underlined text"
   },
   "unfold": {
     "tags": [
