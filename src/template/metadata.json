@@ -6867,6 +6867,18 @@
     "category": "shape",
     "description": "Triangle pointing up"
   },
+  "trophy": {
+    "tags": [
+      "award",
+      "cup",
+      "winner",
+      "achievement",
+      "competition",
+      "prize"
+    ],
+    "category": "general",
+    "description": "Trophy cup for awards and achievements"
+  },
   "twitter": {
     "tags": [
       "social",
