@@ -1402,6 +1402,19 @@
     "category": "communication",
     "description": "Unresolved comment (compact 12x12 variant)"
   },
+  "compare": {
+    "tags": [
+      "compare",
+      "balance",
+      "scales",
+      "weigh",
+      "evaluate",
+      "options",
+      "decision"
+    ],
+    "category": "action",
+    "description": "Balance scales for comparing options"
+  },
   "compass": {
     "tags": [
       "navigate",
