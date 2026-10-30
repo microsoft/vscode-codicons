@@ -3059,6 +3059,19 @@
     "category": "git",
     "description": "Branch changes"
   },
+  "git-branch-checkout": {
+    "tags": [
+      "folder",
+      "branch",
+      "checkout",
+      "switch",
+      "git",
+      "repository",
+      "source-control"
+    ],
+    "category": "git",
+    "description": "Check out a Git branch"
+  },
   "git-branch-compact": {
     "tags": [
       "source",
