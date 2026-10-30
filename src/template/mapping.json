@@ -2079,5 +2079,8 @@
   ],
   "60666": [
     "compare"
+  ],
+  "60667": [
+    "git-branch-checkout"
   ]
 }
