@@ -2082,5 +2082,11 @@
   ],
   "60667": [
     "git-branch-checkout"
+  ],
+  "60668": [
+    "underline"
+  ],
+  "60669": [
+    "folder-library-opened"
   ]
 }
