@@ -2082,5 +2082,17 @@
   ],
   "60667": [
     "git-branch-checkout"
+  ],
+  "60668": [
+    "mcp-compact"
+  ],
+  "60669": [
+    "terminal-secure-compact"
+  ],
+  "60670": [
+    "thinking-compact"
+  ],
+  "60671": [
+    "tools-compact"
   ]
 }
