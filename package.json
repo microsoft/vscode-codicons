@@ -36,7 +36,6 @@
     "name": "Microsoft Corporation"
   },
   "devDependencies": {
-    "ansi-regex": ">=5.0.1",
     "fantasticon": "^4.1.0",
     "husky": "^9.1.7",
     "opentype.js": "^1.3.4",
