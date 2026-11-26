@@ -10,6 +10,10 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+# Release creation and asset uploads use PERSONAL_ACCESS_TOKEN.
+permissions:
+  contents: read
+
 jobs:
   publish:
     runs-on: ubuntu-latest
