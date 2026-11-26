@@ -4418,6 +4418,19 @@
     "category": "development",
     "description": "Model Context Protocol"
   },
+  "mcp-compact": {
+    "tags": [
+      "protocol",
+      "connect",
+      "server",
+      "model",
+      "ai",
+      "tools",
+      "compact"
+    ],
+    "category": "development",
+    "description": "Model Context Protocol (compact 12x12 variant)"
+  },
   "megaphone": {
     "tags": [
       "shout",
@@ -6730,6 +6743,18 @@
     "category": "application",
     "description": "Secure terminal"
   },
+  "terminal-secure-compact": {
+    "tags": [
+      "console",
+      "command",
+      "shell",
+      "lock",
+      "secure",
+      "compact"
+    ],
+    "category": "application",
+    "description": "Secure terminal (compact 12x12 variant)"
+  },
   "terminal-tmux": {
     "tags": [
       "console",
@@ -6772,6 +6797,18 @@
     ],
     "category": "ai",
     "description": "Thinking"
+  },
+  "thinking-compact": {
+    "tags": [
+      "ai",
+      "thought",
+      "bubble",
+      "process",
+      "loading",
+      "compact"
+    ],
+    "category": "ai",
+    "description": "Thinking (compact 12x12 variant)"
   },
   "three-bars": {
     "tags": [
@@ -6838,6 +6875,18 @@
     ],
     "category": "tool",
     "description": "Tools"
+  },
+  "tools-compact": {
+    "tags": [
+      "tools",
+      "wrench",
+      "screwdriver",
+      "settings",
+      "repair",
+      "compact"
+    ],
+    "category": "tool",
+    "description": "Tools (compact 12x12 variant)"
   },
   "trash": {
     "tags": [
